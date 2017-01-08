@@ -1,0 +1,13 @@
+sudo: true
+language: node_js
+node_js:
+- '6'
+install:
+- sudo pip install mkdocs python-markdown-math
+- npm install -g bower gulp
+before_script: wget https://raw.githubusercontent.com/UVicNotes/UVicNotes/master/scripts/deploy.sh
+script: bash ./deploy.sh
+env:
+  global:
+  - GH_REF: https://github.com/UVicNotes/CSC-106.git
+  - secure: MDZuJxPtLdWrWpg4rCnPi86lEx9SJPbNPaim1yIuKTCavkqhJfRwxj26aox+bne6bnTtupxXmoaxWDqAfUs3D8aRh+tBVNVSvo7V1E2oxMGua3UK/lsj0oUS0yxwLlpEP720IEcXtMNMqyspjvbMC4icGFJplZa1lRx4iqX5y3IOvsLMmdlwmBZNOLa9LYY5XCbxZABG1pTJSGsZk6qE+XOaVIk5pvWKf6RcTeiC8Iv9hHY5kDeRk/3KJGnQYDsQD6YQrxiyTJlQhC6DrLl+P1kVWO+sEM9Thdh2mR9ZXQiiMkiXhSvNDiB4EClmGBvLmRyflbrAee5zSIYcywkOGgoRXwfLdOQU9J80Bx4uvWO7ubSvXzEuaHAwqdGzt98lr8ga1csfDymF92WC35Ix/rRp8MIhAiY3FaUxrdf+MwrkfvPy3/teM5Shm9MnSpdBjgxM0AAIWlLBM14AtFohKxEpWgjt215HQS12prMT4q0RE9oZbax5Dbs38m8DiBchWtNlne1KyIMmYNnl9GF9V83Rn9P0OfJ4Xr6Q2xftuxdk9FNq4VPUEEmw7RWchcACnNJvcfMlxCSrfvP8FnRax0rLUy9MtA9/uJ/7sBdx+87ISZ1ElhwAlqfhRtXNCHvRlzhPNV/C6rUJtbJtO4SDzjH7RB4cf+Flub0gjXUNwd8=
