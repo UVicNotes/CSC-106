@@ -18,6 +18,7 @@ A general introduction to the field of computer science, its basic areas and its
 There is no textbook required for this course. 
 
 The recommended text is: 
+
 * Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.
 
 
