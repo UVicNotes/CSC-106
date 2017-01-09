@@ -1,0 +1,34 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "CSC 106\n\n\nConnex\n\n\n\n\nInstructor\n: Alona Fyshe\n\n\nOffice\n: ECS 618\n\n\nEmail\n: \nafyshe@uvic.ca\n\n\nOffice Hours\n:\n\n\nWednesday, 09:30am to 11:20am   \n\n\nOr by appointment\n\n\n\n\nOverview\n\n\nA general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.\n\n\nTextbook\n\n\nThere is no textbook required for this course. \n\n\nThe recommended text is: \n* Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n40%\n\n\n\n\n\n\nLab Attendance\n\n\n5%\n\n\n\n\n\n\nMidterm Exams (3)\n\n\n55%", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#csc-106", 
+            "text": "", 
+            "title": "CSC 106"
+        }, 
+        {
+            "location": "/#connex", 
+            "text": "Instructor : Alona Fyshe  Office : ECS 618  Email :  afyshe@uvic.ca  Office Hours :  Wednesday, 09:30am to 11:20am     Or by appointment", 
+            "title": "Connex"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "A general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#textbook", 
+            "text": "There is no textbook required for this course.   The recommended text is: \n* Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.", 
+            "title": "Textbook"
+        }, 
+        {
+            "location": "/#assessment", 
+            "text": "Task  Weight      Assignments  40%    Lab Attendance  5%    Midterm Exams (3)  55%", 
+            "title": "Assessment"
+        }
+    ]
+}
