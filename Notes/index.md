@@ -6,8 +6,8 @@
 * __Office__: ECS 618
 * __Email__: [afyshe@uvic.ca](mailto:afyshe@uvic.ca)
 * __Office Hours__:
-  * Wednesday, 09:30am to 11:20am	
-  * Or by appointment
+    * Wednesday, 09:30am to 11:20am	
+    * Or by appointment
 
 ## Overview
 
