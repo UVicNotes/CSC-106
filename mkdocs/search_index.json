@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "CSC 106\n\n\nConnex\n\n\n\n\nInstructor\n: Alona Fyshe\n\n\nOffice\n: ECS 618\n\n\nEmail\n: \nafyshe@uvic.ca\n\n\nOffice Hours\n:\n\n\nWednesday, 09:30am to 11:20am   \n\n\nOr by appointment\n\n\n\n\nOverview\n\n\nA general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.\n\n\nTextbook\n\n\nThere is no textbook required for this course. \n\n\nThe recommended text is: \n* Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n40%\n\n\n\n\n\n\nLab Attendance\n\n\n5%\n\n\n\n\n\n\nMidterm Exams (3)\n\n\n55%", 
+            "text": "CSC 106\n\n\nConnex\n\n\n\n\nInstructor\n: Alona Fyshe\n\n\nOffice\n: ECS 618\n\n\nEmail\n: \nafyshe@uvic.ca\n\n\nOffice Hours\n:\n\n\nWednesday, 09:30am to 11:20am \n\n\nOr by appointment\n\n\n\n\n\n\n\n\nOverview\n\n\nA general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.\n\n\nTextbook\n\n\nThere is no textbook required for this course. \n\n\nThe recommended text is: \n* Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n40%\n\n\n\n\n\n\nLab Attendance\n\n\n5%\n\n\n\n\n\n\nMidterm Exams (3)\n\n\n55%", 
             "title": "Home"
         }, 
         {
@@ -12,7 +12,7 @@
         }, 
         {
             "location": "/#connex", 
-            "text": "Instructor : Alona Fyshe  Office : ECS 618  Email :  afyshe@uvic.ca  Office Hours :  Wednesday, 09:30am to 11:20am     Or by appointment", 
+            "text": "Instructor : Alona Fyshe  Office : ECS 618  Email :  afyshe@uvic.ca  Office Hours :  Wednesday, 09:30am to 11:20am   Or by appointment", 
             "title": "Connex"
         }, 
         {
@@ -29,6 +29,36 @@
             "location": "/#assessment", 
             "text": "Task  Weight      Assignments  40%    Lab Attendance  5%    Midterm Exams (3)  55%", 
             "title": "Assessment"
+        }, 
+        {
+            "location": "/1-Introduction/", 
+            "text": "CSC 106 - Introduction\n\n\nLecture 1 - January 4th, 2017\n\n\n\n\nAbacus (Japanese)\n\n\nWhy should we care about polynomials?\n\n\nAnalytical Engine\n\n\nPunch Cards (Held Instructions)\n\n\nRAM \n\n\nCPU\n\n\n\n\n\n\nTabulate the Census\n\n\nData Punch Cards\n\n\nIBM\n\n\n\n\n\n\nComputers (Who invented the first computer? A lot of people.)\n\n\nBinary \n\n\nConrad Zuse (Standard - Binary)\n\n\nAlan Turing (Crack German Codes - WW2)\n\n\nColossus (Crack German Codes - WW2)\n\n\nENIAC\n\n\nSolid State Transistor (Computers No longer for Gov, also for Business) \n\n\nApple (Bring Computers to Home)\n\n\nMacintosh (Desktop and Folders - No longer just a terminal)\n\n\n\n\nLecture 2 - January 6th, 2017\n\n\nAnnouncements \n\n   Alice Gibbons (aligibbo@uvic.ca)\n\n   Lab Access Cards\n*   10$ Access Cards\n\n\nDatabases and Pseudocode\n\n\n\n\n\n\nMotivationg Example\n\n\n\n\nCSC 106 - Keeping Records of Grades\n\n\nGoal: How to work with this Data\n\n\n\n\n\n\n\n\nPseudocode -\n Logic writing on your code.\n\n\n\n\n\n\n\n\nGeneral Solution\n\n\n//\ntotal = 0\n//\ncount = 0\n\n// Index\ni = 1\n\nwhile i =\n total # rows in table\n    total = total + grade in row i\n    count = count + 1\n    i = i + 1\n\naverage = total / count\n\n\n\n\n\nOnly keep track of grades from a specific teacher\n\n\ntotal = 0\ncount = 0 \ni = 1\n\nwhile i =\n total # rows in table\n    if prof-name of row i = Turing\n        total = toal + grade in row i\n        count = count + 1\n    i = i + 1\n\naverage = total / count\n\n\n\n\n\nInsert a new grade\n \n\n\nBefore:\ni = # rows in table + 1\n\nstud_id for row i = 313\nstud_name for row i = Steve Cook\ncourse_name for row i = CSC 106 (Too much info)\nCRN for row i = 23456\nprof-name for row i = Turing (Too much info - CRN is mighty all)\ngrade for row i = 91\n\nAfter: \ni = # rows in grades table + 1\n\nstud_id for row i = 313\nstud_name for row i = Steve Cook\nCRN for row i = 23456\ngrade for row i = 91\n\n\n\n\n\n\nAdded two tables\n\n\n\n\nAverage of students in class with CRN 23457\n\n\ntotal = 0\ncount = 0\ni = 1\n\nwhile i =\n total # of rows in grades tables\n    if crn in row i is 23457\n        total = total + grade in row i\n        count = count + 1\n    i + i + 1\naverage = total / count\n\n\n\n\nBetter average\n\n\nif  count = 0 \n    average = 0\nelse \n    average = total/count\n\n\n\n\nTable Case: Insert a new grade\n\n\nif input crn is not in classes table \n    return error\nelse \n    stud_id for row i = 313\n    stud_name = Steve Cook\n    crn = 23456\n    grade = 91\n\n\n\n\nAverage of grades for classes that turing teaches\n\n\ntotal = 0 \ncount = 0\nj = 1 (Index into classes table)\n\nwhile j =\n # rows in classes table \n    if row j of classes tables has prof_name = Turing\n        my_crn = crn in j of classes table\n\n        i = 1\n        while i =\n #rows in grades table\n            if crn for row i of grades table  = my_crn\n                table = total + grade in row i of grades table\n                count = count + 1\n            i = i + 1\n    j = j + 1\n\n\n\n\n\n\n\n\n\nAlgorithm -\n Sets of steps\n\n\n\n\nHomework\n\n\n\n\nHow to write Pseudocode to calculate the average grade different groups of students \n\n\nExtra practice (try with both one and two-table scenarios):", 
+            "title": "1 Introduction"
+        }, 
+        {
+            "location": "/1-Introduction/#csc-106-introduction", 
+            "text": "", 
+            "title": "CSC 106 - Introduction"
+        }, 
+        {
+            "location": "/1-Introduction/#lecture-1-january-4th-2017", 
+            "text": "Abacus (Japanese)  Why should we care about polynomials?  Analytical Engine  Punch Cards (Held Instructions)  RAM   CPU    Tabulate the Census  Data Punch Cards  IBM    Computers (Who invented the first computer? A lot of people.)  Binary   Conrad Zuse (Standard - Binary)  Alan Turing (Crack German Codes - WW2)  Colossus (Crack German Codes - WW2)  ENIAC  Solid State Transistor (Computers No longer for Gov, also for Business)   Apple (Bring Computers to Home)  Macintosh (Desktop and Folders - No longer just a terminal)", 
+            "title": "Lecture 1 - January 4th, 2017"
+        }, 
+        {
+            "location": "/1-Introduction/#lecture-2-january-6th-2017", 
+            "text": "Announcements     Alice Gibbons (aligibbo@uvic.ca)    Lab Access Cards\n*   10$ Access Cards", 
+            "title": "Lecture 2 - January 6th, 2017"
+        }, 
+        {
+            "location": "/1-Introduction/#databases-and-pseudocode", 
+            "text": "Motivationg Example   CSC 106 - Keeping Records of Grades  Goal: How to work with this Data     Pseudocode -  Logic writing on your code.     General Solution  //\ntotal = 0\n//\ncount = 0\n\n// Index\ni = 1\n\nwhile i =  total # rows in table\n    total = total + grade in row i\n    count = count + 1\n    i = i + 1\n\naverage = total / count  Only keep track of grades from a specific teacher  total = 0\ncount = 0 \ni = 1\n\nwhile i =  total # rows in table\n    if prof-name of row i = Turing\n        total = toal + grade in row i\n        count = count + 1\n    i = i + 1\n\naverage = total / count  Insert a new grade    Before:\ni = # rows in table + 1\n\nstud_id for row i = 313\nstud_name for row i = Steve Cook\ncourse_name for row i = CSC 106 (Too much info)\nCRN for row i = 23456\nprof-name for row i = Turing (Too much info - CRN is mighty all)\ngrade for row i = 91\n\nAfter: \ni = # rows in grades table + 1\n\nstud_id for row i = 313\nstud_name for row i = Steve Cook\nCRN for row i = 23456\ngrade for row i = 91   Added two tables   Average of students in class with CRN 23457  total = 0\ncount = 0\ni = 1\n\nwhile i =  total # of rows in grades tables\n    if crn in row i is 23457\n        total = total + grade in row i\n        count = count + 1\n    i + i + 1\naverage = total / count  Better average  if  count = 0 \n    average = 0\nelse \n    average = total/count  Table Case: Insert a new grade  if input crn is not in classes table \n    return error\nelse \n    stud_id for row i = 313\n    stud_name = Steve Cook\n    crn = 23456\n    grade = 91  Average of grades for classes that turing teaches  total = 0 \ncount = 0\nj = 1 (Index into classes table)\n\nwhile j =  # rows in classes table \n    if row j of classes tables has prof_name = Turing\n        my_crn = crn in j of classes table\n\n        i = 1\n        while i =  #rows in grades table\n            if crn for row i of grades table  = my_crn\n                table = total + grade in row i of grades table\n                count = count + 1\n            i = i + 1\n    j = j + 1    Algorithm -  Sets of steps", 
+            "title": "Databases and Pseudocode"
+        }, 
+        {
+            "location": "/1-Introduction/#homework", 
+            "text": "How to write Pseudocode to calculate the average grade different groups of students   Extra practice (try with both one and two-table scenarios):", 
+            "title": "Homework"
         }
     ]
 }
