@@ -198,20 +198,26 @@
               </a>
             </li>
           
-            <li class="anchor">
-              <a title="Lecture 2 - January 6th, 2017" href="#lecture-2-january-6th-2017">
-                Lecture 2 - January 6th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Homework" href="#homework">
-                Homework
-              </a>
-            </li>
-          
         </ul>
       
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="2 Databases" href="../2-Databases/">
+      2 Databases
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <a class="" title="Homework announcements" href="../homework-announcements/">
+      Homework announcements
+    </a>
     
   </li>
 
@@ -242,6 +248,8 @@
           
           <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
 <h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
+<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides</strong></p>
+<hr />
 <ul>
 <li>Abacus (Japanese)</li>
 <li>Why should we care about polynomials?</li>
@@ -262,143 +270,10 @@
 <li>Alan Turing (Crack German Codes - WW2)</li>
 <li>Colossus (Crack German Codes - WW2)</li>
 <li>ENIAC</li>
-<li>Solid State Transistor (Computers No longer for Gov, also for Business) </li>
+<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
 <li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - No longer just a terminal)</li>
+<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
 </ul>
-<h2 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h2>
-<p>Announcements 
-<em>   Alice Gibbons (aligibbo@uvic.ca)
-</em>   Lab Access Cards
-*   10$ Access Cards</p>
-<h3 id="databases-and-pseudocode">Databases and Pseudocode</h3>
-<ul>
-<li>
-<p>Motivationg Example</p>
-<ul>
-<li>CSC 106 - Keeping Records of Grades</li>
-<li>Goal: How to work with this Data</li>
-</ul>
-</li>
-<li>
-<p>Pseudocode -&gt; Logic writing on your code.</p>
-</li>
-</ul>
-<hr />
-<p><strong>General Solution</strong></p>
-<pre><code>//
-total = 0
-//
-count = 0
-
-// Index
-i = 1
-
-while i =&lt; total # rows in table
-    total = total + grade in row i
-    count = count + 1
-    i = i + 1
-
-average = total / count
-
-</code></pre>
-
-<p><strong>Only keep track of grades from a specific teacher</strong></p>
-<pre><code>total = 0
-count = 0 
-i = 1
-
-while i =&lt; total # rows in table
-    if prof-name of row i = Turing
-        total = toal + grade in row i
-        count = count + 1
-    i = i + 1
-
-average = total / count
-
-</code></pre>
-
-<p><strong>Insert a new grade</strong> </p>
-<pre><code>Before:
-i = # rows in table + 1
-
-stud_id for row i = 313
-stud_name for row i = Steve Cook
-course_name for row i = CSC 106 (Too much info)
-CRN for row i = 23456
-prof-name for row i = Turing (Too much info - CRN is mighty all)
-grade for row i = 91
-
-After: 
-i = # rows in grades table + 1
-
-stud_id for row i = 313
-stud_name for row i = Steve Cook
-CRN for row i = 23456
-grade for row i = 91
-</code></pre>
-
-<hr />
-<p>Added two tables</p>
-<hr />
-<p><strong>Average of students in class with CRN 23457</strong></p>
-<pre><code>total = 0
-count = 0
-i = 1
-
-while i =&lt; total # of rows in grades tables
-    if crn in row i is 23457
-        total = total + grade in row i
-        count = count + 1
-    i + i + 1
-average = total / count
-</code></pre>
-
-<p><strong>Better average</strong></p>
-<pre><code>if  count = 0 
-    average = 0
-else 
-    average = total/count
-</code></pre>
-
-<p><strong>Table Case: Insert a new grade</strong></p>
-<pre><code>if input crn is not in classes table 
-    return error
-else 
-    stud_id for row i = 313
-    stud_name = Steve Cook
-    crn = 23456
-    grade = 91
-</code></pre>
-
-<p><strong>Average of grades for classes that turing teaches</strong></p>
-<pre><code>total = 0 
-count = 0
-j = 1 (Index into classes table)
-
-while j =&lt; # rows in classes table 
-    if row j of classes tables has prof_name = Turing
-        my_crn = crn in j of classes table
-
-        i = 1
-        while i =&lt; #rows in grades table
-            if crn for row i of grades table  = my_crn
-                table = total + grade in row i of grades table
-                count = count + 1
-            i = i + 1
-    j = j + 1
-
-</code></pre>
-
-<hr />
-<ul>
-<li>Algorithm -&gt; Sets of steps</li>
-</ul>
-<h2 id="homework">Homework</h2>
-<ol>
-<li>How to write Pseudocode to calculate the average grade different groups of students </li>
-<li>Extra practice (try with both one and two-table scenarios):</li>
-</ol>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -433,6 +308,22 @@ while j =&lt; # rows in classes table
       
     </div>
     <div class="next">
+      
+        <a href="../2-Databases/" title="2 Databases">
+          <span class="direction">
+            Next
+          </span>
+          <div class="page">
+            <div class="stretch">
+              <div class="title">
+                2 Databases
+              </div>
+            </div>
+            <div class="button button-next" role="button" aria-label="Next">
+              <i class="icon icon-forward"></i>
+            </div>
+          </div>
+        </a>
       
     </div>
   </nav>
