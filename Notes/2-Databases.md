@@ -154,8 +154,6 @@ while j =< # rows in classes table
     j = j + 1
 ```
 
-# Databases and Pseudocode
-
 ## Lecture 3 - January 10th, 2017
 
 **Trace Through Code**
