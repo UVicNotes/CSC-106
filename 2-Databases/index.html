@@ -207,6 +207,30 @@
               </a>
             </li>
           
+            <li class="anchor">
+              <a title="Lecture 3 - January 10th, 2017" href="#lecture-3-january-10th-2017">
+                Lecture 3 - January 10th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="SQL" href="#sql">
+                SQL
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Database" href="#database">
+                Database
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Query" href="#query">
+                Query
+              </a>
+            </li>
+          
         </ul>
       
     
@@ -362,6 +386,251 @@ while j =&lt; # rows in classes table
             i = i + 1
     j = j + 1
 </code></pre>
+
+<h2 id="lecture-3-january-10th-2017">Lecture 3 - January 10th, 2017</h2>
+<p><strong>Trace Through Code</strong>
+Code:</p>
+<pre><code>Step1 - total=0
+Step2 - count=0
+Step3 - i=1
+Step4 - while i &lt;= # rows in table, repeat steps 5 through 8
+Step5 -     if prof_name of row i equals Turing, do line 6 and 7 
+Step6 -         total = total + grade in row i
+Step7 -         count = count + 1
+Step8 -     i=i+1
+Step9 - average = total / count
+</code></pre>
+
+<p>Table 1:
+| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| ------------- |:-------------:| ------------:|---------:|----------:|------:|
+| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
+| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+Note: #rows = 4
+Solution:</p>
+<pre><code>total=0
+count=0
+i=1
+
+--
+
+total=45
+count=1
+1=2
+
+--
+
+i=3
+
+--
+
+total=139
+count=2
+i=4
+
+--
+
+i=5
+
+-- 
+
+Average = 139/2 = 69.5
+
+</code></pre>
+
+<p><strong>Write pseudocode that calculates the maximum grade for a student in class with crn = 23456</strong>
+<strong>Trace Through Code</strong>
+Code:</p>
+<pre><code>Step1 - max=-1
+Step2 - i=1
+Step3 - while i &lt;= # rows in table, repeat steps 4 through 7
+Step4 -     if crn of row i equals 23456, do line 5 and 6 
+Step5 -         if max &lt; grade in row i do line 6
+Step6 -             max = grade in row i 
+Step7 -     i=i+1
+</code></pre>
+
+<p>Table:
+| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| ------------- |:-------------:| ------------:|---------:|----------:|------:|
+| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
+| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |</p>
+<p>Solution: </p>
+<pre><code>max=-1
+i=1
+
+--
+
+max=45
+i=2
+
+--
+
+i=3
+
+--
+
+max=94
+i=4
+
+--
+
+i=5
+
+</code></pre>
+
+<hr />
+<h2 id="sql">SQL</h2>
+<p>Sql is a structured query language.</p>
+<h2 id="database">Database</h2>
+<p>A database is a collection of tables.</p>
+<p><strong>Install SqLite3</strong></p>
+<pre><code class="bash">brew install sqlite
+</code></pre>
+
+<p>Start by making a blank table: </p>
+<pre><code class="sql">create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
+</code></pre>
+
+<p>Note: Order of values must match the order of the columns when you created the table.</p>
+<h2 id="query">Query</h2>
+<p>A query is a select statement that tells the computer what columms the result should have. </p>
+<p>Ex. </p>
+<pre><code class="sql">Select stud_name, grade 
+from grades;
+</code></pre>
+
+<p>Return
+Table 1: Grades
+| stud_name | grade |
+| ---------:| -----:|
+| name      | 56    |
+| name      | 78    |</p>
+<p>Ex. </p>
+<pre><code class="sql">Select avg(grade)
+From grades;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">avg(grade)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">72.8</td>
+</tr>
+</tbody>
+</table>
+<p>Ex.</p>
+<pre><code class="sql">select max(grade)
+from grades;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">94</td>
+</tr>
+</tbody>
+</table>
+<p>Ex.</p>
+<pre><code class="sql">Select stud_name, grade, crn 
+from grades
+where crn = 23456;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+<th align="right">crn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Joe Smith</td>
+<td align="right">80</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">John Jacks</td>
+<td align="right">45</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Al Green</td>
+<td align="right">66</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Greg Black</td>
+<td align="right">60</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Patricia D</td>
+<td align="right">94</td>
+<td align="right">23456</td>
+</tr>
+</tbody>
+</table>
+<p>Ex. </p>
+<pre><code class="sql">Select stud_name, grade 
+from grades
+where prof_name = “Jobs”;
+</code></pre>
+
+<p>Note: text must be surrended by quotes. </p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Meg Lyon</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td align="right">Jane McKen</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td align="right">Richard Fe</td>
+<td align="right">70</td>
+</tr>
+<tr>
+<td align="right">Paul Shelb</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td align="right">John Jacks</td>
+<td align="right">85</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="you-should-know">You should know</h1>
+<ul>
+<li>How to step through pseudocode</li>
+<li>How to write some simple SQL queries using: –  avg</li>
+<li>max</li>
+<li>where</li>
+</ul>
           <aside class="copyright" role="note">
             
             Documentation built with
