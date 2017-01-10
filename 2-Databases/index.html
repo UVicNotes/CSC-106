@@ -202,32 +202,8 @@
         <ul>
           
             <li class="anchor">
-              <a title="Lecture 2 - January 6th, 2017" href="#lecture-2-january-6th-2017">
-                Lecture 2 - January 6th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Lecture 3 - January 10th, 2017" href="#lecture-3-january-10th-2017">
-                Lecture 3 - January 10th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="SQL" href="#sql">
-                SQL
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Database" href="#database">
-                Database
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Query" href="#query">
-                Query
+              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
+                Lecture 1 - January 4th, 2017
               </a>
             </li>
           
@@ -270,7 +246,35 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="databases-and-pseudocode">Databases and Pseudocode</h1>
+          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
+<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
+<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides</strong></p>
+<hr />
+<ul>
+<li>Abacus (Japanese)</li>
+<li>Why should we care about polynomials?</li>
+<li>Analytical Engine<ul>
+<li>Punch Cards (Held Instructions)</li>
+<li>RAM </li>
+<li>CPU</li>
+</ul>
+</li>
+<li>Tabulate the Census<ul>
+<li>Data Punch Cards</li>
+<li>IBM</li>
+</ul>
+</li>
+<li>Computers (Who invented the first computer? A lot of people.)</li>
+<li>Binary </li>
+<li>Conrad Zuse (Standard - Binary)</li>
+<li>Alan Turing (Crack German Codes - WW2)</li>
+<li>Colossus (Crack German Codes - WW2)</li>
+<li>ENIAC</li>
+<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
+<li>Apple (Bring Computers to Home)</li>
+<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+</ul>
+<h1 id="databases-and-pseudocode">Databases and Pseudocode</h1>
 <h2 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h2>
 <p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides</strong></p>
 <hr />
@@ -288,6 +292,61 @@
 <li>Algorithm -&gt; Sets of steps</li>
 </ul>
 <hr />
+<p>Table 1: </p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>101</td>
+<td align="center">Joe Smith</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">80</td>
+</tr>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>145</td>
+<td align="center">Al Green</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Solution For: The above question</strong></p>
 <pre><code>total = 0
 count = 0
@@ -337,7 +396,72 @@ grade for row i = 91
 </code></pre>
 
 <hr />
-<p><strong>NOTE:</strong> The question now has two tables to work with instead of one. </p>
+<p><strong>NOTE:</strong> The question now has two tables to work with instead of one.</p>
+<p>Table 1: Courses</p>
+<table>
+<thead>
+<tr>
+<th align="right">course</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+</tr>
+<tr>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2: Grades</p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_id</th>
+<th align="right">stud_name</th>
+<th align="right">crn</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">101</td>
+<td align="right">Joe Smith</td>
+<td align="right">23456</td>
+<td align="right">80</td>
+</tr>
+<tr>
+<td align="right">111</td>
+<td align="right">John Jackson</td>
+<td align="right">23456</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td align="right">145</td>
+<td align="right">Al Green</td>
+<td align="right">23456</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td align="right">301</td>
+<td align="right">Meg Lyon</td>
+<td align="right">23457</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td align="right">200</td>
+<td align="right">Jane McKenzie</td>
+<td align="right">23457</td>
+<td align="right">83</td>
+</tr>
+</tbody>
+</table>
 <hr />
 <p><strong>Solution For: Calculating the average for students in class with CRN 23457</strong></p>
 <pre><code>total = 0
@@ -387,9 +511,10 @@ while j =&lt; # rows in classes table
     j = j + 1
 </code></pre>
 
+<h1 id="databases-and-pseudocode_1">Databases and Pseudocode</h1>
 <h2 id="lecture-3-january-10th-2017">Lecture 3 - January 10th, 2017</h2>
-<p><strong>Trace Through Code</strong>
-Code:</p>
+<p><strong>Trace Through Code</strong></p>
+<p>Code:</p>
 <pre><code>Step1 - total=0
 Step2 - count=0
 Step3 - i=1
@@ -401,15 +526,55 @@ Step8 -     i=i+1
 Step9 - average = total / count
 </code></pre>
 
-<p>Table 1:
-| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
-| ------------- |:-------------:| ------------:|---------:|----------:|------:|
-| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
-| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
-| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
-| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
-Note: #rows = 4
-Solution:</p>
+<p>Table 1:</p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td>342</td>
+<td align="center">Patricia Dune</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">94</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+</tbody>
+</table>
+<p>Note: #rows = 4</p>
+<p>Solution:</p>
 <pre><code>total=0
 count=0
 i=1
@@ -441,8 +606,8 @@ Average = 139/2 = 69.5
 </code></pre>
 
 <p><strong>Write pseudocode that calculates the maximum grade for a student in class with crn = 23456</strong>
-<strong>Trace Through Code</strong>
-Code:</p>
+<strong>Trace Through Code</strong></p>
+<p>Code:</p>
 <pre><code>Step1 - max=-1
 Step2 - i=1
 Step3 - while i &lt;= # rows in table, repeat steps 4 through 7
@@ -452,13 +617,53 @@ Step6 -             max = grade in row i
 Step7 -     i=i+1
 </code></pre>
 
-<p>Table:
-| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
-| ------------- |:-------------:| ------------:|---------:|----------:|------:|
-| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
-| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
-| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
-| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |</p>
+<p>Table:</p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td>342</td>
+<td align="center">Patricia Dune</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">94</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+</tbody>
+</table>
 <p>Solution: </p>
 <pre><code>max=-1
 i=1
@@ -484,9 +689,9 @@ i=5
 </code></pre>
 
 <hr />
-<h2 id="sql">SQL</h2>
+<h3 id="sql">SQL</h3>
 <p>Sql is a structured query language.</p>
-<h2 id="database">Database</h2>
+<h3 id="database">Database</h3>
 <p>A database is a collection of tables.</p>
 <p><strong>Install SqLite3</strong></p>
 <pre><code class="bash">brew install sqlite
@@ -497,19 +702,33 @@ i=5
 </code></pre>
 
 <p>Note: Order of values must match the order of the columns when you created the table.</p>
-<h2 id="query">Query</h2>
+<h3 id="query">Query</h3>
 <p>A query is a select statement that tells the computer what columms the result should have. </p>
-<p>Ex. </p>
+<p>Ex.</p>
 <pre><code class="sql">Select stud_name, grade 
 from grades;
 </code></pre>
 
-<p>Return
-Table 1: Grades
-| stud_name | grade |
-| ---------:| -----:|
-| name      | 56    |
-| name      | 78    |</p>
+<p>Return</p>
+<p>Table 1: Grades</p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">name</td>
+<td align="right">56</td>
+</tr>
+<tr>
+<td align="right">name</td>
+<td align="right">78</td>
+</tr>
+</tbody>
+</table>
 <p>Ex. </p>
 <pre><code class="sql">Select avg(grade)
 From grades;
