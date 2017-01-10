@@ -1,3 +1,31 @@
+# CSC 106 - Introduction
+
+## Lecture 1 - January 4th, 2017
+
+**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides**
+
+---
+
+* Abacus (Japanese)
+* Why should we care about polynomials?
+* Analytical Engine
+    * Punch Cards (Held Instructions)
+    * RAM 
+    * CPU
+* Tabulate the Census
+    * Data Punch Cards
+    * IBM
+* Computers (Who invented the first computer? A lot of people.)
+* Binary 
+* Conrad Zuse (Standard - Binary)
+* Alan Turing (Crack German Codes - WW2)
+* Colossus (Crack German Codes - WW2)
+* ENIAC
+* Solid State Transistor (Computers no longer for Gov, also for Business) 
+* Apple (Bring Computers to Home)
+* Macintosh (Desktop and Folders - Computers no longer just a terminal)
+
+
 # Databases and Pseudocode
 
 ## Lecture 2 - January 6th, 2017 
@@ -14,6 +42,16 @@
 * Algorithm -> Sets of steps
 
 ----
+
+Table 1: 
+
+| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| ------------- |:-------------:| ------------:|---------:|----------:|------:|
+| 101      		| Joe Smith     | CSC 106 	   | 23456    | Turing    | 80    |
+| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
+| 145           | Al Green      | CSC 106      | 23456    | Turing    | 66    |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
 
 **Solution For: The above question**
 ```
@@ -47,6 +85,7 @@ average = total / count
 **Solution For: Inserting a new grade in the table** 
 
 Before:
+
 ```
 i = # rows in table + 1
 
@@ -58,6 +97,7 @@ prof-name for row i = Turing (Too much info - CRN is all mighty)
 grade for row i = 91
 ```
 After:
+
 ```
 i = # rows in grades table + 1
 
@@ -69,7 +109,24 @@ grade for row i = 91
 
 ---
 
-**NOTE:** The question now has two tables to work with instead of one. 
+**NOTE:** The question now has two tables to work with instead of one.
+
+Table 1: Courses
+
+| course	| crn	| prof_name	|
+| --------:| ------:| ---------:|
+| CSC 106  | 23456  | Turing    |
+| CSC 106  | 23457  | Jobs      |
+
+Table 2: Grades
+
+| stud_id       | stud_name     | crn      | grade |
+| -------------:| -------------:| --------:| -----:|
+| 101      		| Joe Smith     | 23456    | 80    |
+| 111           | John Jackson  | 23456    | 45    |
+| 145           | Al Green      | 23456    | 66    |
+| 301           | Meg Lyon      | 23457    | 79    |
+| 200           | Jane McKenzie | 23457    | 83    |
 
 ---
 
@@ -125,10 +182,14 @@ while j =< # rows in classes table
     j = j + 1
 ```
 
+# Databases and Pseudocode
+
 ## Lecture 3 - January 10th, 2017
 
 **Trace Through Code**
+
 Code:
+
 ```
 Step1 - total=0
 Step2 - count=0
@@ -142,14 +203,18 @@ Step9 - average = total / count
 ```
 
 Table 1:
+
 | stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
 | ------------- |:-------------:| ------------:|---------:|----------:|------:|
 | 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
 | 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
 | 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
 | 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+
 Note: #rows = 4
+
 Solution:
+
 ```
 total=0
 count=0
@@ -183,7 +248,9 @@ Average = 139/2 = 69.5
 
 **Write pseudocode that calculates the maximum grade for a student in class with crn = 23456**
 **Trace Through Code**
+
 Code:
+
 ```
 Step1 - max=-1
 Step2 - i=1
@@ -195,6 +262,7 @@ Step7 - 	i=i+1
 ```
 
 Table:
+
 | stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
 | ------------- |:-------------:| ------------:|---------:|----------:|------:|
 | 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
@@ -203,6 +271,7 @@ Table:
 | 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
 
 Solution: 
+
 ```
 max=-1
 i=1
@@ -229,11 +298,11 @@ i=5
 
 ---
 
-## SQL
+### SQL
 
 Sql is a structured query language.
 
-## Database
+### Database
 
 A database is a collection of tables.
 
@@ -243,53 +312,64 @@ brew install sqlite
 ```
 
 Start by making a blank table: 
+
 ```sql
 create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
 ```
 
 Note: Order of values must match the order of the columns when you created the table.
 
-## Query 
+### Query 
 
 A query is a select statement that tells the computer what columms the result should have. 
 
-Ex. 
+Ex.
+
 ```sql
 Select stud_name, grade 
 from grades;
 ```
 
 Return
+
 Table 1: Grades
+
 | stud_name	| grade	|
 | ---------:| -----:|
 | name      | 56    |
 | name      | 78    |
 
 Ex. 
+
 ```sql
 Select avg(grade)
 From grades;
 ```
+
 | avg(grade) |
 | ----------:|
 | 72.8       |
 
+
 Ex.
+
 ```sql
 select max(grade)
 from grades;
 ```
+
 | max |
 | ---:|
 | 94  |
 
 Ex.
+
 ```sql
 Select stud_name, grade, crn 
 from grades
 where crn = 23456;
 ``` 
+
 | stud_name  | grade   |  crn |
 | ----------:| -------:| ----:|
 | Joe Smith  |      80 | 23456|
@@ -299,6 +379,7 @@ where crn = 23456;
 | Patricia D |      94 | 23456|
 
 Ex. 
+
 ```sql
 Select stud_name, grade 
 from grades
