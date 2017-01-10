@@ -124,3 +124,200 @@ while j =< # rows in classes table
             i = i + 1
     j = j + 1
 ```
+
+## Lecture 3 - January 10th, 2017
+
+**Trace Through Code**
+Code:
+```
+Step1 - total=0
+Step2 - count=0
+Step3 - i=1
+Step4 - while i <= # rows in table, repeat steps 5 through 8
+Step5 - 	if prof_name of row i equals Turing, do line 6 and 7 
+Step6 - 		total = total + grade in row i
+Step7 - 		count = count + 1
+Step8 -		i=i+1
+Step9 - average = total / count
+```
+
+Table 1:
+| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| ------------- |:-------------:| ------------:|---------:|----------:|------:|
+| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
+| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+Note: #rows = 4
+Solution:
+```
+total=0
+count=0
+i=1
+
+--
+
+total=45
+count=1
+1=2
+
+--
+
+i=3
+
+--
+
+total=139
+count=2
+i=4
+
+--
+
+i=5
+
+-- 
+
+Average = 139/2 = 69.5
+
+```
+
+**Write pseudocode that calculates the maximum grade for a student in class with crn = 23456**
+**Trace Through Code**
+Code:
+```
+Step1 - max=-1
+Step2 - i=1
+Step3 - while i <= # rows in table, repeat steps 4 through 7
+Step4 - 	if crn of row i equals 23456, do line 5 and 6 
+Step5 - 		if max < grade in row i do line 6
+Step6 - 			max = grade in row i 
+Step7 - 	i=i+1
+```
+
+Table:
+| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| ------------- |:-------------:| ------------:|---------:|----------:|------:|
+| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
+| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+
+Solution: 
+```
+max=-1
+i=1
+
+--
+
+max=45
+i=2
+
+--
+
+i=3
+
+--
+
+max=94
+i=4
+
+--
+
+i=5
+
+```
+
+---
+
+## SQL
+
+Sql is a structured query language.
+
+## Database
+
+A database is a collection of tables.
+
+**Install SqLite3**
+```bash
+brew install sqlite
+```
+
+Start by making a blank table: 
+```sql
+create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
+```
+
+Note: Order of values must match the order of the columns when you created the table.
+
+## Query 
+
+A query is a select statement that tells the computer what columms the result should have. 
+
+Ex. 
+```sql
+Select stud_name, grade 
+from grades;
+```
+
+Return
+Table 1: Grades
+| stud_name	| grade	|
+| ---------:| -----:|
+| name      | 56    |
+| name      | 78    |
+
+Ex. 
+```sql
+Select avg(grade)
+From grades;
+```
+| avg(grade) |
+| ----------:|
+| 72.8       |
+
+Ex.
+```sql
+select max(grade)
+from grades;
+```
+| max |
+| ---:|
+| 94  |
+
+Ex.
+```sql
+Select stud_name, grade, crn 
+from grades
+where crn = 23456;
+``` 
+| stud_name  | grade   |  crn |
+| ----------:| -------:| ----:|
+| Joe Smith  |      80 | 23456|
+| John Jacks |      45 | 23456|
+| Al Green   |	    66 | 23456|
+| Greg Black |      60 | 23456|
+| Patricia D |      94 | 23456|
+
+Ex. 
+```sql
+Select stud_name, grade 
+from grades
+where prof_name = “Jobs”;
+```
+Note: text must be surrended by quotes. 
+
+| stud_name  | grade|
+| ----------:| ----:|
+| Meg Lyon   | 79   |
+| Jane McKen | 83   |
+| Richard Fe | 70   |
+| Paul Shelb | 66   |
+| John Jacks | 85   |
+
+---
+
+# You should know 
+* How to step through pseudocode
+* How to write some simple SQL queries using: –  avg
+* max
+* where
