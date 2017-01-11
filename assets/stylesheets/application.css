@@ -560,7 +560,7 @@ a {
  * Device specific background hacks related to rubberband
  */
 body {
-  color: rgba(0, 0, 0, 0.87);
+  color: #424242;
   /* Hack [Chrome, Opera]: Set background color in Chrome and Opera */
   /*
    * Don't tint menu bar on iOS
@@ -925,27 +925,18 @@ hr {
  * Default font styles
  */
 body, input {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   /* Enable font-smoothing in Webkit and FF */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  /*
-   * Use system fonts, if browser doesn't support webfonts
-   */ }
-  .no-fontface body, .no-fontface input {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  -moz-osx-font-smoothing: grayscale; }
 
 /*
  * Proportional fonts
  */
 pre, code, kbd {
-  font-family: 'Courier New', 'Courier', monospace;
-  /*
-   * Use system fonts, if browser doesn't support webfonts
-   */ }
-  .no-fontface pre, .no-fontface code, .no-fontface kbd {
-    font-family: 'Courier New', 'Courier', monospace; }
+  font-family: 'Monaco', 'Consolas', 'Courier New', 'Courier', monospace;
+  font-size: 90%; }
 
 /*
  * Copyright (c) 2016 Martin Donath <martin.donath@squidfunk.com>
@@ -1599,7 +1590,6 @@ pre span {
  * Admonition support
  */
 .admonition {
-  background: #29b6f6;
   color: white;
   /*
    * Embedded code blocks
@@ -1673,13 +1663,13 @@ pre span {
    * Paragraphs and section titles
    */
   /*
+   * Lists
+   */
+  /*
    * Smaler top spacing for nested lists
    */
   /*
    * List elements
-   */
-  /*
-   * Add icon for elements of an unordered list
    */
   /*
    * Inline code snippets must not wrap
@@ -1766,25 +1756,21 @@ pre span {
       display: none; }
   .article p, .article ul, .article ol {
     margin-top: 1.5em; }
+  .article ul {
+    list-style: disc; }
   .article li ul, .article li ol {
-    margin-top: 0.75em; }
+    margin-top: 0.2em;
+    list-style: circle; }
+    .article li ul li, .article li ol li {
+      margin-top: 0.4em; }
   .article li {
-    margin-top: 0.75em;
+    margin-top: 0.6em;
     margin-left: 18px;
     /*
      * Inline paragraphs in list elements
      */ }
     .article li p {
       display: inline; }
-  .article ul > li:before {
-    content: "\e602";
-    display: block;
-    float: left;
-    font-family: 'Icon';
-    font-size: 16px;
-    width: 1.2em;
-    margin-left: -1.2em;
-    vertical-align: -0.1em; }
   .article p code, .article table code {
     white-space: nowrap;
     padding: 2px 4px;

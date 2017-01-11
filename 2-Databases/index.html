@@ -12,6 +12,8 @@
         <title>2 Databases - CSC 106</title>
       
       
+        <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
+      
       
         <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/2-Databases/">
       
@@ -25,10 +27,23 @@
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    
-    
-    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="../assets/images/favicon.ico">
+    <link rel="apple-touch-icon" sizes="114x114" href="../assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../assets/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../assets/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/images/apple-touch-icon-76x76.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="../assets/images/android-chrome-192x192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="../assets/images/favicon-230x230.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../assets/images/favicon-96x96.png">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico">
     <style>
       @font-face {
       	font-family: 'Icon';
@@ -48,20 +63,6 @@
     <link rel="stylesheet" href="../assets/stylesheets/application.css">
     
       <link rel="stylesheet" href="../assets/stylesheets/palettes.css">
-    
-    
-      
-      
-      
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu+Mono">
-      <style>
-        body, input {
-          font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-        }
-        pre, code {
-          font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
-        }
-      </style>
     
     
     <script src="../assets/javascripts/modernizr.js"></script>
@@ -263,7 +264,7 @@
           
           <h1 id="databases-and-pseudocode">Databases and Pseudocode</h1>
 <h2 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides</strong></p>
+<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
 <hr />
 <ul>
 <li>
@@ -836,6 +837,135 @@ where prof_name = “Jobs”;
 <li>max</li>
 <li>where</li>
 </ul>
+<h2 id="lecture-4-january-11th-2017">Lecture 4 - January 11th, 2017</h2>
+<p><code>Select *</code> is shorthand for “select all of the columns of the table”. </p>
+<p><code>*</code> can be viewed as a wild card. </p>
+<p><code>select * from grades where crn = 23456 and grade &gt; 50;</code></p>
+<p><code>select count(*)</code> will return the number of rows returned. (Important for assignment 1). </p>
+<p><code>select * from grades order by stud_name;</code> will order the entries.</p>
+<p><code>select * from grades order by grade desc;</code> will sort by descending order.</p>
+<p><strong>Question: Create a list of student names for Turing’s class, ordered by name?</strong></p>
+<p><code>select stud_name from grades where prof_name = Turing order by stud_name;</code></p>
+<h3 id="you-should-know_1">You should know</h3>
+<ul>
+<li>How to step through pseudocode</li>
+<li>
+<p>How to write some simple SQL queries using:</p>
+<ul>
+<li>avg</li>
+<li>max</li>
+<li>where</li>
+<li>select * </li>
+<li>select count(*)</li>
+<li>order by</li>
+</ul>
+</li>
+</ul>
+<h3 id="more-pseudocode-practice">More Pseudocode Practice</h3>
+<p><strong>Question:  Write a query to print phone number of a person if it exists in the table</strong> </p>
+<p>input: name_in (holds the name we look for)</p>
+<table>
+<thead>
+<tr>
+<th align="right">name</th>
+<th align="right">number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Joe</td>
+<td align="right">472-5700</td>
+</tr>
+<tr>
+<td align="right">Leo</td>
+<td align="right">472-5702</td>
+</tr>
+<tr>
+<td align="right">Sara</td>
+<td align="right">472-5701</td>
+</tr>
+</tbody>
+</table>
+<pre><code>Step1 i=1
+Step2 found=NO
+Step3 while i =&lt; #rows in table do Step4-7
+Step4   if name in row i is name_in do Step5&amp;6
+Step5       print number in row i
+Step6       found=YES
+Step7   i= i+1
+Step8 if found = NO do Step9
+Step9   print &quot;no such person in directory.&quot;
+</code></pre>
+
+<p>Inefficiency, if you find the name and it's the first one in the table, the while loop will still run. </p>
+<pre><code>Step1 i=1
+Step2 found=NO
+Step3 while i =&lt; #rows in table AND found = NO do Step4-7
+Step4   if name in row i is name_in do Step5&amp;6
+Step5       print number in row i
+Step6       found=YES
+Step7   i= i+1
+Step8 if found = NO do Step9
+Step9   print &quot;no such person in directory.&quot;
+</code></pre>
+
+<p>Execution: </p>
+<p>name_in = "Leo"
+i=1
+found = NO</p>
+<h1 id="rows-3">rows = 3</h1>
+<pre><code>i = 2
+
+--
+
+472-5702
+found = YES
+
+i = 3
+
+--
+
+Exit while loop
+
+</code></pre>
+
+<p><code>select number from phone_numbers where name = "Leo";</code> - will be the query.</p>
+<h3 id="collatz-conjecture">Collatz Conjecture</h3>
+<p><strong>Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1</strong></p>
+<p><strong>Question: Write this in Pseudocode</strong> </p>
+<p>Bonus: Of Interest</p>
+<pre><code>*  No one knows if there’s a number for which the collatz conjecture will not terminate
+*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
+</code></pre>
+<pre><code>inpurt num+in (number to test)
+if num_in &lt; 1
+    print &quot;error, bad number&quot; Exit 
+
+cur_num = num_in
+    while cur_num is not 1
+        if cur_num is even do 
+            divide by 2
+        else if cur_num is odd do 
+            cur_num X 3 + 1
+</code></pre>
+
+<p>num_in = 4
+cur_num = 4</p>
+<p>cur_num = 2</p>
+<p>cur_num = 1</p>
+<p>Exit while loop</p>
+<p>--</p>
+<p>num_in = 5
+cur_num = 5</p>
+<p>cur_num = 16</p>
+<p>cur_num = 8</p>
+<p>cur_num = 4</p>
+<p>cur_num = 2</p>
+<p>cur_num = 1</p>
+<p>Exit while loop</p>
+<p><img alt="Graph" src="../../images/databases3_CollatzConjecture.png" /></p>
+<h2 id="lecture-5-january-13th-2017">Lecture 5 - January 13th, 2017</h2>
+<h3 id="missed-class">Missed Class</h3>
           <aside class="copyright" role="note">
             
             Documentation built with
