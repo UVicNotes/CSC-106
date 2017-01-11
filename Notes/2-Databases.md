@@ -2,7 +2,7 @@
 
 ## Lecture 2 - January 6th, 2017 
 
-**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides**
+**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.**
 
 ---
 
@@ -373,3 +373,156 @@ Note: text must be surrended by quotes.
 * How to write some simple SQL queries using: –  avg
 * max
 * where
+
+
+## Lecture 4 - January 11th, 2017
+
+`Select *` is shorthand for “select all of the columns of the table”. 
+
+`*` can be viewed as a wild card. 
+
+`select * from grades where crn = 23456 and grade > 50;`
+
+`select count(*)` will return the number of rows returned. (Important for assignment 1). 
+
+`select * from grades order by stud_name;` will order the entries.
+
+`select * from grades order by grade desc;` will sort by descending order.
+
+**Question: Create a list of student names for Turing’s class, ordered by name?**
+
+`select stud_name from grades where prof_name = Turing order by stud_name;`
+
+### You should know 
+
+* How to step through pseudocode
+* How to write some simple SQL queries using:
+
+	* avg
+	* max
+	* where
+	* select * 
+	* select count(*)
+	* order by
+
+
+### More Pseudocode Practice
+
+**Question:  Write a query to print phone number of a person if it exists in the table** 
+
+input: name_in (holds the name we look for)
+
+| name  |    number|
+| -----:|---------:|
+| Joe   |  472-5700|
+| Leo   |  472-5702|
+| Sara  |  472-5701|
+
+```
+Step1 i=1
+Step2 found=NO
+Step3 while i =< #rows in table do Step4-7
+Step4 	if name in row i is name_in do Step5&6
+Step5 		print number in row i
+Step6 		found=YES
+Step7 	i= i+1
+Step8 if found = NO do Step9
+Step9 	print "no such person in directory."
+```
+
+Inefficiency, if you find the name and it's the first one in the table, the while loop will still run. 
+
+```
+Step1 i=1
+Step2 found=NO
+Step3 while i =< #rows in table AND found = NO do Step4-7
+Step4 	if name in row i is name_in do Step5&6
+Step5 		print number in row i
+Step6 		found=YES
+Step7 	i= i+1
+Step8 if found = NO do Step9
+Step9 	print "no such person in directory."
+```
+
+Execution: 
+
+name_in = "Leo"
+i=1
+found = NO
+#rows = 3
+
+```
+i = 2
+
+--
+
+472-5702
+found = YES
+
+i = 3
+
+--
+
+Exit while loop
+
+```
+
+`select number from phone_numbers where name = "Leo";` - will be the query.
+
+
+### Collatz Conjecture
+
+**Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1**
+
+**Question: Write this in Pseudocode** 
+
+Bonus: Of Interest
+
+	*  No one knows if there’s a number for which the collatz conjecture will not terminate
+	*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
+
+```
+inpurt num+in (number to test)
+if num_in < 1
+	print "error, bad number" Exit 
+
+cur_num = num_in
+	while cur_num is not 1
+    	if cur_num is even do 
+        	divide by 2
+        else if cur_num is odd do 
+        	cur_num X 3 + 1
+```
+
+num_in = 4
+cur_num = 4
+
+cur_num = 2
+
+cur_num = 1
+
+Exit while loop
+
+--
+
+num_in = 5
+cur_num = 5
+
+cur_num = 16
+
+cur_num = 8
+
+cur_num = 4
+
+cur_num = 2
+
+cur_num = 1
+
+Exit while loop
+
+![Graph](../images/databases3_CollatzConjecture.png)
+    	
+
+## Lecture 5 - January 13th, 2017
+
+### Missed Class

@@ -2,7 +2,7 @@
 
 ## Lecture 1 - January 4th, 2017
 
-**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides**
+**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.**
 
 ---
 
