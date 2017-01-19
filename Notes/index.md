@@ -29,3 +29,16 @@ The recommended text is:
 | Assignments         |   40%  |
 | Lab Attendance      |   5%   |
 | Midterm Exams (3)   |   55%  |
+
+## Due Dates
+**Subject to Change**
+
+| Task                | Weight | Due                          |
+|---------------------|:------:|:----------------------------:|
+| Assignment 1        |   10%  |              Jan. 24th, 2017 |   
+| Midterm Exam 1      |  ~19%  |              Jan. 31st, 2017 |
+| Assignment 2        |   10%  |              Feb. 10th, 2017 | 
+| Assignment 3        |   10%  |               Mar. 3rd, 2017 | 
+| Midterm Exam 2      |  ~19%  |               Mar. 7th, 2017 |
+| Assignment 4        |   10%  |              Mar. 21st, 2017 |
+| Midterm Exam 3      |  ~19%  |              April 4th, 2017 | 
