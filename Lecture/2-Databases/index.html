@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    
+      
+        <title>2 Databases - CSC 106</title>
+      
+      
+        <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
+      
+      
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/2-Databases/">
+      
+      
+        <meta name="author" content="Dominique Charlebois">
+      
+    
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/2-Databases/">
+    <meta property="og:title" content="CSC 106">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/2-Databases//../../">
+    <meta name="apple-mobile-web-app-title" content="CSC 106">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="apple-touch-icon" sizes="114x114" href="../../assets/images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../../assets/images/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../../assets/images/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../../assets/images/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="../../assets/images/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../../assets/images/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../../assets/images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../../assets/images/apple-touch-icon-76x76.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/images/android-chrome-192x192.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../assets/images/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="230x230" href="../../assets/images/favicon-230x230.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/images/favicon-96x96.png">
+    <link rel="shortcut icon" href="../../assets/images/favicon.ico">
+    <link rel="stylesheet" href="../../assets/stylesheets/application.css">
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/palettes.css">
+    
+    
+    <script src="../../assets/javascripts/modernizr.js"></script>
+    
+  </head>
+  
+  
+  
+  <body class="palette-primary-purple palette-accent-orange">
+    
+      
+      
+    
+    <div class="backdrop">
+      <div class="backdrop-paper"></div>
+    </div>
+    <input class="toggle" type="checkbox" id="toggle-drawer">
+    <input class="toggle" type="checkbox" id="toggle-search">
+    <label class="toggle-button overlay" for="toggle-drawer"></label>
+    <header class="header">
+      <nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        
+          <span class="path">
+            
+              
+                Lecture <i class="icon icon-chevron-right"></i>
+              
+            
+          </span>
+        
+        2 Databases
+      </div>
+    </div>
+    
+    
+      
+      <div class="button button-github" role="button" aria-label="GitHub">
+        <a href="https://github.com/flytewizard" title="@flytewizard on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+      </div>
+    
+    <div class="button button-search" role="button" aria-label="Search">
+      <label class="toggle-button icon icon-search" title="Search" for="toggle-search"></label>
+    </div>
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-arrow-left" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false">
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+    </header>
+    <main class="main">
+      
+      <div class="drawer">
+        <nav aria-label="Navigation">
+  
+  <div class="project">
+    <div class="banner">
+      <a href="/" class="logo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+          <path class="mark" d="M197.701 78.089h489.115c37.098 0 72.08 14.553 98.506 40.978 26.425 26.425 40.978 61.409 40.978 98.507l-.001 530.219a139.582 139.582 0 0 1-1.397 19.613l-.05.352v55.159c0 76.852-62.525 139.424-139.379 139.483l-487.771.003V78.089z"/>
+          <path class="primary" d="M686.816 73.089H210.847l-18.146.001v894.313l492.775-.003c79.42-.062 144.375-65.055 144.375-144.483v-54.804a144.065 144.065 0 0 0 1.447-20.32V217.574h.001c.001-79.467-65.018-144.485-144.483-144.485zM370.814 271.966c25.968 0 68.307 8.765 70.992 89.508 15.487 21.569 39.002 41.532 66.851 55.718 48.882 8.257 104.158 9.791 161.664 4.5-6.136 16.767-64.204 57.611-63.155 58.35 26.518 18.916 91.86 32.309 91.86 32.309s-44.922 19.526-86.471 20.806c.103.102.26.15.26.254-141.945 2.3-199.456-49.174-204.453-80.509-2.852-16.821 7.938-29.318 28.564-32.615 14.671-2.401 9.826-23.771-3.654-21.469-32.399 5.699-51.121 28.779-46.324 57.509 7.642 47.438 79.028 105.408 241.789 98.352 36.947 12.015 62.303 11.35 85.572 9.612-28.562 33.276-52.728 46.67-74.542 53.723 4.055 33.277 5.444 71.979 4.055 86.061-29.955-43.937-98.27-112.384-128.313-128.205-1.404 42.146 12.383 98.351 28.756 117.622-39.542-8.843-57.47-21.087-73.792-42.199-10.681 12.731-41.187 42.994-73.687 33.356 20.462-36.78 32.794-77.24 31.349-128.152-34.044-6.979-91.36-38.648-90.072-156.271.702-47.465-33.839-61.164-51.515-80.538 27.257-15.724 58.501-47.722 84.266-47.722zm283.492 654.258H233.881v-33.946h452.936c32.42 0 62.438-10.826 86.613-29.039-26.104 37.962-69.83 62.985-119.124 62.985z"/>
+          <path class="accent" d="M380.369 909.128v108.341c0 3.299-2.053 6.306-5.277 7.553-1.024.438-2.125.586-3.225.586a8.918 8.918 0 0 1-6.084-2.346l-32.326-31.082-32.322 31.082c-1.688 1.537-3.813 2.418-6.084 2.418a8.213 8.213 0 0 1-3.228-.658c-3.222-1.246-5.276-4.252-5.276-7.551V909.128h93.822z"/>
+        </svg>
+      </a>
+      <div class="name">
+        <strong>
+          CSC 106
+        </strong>
+        
+          <span>
+          (Spring 2017)
+          </span>
+        
+        <br>
+        <a href="https://github.com/UVicNotes/CSC-106/commits/master" target="_blank" title="Last Updated">
+          Updated Jan 19, 2017
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-contribute">
+              <a href="https://github.com/UVicNotes/CSC-106#contributing" target="_blank" title="Contirbute" data-action="contribute">
+                <i class="icon icon-edit"></i> Contibute
+              </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/UVicNotes/CSC-106/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+      <div class="toc">
+        <ul>
+          
+            
+  <li>
+    <a class="" title="Home" href="../..">
+      Home
+    </a>
+    
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Annex</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Homework And Announcements" href="../../Annex/Homework-And-Announcements/">
+      Homework And Announcements
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Lab</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="Lab" href="../../Lab/Lab/">
+      Lab
+    </a>
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+            
+  <li>
+    <span class="section">Lecture</span>
+    <ul>
+      
+        
+  <li>
+    <a class="" title="1 Introduction" href="../1-Introduction/">
+      1 Introduction
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="current" title="2 Databases" href="./">
+      2 Databases
+    </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 2 - January 6th, 2017" href="#lecture-2-january-6th-2017">
+                Lecture 2 - January 6th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 3 - January 10th, 2017" href="#lecture-3-january-10th-2017">
+                Lecture 3 - January 10th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
+    
+  </li>
+
+      
+    </ul>
+  </li>
+
+          
+        </ul>
+          <hr>
+          <ul>
+              <li>
+                <a href="https://github.com/UVicNotes" target="_blank" title="View other Course Notes">
+                  More Course Notes on GitHub
+                </a>
+              </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+      </div>
+      <article class="article">
+        <div class="wrapper">
+          
+          <h1 id="databases-and-pseudocode">Databases and Pseudocode</h1>
+<h2 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h2>
+<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
+<hr />
+<ul>
+<li>
+<p>Motivating Example:</p>
+<ul>
+<li>CSC 106 - Keeping Records of Grades</li>
+<li>Goal: How to work with this Data</li>
+</ul>
+</li>
+<li>
+<p>Pseudocode -&gt; Logic writing on your code.</p>
+</li>
+<li>Algorithm -&gt; Sets of steps</li>
+</ul>
+<hr />
+<p>Table 1: </p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>101</td>
+<td align="center">Joe Smith</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">80</td>
+</tr>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>145</td>
+<td align="center">Al Green</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Solution For: The above question</strong></p>
+<pre><code>total = 0
+count = 0
+i = 1
+
+while i =&lt; total # rows in table
+    total = total + grade in row i
+    count = count + 1
+    i = i + 1
+
+average = total / count
+</code></pre>
+
+<p><strong>Solution For: Keeping track of grades for a specific teacher</strong></p>
+<pre><code>total = 0
+count = 0 
+i = 1
+
+while i =&lt; total # rows in table
+    if prof-name of row i = Turing
+        total = toal + grade in row i
+        count = count + 1
+    i = i + 1
+
+average = total / count
+</code></pre>
+
+<p><strong>Solution For: Inserting a new grade in the table</strong> </p>
+<p>Before:</p>
+<pre><code>i = # rows in table + 1
+
+stud_id for row i = 313
+stud_name for row i = Steve Cook
+course_name for row i = CSC 106 (Too much info)
+CRN for row i = 23456
+prof-name for row i = Turing (Too much info - CRN is all mighty)
+grade for row i = 91
+</code></pre>
+
+<p>After:</p>
+<pre><code>i = # rows in grades table + 1
+
+stud_id for row i = 313
+stud_name for row i = Steve Cook
+CRN for row i = 23456
+grade for row i = 91
+</code></pre>
+
+<hr />
+<p><strong>NOTE:</strong> The question now has two tables to work with instead of one.</p>
+<p>Table 1: Courses</p>
+<table>
+<thead>
+<tr>
+<th align="right">course</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+</tr>
+<tr>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+</tr>
+</tbody>
+</table>
+<p>Table 2: Grades</p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_id</th>
+<th align="right">stud_name</th>
+<th align="right">crn</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">101</td>
+<td align="right">Joe Smith</td>
+<td align="right">23456</td>
+<td align="right">80</td>
+</tr>
+<tr>
+<td align="right">111</td>
+<td align="right">John Jackson</td>
+<td align="right">23456</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td align="right">145</td>
+<td align="right">Al Green</td>
+<td align="right">23456</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td align="right">301</td>
+<td align="right">Meg Lyon</td>
+<td align="right">23457</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td align="right">200</td>
+<td align="right">Jane McKenzie</td>
+<td align="right">23457</td>
+<td align="right">83</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Solution For: Calculating the average for students in class with CRN 23457</strong></p>
+<pre><code>total = 0
+count = 0
+i = 1
+
+while i =&lt; total # of rows in grades tables
+    if crn in row i is 23457
+        total = total + grade in row i
+        count = count + 1
+    i + i + 1
+average = total / count
+</code></pre>
+
+<p><strong>Solution For: Calculating a better average</strong></p>
+<pre><code>if  count = 0 
+    average = 0
+else 
+    average = total/count
+</code></pre>
+
+<p><strong>Solution For: Table Case: Inserting a new grade into two tables</strong></p>
+<pre><code>if input crn is not in classes table 
+    return error
+else 
+    stud_id for row i = 313
+    stud_name = Steve Cook
+    crn = 23456
+    grade = 91
+</code></pre>
+
+<p><strong>Solution For: Calculating the average grade for classes that Turing teaches</strong></p>
+<pre><code>total = 0 
+count = 0
+j = 1 (Index into classes table)
+
+while j =&lt; # rows in classes table 
+    if row j of classes tables has prof_name = Turing
+        my_crn = crn in j of classes table
+
+        i = 1
+        while i =&lt; #rows in grades table
+            if crn for row i of grades table  = my_crn
+                table = total + grade in row i of grades table
+                count = count + 1
+            i = i + 1
+    j = j + 1
+</code></pre>
+
+<h2 id="lecture-3-january-10th-2017">Lecture 3 - January 10th, 2017</h2>
+<p><strong>Trace Through Code</strong></p>
+<p>Code:</p>
+<pre><code>Step1 - total=0
+Step2 - count=0
+Step3 - i=1
+Step4 - while i &lt;= # rows in table, repeat steps 5 through 8
+Step5 -     if prof_name of row i equals Turing, do line 6 and 7 
+Step6 -         total = total + grade in row i
+Step7 -         count = count + 1
+Step8 -     i=i+1
+Step9 - average = total / count
+</code></pre>
+
+<p>Table 1:</p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td>342</td>
+<td align="center">Patricia Dune</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">94</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+</tbody>
+</table>
+<p>Note: #rows = 4</p>
+<p>Solution:</p>
+<pre><code>total=0
+count=0
+i=1
+
+--
+
+total=45
+count=1
+1=2
+
+--
+
+i=3
+
+--
+
+total=139
+count=2
+i=4
+
+--
+
+i=5
+
+-- 
+
+Average = 139/2 = 69.5
+
+</code></pre>
+
+<p><strong>Write pseudocode that calculates the maximum grade for a student in class with crn = 23456</strong>
+<strong>Trace Through Code</strong></p>
+<p>Code:</p>
+<pre><code>Step1 - max=-1
+Step2 - i=1
+Step3 - while i &lt;= # rows in table, repeat steps 4 through 7
+Step4 -     if crn of row i equals 23456, do line 5 and 6 
+Step5 -         if max &lt; grade in row i do line 6
+Step6 -             max = grade in row i 
+Step7 -     i=i+1
+</code></pre>
+
+<p>Table:</p>
+<table>
+<thead>
+<tr>
+<th>stud_id</th>
+<th align="center">stud_name</th>
+<th align="right">course_name</th>
+<th align="right">crn</th>
+<th align="right">prof_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>111</td>
+<td align="center">John Jackson</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">45</td>
+</tr>
+<tr>
+<td>200</td>
+<td align="center">Jane McKenzie</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td>342</td>
+<td align="center">Patricia Dune</td>
+<td align="right">CSC 106</td>
+<td align="right">23456</td>
+<td align="right">Turing</td>
+<td align="right">94</td>
+</tr>
+<tr>
+<td>301</td>
+<td align="center">Meg Lyon</td>
+<td align="right">CSC 106</td>
+<td align="right">23457</td>
+<td align="right">Jobs</td>
+<td align="right">79</td>
+</tr>
+</tbody>
+</table>
+<p>Solution: </p>
+<pre><code>max=-1
+i=1
+
+--
+
+max=45
+i=2
+
+--
+
+i=3
+
+--
+
+max=94
+i=4
+
+--
+
+i=5
+
+</code></pre>
+
+<hr />
+<h3 id="sql">SQL</h3>
+<p>Sql is a structured query language.</p>
+<h3 id="database">Database</h3>
+<p>A database is a collection of tables.</p>
+<p><strong>Install SqLite3</strong></p>
+<pre><code class="bash">brew install sqlite
+</code></pre>
+
+<p>Start by making a blank table: </p>
+<pre><code class="sql">create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
+</code></pre>
+
+<p>Note: Order of values must match the order of the columns when you created the table.</p>
+<h3 id="query">Query</h3>
+<p>A query is a select statement that tells the computer what columms the result should have. </p>
+<p>Ex.</p>
+<pre><code class="sql">Select stud_name, grade 
+from grades;
+</code></pre>
+
+<p>Return</p>
+<p>Table 1: Grades</p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">name</td>
+<td align="right">56</td>
+</tr>
+<tr>
+<td align="right">name</td>
+<td align="right">78</td>
+</tr>
+</tbody>
+</table>
+<p>Ex. </p>
+<pre><code class="sql">Select avg(grade)
+From grades;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">avg(grade)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">72.8</td>
+</tr>
+</tbody>
+</table>
+<p>Ex.</p>
+<pre><code class="sql">select max(grade)
+from grades;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">94</td>
+</tr>
+</tbody>
+</table>
+<p>Ex.</p>
+<pre><code class="sql">Select stud_name, grade, crn 
+from grades
+where crn = 23456;
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+<th align="right">crn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Joe Smith</td>
+<td align="right">80</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">John Jacks</td>
+<td align="right">45</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Al Green</td>
+<td align="right">66</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Greg Black</td>
+<td align="right">60</td>
+<td align="right">23456</td>
+</tr>
+<tr>
+<td align="right">Patricia D</td>
+<td align="right">94</td>
+<td align="right">23456</td>
+</tr>
+</tbody>
+</table>
+<p>Ex. </p>
+<pre><code class="sql">Select stud_name, grade 
+from grades
+where prof_name = “Jobs”;
+</code></pre>
+
+<p>Note: text must be surrended by quotes. </p>
+<table>
+<thead>
+<tr>
+<th align="right">stud_name</th>
+<th align="right">grade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Meg Lyon</td>
+<td align="right">79</td>
+</tr>
+<tr>
+<td align="right">Jane McKen</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td align="right">Richard Fe</td>
+<td align="right">70</td>
+</tr>
+<tr>
+<td align="right">Paul Shelb</td>
+<td align="right">66</td>
+</tr>
+<tr>
+<td align="right">John Jacks</td>
+<td align="right">85</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h1 id="you-should-know">You should know</h1>
+<ul>
+<li>How to step through pseudocode</li>
+<li>How to write some simple SQL queries using: –  avg</li>
+<li>max</li>
+<li>where</li>
+</ul>
+<h2 id="lecture-4-january-11th-2017">Lecture 4 - January 11th, 2017</h2>
+<p><code>Select *</code> is shorthand for “select all of the columns of the table”. </p>
+<p><code>*</code> can be viewed as a wild card. </p>
+<p><code>select * from grades where crn = 23456 and grade &gt; 50;</code></p>
+<p><code>select count(*)</code> will return the number of rows returned. (Important for assignment 1). </p>
+<p><code>select * from grades order by stud_name;</code> will order the entries.</p>
+<p><code>select * from grades order by grade desc;</code> will sort by descending order.</p>
+<p><strong>Question: Create a list of student names for Turing’s class, ordered by name?</strong></p>
+<p><code>select stud_name from grades where prof_name = Turing order by stud_name;</code></p>
+<h3 id="you-should-know_1">You should know</h3>
+<ul>
+<li>How to step through pseudocode</li>
+<li>
+<p>How to write some simple SQL queries using:</p>
+<ul>
+<li>avg</li>
+<li>max</li>
+<li>where</li>
+<li>select * </li>
+<li>select count(*)</li>
+<li>order by</li>
+</ul>
+</li>
+</ul>
+<h3 id="more-pseudocode-practice">More Pseudocode Practice</h3>
+<p><strong>Question:  Write a query to print phone number of a person if it exists in the table</strong> </p>
+<p>input: name_in (holds the name we look for)</p>
+<table>
+<thead>
+<tr>
+<th align="right">name</th>
+<th align="right">number</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">Joe</td>
+<td align="right">472-5700</td>
+</tr>
+<tr>
+<td align="right">Leo</td>
+<td align="right">472-5702</td>
+</tr>
+<tr>
+<td align="right">Sara</td>
+<td align="right">472-5701</td>
+</tr>
+</tbody>
+</table>
+<pre><code>Step1 i=1
+Step2 found=NO
+Step3 while i =&lt; #rows in table do Step4-7
+Step4   if name in row i is name_in do Step5&amp;6
+Step5       print number in row i
+Step6       found=YES
+Step7   i= i+1
+Step8 if found = NO do Step9
+Step9   print &quot;no such person in directory.&quot;
+</code></pre>
+
+<p>Inefficiency, if you find the name and it's the first one in the table, the while loop will still run. </p>
+<pre><code>Step1 i=1
+Step2 found=NO
+Step3 while i =&lt; #rows in table AND found = NO do Step4-7
+Step4   if name in row i is name_in do Step5&amp;6
+Step5       print number in row i
+Step6       found=YES
+Step7   i= i+1
+Step8 if found = NO do Step9
+Step9   print &quot;no such person in directory.&quot;
+</code></pre>
+
+<p>Execution: </p>
+<p>name_in = "Leo"
+i=1
+found = NO</p>
+<h1 id="rows-3">rows = 3</h1>
+<pre><code>i = 2
+
+--
+
+472-5702
+found = YES
+
+i = 3
+
+--
+
+Exit while loop
+
+</code></pre>
+
+<p><code>select number from phone_numbers where name = "Leo";</code> - will be the query.</p>
+<h3 id="collatz-conjecture">Collatz Conjecture</h3>
+<p><strong>Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1</strong></p>
+<p><strong>Question: Write this in Pseudocode</strong> </p>
+<p>Bonus: Of Interest</p>
+<pre><code>*  No one knows if there’s a number for which the collatz conjecture will not terminate
+*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
+</code></pre>
+<pre><code>inpurt num+in (number to test)
+if num_in &lt; 1
+    print &quot;error, bad number&quot; Exit 
+
+cur_num = num_in
+    while cur_num is not 1
+        if cur_num is even do 
+            divide by 2
+        else if cur_num is odd do 
+            cur_num X 3 + 1
+</code></pre>
+
+<p>num_in = 4
+cur_num = 4</p>
+<p>cur_num = 2</p>
+<p>cur_num = 1</p>
+<p>Exit while loop</p>
+<p>--</p>
+<p>num_in = 5
+cur_num = 5</p>
+<p>cur_num = 16</p>
+<p>cur_num = 8</p>
+<p>cur_num = 4</p>
+<p>cur_num = 2</p>
+<p>cur_num = 1</p>
+<p>Exit while loop</p>
+<p><img alt="Graph" src="../../images/databases3_CollatzConjecture.png" /></p>
+<h2 id="lecture-5-january-13th-2017">Lecture 5 - January 13th, 2017</h2>
+<h3 id="missed-class">Missed Class</h3>
+          <aside class="copyright" role="note">
+            
+            Documentation built with
+            <a href="http://www.mkdocs.org" target="_blank">MkDocs</a>
+            using the
+            <a href="http://squidfunk.github.io/mkdocs-material/" target="_blank">
+              Material
+            </a>
+            theme.
+          </aside>
+          
+            <footer class="footer">
+              
+  <nav class="pagination" aria-label="Footer">
+    <div class="previous">
+      
+        <a href="../1-Introduction/" title="1 Introduction">
+          <span class="direction">
+            Previous
+          </span>
+          <div class="page">
+            <div class="button button-previous" role="button" aria-label="Previous">
+              <i class="icon icon-arrow-left"></i>
+            </div>
+            <div class="stretch">
+              <div class="title">
+                1 Introduction
+              </div>
+            </div>
+          </div>
+        </a>
+      
+    </div>
+    <div class="next">
+      
+    </div>
+  </nav>
+
+            </footer>
+          
+        </div>
+      </article>
+      <div class="results" role="status" aria-live="polite">
+        <div class="scrollable">
+          <div class="wrapper">
+            <div class="meta"></div>
+            <div class="list"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      var base_url = '../..';
+      var repo_id  = 'UVicNotes/CSC-106';
+    </script>
+    <script src="../../assets/javascripts/application.js"></script>
+    
+      <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+      <script src="https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js"></script>
+    
+    
+  </body>
+</html>
