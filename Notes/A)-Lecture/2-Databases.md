@@ -1,10 +1,6 @@
 # Databases and Pseudocode
 
-## Lecture 2 - January 6th, 2017 
-
-**These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.**
-
----
+### Lecture 2 - January 6th, 2017 
 
 * Motivating Example:
     * CSC 106 - Keeping Records of Grades
@@ -19,13 +15,14 @@ Table 1:
 
 | stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
 | ------------- |:-------------:| ------------:|---------:|----------:|------:|
-| 101      		| Joe Smith     | CSC 106 	   | 23456    | Turing    | 80    |
+| 101           | Joe Smith     | CSC 106      | 23456    | Turing    | 80    |
 | 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
 | 145           | Al Green      | CSC 106      | 23456    | Turing    | 66    |
 | 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
 | 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
 
 **Solution For: The above question**
+
 ```
 total = 0
 count = 0
@@ -40,6 +37,7 @@ average = total / count
 ```
 
 **Solution For: Keeping track of grades for a specific teacher**
+
 ```
 total = 0
 count = 0 
@@ -68,6 +66,7 @@ CRN for row i = 23456
 prof-name for row i = Turing (Too much info - CRN is all mighty)
 grade for row i = 91
 ```
+
 After:
 
 ```
@@ -85,16 +84,16 @@ grade for row i = 91
 
 Table 1: Courses
 
-| course	| crn	| prof_name	|
-| --------:| ------:| ---------:|
-| CSC 106  | 23456  | Turing    |
-| CSC 106  | 23457  | Jobs      |
+| course	| crn   | prof_name	|
+| -------:| -----:| ---------:|
+| CSC 106 | 23456 | Turing    |
+| CSC 106 | 23457 | Jobs      |
 
 Table 2: Grades
 
 | stud_id       | stud_name     | crn      | grade |
 | -------------:| -------------:| --------:| -----:|
-| 101      		| Joe Smith     | 23456    | 80    |
+| 101           | Joe Smith     | 23456    | 80    |
 | 111           | John Jackson  | 23456    | 45    |
 | 145           | Al Green      | 23456    | 66    |
 | 301           | Meg Lyon      | 23457    | 79    |
@@ -103,6 +102,7 @@ Table 2: Grades
 ---
 
 **Solution For: Calculating the average for students in class with CRN 23457**
+
 ```
 total = 0
 count = 0
@@ -117,6 +117,7 @@ average = total / count
 ```
 
 **Solution For: Calculating a better average**
+
 ```
 if  count = 0 
     average = 0
@@ -125,6 +126,7 @@ else
 ```
 
 **Solution For: Table Case: Inserting a new grade into two tables**
+
 ```
 if input crn is not in classes table 
     return error
@@ -136,6 +138,7 @@ else
 ```
 
 **Solution For: Calculating the average grade for classes that Turing teaches**
+
 ```
 total = 0 
 count = 0
@@ -154,7 +157,7 @@ while j =< # rows in classes table
     j = j + 1
 ```
 
-## Lecture 3 - January 10th, 2017
+### Lecture 3 - January 10th, 2017
 
 **Trace Through Code**
 
@@ -217,6 +220,7 @@ Average = 139/2 = 69.5
 ```
 
 **Write pseudocode that calculates the maximum grade for a student in class with crn = 23456**
+
 **Trace Through Code**
 
 Code:
@@ -268,15 +272,16 @@ i=5
 
 ---
 
-### SQL
+#### SQL
 
 Sql is a structured query language.
 
-### Database
+#### Database
 
 A database is a collection of tables.
 
 **Install SqLite3**
+
 ```bash
 brew install sqlite
 ```
@@ -289,7 +294,7 @@ create table grades( stud_id int, stud_name text, course_name text, crn int, pro
 
 Note: Order of values must match the order of the columns when you created the table.
 
-### Query 
+#### Query 
 
 A query is a select statement that tells the computer what columms the result should have. 
 
@@ -329,7 +334,7 @@ from grades;
 ```
 
 | max |
-| ---:|
+| :--:|
 | 94  |
 
 Ex.
@@ -368,14 +373,14 @@ Note: text must be surrended by quotes.
 
 ---
 
-# You should know 
+#### You should know 
 * How to step through pseudocode
 * How to write some simple SQL queries using: –  avg
 * max
 * where
 
 
-## Lecture 4 - January 11th, 2017
+### Lecture 4 - January 11th, 2017
 
 `Select *` is shorthand for “select all of the columns of the table”. 
 
@@ -406,7 +411,7 @@ Note: text must be surrended by quotes.
 	* order by
 
 
-### More Pseudocode Practice
+#### More Pseudocode Practice
 
 **Question:  Write a query to print phone number of a person if it exists in the table** 
 
@@ -449,7 +454,7 @@ Execution:
 name_in = "Leo"
 i=1
 found = NO
-#rows = 3
+rows# = 3
 
 ```
 i = 2
@@ -470,7 +475,7 @@ Exit while loop
 `select number from phone_numbers where name = "Leo";` - will be the query.
 
 
-### Collatz Conjecture
+#### Collatz Conjecture
 
 **Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1**
 
@@ -520,9 +525,6 @@ cur_num = 1
 
 Exit while loop
 
-![Graph](../images/databases3_CollatzConjecture.png)
-    	
+---
 
-## Lecture 5 - January 13th, 2017
-
-### Missed Class
+![Graph](../C\)-References/databases3_CollatzConjecture.png)

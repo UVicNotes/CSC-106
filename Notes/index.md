@@ -8,6 +8,7 @@
 * __Office Hours__:
     * Wednesday, 09:30am to 11:20am	
     * Or by appointment
+* __Classroom__: David Turpin Building - A120
 
 ## Overview
 
@@ -15,9 +16,7 @@ A general introduction to the field of computer science, its basic areas and its
 
 ## Textbook
 
-There is no textbook required for this course. 
-
-The recommended text is: 
+There is no textbook required for this course, but the recommended textbook is: 
 
 * Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.
 

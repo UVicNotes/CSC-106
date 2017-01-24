@@ -10,6 +10,6 @@ If you'd like to contribute your notes please start by forking the repository. N
 
 If you have any questions please feel free to [contact](mailto:dcharleb@uvic.ca) the repository maintainer.
 
-## Stlyeguide
+## Styleguide
 
 If you'd like to contribute your notes please study the github repository.
