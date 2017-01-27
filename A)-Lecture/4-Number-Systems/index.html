@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>1 Introduction - CSC 106</title>
+        <title>4 Number Systems - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/A)-Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/A)-Lecture/4-Number-Systems/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/A)-Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/A)-Lecture/4-Number-Systems/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/A)-Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/A)-Lecture/4-Number-Systems//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -85,7 +85,7 @@
             
           </span>
         
-        1 Introduction
+        4 Number Systems
       </div>
     </div>
     
@@ -181,24 +181,9 @@
       
         
   <li>
-    <a class="current" title="1 Introduction" href="./">
+    <a class="" title="1 Introduction" href="../1-Introduction/">
       1 Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -223,9 +208,36 @@
       
         
   <li>
-    <a class="" title="4 Number Systems" href="../4-Number-Systems/">
+    <a class="current" title="4 Number Systems" href="./">
       4 Number Systems
     </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 4 - January 17th, 2017" href="#lecture-4-january-17th-2017">
+                Lecture 4 - January 17th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 5 - January 18th, 2017" href="#lecture-5-january-18th-2017">
+                Lecture 5 - January 18th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture - January 20th, 2017" href="#lecture-january-20th-2017">
+                Lecture - January 20th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -296,34 +308,363 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+          <h1 id="binary-hex-2s-complement">Binary / Hex / 2s Complement</h1>
+<h3 id="lecture-4-january-17th-2017">Lecture 4 - January 17th, 2017</h3>
+<h4 id="why-binary">Why Binary?</h4>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>Binary is how computers talk<ul>
+<li>to themselves <strong>AND</strong></li>
+<li>to each other</li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
+</ul>
+<h4 id="decimal-numbers">Decimal Numbers</h4>
+<p><strong>A binary abacus</strong> -&gt; <a href="hdp://www.advanced-ict.info/mathemaAcs/abacus.html">Example</a></p>
+<p>Ex. 101 is 5 in binary</p>
+<table>
+<thead>
+<tr>
+<th align="right">1</th>
+<th align="right">0</th>
+<th align="right">1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">2^2</td>
+<td align="right">2^1</td>
+<td align="right">2^0</td>
+</tr>
+</tbody>
+</table>
+<p>$$</p>
+<p>1x2^2 + 0x2^1 + 1x2^0</p>
+<p>1x4 + 0x2 + 1x1 = 5</p>
+<p>$$</p>
+<p><img alt="Binary Number Example" src="../../Users/dominiquecharlebois/Desktop/Reference_Binary.png" /></p>
+<p><strong>NOTE:</strong> Test Material</p>
+<p>Ex. What is 11111 in decimal number?</p>
+<p>Answer: 31</p>
+<p>Ex. What is the highest number you can encode with n bits?</p>
+<p>Answer: 2^n -1</p>
+<h4 id="encode-numbers">Encode Numbers</h4>
+<p><strong>Note:</strong> If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have <strong>two methods</strong>. </p>
+<h5 id="method-1">Method 1</h5>
+<p>$$</p>
+<p>5 = 4 + 1</p>
+<p>So 2^2 and 2^0</p>
+<p>So 00101 = 5</p>
+<p>$$</p>
+<h5 id="method-2">Method 2</h5>
+<pre><code class="Pseudocode">Step1   input: number_in cur_number = number_in binary_string = “”
+Step2   while cur_number &gt;= 2
+Step3       my_encoding = input%2
+Step4       add my_encoding to leW side of binary string 
+Step5       cur_number = round_down(cur_number/2)
+Step6   add cur_number to leW side of binary string
+</code></pre>
+
+<p>Ex. What is 11 in binary?</p>
+<pre><code>num_in = 11
+
+binary_string=&quot;&quot;
+11%2 = 1
+
+binary_string=&quot;1&quot;
+
+11/2 = 5.5 -&gt; 5
+5%2 = 1
+
+binary_string=&quot;11&quot;
+
+5/2 = 2.5 -&gt; 2
+2%2 = 0
+
+binary_string=&quot;011&quot;
+
+2/2 = 1
+
+binary_string=&quot;1011&quot;
+</code></pre>
+
+<p>Ex. What is 8 in binary?  </p>
+<pre><code>num_in = 8 
+
+binary_string=&quot;&quot;
+8%2 = 0
+
+binary_string=&quot;0&quot;
+
+8/2 = 4
+4%2 = 0
+
+binary_string=&quot;00&quot;
+
+4/2 = 2
+2%2 = 0
+
+binary_string=&quot;000&quot;
+
+2/1 = 1
+
+binary_string=&quot;1000&quot;
+</code></pre>
+
+<p><strong>NOTE:</strong> Practice on your own. </p>
+<h3 id="lecture-5-january-18th-2017">Lecture 5 - January 18th, 2017</h3>
+<p>Helper: Question 2 - Assignment 1 </p>
+<ul>
+<li>Input for this program is a list of numbers. </li>
+<li>Pseudo code for addition. </li>
+</ul>
+<pre><code>a(m-1), a(m-2), a(1), a(0)
+</code></pre>
+
+<table>
+<thead>
+<tr>
+<th align="right">4</th>
+<th align="right">3</th>
+<th align="right">7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">a(m-1)</td>
+<td align="right">a(m-2)</td>
+<td align="right">a(0)</td>
+</tr>
+</tbody>
+</table>
+<p>Answer: m=3</p>
+<table>
+<thead>
+<tr>
+<th align="right">3</th>
+<th align="right">2</th>
+<th align="right">9</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">b(2)</td>
+<td align="right">b(1)</td>
+<td align="right">b(0)</td>
+</tr>
+</tbody>
+</table>
+<pre><code>437+329=766
+</code></pre>
+
+<h4 id="draw-a-flow-chart">Draw a flow chart</h4>
+<pre><code>* Use draw.io
+* Export as an image
+* Hand in PDF
+</code></pre>
+<h4 id="binary-numbers">Binary Numbers</h4>
+<p>10110 = 22
+01001 = 9</p>
+<p><strong>Tip:</strong> If it ends with a 1 it is odd. If it ends in a 0 it is even.</p>
+<p>8 -&gt; 01000
+5 -&gt; 00101</p>
+<h4 id="algorithm-decimal-number-binary">Algorithm Decimal Number - Binary.</h4>
+<p>Ex. Binary Conversion</p>
+<pre><code>binary_string=&quot;&quot;
+
+23%2 = 1
+
+binary_string=1
+
+23/2 = 11.5 -&gt; 11
+11%2 = 1
+
+binary_string=11
+
+11/2 = 5.5 &gt; 5
+5%2=1
+
+binary_string=111
+
+5/2=2.5 -&gt; 2
+2%2=0
+
+binary_string=0111
+
+2/2 = 1
+
+binary_string=10111
+</code></pre>
+
+<p><strong>Note:</strong> If a question ask for 5 bit number, you must include 5 places.</p>
+<h4 id="adding-binary-numbers">Adding Binary Numbers</h4>
+<p>Ex. 00111+00001=01000</p>
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right">1</th>
+<th align="right">1</th>
+<th align="right">1</th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="right">+</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="right">=</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<p>Bonus: 00111+00111=01110</p>
+<table>
+<thead>
+<tr>
+<th align="right"></th>
+<th align="right"></th>
+<th align="right">1</th>
+<th align="right">1</th>
+<th align="right">1</th>
+<th align="right"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="right">+</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td align="right">=</td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+<td align="right"></td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="right">0</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">1</td>
+<td align="right">0</td>
+</tr>
+</tbody>
+</table>
+<h4 id="encoding-negative-numbers">Encoding Negative Numbers</h4>
+<ol>
+<li>Encode the positive number</li>
+<li>Flip all the bits (1-&gt;0 and 0-&gt;1)</li>
+<li>Add 1 to the new bit string</li>
+</ol>
+<p>Ex. Convert -9 into binary</p>
+<pre><code>01001
+10110
+10111
+</code></pre>
+
+<p>Ex. Convert 12 into binary</p>
+<pre><code>01100
+10011
+10100
+</code></pre>
+
+<h4 id="twos-complement-number">Two's complement number</h4>
+<p><strong>NOTE:</strong> Unsigned Binary Number or a Two's Complement Number. </p>
+<p><strong>Ignore overflow that carries in Two's compliment</strong></p>
+<h4 id="convert-twos-complement-into-decimal">Convert Two's complement into decimal</h4>
+<ol>
+<li>If negative: <ul>
+<li>Flip a bit and add one</li>
+<li>Put the negative back at the end</li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+<li>If positive: </li>
+</ol>
+<h2 id="lecture-january-20th-2017">Lecture - January 20th, 2017</h2>
+<h3 id="lecture-6-january-24th-2017">Lecture 6 - January 24th, 2017</h3>
+<h4 id="guest-lecture">Guest Lecture</h4>
+<p>Dy George Tzanetakis (Associate Professor)</p>
+<p>Music and Computer Science</p>
+<p><a href="https://vimeo.com/147538529">The Northways</a></p>
+<p><a href="http://northwaygames.com">Northway Games</a></p>
+<p><strong>Human Computer Interaction</strong></p>
+<ol>
+<li>Lack of shared understanding</li>
+<li>Communication Bottleneck:<ul>
+<li>Input: Mouse/Keyboard (touch screen)</li>
+<li>Output: Rectangle 2D screen, speakers</li>
 </ul>
+</li>
+</ol>
+<p><strong>Why Music</strong></p>
+<p>The way music is <strong>created</strong>, <strong>distrubuted</strong>, and <strong>perceived</strong> had been and will be transformed by advances in technology.</p>
+<p>Arguably the most complex and expressive interaction with artifacts.</p>
+<p><strong>Digital Music Data</strong></p>
+<p>2000: ~1000 tracks</p>
+<p>2010: ~13 million tracks</p>
+<p><strong>Statisticaly Supervised Learning</strong></p>
+<p><strong>Playing/Improvising music with a computer</strong></p>
+<p>Machine Orchestr Kapur - Jan. 2010</p>
+<hr />
+<p>End of material for Midterm 1</p>
+<hr />
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -340,7 +681,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../3-Flowcharts/" title="3 Flowcharts">
           <span class="direction">
             Previous
           </span>
@@ -350,7 +691,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                3 Flowcharts
               </div>
             </div>
           </div>
@@ -359,14 +700,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="2 Databases">
+        <a href="../5-Logic/" title="5 Logic">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                2 Databases
+                5 Logic
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
