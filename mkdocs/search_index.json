@@ -267,7 +267,7 @@
         }, 
         {
             "location": "/A)-Lecture/6-Logic/", 
-            "text": "Logic\n\n\nLecture 10 - January 25th 2017\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\n\n\nOR Truth Table (+)\n\n\nAND Truth Table (*)\n\n\nCombine : OR and AND\n\n\n\n\nNot(~)\n\n\n\n\nCircuit Diagrams\n\n\nCompare for Equality\n\n\nAdding with Logic - Full Adder Circuit\n\n\nTruth Table -\n Set of OR AND and NOT\n\n\nXOR Truth Table (Circle +)\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\nLeft side changes\n\n\nSelection Sort\n\n\nSort hand of cadrs ?\n\n\nNumerically\n\n\nEx. \n\n\n[2,8,6,3]\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
+            "text": "Logic\n\n\nLecture 10 - January 25th 2017\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\nOR\n Truth Table (+)\n\n\nAND\n Truth Table (*)\n\n\nCombine : \nOR\n and \nAND\n\n\n\n\n\n\n\n\nNot\n (~)\n\n\n\n\n\n\nCircuit Diagrams\n\n\n\n\nCompare for Equality\n\n\n\n\nAdding with Logic - Full Adder Circuit\n\n\n\n\nTruth Table -\n Set of \nOR\n, \nAND\n, and \nNOT\n\n\nXOR\n Truth Table (Circle +)\n\n\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\n\n\nNote:\n Left side changes\n\n\n\n\nSelection Sort\n\n\nSort hand of cards ?\n\n\nNumerically\n\n\n\n\nEx.\n  [2,8,6,3]\n\n\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nStop when unsorted section has size 1", 
             "title": "6 Logic"
         }, 
         {
@@ -282,7 +282,7 @@
         }, 
         {
             "location": "/A)-Lecture/6-Logic/#logic_1", 
-            "text": "Logic gates  Form basis of computer hardware and computer operations   OR Truth Table (+)  AND Truth Table (*)  Combine : OR and AND   Not(~)", 
+            "text": "Logic gates  Form basis of computer hardware and computer operations  OR  Truth Table (+)  AND  Truth Table (*)  Combine :  OR  and  AND     Not  (~)", 
             "title": "Logic"
         }, 
         {
@@ -292,8 +292,13 @@
         }, 
         {
             "location": "/A)-Lecture/6-Logic/#adding-with-logic-full-adder-circuit", 
-            "text": "Truth Table -  Set of OR AND and NOT  XOR Truth Table (Circle +)  Test your understanding  (X and Y) or Z  2nd slide -  E)", 
+            "text": "Truth Table -  Set of  OR ,  AND , and  NOT  XOR  Truth Table (Circle +)", 
             "title": "Adding with Logic - Full Adder Circuit"
+        }, 
+        {
+            "location": "/A)-Lecture/6-Logic/#test-your-understanding", 
+            "text": "(X and Y) or Z  2nd slide -  E)", 
+            "title": "Test your understanding"
         }, 
         {
             "location": "/A)-Lecture/6-Logic/#sorting", 
@@ -302,7 +307,7 @@
         }, 
         {
             "location": "/A)-Lecture/6-Logic/#arrays", 
-            "text": "Arrays are like a list  Start numbering positions at 0  Square brackets []  Assign a value to an array  Left side changes  Selection Sort  Sort hand of cadrs ?  Numerically  Ex.   [2,8,6,3]  Unsorted part of the list and sorted part of the list.  Input integer array my_nums  Keep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
+            "text": "Arrays are like a list  Start numbering positions at 0  Square brackets []  Assign a value to an array   Note:  Left side changes   Selection Sort  Sort hand of cards ?  Numerically   Ex.   [2,8,6,3]   Unsorted part of the list and sorted part of the list.  Input integer array my_nums   Keep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nStop when unsorted section has size 1", 
             "title": "Arrays"
         }, 
         {
