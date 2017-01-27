@@ -249,12 +249,26 @@
     </a>
     
       
+        
+      
       
         <ul>
           
             <li class="anchor">
-              <a title="Databases" href="#databases">
-                Databases
+              <a title="Lab 1 - January 10th, 2017" href="#lab-1-january-10th-2017">
+                Lab 1 - January 10th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lab 2 - January 17th, 2017" href="#lab-2-january-17th-2017">
+                Lab 2 - January 17th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lab 3 - January 24th 2017" href="#lab-3-january-24th-2017">
+                Lab 3 - January 24th 2017
               </a>
             </li>
           
@@ -303,50 +317,43 @@
       <article class="article">
         <div class="wrapper">
           
-            <h1>Lab</h1>
-          
-          <h2 id="databases">Databases</h2>
-<h3 id="lab-1-january-10th-2017">Lab 1 - January 10th, 2017</h3>
-<h4 id="sqlite">SqLite</h4>
+          <h1 id="databases">Databases</h1>
+<h2 id="lab-1-january-10th-2017">Lab 1 - January 10th, 2017</h2>
+<h3 id="sqlite">SqLite</h3>
 <p>How we access data is we use these things called queries. </p>
 <p>In the terminal type in:</p>
 <pre><code class="bash">sqlite3
 
 and then
 
-.read FILENAME
+.read FILENAME.sql
 
 and then
 
 select * from characters;
-
 </code></pre>
 
-<p>Order matters when running <em>select</em> in the terminal from the database. </p>
-<p>It is not case sensitive.</p>
-<p>Ex. You can use FROM, ChaRacters, Select, ect. </p>
-<p><strong>Select dinstinct:</strong> applies only to what follows, and makes it so only unique data gets return. </p>
-<p>Ex.</p>
+<p>Order matters when running <code>select</code> in the terminal from the database. It is not case sensitive.</p>
+<p><strong>Ex.</strong> You can use FROM, ChaRacters, Select, ect. </p>
+<p><code>select dinstinct</code> Applies only to what follows, and makes it so only unique data gets return. </p>
 <p><code>sql
  select distinct title from characters;</code> </p>
-<p>You can have an or in your where.</p>
-<p>Ex. </p>
+<p><strong>Notes:</strong> You can have an or in your where.</p>
 <pre><code class="sql"> select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';
 </code></pre>
 
-<p>You can order your return.</p>
-<p>Ex. </p>
+<p><strong>Ex.</strong> You can order your return. </p>
 <p><code>sql
  select name, year from characters order by year, title;</code></p>
-<h4 id="aggregate-function">Aggregate function</h4>
+<h3 id="aggregate-function">Aggregate function</h3>
 <ul>
 <li>count</li>
 <li>max</li>
 <li>min</li>
 <li>avg</li>
 </ul>
-<h3 id="lab-2-january-17th-2017">Lab 2 - January 17th, 2017</h3>
-<h4 id="flowcharts">Flowcharts</h4>
+<h2 id="lab-2-january-17th-2017">Lab 2 - January 17th, 2017</h2>
+<h3 id="flowcharts">Flowcharts</h3>
 <ul>
 <li>Rounded Rectangle -&gt; Start and Stop</li>
 <li>Rectangle -&gt; Process</li>
@@ -356,13 +363,13 @@ select * from characters;
 </li>
 <li>Italic Rectangle -&gt; Data Input or Output</li>
 </ul>
-<h5 id="communicate-an-algorithm">Communicate an algorithm</h5>
+<h3 id="communicate-an-algorithm">Communicate an algorithm</h3>
 <ul>
 <li>Easy </li>
 <li>Visual</li>
 <li>Simple for hard problems</li>
 </ul>
-<h5 id="criteria-for-lab-assignment">Criteria for lab assignment</h5>
+<h3 id="criteria-for-lab-assignment">Criteria for lab assignment</h3>
 <ul>
 <li>Flowchart: <ul>
 <li>Draw by hand <strong>or</strong> </li>
@@ -370,11 +377,11 @@ select * from characters;
 </ul>
 </li>
 </ul>
-<h5 id="you-should-know-how-to">You should know how to:</h5>
+<h4 id="you-should-know-how-to">You should know how to:</h4>
 <ul>
 <li>Convert Pseudocode to Flowchart and Flowchart to Pseudocode</li>
 </ul>
-<p><strong>Lab Exercise: Draw a flowchart for playing 1 turn of "computer pictionary"</strong></p>
+<p><strong>Lab Exercise:</strong> Draw a flowchart for playing 1 turn of "computer pictionary"</p>
 <ul>
 <li>2 teams (Team A and B)</li>
 <li>Only using names of movies</li>
@@ -386,8 +393,8 @@ select * from characters;
 <p><img alt="My Solution" src="../../C)-References/lab2_mySolution.png" /></p>
 <p><strong>Group Solution:</strong></p>
 <p><img alt="My Solution" src="../../C)-References/lab2_solution.png" /></p>
-<p>Ex. </p>
-<p><strong>PseudoCode Exercise - Get the name and title of books where there is a 1 and the year in lesser than 1960</strong></p>
+<p><strong>PseudoCode Exercise:</strong> Get the name and title of books where there is a 1 and the year in lesser than 1960</p>
+<p>Table 1: Characters</p>
 <table>
 <thead>
 <tr>
@@ -418,13 +425,9 @@ select * from characters;
 </tr>
 </tbody>
 </table>
-<p>Answer: </p>
-<p>Select name, title from characters where human=1 and year&lt;1960</p>
-<h3 id="lab-3-january-24th-2017">Lab 3 - January 24th 2017</h3>
-<p>11111+010101=1010100</p>
-<p>Hex to binary -&gt;</p>
-<p>4EF(Base16) </p>
-<hr />
+<p>Answer:  <code>Select name, title from characters where human=1 and year&lt;1960</code></p>
+<h2 id="lab-3-january-24th-2017">Lab 3 - January 24th 2017</h2>
+<h3 id="hex-to-binary-to-decimal">Hex to Binary To Decimal</h3>
 <table>
 <thead>
 <tr>
@@ -491,18 +494,45 @@ select * from characters;
 </tr>
 </tbody>
 </table>
-<p>Binary to Hex</p>
-<p>00101101111
-2DF</p>
-<p>Hex to Dec</p>
-<p>2DF
-16(2) 16(1) 16(0)</p>
+<h3 id="binary-to-hex">Binary to Hex</h3>
+<table>
+<thead>
+<tr>
+<th align="right">0010</th>
+<th align="right">1101</th>
+<th align="right">1111</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">2</td>
+<td align="right">D</td>
+<td align="right">F</td>
+</tr>
+</tbody>
+</table>
+<h3 id="hex-to-dec">Hex to Dec</h3>
+<table>
+<thead>
+<tr>
+<th align="right">2</th>
+<th align="right">D</th>
+<th align="right">F</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">16(2)</td>
+<td align="right">16(1)</td>
+<td align="right">16(0)</td>
+</tr>
+</tbody>
+</table>
 <p>= Big Number</p>
-<p>2's compliment</p>
-<p>Number of bits even</p>
-<p>Positive number 2's complement
-+28 </p>
-<p>is 28 in binary</p>
+<h3 id="2s-compliment">2's compliment</h3>
+<p><strong>Note:</strong> Number of bits need to be even</p>
+<p><strong>Ex:</strong> Positive number in 2's complement</p>
+<p>+28 = 28 in binary</p>
           <aside class="copyright" role="note">
             
             Documentation built with
