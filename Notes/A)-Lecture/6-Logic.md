@@ -6,37 +6,28 @@
 
 * Logic gates
 * Form basis of computer hardware and computer operations
-
-
-OR Truth Table (+)
-
-AND Truth Table (*)
-
-Combine : OR and AND
-
+* `OR` Truth Table (+)
+* `AND` Truth Table (*)
+* Combine : `OR` and `AND`
 
 ![Images References]()
 
-
-Not(~)
-
+* `Not` (~)
 
 ![Images from slides]()
 
-#### Circuit Diagrams
+### Circuit Diagrams
 
-Compare for Equality
+* Compare for Equality
 
-#### Adding with Logic - Full Adder Circuit
+### Adding with Logic - Full Adder Circuit
 
-Truth Table -> Set of OR AND and NOT
+* Truth Table -> Set of `OR`, `AND`, and `NOT`
+* `XOR` Truth Table (Circle +)
 
-XOR Truth Table (Circle +)
-
-Test your understanding
+#### Test your understanding
 
 (X and Y) or Z
-
 
 2nd slide -> E)
 
@@ -50,35 +41,26 @@ Test your understanding
 
 ### Arrays
 
-Arrays are like a list
+* Arrays are like a list
+* Start numbering positions at 0
+* Square brackets []
+* Assign a value to an array
 
-Start numbering positions at 0
+**Note:** Left side changes
 
-Square brackets []
+* Selection Sort
+* Sort hand of cards ?
+* Numerically
 
-Assign a value to an array
+**Ex.**  [2,8,6,3]
 
-**Left side changes**
+* Unsorted part of the list and sorted part of the list.
+* Input integer array my_nums
 
-Selection Sort
-
-Sort hand of cadrs ?
-
-Numerically
-
-
-Ex. 
-
-[2,8,6,3]
-
-Unsorted part of the list and sorted part of the list.
-
-
-
-Input integer array my_nums
-
-    Keep track of sorted array section 
-    Search through unsorted array for max val
-    Swap max val with element at the rightmmost position of unsorted section
-    Move sorted section one element to left
-    stop when unsorted section has size 1
+```
+Keep track of sorted array section 
+Search through unsorted array for max val
+Swap max val with element at the rightmmost position of unsorted section
+Move sorted section one element to left
+Stop when unsorted section has size 1
+```
