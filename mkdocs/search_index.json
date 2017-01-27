@@ -267,7 +267,7 @@
         }, 
         {
             "location": "/A)-Lecture/6-Logic/", 
-            "text": "Logic\n\n\nLecture 10 - January 25th 2017\n\n\nLogic / Sorting\n\n\nLab section number for Midterm: B04\n\n\nMidterm:\n\n\n\n\n40 MC\n\n\n1 Written\n\n\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\n\n\nOR Truth Table (+)\n\n\nAND Truth Table (*)\n\n\nCombine : OR and AND\n\n\n\n\nNot(~)\n\n\n\n\nCircuit Diagrams\n\n\nCompare for Equality\n\n\nAdding with Logic - Full Adder Circuit\n\n\nTruth Table -\n Set of OR AND and NOT\n\n\nXOR Truth Table (Circle +)\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\nLeft side changes\n\n\nSelection Sort\n\n\nSort hand of cadrs ?\n\n\nNumerically\n\n\nEx. \n\n\n[2,8,6,3]\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
+            "text": "Logic\n\n\nLecture 10 - January 25th 2017\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\n\n\nOR Truth Table (+)\n\n\nAND Truth Table (*)\n\n\nCombine : OR and AND\n\n\n\n\nNot(~)\n\n\n\n\nCircuit Diagrams\n\n\nCompare for Equality\n\n\nAdding with Logic - Full Adder Circuit\n\n\nTruth Table -\n Set of OR AND and NOT\n\n\nXOR Truth Table (Circle +)\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\nLeft side changes\n\n\nSelection Sort\n\n\nSort hand of cadrs ?\n\n\nNumerically\n\n\nEx. \n\n\n[2,8,6,3]\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
             "title": "6 Logic"
         }, 
         {
@@ -279,11 +279,6 @@
             "location": "/A)-Lecture/6-Logic/#lecture-10-january-25th-2017", 
             "text": "", 
             "title": "Lecture 10 - January 25th 2017"
-        }, 
-        {
-            "location": "/A)-Lecture/6-Logic/#logic-sorting", 
-            "text": "Lab section number for Midterm: B04  Midterm:   40 MC  1 Written", 
-            "title": "Logic / Sorting"
         }, 
         {
             "location": "/A)-Lecture/6-Logic/#logic_1", 
@@ -367,7 +362,7 @@
         }, 
         {
             "location": "/D)-Annex/Announcements/", 
-            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnoncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is online in Connex", 
+            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer", 
             "title": "Announcements"
         }, 
         {
@@ -381,9 +376,14 @@
             "title": "Announcement 1 - January 6th, 2017"
         }, 
         {
-            "location": "/D)-Annex/Announcements/#anoncement-2-january-24th-2017", 
-            "text": "Lab attendance is online in Connex", 
-            "title": "Anoncement 2 - January 24th, 2017"
+            "location": "/D)-Annex/Announcements/#announcement-2-january-24th-2017", 
+            "text": "Lab attendance is now online in Connex.", 
+            "title": "Announcement 2 - January 24th, 2017"
+        }, 
+        {
+            "location": "/D)-Annex/Announcements/#announcement-3-january-24th-2017", 
+            "text": "Know your lab section for the midterms.  Midterm:  40 Multiple Choice  1 Long Answer", 
+            "title": "Announcement 3 - January 24th, 2017"
         }
     ]
 }
