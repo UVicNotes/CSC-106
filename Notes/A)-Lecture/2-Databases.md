@@ -1,11 +1,10 @@
 # Databases and Pseudocode
 
-### Lecture 2 - January 6th, 2017 
+## Lecture 2 - January 6th, 2017 
 
 * Motivating Example:
     * CSC 106 - Keeping Records of Grades
     * Goal: How to work with this Data
-
 * Pseudocode -> Logic writing on your code.
 * Algorithm -> Sets of steps
 
@@ -13,17 +12,17 @@
 
 Table 1: 
 
-| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
-| ------------- |:-------------:| ------------:|---------:|----------:|------:|
-| 101           | Joe Smith     | CSC 106      | 23456    | Turing    | 80    |
-| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
-| 145           | Al Green      | CSC 106      | 23456    | Turing    | 66    |
-| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
-| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
+| *stud_id*     | *stud_name*   | *course_name*| *crn*    | *prof_name*| *grade* |
+| ------------- |:-------------:| ------------:|---------:|-----------:|--------:|
+| 101           | Joe Smith     | CSC 106      | 23456    | Turing     | 80      |
+| 111           | John Jackson  | CSC 106      | 23456    | Turing     | 45      |
+| 145           | Al Green      | CSC 106      | 23456    | Turing     | 66      |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs       | 79      |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs       | 83      |
 
-**Solution For: The above question**
+**Solution For:** The above question
 
-```
+```pseudocode
 total = 0
 count = 0
 i = 1
@@ -36,9 +35,9 @@ while i =< total # rows in table
 average = total / count
 ```
 
-**Solution For: Keeping track of grades for a specific teacher**
+**Solution For:** Keeping track of grades for a specific teacher
 
-```
+```pseudocode
 total = 0
 count = 0 
 i = 1
@@ -52,11 +51,11 @@ while i =< total # rows in table
 average = total / count
 ```
 
-**Solution For: Inserting a new grade in the table** 
+**Solution For:** Inserting a new grade in the table
 
 Before:
 
-```
+```pseudocode
 i = # rows in table + 1
 
 stud_id for row i = 313
@@ -69,7 +68,7 @@ grade for row i = 91
 
 After:
 
-```
+```pseudocode
 i = # rows in grades table + 1
 
 stud_id for row i = 313
@@ -84,26 +83,26 @@ grade for row i = 91
 
 Table 1: Courses
 
-| course	| crn   | prof_name	|
-| -------:| -----:| ---------:|
-| CSC 106 | 23456 | Turing    |
-| CSC 106 | 23457 | Jobs      |
+| *course*	| *crn* | *prof_name*  |
+| ---------:| -----:| ------------:|
+| CSC 106   | 23456 | Turing       |
+| CSC 106   | 23457 | Jobs         |
 
 Table 2: Grades
 
-| stud_id       | stud_name     | crn      | grade |
-| -------------:| -------------:| --------:| -----:|
-| 101           | Joe Smith     | 23456    | 80    |
-| 111           | John Jackson  | 23456    | 45    |
-| 145           | Al Green      | 23456    | 66    |
-| 301           | Meg Lyon      | 23457    | 79    |
-| 200           | Jane McKenzie | 23457    | 83    |
+| *stud_id*     | *stud_name*       | *crn*    | *grade* |
+| -------------:| -----------------:| --------:| -------:|
+| 101           | Joe Smith         | 23456    | 80      |
+| 111           | John Jackson      | 23456    | 45      |
+| 145           | Al Green          | 23456    | 66      |
+| 301           | Meg Lyon          | 23457    | 79      |
+| 200           | Jane McKenzie     | 23457    | 83      |
 
 ---
 
-**Solution For: Calculating the average for students in class with CRN 23457**
+**Solution For:** Calculating the average for students in class with CRN 23457
 
-```
+```pseudocode
 total = 0
 count = 0
 i = 1
@@ -116,18 +115,18 @@ while i =< total # of rows in grades tables
 average = total / count
 ```
 
-**Solution For: Calculating a better average**
+**Solution For:** Calculating a better average
 
-```
+```pseudocode
 if  count = 0 
     average = 0
 else 
     average = total/count
 ```
 
-**Solution For: Table Case: Inserting a new grade into two tables**
+**Solution For:** Table Case: Inserting a new grade into two tables
 
-```
+```pseudocode
 if input crn is not in classes table 
     return error
 else 
@@ -137,9 +136,9 @@ else
     grade = 91
 ```
 
-**Solution For: Calculating the average grade for classes that Turing teaches**
+**Solution For:** Calculating the average grade for classes that Turing teaches
 
-```
+```pseudocode
 total = 0 
 count = 0
 j = 1 (Index into classes table)
@@ -157,13 +156,13 @@ while j =< # rows in classes table
     j = j + 1
 ```
 
-### Lecture 3 - January 10th, 2017
+## Lecture 3 - January 10th, 2017
 
-**Trace Through Code**
+### Trace Through Code
 
 Code:
 
-```
+```pseudocode
 Step1 - total=0
 Step2 - count=0
 Step3 - i=1
@@ -177,55 +176,44 @@ Step9 - average = total / count
 
 Table 1:
 
-| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
-| ------------- |:-------------:| ------------:|---------:|----------:|------:|
-| 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
-| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
-| 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
-| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
+| *stud_id*     | *stud_name*   | *course_name*| *crn*    | *prof_name*| *grade* |
+| ------------- |:-------------:| ------------:|---------:|-----------:|--------:|
+| 111           | John Jackson  | CSC 106      | 23456    | Turing     | 45      |
+| 200           | Jane McKenzie | CSC 106      | 23457    | Jobs       | 83      |
+| 342           | Patricia Dune | CSC 106      | 23456    | Turing     | 94      |
+| 301           | Meg Lyon      | CSC 106      | 23457    | Jobs       | 79      |
 
-Note: #rows = 4
+*Solution:*
 
-Solution:
+```pseudocode
+#rows = 4
 
-```
 total=0
 count=0
 i=1
-
 --
-
 total=45
 count=1
 1=2
-
 --
-
 i=3
-
 --
-
 total=139
 count=2
 i=4
-
 --
-
 i=5
-
 -- 
-
 Average = 139/2 = 69.5
-
 ```
 
-**Write pseudocode that calculates the maximum grade for a student in class with crn = 23456**
+### Write pseudocode that calculates the maximum grade for a student in class with crn = 23456
 
-**Trace Through Code**
+### Trace Through Code
 
 Code:
 
-```
+```pseudocode
 Step1 - max=-1
 Step2 - i=1
 Step3 - while i <= # rows in table, repeat steps 4 through 7
@@ -237,47 +225,34 @@ Step7 - 	i=i+1
 
 Table:
 
-| stud_id       | stud_name     | course_name  | crn      | prof_name | grade |
+| *stud_id*     | *stud_name*   | *course_name*| *crn*    |*prof_name*|*grade*|
 | ------------- |:-------------:| ------------:|---------:|----------:|------:|
 | 111           | John Jackson  | CSC 106      | 23456    | Turing    | 45    |
 | 200           | Jane McKenzie | CSC 106      | 23457    | Jobs      | 83    |
 | 342           | Patricia Dune | CSC 106      | 23456    | Turing    | 94    |
 | 301           | Meg Lyon      | CSC 106      | 23457    | Jobs      | 79    |
 
-Solution: 
+**Solution:** 
 
-```
+```pseudocode
 max=-1
 i=1
-
 --
-
 max=45
 i=2
-
 --
-
 i=3
-
 --
-
 max=94
 i=4
-
 --
-
 i=5
-
 ```
 
----
-
-#### SQL
-
+### SQL
 Sql is a structured query language.
 
-#### Database
-
+### Database
 A database is a collection of tables.
 
 **Install SqLite3**
@@ -286,16 +261,15 @@ A database is a collection of tables.
 brew install sqlite
 ```
 
-Start by making a blank table: 
+**Start by making a blank table:**
 
 ```sql
 create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
 ```
 
-Note: Order of values must match the order of the columns when you created the table.
+**Note:** Order of values must match the order of the columns when you created the table.
 
-#### Query 
-
+### Query 
 A query is a select statement that tells the computer what columms the result should have. 
 
 Ex.
@@ -305,14 +279,12 @@ Select stud_name, grade
 from grades;
 ```
 
-Return
+Returns --> Table 1: Grades
 
-Table 1: Grades
-
-| stud_name	| grade	|
-| ---------:| -----:|
-| name      | 56    |
-| name      | 78    |
+| *stud_name*	| *grade*	|
+| -------------:| ---------:|
+| name          | 56        |
+| name          | 78        |
 
 Ex. 
 
@@ -321,9 +293,11 @@ Select avg(grade)
 From grades;
 ```
 
-| avg(grade) |
-| ----------:|
-| 72.8       |
+Returns --> Table 1: Average
+
+| *avg(grade)* |
+| ------------:|
+| 72.8         |
 
 
 Ex.
@@ -333,9 +307,11 @@ select max(grade)
 from grades;
 ```
 
-| max |
-| :--:|
-| 94  |
+Returns --> Table 1: Max
+
+| *max* |
+| :----:|
+| 94    |
 
 Ex.
 
@@ -345,13 +321,15 @@ from grades
 where crn = 23456;
 ``` 
 
-| stud_name  | grade   |  crn |
-| ----------:| -------:| ----:|
-| Joe Smith  |      80 | 23456|
-| John Jacks |      45 | 23456|
-| Al Green   |	    66 | 23456|
-| Greg Black |      60 | 23456|
-| Patricia D |      94 | 23456|
+Returns --> Table 1: Grades
+
+| *stud_name*  | *grade*   |  *crn* |
+| ------------:| ---------:| ------:|
+| Joe Smith    |        80 |   23456|
+| John Jacks   |        45 |   23456|
+| Al Green     |	    66 |   23456|
+| Greg Black   |        60 |   23456|
+| Patricia D   |        94 |   23456|
 
 Ex. 
 
@@ -361,26 +339,27 @@ from grades
 where prof_name = “Jobs”;
 ```
 
-Note: text must be surrended by quotes. 
+**Note:** text must be surrended by quotes. 
 
-| stud_name  | grade|
-| ----------:| ----:|
-| Meg Lyon   | 79   |
-| Jane McKen | 83   |
-| Richard Fe | 70   |
-| Paul Shelb | 66   |
-| John Jacks | 85   |
+Returns --> Table 1: Grades
+
+| *stud_name*  | *grade*|
+| ------------:| ------:|
+| Meg Lyon     |   79   |
+| Jane McKen   |   83   |
+| Richard Fe   |   70   |
+| Paul Shelb   |   66   |
+| John Jacks   |   85   |
 
 ---
 
 #### You should know 
+
 * How to step through pseudocode
-* How to write some simple SQL queries using: –  avg
-* max
-* where
+* How to write some simple SQL queries using: –  avg, max, where
 
 
-### Lecture 4 - January 11th, 2017
+## Lecture 4 - January 11th, 2017
 
 `Select *` is shorthand for “select all of the columns of the table”. 
 
@@ -394,15 +373,14 @@ Note: text must be surrended by quotes.
 
 `select * from grades order by grade desc;` will sort by descending order.
 
-**Question: Create a list of student names for Turing’s class, ordered by name?**
+**Question:** Create a list of student names for Turing’s class, ordered by name?
 
 `select stud_name from grades where prof_name = Turing order by stud_name;`
 
-### You should know 
+#### You should know 
 
 * How to step through pseudocode
 * How to write some simple SQL queries using:
-
 	* avg
 	* max
 	* where
@@ -411,19 +389,19 @@ Note: text must be surrended by quotes.
 	* order by
 
 
-#### More Pseudocode Practice
+### More Pseudocode Practice
 
-**Question:  Write a query to print phone number of a person if it exists in the table** 
+**Question:**  Write a query to print phone number of a person if it exists in the table
 
-input: name_in (holds the name we look for)
+`input: name_in` holds the name we look for
 
-| name  |    number|
-| -----:|---------:|
-| Joe   |  472-5700|
-| Leo   |  472-5702|
-| Sara  |  472-5701|
+| *name*  |    *number*|
+| -------:|-----------:|
+| Joe     |    472-5700|
+| Leo     |    472-5702|
+| Sara    |    472-5701|
 
-```
+```pseudocode
 Step1 i=1
 Step2 found=NO
 Step3 while i =< #rows in table do Step4-7
@@ -437,7 +415,7 @@ Step9 	print "no such person in directory."
 
 Inefficiency, if you find the name and it's the first one in the table, the while loop will still run. 
 
-```
+```pseudocode
 Step1 i=1
 Step2 found=NO
 Step3 while i =< #rows in table AND found = NO do Step4-7
@@ -451,42 +429,41 @@ Step9 	print "no such person in directory."
 
 Execution: 
 
+```pseudocode
 name_in = "Leo"
 i=1
 found = NO
 rows# = 3
-
-```
-i = 2
-
 --
-
+i = 2
+--
 472-5702
 found = YES
 
 i = 3
-
 --
-
 Exit while loop
-
 ```
 
 `select number from phone_numbers where name = "Leo";` - will be the query.
 
 
-#### Collatz Conjecture
+### Collatz Conjecture
 
-**Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1**
+1. Pick a number.
+    * If it’s even, divide by two 
+    * If odd multiply by three and add one 
+2. Repeat
+3. Stop if the number is 1
 
-**Question: Write this in Pseudocode** 
+**Question:** Write this in Pseudocode 
 
 Bonus: Of Interest
 
-	*  No one knows if there’s a number for which the collatz conjecture will not terminate
-	*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
+*  No one knows if there’s a number for which the collatz conjecture will not terminate
+*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
 
-```
+```pseudocode
 inpurt num+in (number to test)
 if num_in < 1
 	print "error, bad number" Exit 
@@ -499,6 +476,7 @@ cur_num = num_in
         	cur_num X 3 + 1
 ```
 
+```
 num_in = 4
 cur_num = 4
 
@@ -507,9 +485,7 @@ cur_num = 2
 cur_num = 1
 
 Exit while loop
-
 --
-
 num_in = 5
 cur_num = 5
 
@@ -524,7 +500,6 @@ cur_num = 2
 cur_num = 1
 
 Exit while loop
-
----
+```
 
 ![Graph](../C\)-References/databases3_CollatzConjecture.png)
