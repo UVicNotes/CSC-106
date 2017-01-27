@@ -12,4 +12,6 @@ If you have any questions please feel free to [contact](mailto:dcharleb@uvic.ca)
 
 ## Styleguide
 
-If you'd like to contribute your notes please study the github repository.
+If you'd like to contribute your notes please study the github repository and submit a pull request.
+
+To submit a pull request fork the repo and make changes locally, push and then make a pull request.

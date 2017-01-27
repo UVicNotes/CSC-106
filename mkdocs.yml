@@ -14,6 +14,6 @@ extra:
   version: 'Spring 2017'
   palette:
     primary: 'purple'
-    accent: 'orange'
+    accent: 'green'
   author:
     github: 'flytewizard'
