@@ -2,9 +2,13 @@
 
 ## Lecture 5 - January 13th, 2017
 
+**Notes Missing**
+
+Contribute your notes [here](https://github.com/UVicNotes/CSC-106)!
+
 ---
 
-## Review - Lecture 6 - January 17th, 2017
+## Lecture 6 - January 17th, 2017
 
 **Modulo:** The ramainder after dividing. 
 

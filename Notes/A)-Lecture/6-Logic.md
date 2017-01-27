@@ -1,5 +1,6 @@
+# Logic 
 
-### Lecture # - January 25th 2017
+## Lecture 10 - January 25th 2017
 
 #### Logic / Sorting
 
