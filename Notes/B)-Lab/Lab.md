@@ -104,7 +104,7 @@ Table 1: Characters
 
 Answer:  `Select name, title from characters where human=1 and year<1960`
 
-## Lab 3 - January 24th 2017
+## Lab 3 - January 24th, 2017
 
 ### Hex to Binary To Decimal
 
