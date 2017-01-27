@@ -2,11 +2,26 @@
 
 ## Lecture 5 - January 13th, 2017
 
-**Notes Missing**
+**Notes provide by a kind classmate :D**
 
-Contribute your notes [here](https://github.com/UVicNotes/CSC-106)!
+### Algorithms and Flowcharts
 
----
+* Rectangle -> Rectangle 
+* Rhombus -> Data (Input of Output)
+* Diamond -> Decision 
+* Rounded Rectanlge -> Start and Stop
+
+**Ex.** Making a flowchart for collatz conjecture
+
+![Flowchart1](../C\)-References/Flowcharts_Figure1.jpg)
+
+**Ex.** A flowchart to calculate avg. of grades of student of Turing
+
+![Flowchart2](../C\)-References/Flowcharts_Figure2.png)
+
+**Ex.** To print a phone number corresponding to given name or else print "no such name"
+
+![Flowchart3](../C\)-References/Flowcharts_Figure3.png)
 
 ## Lecture 6 - January 17th, 2017
 
