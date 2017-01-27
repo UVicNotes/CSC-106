@@ -15,5 +15,5 @@ extra:
   palette:
     primary: 'purple'
     accent: 'green'
-  author:
+  author: 
     github: 'flytewizard'
