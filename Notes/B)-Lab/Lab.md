@@ -1,8 +1,8 @@
-## Databases
+# Databases
 
-### Lab 1 - January 10th, 2017
+## Lab 1 - January 10th, 2017
 
-#### SqLite
+### SqLite
 
 How we access data is we use these things called queries. 
 
@@ -13,55 +13,45 @@ sqlite3
 
 and then
 
-.read FILENAME
+.read FILENAME.sql
 
 and then
 
 select * from characters;
-
 ```
 
-Order matters when running *select* in the terminal from the database. 
+Order matters when running `select` in the terminal from the database. It is not case sensitive.
 
-It is not case sensitive.
+**Ex.** You can use FROM, ChaRacters, Select, ect. 
 
-Ex. You can use FROM, ChaRacters, Select, ect. 
-
-**Select dinstinct:** applies only to what follows, and makes it so only unique data gets return. 
- 
- Ex.
+`select dinstinct` Applies only to what follows, and makes it so only unique data gets return. 
  
  ```sql
  select distinct title from characters;
  ``` 
- 
- 
-You can have an or in your where.
 
-Ex. 
+**Notes:** You can have an or in your where.
 
 ```sql
  select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';
 ```
  
- You can order your return.
- 
- Ex. 
+**Ex.** You can order your return. 
  
  ```sql
  select name, year from characters order by year, title;
  ```
  
-#### Aggregate function
+### Aggregate function
 
 * count
 * max
 * min
 * avg
 
-### Lab 2 - January 17th, 2017
+## Lab 2 - January 17th, 2017
 
-#### Flowcharts
+### Flowcharts
 
 * Rounded Rectangle -> Start and Stop
 * Rectangle -> Process
@@ -69,23 +59,23 @@ Ex.
 	* Yes or No
 * Italic Rectangle -> Data Input or Output
 
-##### Communicate an algorithm 
+### Communicate an algorithm 
 
 * Easy 
 * Visual
 * Simple for hard problems
 
-##### Criteria for lab assignment 
+### Criteria for lab assignment 
 
 * Flowchart: 
     * Draw by hand **or** 
     * Draw with https://draw.io
 
-##### You should know how to: 
+#### You should know how to: 
 
 * Convert Pseudocode to Flowchart and Flowchart to Pseudocode
 
-**Lab Exercise: Draw a flowchart for playing 1 turn of "computer pictionary"**
+**Lab Exercise:** Draw a flowchart for playing 1 turn of "computer pictionary"
 
 * 2 teams (Team A and B)
 * Only using names of movies
@@ -102,11 +92,9 @@ N.B. Team A draws a name -> Team A inputs name into computer -> Team B guesses (
 
 ![My Solution](../C\)-References/lab2_solution.png)
 
+**PseudoCode Exercise:** Get the name and title of books where there is a 1 and the year in lesser than 1960
 
-Ex. 
-
-**PseudoCode Exercise - Get the name and title of books where there is a 1 and the year in lesser than 1960**
-
+Table 1: Characters
 
 | name     | title    | year | human |
 | --------:| --------:| ----:| -----:|
@@ -114,20 +102,11 @@ Ex.
 | example2 | example2 | 1924 | 0     |
 | example3 | example3 | 1999 | 1     |
 
-Answer: 
+Answer:  `Select name, title from characters where human=1 and year<1960`
 
-Select name, title from characters where human=1 and year<1960
+## Lab 3 - January 24th 2017
 
-
-### Lab 3 - January 24th 2017
-
-11111+010101=1010100
-
-Hex to binary ->
-
-4EF(Base16) 
-
----
+### Hex to Binary To Decimal
 
 | Dec | Hex | Binary |
 | ---:| ---:| ------:|
@@ -143,24 +122,24 @@ Hex to binary ->
 |   14|    E|    1110|
 |   15|    F|    1111|
 
-Binary to Hex
+### Binary to Hex
 
-00101101111
-2DF
+|0010|1101|1111|
+|---:|---:|---:|
+|   2|   D|   F|
 
-Hex to Dec
+### Hex to Dec
 
-2DF
-16(2) 16(1) 16(0)
+|    2|     D|     F|
+|----:|-----:|-----:|
+|16(2)| 16(1)| 16(0)|
 
 = Big Number
 
+### 2's compliment
 
-2's compliment
+**Note:** Number of bits need to be even
 
-Number of bits even
+**Ex:** Positive number in 2's complement
 
-Positive number 2's complement
-+28 
-
-is 28 in binary
++28 = 28 in binary
