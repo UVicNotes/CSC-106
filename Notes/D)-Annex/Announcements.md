@@ -6,6 +6,13 @@
 *   10$ Access Cards (Get one from the library to have access outside of lab hours.)
 
 
-### Anoncement 2 - January 24th, 2017
+### Announcement 2 - January 24th, 2017
 
-*   Lab attendance is online in Connex
+*   Lab attendance is now online in Connex.
+
+### Announcement 3 - January 24th, 2017 
+
+*   Know your lab section for the midterms.
+*   Midterm:
+    *   40 Multiple Choice
+    *   1 Long Answer

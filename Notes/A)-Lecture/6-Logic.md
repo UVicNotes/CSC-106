@@ -2,16 +2,6 @@
 
 ## Lecture 10 - January 25th 2017
 
-#### Logic / Sorting
-
-Lab section number for Midterm: B04
-
-Midterm:
-
-* 40 MC
-* 1 Written
-
-
 ### Logic
 
 * Logic gates

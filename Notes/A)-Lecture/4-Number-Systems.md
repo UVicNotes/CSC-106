@@ -1,6 +1,6 @@
 # Binary / Hex / 2s Complement
 
-### Lecture 6 - January 17th, 2017
+## Lecture 6 - January 17th, 2017
 
 ### Why Binary?
 
@@ -24,7 +24,7 @@
 1x4 + 0x2 + 1x1 = 5
 ```
 
-![Binary Number Example](/Users/dominiquecharlebois/Desktop/Reference_Binary.png)
+![Binary Number Example](../C\)-References/Reference_Binary.png)
 
 **NOTE:** Test Material
 
