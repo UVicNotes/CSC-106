@@ -139,7 +139,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/CSC-106/commits/master" target="_blank" title="Last Updated">
-          Updated Jan 24, 2017
+          Updated Jan 27, 2017
         </a>
       </div>
     </div>
@@ -218,14 +218,17 @@
               </a>
             </li>
           
-            <li class="anchor">
-              <a title="You should know" href="#you-should-know_1">
-                You should know
-              </a>
-            </li>
-          
         </ul>
       
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="3 Flowcharts" href="../3-Flowcharts/">
+      3 Flowcharts
+    </a>
     
   </li>
 
@@ -288,18 +291,14 @@
         <div class="wrapper">
           
           <h1 id="databases-and-pseudocode">Databases and Pseudocode</h1>
-<h3 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h3>
+<h2 id="lecture-2-january-6th-2017">Lecture 2 - January 6th, 2017</h2>
 <ul>
-<li>
-<p>Motivating Example:</p>
-<ul>
+<li>Motivating Example:<ul>
 <li>CSC 106 - Keeping Records of Grades</li>
 <li>Goal: How to work with this Data</li>
 </ul>
 </li>
-<li>
-<p>Pseudocode -&gt; Logic writing on your code.</p>
-</li>
+<li>Pseudocode -&gt; Logic writing on your code.</li>
 <li>Algorithm -&gt; Sets of steps</li>
 </ul>
 <hr />
@@ -307,12 +306,12 @@
 <table>
 <thead>
 <tr>
-<th>stud_id</th>
-<th align="center">stud_name</th>
-<th align="right">course_name</th>
-<th align="right">crn</th>
-<th align="right">prof_name</th>
-<th align="right">grade</th>
+<th><em>stud_id</em></th>
+<th align="center"><em>stud_name</em></th>
+<th align="right"><em>course_name</em></th>
+<th align="right"><em>crn</em></th>
+<th align="right"><em>prof_name</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -358,8 +357,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Solution For: The above question</strong></p>
-<pre><code>total = 0
+<p><strong>Solution For:</strong> The above question</p>
+<pre><code class="pseudocode">total = 0
 count = 0
 i = 1
 
@@ -371,8 +370,8 @@ while i =&lt; total # rows in table
 average = total / count
 </code></pre>
 
-<p><strong>Solution For: Keeping track of grades for a specific teacher</strong></p>
-<pre><code>total = 0
+<p><strong>Solution For:</strong> Keeping track of grades for a specific teacher</p>
+<pre><code class="pseudocode">total = 0
 count = 0 
 i = 1
 
@@ -385,9 +384,9 @@ while i =&lt; total # rows in table
 average = total / count
 </code></pre>
 
-<p><strong>Solution For: Inserting a new grade in the table</strong> </p>
+<p><strong>Solution For:</strong> Inserting a new grade in the table</p>
 <p>Before:</p>
-<pre><code>i = # rows in table + 1
+<pre><code class="pseudocode">i = # rows in table + 1
 
 stud_id for row i = 313
 stud_name for row i = Steve Cook
@@ -398,7 +397,7 @@ grade for row i = 91
 </code></pre>
 
 <p>After:</p>
-<pre><code>i = # rows in grades table + 1
+<pre><code class="pseudocode">i = # rows in grades table + 1
 
 stud_id for row i = 313
 stud_name for row i = Steve Cook
@@ -412,9 +411,9 @@ grade for row i = 91
 <table>
 <thead>
 <tr>
-<th align="right">course</th>
-<th align="right">crn</th>
-<th align="right">prof_name</th>
+<th align="right"><em>course</em></th>
+<th align="right"><em>crn</em></th>
+<th align="right"><em>prof_name</em></th>
 </tr>
 </thead>
 <tbody>
@@ -434,10 +433,10 @@ grade for row i = 91
 <table>
 <thead>
 <tr>
-<th align="right">stud_id</th>
-<th align="right">stud_name</th>
-<th align="right">crn</th>
-<th align="right">grade</th>
+<th align="right"><em>stud_id</em></th>
+<th align="right"><em>stud_name</em></th>
+<th align="right"><em>crn</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -474,8 +473,8 @@ grade for row i = 91
 </tbody>
 </table>
 <hr />
-<p><strong>Solution For: Calculating the average for students in class with CRN 23457</strong></p>
-<pre><code>total = 0
+<p><strong>Solution For:</strong> Calculating the average for students in class with CRN 23457</p>
+<pre><code class="pseudocode">total = 0
 count = 0
 i = 1
 
@@ -487,15 +486,15 @@ while i =&lt; total # of rows in grades tables
 average = total / count
 </code></pre>
 
-<p><strong>Solution For: Calculating a better average</strong></p>
-<pre><code>if  count = 0 
+<p><strong>Solution For:</strong> Calculating a better average</p>
+<pre><code class="pseudocode">if  count = 0 
     average = 0
 else 
     average = total/count
 </code></pre>
 
-<p><strong>Solution For: Table Case: Inserting a new grade into two tables</strong></p>
-<pre><code>if input crn is not in classes table 
+<p><strong>Solution For:</strong> Table Case: Inserting a new grade into two tables</p>
+<pre><code class="pseudocode">if input crn is not in classes table 
     return error
 else 
     stud_id for row i = 313
@@ -504,8 +503,8 @@ else
     grade = 91
 </code></pre>
 
-<p><strong>Solution For: Calculating the average grade for classes that Turing teaches</strong></p>
-<pre><code>total = 0 
+<p><strong>Solution For:</strong> Calculating the average grade for classes that Turing teaches</p>
+<pre><code class="pseudocode">total = 0 
 count = 0
 j = 1 (Index into classes table)
 
@@ -522,10 +521,10 @@ while j =&lt; # rows in classes table
     j = j + 1
 </code></pre>
 
-<h3 id="lecture-3-january-10th-2017">Lecture 3 - January 10th, 2017</h3>
-<p><strong>Trace Through Code</strong></p>
+<h2 id="lecture-3-january-10th-2017">Lecture 3 - January 10th, 2017</h2>
+<h3 id="trace-through-code">Trace Through Code</h3>
 <p>Code:</p>
-<pre><code>Step1 - total=0
+<pre><code class="pseudocode">Step1 - total=0
 Step2 - count=0
 Step3 - i=1
 Step4 - while i &lt;= # rows in table, repeat steps 5 through 8
@@ -540,12 +539,12 @@ Step9 - average = total / count
 <table>
 <thead>
 <tr>
-<th>stud_id</th>
-<th align="center">stud_name</th>
-<th align="right">course_name</th>
-<th align="right">crn</th>
-<th align="right">prof_name</th>
-<th align="right">grade</th>
+<th><em>stud_id</em></th>
+<th align="center"><em>stud_name</em></th>
+<th align="right"><em>course_name</em></th>
+<th align="right"><em>crn</em></th>
+<th align="right"><em>prof_name</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -583,42 +582,32 @@ Step9 - average = total / count
 </tr>
 </tbody>
 </table>
-<p>Note: #rows = 4</p>
-<p>Solution:</p>
-<pre><code>total=0
+<p><em>Solution:</em></p>
+<pre><code class="pseudocode">#rows = 4
+
+total=0
 count=0
 i=1
-
 --
-
 total=45
 count=1
 1=2
-
 --
-
 i=3
-
 --
-
 total=139
 count=2
 i=4
-
 --
-
 i=5
-
 -- 
-
 Average = 139/2 = 69.5
-
 </code></pre>
 
-<p><strong>Write pseudocode that calculates the maximum grade for a student in class with crn = 23456</strong></p>
-<p><strong>Trace Through Code</strong></p>
+<h3 id="write-pseudocode-that-calculates-the-maximum-grade-for-a-student-in-class-with-crn-23456">Write pseudocode that calculates the maximum grade for a student in class with crn = 23456</h3>
+<h3 id="trace-through-code_1">Trace Through Code</h3>
 <p>Code:</p>
-<pre><code>Step1 - max=-1
+<pre><code class="pseudocode">Step1 - max=-1
 Step2 - i=1
 Step3 - while i &lt;= # rows in table, repeat steps 4 through 7
 Step4 -     if crn of row i equals 23456, do line 5 and 6 
@@ -631,12 +620,12 @@ Step7 -     i=i+1
 <table>
 <thead>
 <tr>
-<th>stud_id</th>
-<th align="center">stud_name</th>
-<th align="right">course_name</th>
-<th align="right">crn</th>
-<th align="right">prof_name</th>
-<th align="right">grade</th>
+<th><em>stud_id</em></th>
+<th align="center"><em>stud_name</em></th>
+<th align="right"><em>course_name</em></th>
+<th align="right"><em>crn</em></th>
+<th align="right"><em>prof_name</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -674,58 +663,47 @@ Step7 -     i=i+1
 </tr>
 </tbody>
 </table>
-<p>Solution: </p>
-<pre><code>max=-1
+<p><strong>Solution:</strong> </p>
+<pre><code class="pseudocode">max=-1
 i=1
-
 --
-
 max=45
 i=2
-
 --
-
 i=3
-
 --
-
 max=94
 i=4
-
 --
-
 i=5
-
 </code></pre>
 
-<hr />
-<h4 id="sql">SQL</h4>
+<h3 id="sql">SQL</h3>
 <p>Sql is a structured query language.</p>
-<h4 id="database">Database</h4>
+<h3 id="database">Database</h3>
 <p>A database is a collection of tables.</p>
 <p><strong>Install SqLite3</strong></p>
 <pre><code class="bash">brew install sqlite
 </code></pre>
 
-<p>Start by making a blank table: </p>
+<p><strong>Start by making a blank table:</strong></p>
 <pre><code class="sql">create table grades( stud_id int, stud_name text, course_name text, crn int, prof_name text, grade int);
 </code></pre>
 
-<p>Note: Order of values must match the order of the columns when you created the table.</p>
-<h4 id="query">Query</h4>
+<p><strong>Note:</strong> Order of values must match the order of the columns when you created the table.</p>
+<h3 id="query">Query</h3>
 <p>A query is a select statement that tells the computer what columms the result should have. </p>
 <p>Ex.</p>
 <pre><code class="sql">Select stud_name, grade 
 from grades;
 </code></pre>
 
-<p>Return</p>
-<p>Table 1: Grades</p>
+<p>Returns --&gt; Table 1: Grades</p>
 <table>
 <thead>
 <tr>
-<th align="right">stud_name</th>
-<th align="right">grade</th>
+<th align="right"><em>stud_name</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -744,47 +722,32 @@ from grades;
 From grades;
 </code></pre>
 
-<table>
-<thead>
-<tr>
-<th align="right">avg(grade)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right">72.8</td>
-</tr>
-</tbody>
-</table>
+<p>Returns --&gt; Table 1: Average</p>
+<p>| <em>avg(grade)</em> |
+| ------------:|
+| 72.8         |</p>
 <p>Ex.</p>
 <pre><code class="sql">select max(grade)
 from grades;
 </code></pre>
 
-<table>
-<thead>
-<tr>
-<th align="center">max</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="center">94</td>
-</tr>
-</tbody>
-</table>
+<p>Returns --&gt; Table 1: Max</p>
+<p>| <em>max</em> |
+| :----:|
+| 94    |</p>
 <p>Ex.</p>
 <pre><code class="sql">Select stud_name, grade, crn 
 from grades
 where crn = 23456;
 </code></pre>
 
+<p>Returns --&gt; Table 1: Grades</p>
 <table>
 <thead>
 <tr>
-<th align="right">stud_name</th>
-<th align="right">grade</th>
-<th align="right">crn</th>
+<th align="right"><em>stud_name</em></th>
+<th align="right"><em>grade</em></th>
+<th align="right"><em>crn</em></th>
 </tr>
 </thead>
 <tbody>
@@ -821,12 +784,13 @@ from grades
 where prof_name = “Jobs”;
 </code></pre>
 
-<p>Note: text must be surrended by quotes. </p>
+<p><strong>Note:</strong> text must be surrended by quotes. </p>
+<p>Returns --&gt; Table 1: Grades</p>
 <table>
 <thead>
 <tr>
-<th align="right">stud_name</th>
-<th align="right">grade</th>
+<th align="right"><em>stud_name</em></th>
+<th align="right"><em>grade</em></th>
 </tr>
 </thead>
 <tbody>
@@ -856,25 +820,21 @@ where prof_name = “Jobs”;
 <h4 id="you-should-know">You should know</h4>
 <ul>
 <li>How to step through pseudocode</li>
-<li>How to write some simple SQL queries using: –  avg</li>
-<li>max</li>
-<li>where</li>
+<li>How to write some simple SQL queries using: –  avg, max, where</li>
 </ul>
-<h3 id="lecture-4-january-11th-2017">Lecture 4 - January 11th, 2017</h3>
+<h2 id="lecture-4-january-11th-2017">Lecture 4 - January 11th, 2017</h2>
 <p><code>Select *</code> is shorthand for “select all of the columns of the table”. </p>
 <p><code>*</code> can be viewed as a wild card. </p>
 <p><code>select * from grades where crn = 23456 and grade &gt; 50;</code></p>
 <p><code>select count(*)</code> will return the number of rows returned. (Important for assignment 1). </p>
 <p><code>select * from grades order by stud_name;</code> will order the entries.</p>
 <p><code>select * from grades order by grade desc;</code> will sort by descending order.</p>
-<p><strong>Question: Create a list of student names for Turing’s class, ordered by name?</strong></p>
+<p><strong>Question:</strong> Create a list of student names for Turing’s class, ordered by name?</p>
 <p><code>select stud_name from grades where prof_name = Turing order by stud_name;</code></p>
-<h3 id="you-should-know_1">You should know</h3>
+<h4 id="you-should-know_1">You should know</h4>
 <ul>
 <li>How to step through pseudocode</li>
-<li>
-<p>How to write some simple SQL queries using:</p>
-<ul>
+<li>How to write some simple SQL queries using:<ul>
 <li>avg</li>
 <li>max</li>
 <li>where</li>
@@ -884,14 +844,14 @@ where prof_name = “Jobs”;
 </ul>
 </li>
 </ul>
-<h4 id="more-pseudocode-practice">More Pseudocode Practice</h4>
-<p><strong>Question:  Write a query to print phone number of a person if it exists in the table</strong> </p>
-<p>input: name_in (holds the name we look for)</p>
+<h3 id="more-pseudocode-practice">More Pseudocode Practice</h3>
+<p><strong>Question:</strong>  Write a query to print phone number of a person if it exists in the table</p>
+<p><code>input: name_in</code> holds the name we look for</p>
 <table>
 <thead>
 <tr>
-<th align="right">name</th>
-<th align="right">number</th>
+<th align="right"><em>name</em></th>
+<th align="right"><em>number</em></th>
 </tr>
 </thead>
 <tbody>
@@ -909,7 +869,7 @@ where prof_name = “Jobs”;
 </tr>
 </tbody>
 </table>
-<pre><code>Step1 i=1
+<pre><code class="pseudocode">Step1 i=1
 Step2 found=NO
 Step3 while i =&lt; #rows in table do Step4-7
 Step4   if name in row i is name_in do Step5&amp;6
@@ -921,7 +881,7 @@ Step9   print &quot;no such person in directory.&quot;
 </code></pre>
 
 <p>Inefficiency, if you find the name and it's the first one in the table, the while loop will still run. </p>
-<pre><code>Step1 i=1
+<pre><code class="pseudocode">Step1 i=1
 Step2 found=NO
 Step3 while i =&lt; #rows in table AND found = NO do Step4-7
 Step4   if name in row i is name_in do Step5&amp;6
@@ -933,34 +893,39 @@ Step9   print &quot;no such person in directory.&quot;
 </code></pre>
 
 <p>Execution: </p>
-<p>name_in = "Leo"
+<pre><code class="pseudocode">name_in = &quot;Leo&quot;
 i=1
 found = NO
-rows# = 3</p>
-<pre><code>i = 2
-
+rows# = 3
 --
-
+i = 2
+--
 472-5702
 found = YES
 
 i = 3
-
 --
-
 Exit while loop
-
 </code></pre>
 
 <p><code>select number from phone_numbers where name = "Leo";</code> - will be the query.</p>
-<h4 id="collatz-conjecture">Collatz Conjecture</h4>
-<p><strong>Pick a number. If it’s even, divide by two, if odd mulTply by three and add one Stop if the number is 1</strong></p>
-<p><strong>Question: Write this in Pseudocode</strong> </p>
+<h3 id="collatz-conjecture">Collatz Conjecture</h3>
+<ol>
+<li>Pick a number.<ul>
+<li>If it’s even, divide by two </li>
+<li>If odd multiply by three and add one </li>
+</ul>
+</li>
+<li>Repeat</li>
+<li>Stop if the number is 1</li>
+</ol>
+<p><strong>Question:</strong> Write this in Pseudocode </p>
 <p>Bonus: Of Interest</p>
-<pre><code>*  No one knows if there’s a number for which the collatz conjecture will not terminate
-*  Has been checked for all numbers up to 260 –  All of which do terminate at 1
-</code></pre>
-<pre><code>inpurt num+in (number to test)
+<ul>
+<li>No one knows if there’s a number for which the collatz conjecture will not terminate</li>
+<li>Has been checked for all numbers up to 260 –  All of which do terminate at 1</li>
+</ul>
+<pre><code class="pseudocode">inpurt num+in (number to test)
 if num_in &lt; 1
     print &quot;error, bad number&quot; Exit 
 
@@ -972,21 +937,31 @@ cur_num = num_in
             cur_num X 3 + 1
 </code></pre>
 
-<p>num_in = 4
-cur_num = 4</p>
-<p>cur_num = 2</p>
-<p>cur_num = 1</p>
-<p>Exit while loop</p>
-<p>--</p>
-<p>num_in = 5
-cur_num = 5</p>
-<p>cur_num = 16</p>
-<p>cur_num = 8</p>
-<p>cur_num = 4</p>
-<p>cur_num = 2</p>
-<p>cur_num = 1</p>
-<p>Exit while loop</p>
-<hr />
+<pre><code>num_in = 4
+cur_num = 4
+
+cur_num = 2
+
+cur_num = 1
+
+Exit while loop
+--
+num_in = 5
+cur_num = 5
+
+cur_num = 16
+
+cur_num = 8
+
+cur_num = 4
+
+cur_num = 2
+
+cur_num = 1
+
+Exit while loop
+</code></pre>
+
 <p><img alt="Graph" src="../../C)-References/databases3_CollatzConjecture.png" /></p>
           <aside class="copyright" role="note">
             
@@ -1023,14 +998,14 @@ cur_num = 5</p>
     </div>
     <div class="next">
       
-        <a href="../../B)-Lab/Lab/" title="Lab">
+        <a href="../3-Flowcharts/" title="3 Flowcharts">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Lab
+                3 Flowcharts
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
