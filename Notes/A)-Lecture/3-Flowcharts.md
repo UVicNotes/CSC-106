@@ -11,7 +11,7 @@
 * Diamond -> Decision 
 * Rounded Rectanlge -> Start and Stop
 
-**Ex.** Making a flowchart for collatz conjecture
+**Ex.** Making a flowchart for collatz conjecture 
 
 ![Flowchart1](../C\)-References/Flowcharts_Figure1.jpg)
 
