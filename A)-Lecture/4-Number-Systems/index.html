@@ -219,20 +219,38 @@
         <ul>
           
             <li class="anchor">
-              <a title="Lecture 4 - January 17th, 2017" href="#lecture-4-january-17th-2017">
-                Lecture 4 - January 17th, 2017
+              <a title="Lecture 6 - January 17th, 2017" href="#lecture-6-january-17th-2017">
+                Lecture 6 - January 17th, 2017
               </a>
             </li>
           
             <li class="anchor">
-              <a title="Lecture 5 - January 18th, 2017" href="#lecture-5-january-18th-2017">
-                Lecture 5 - January 18th, 2017
+              <a title="Why Binary?" href="#why-binary">
+                Why Binary?
               </a>
             </li>
           
             <li class="anchor">
-              <a title="Lecture - January 20th, 2017" href="#lecture-january-20th-2017">
-                Lecture - January 20th, 2017
+              <a title="Decimal Numbers" href="#decimal-numbers">
+                Decimal Numbers
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Encode Numbers" href="#encode-numbers">
+                Encode Numbers
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 7 - January 18th, 2017" href="#lecture-7-january-18th-2017">
+                Lecture 7 - January 18th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 8 - January 20th, 2017" href="#lecture-8-january-20th-2017">
+                Lecture 8 - January 20th, 2017
               </a>
             </li>
           
@@ -244,8 +262,17 @@
       
         
   <li>
-    <a class="" title="5 Logic" href="../5-Logic/">
-      5 Logic
+    <a class="" title="5 Guest 1" href="../5-Guest-1/">
+      5 Guest 1
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="6 Logic" href="../6-Logic/">
+      6 Logic
     </a>
     
   </li>
@@ -309,8 +336,8 @@
         <div class="wrapper">
           
           <h1 id="binary-hex-2s-complement">Binary / Hex / 2s Complement</h1>
-<h3 id="lecture-4-january-17th-2017">Lecture 4 - January 17th, 2017</h3>
-<h4 id="why-binary">Why Binary?</h4>
+<h3 id="lecture-6-january-17th-2017">Lecture 6 - January 17th, 2017</h3>
+<h3 id="why-binary">Why Binary?</h3>
 <ul>
 <li>Binary is how computers talk<ul>
 <li>to themselves <strong>AND</strong></li>
@@ -318,9 +345,9 @@
 </ul>
 </li>
 </ul>
-<h4 id="decimal-numbers">Decimal Numbers</h4>
+<h3 id="decimal-numbers">Decimal Numbers</h3>
 <p><strong>A binary abacus</strong> -&gt; <a href="hdp://www.advanced-ict.info/mathemaAcs/abacus.html">Example</a></p>
-<p>Ex. 101 is 5 in binary</p>
+<p><strong>Question:</strong> 101 is 5 in binary</p>
 <table>
 <thead>
 <tr>
@@ -337,25 +364,28 @@
 </tr>
 </tbody>
 </table>
-<p>$$</p>
-<p>1x2^2 + 0x2^1 + 1x2^0</p>
-<p>1x4 + 0x2 + 1x1 = 5</p>
-<p>$$</p>
+<pre><code class="Math">1x2^2 + 0x2^1 + 1x2^0
+
+1x4 + 0x2 + 1x1 = 5
+</code></pre>
+
 <p><img alt="Binary Number Example" src="../../Users/dominiquecharlebois/Desktop/Reference_Binary.png" /></p>
 <p><strong>NOTE:</strong> Test Material</p>
-<p>Ex. What is 11111 in decimal number?</p>
+<p><strong>Question:</strong> What is 11111 in decimal number?</p>
 <p>Answer: 31</p>
-<p>Ex. What is the highest number you can encode with n bits?</p>
+<p><strong>Question:</strong> What is the highest number you can encode with n bits?</p>
 <p>Answer: 2^n -1</p>
-<h4 id="encode-numbers">Encode Numbers</h4>
+<h3 id="encode-numbers">Encode Numbers</h3>
 <p><strong>Note:</strong> If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have <strong>two methods</strong>. </p>
-<h5 id="method-1">Method 1</h5>
-<p>$$</p>
-<p>5 = 4 + 1</p>
-<p>So 2^2 and 2^0</p>
-<p>So 00101 = 5</p>
-<p>$$</p>
-<h5 id="method-2">Method 2</h5>
+<p><strong>Method 1</strong></p>
+<pre><code class="Math">5 = 4 + 1
+
+So 2^2 and 2^0
+
+So 00101 = 5
+</code></pre>
+
+<p><strong>Method 2</strong></p>
 <pre><code class="Pseudocode">Step1   input: number_in cur_number = number_in binary_string = “”
 Step2   while cur_number &gt;= 2
 Step3       my_encoding = input%2
@@ -364,7 +394,7 @@ Step5       cur_number = round_down(cur_number/2)
 Step6   add cur_number to leW side of binary string
 </code></pre>
 
-<p>Ex. What is 11 in binary?</p>
+<p><strong>Question:</strong> What is 11 in binary?</p>
 <pre><code>num_in = 11
 
 binary_string=&quot;&quot;
@@ -387,7 +417,7 @@ binary_string=&quot;011&quot;
 binary_string=&quot;1011&quot;
 </code></pre>
 
-<p>Ex. What is 8 in binary?  </p>
+<p><strong>Question:</strong> What is 8 in binary?  </p>
 <pre><code>num_in = 8 
 
 binary_string=&quot;&quot;
@@ -411,13 +441,13 @@ binary_string=&quot;1000&quot;
 </code></pre>
 
 <p><strong>NOTE:</strong> Practice on your own. </p>
-<h3 id="lecture-5-january-18th-2017">Lecture 5 - January 18th, 2017</h3>
+<h2 id="lecture-7-january-18th-2017">Lecture 7 - January 18th, 2017</h2>
 <p>Helper: Question 2 - Assignment 1 </p>
 <ul>
 <li>Input for this program is a list of numbers. </li>
 <li>Pseudo code for addition. </li>
 </ul>
-<pre><code>a(m-1), a(m-2), a(1), a(0)
+<pre><code class="Math">a(m-1), a(m-2), a(1), a(0)
 </code></pre>
 
 <table>
@@ -453,21 +483,24 @@ binary_string=&quot;1000&quot;
 </tr>
 </tbody>
 </table>
-<pre><code>437+329=766
+<pre><code class="Math">437+329=766
 </code></pre>
 
-<h4 id="draw-a-flow-chart">Draw a flow chart</h4>
-<pre><code>* Use draw.io
-* Export as an image
-* Hand in PDF
+<h3 id="draw-a-flow-chart">Draw a flow chart</h3>
+<ul>
+<li>Use draw.io</li>
+<li>Export as an image</li>
+<li>Hand in PDF</li>
+</ul>
+<h3 id="binary-numbers">Binary Numbers</h3>
+<pre><code>10110 = 22
+01001 = 9
 </code></pre>
-<h4 id="binary-numbers">Binary Numbers</h4>
-<p>10110 = 22
-01001 = 9</p>
+
 <p><strong>Tip:</strong> If it ends with a 1 it is odd. If it ends in a 0 it is even.</p>
 <p>8 -&gt; 01000
 5 -&gt; 00101</p>
-<h4 id="algorithm-decimal-number-binary">Algorithm Decimal Number - Binary.</h4>
+<h3 id="algorithm-decimal-number-binary">Algorithm Decimal Number - Binary.</h3>
 <p>Ex. Binary Conversion</p>
 <pre><code>binary_string=&quot;&quot;
 
@@ -496,7 +529,7 @@ binary_string=10111
 </code></pre>
 
 <p><strong>Note:</strong> If a question ask for 5 bit number, you must include 5 places.</p>
-<h4 id="adding-binary-numbers">Adding Binary Numbers</h4>
+<h3 id="adding-binary-numbers">Adding Binary Numbers</h3>
 <p>Ex. 00111+00001=01000</p>
 <table>
 <thead>
@@ -607,64 +640,42 @@ binary_string=10111
 </tr>
 </tbody>
 </table>
-<h4 id="encoding-negative-numbers">Encoding Negative Numbers</h4>
+<h3 id="encoding-negative-numbers">Encoding Negative Numbers</h3>
 <ol>
 <li>Encode the positive number</li>
 <li>Flip all the bits (1-&gt;0 and 0-&gt;1)</li>
 <li>Add 1 to the new bit string</li>
 </ol>
-<p>Ex. Convert -9 into binary</p>
+<p><strong>Question:</strong> Convert -9 into binary</p>
 <pre><code>01001
 10110
 10111
 </code></pre>
 
-<p>Ex. Convert 12 into binary</p>
+<p><strong>Question:</strong> Convert 12 into binary</p>
 <pre><code>01100
 10011
 10100
 </code></pre>
 
-<h4 id="twos-complement-number">Two's complement number</h4>
+<h3 id="twos-complement-number">Two's complement number</h3>
 <p><strong>NOTE:</strong> Unsigned Binary Number or a Two's Complement Number. </p>
 <p><strong>Ignore overflow that carries in Two's compliment</strong></p>
-<h4 id="convert-twos-complement-into-decimal">Convert Two's complement into decimal</h4>
+<h3 id="convert-twos-complement-into-decimal">Convert Two's complement into decimal</h3>
 <ol>
 <li>If negative: <ul>
 <li>Flip a bit and add one</li>
 <li>Put the negative back at the end</li>
 </ul>
 </li>
-<li>If positive: </li>
-</ol>
-<h2 id="lecture-january-20th-2017">Lecture - January 20th, 2017</h2>
-<h3 id="lecture-6-january-24th-2017">Lecture 6 - January 24th, 2017</h3>
-<h4 id="guest-lecture">Guest Lecture</h4>
-<p>Dy George Tzanetakis (Associate Professor)</p>
-<p>Music and Computer Science</p>
-<p><a href="https://vimeo.com/147538529">The Northways</a></p>
-<p><a href="http://northwaygames.com">Northway Games</a></p>
-<p><strong>Human Computer Interaction</strong></p>
-<ol>
-<li>Lack of shared understanding</li>
-<li>Communication Bottleneck:<ul>
-<li>Input: Mouse/Keyboard (touch screen)</li>
-<li>Output: Rectangle 2D screen, speakers</li>
+<li>If positive: <ul>
+<li>Normal Conversion</li>
 </ul>
 </li>
 </ol>
-<p><strong>Why Music</strong></p>
-<p>The way music is <strong>created</strong>, <strong>distrubuted</strong>, and <strong>perceived</strong> had been and will be transformed by advances in technology.</p>
-<p>Arguably the most complex and expressive interaction with artifacts.</p>
-<p><strong>Digital Music Data</strong></p>
-<p>2000: ~1000 tracks</p>
-<p>2010: ~13 million tracks</p>
-<p><strong>Statisticaly Supervised Learning</strong></p>
-<p><strong>Playing/Improvising music with a computer</strong></p>
-<p>Machine Orchestr Kapur - Jan. 2010</p>
-<hr />
-<p>End of material for Midterm 1</p>
-<hr />
+<h2 id="lecture-8-january-20th-2017">Lecture 8 - January 20th, 2017</h2>
+<p><strong>Notes Missing</strong></p>
+<p>Contribute your notes <a href="https://github.com/UVicNotes/CSC-106">here</a>!</p>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -700,14 +711,14 @@ binary_string=10111
     </div>
     <div class="next">
       
-        <a href="../5-Logic/" title="5 Logic">
+        <a href="../5-Guest-1/" title="5 Guest 1">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                5 Logic
+                5 Guest 1
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

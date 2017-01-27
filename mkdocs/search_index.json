@@ -127,7 +127,7 @@
         }, 
         {
             "location": "/A)-Lecture/3-Flowcharts/", 
-            "text": "Flowcharts\n\n\nLecture 5 - January 13th, 2017\n\n\n\n\nReview - Lecture 6 - January 17th, 2017\n\n\nModulo:\n The ramainder after dividing. \n\n\nQuestion:\n Determine if a year is a leap year\n\n\nStep1   Input integer year\nStep2   if year modulo 4 is 0 do Step3-9\nStep3       if year modulo 100 is 0 do Step4-7\nStep4           if year modulo 400 is 0 do Step5\nStep5               is_leap_year=True\nStep6           else do Step7\nStep7               is_leap_year=False\nStep8       else do Step9\nStep9           is_leap_year=True\nStep10   else do Step11\nStep11      is_year_leap=False\nStep12   return is_leap_year", 
+            "text": "Flowcharts\n\n\nLecture 5 - January 13th, 2017\n\n\nNotes Missing\n\n\nContribute your notes \nhere\n!\n\n\n\n\nLecture 6 - January 17th, 2017\n\n\nModulo:\n The ramainder after dividing. \n\n\nQuestion:\n Determine if a year is a leap year\n\n\nStep1   Input integer year\nStep2   if year modulo 4 is 0 do Step3-9\nStep3       if year modulo 100 is 0 do Step4-7\nStep4           if year modulo 400 is 0 do Step5\nStep5               is_leap_year=True\nStep6           else do Step7\nStep7               is_leap_year=False\nStep8       else do Step9\nStep9           is_leap_year=True\nStep10   else do Step11\nStep11      is_year_leap=False\nStep12   return is_leap_year", 
             "title": "3 Flowcharts"
         }, 
         {
@@ -137,17 +137,17 @@
         }, 
         {
             "location": "/A)-Lecture/3-Flowcharts/#lecture-5-january-13th-2017", 
-            "text": "", 
+            "text": "Notes Missing  Contribute your notes  here !", 
             "title": "Lecture 5 - January 13th, 2017"
         }, 
         {
-            "location": "/A)-Lecture/3-Flowcharts/#review-lecture-6-january-17th-2017", 
+            "location": "/A)-Lecture/3-Flowcharts/#lecture-6-january-17th-2017", 
             "text": "Modulo:  The ramainder after dividing.   Question:  Determine if a year is a leap year  Step1   Input integer year\nStep2   if year modulo 4 is 0 do Step3-9\nStep3       if year modulo 100 is 0 do Step4-7\nStep4           if year modulo 400 is 0 do Step5\nStep5               is_leap_year=True\nStep6           else do Step7\nStep7               is_leap_year=False\nStep8       else do Step9\nStep9           is_leap_year=True\nStep10   else do Step11\nStep11      is_year_leap=False\nStep12   return is_leap_year", 
-            "title": "Review - Lecture 6 - January 17th, 2017"
+            "title": "Lecture 6 - January 17th, 2017"
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/", 
-            "text": "Binary / Hex / 2s Complement\n\n\nLecture 4 - January 17th, 2017\n\n\nWhy Binary?\n\n\n\n\nBinary is how computers talk\n\n\nto themselves \nAND\n\n\nto each other\n\n\n\n\n\n\n\n\nDecimal Numbers\n\n\nA binary abacus\n -\n \nExample\n\n\nEx. 101 is 5 in binary\n\n\n\n\n\n\n\n\n1\n\n\n0\n\n\n1\n\n\n\n\n\n\n\n\n\n\n2^2\n\n\n2^1\n\n\n2^0\n\n\n\n\n\n\n\n\n$$\n\n\n1x2^2 + 0x2^1 + 1x2^0\n\n\n1x4 + 0x2 + 1x1 = 5\n\n\n$$\n\n\n\n\nNOTE:\n Test Material\n\n\nEx. What is 11111 in decimal number?\n\n\nAnswer: 31\n\n\nEx. What is the highest number you can encode with n bits?\n\n\nAnswer: 2^n -1\n\n\nEncode Numbers\n\n\nNote:\n If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have \ntwo methods\n. \n\n\nMethod 1\n\n\n$$\n\n\n5 = 4 + 1\n\n\nSo 2^2 and 2^0\n\n\nSo 00101 = 5\n\n\n$$\n\n\nMethod 2\n\n\nStep1   input: number_in cur_number = number_in binary_string = \u201c\u201d\nStep2   while cur_number \n= 2\nStep3       my_encoding = input%2\nStep4       add my_encoding to leW side of binary string \nStep5       cur_number = round_down(cur_number/2)\nStep6   add cur_number to leW side of binary string\n\n\n\n\nEx. What is 11 in binary?\n\n\nnum_in = 11\n\nbinary_string=\n\n11%2 = 1\n\nbinary_string=\n1\n\n\n11/2 = 5.5 -\n 5\n5%2 = 1\n\nbinary_string=\n11\n\n\n5/2 = 2.5 -\n 2\n2%2 = 0\n\nbinary_string=\n011\n\n\n2/2 = 1\n\nbinary_string=\n1011\n\n\n\n\n\nEx. What is 8 in binary?  \n\n\nnum_in = 8 \n\nbinary_string=\n\n8%2 = 0\n\nbinary_string=\n0\n\n\n8/2 = 4\n4%2 = 0\n\nbinary_string=\n00\n\n\n4/2 = 2\n2%2 = 0\n\nbinary_string=\n000\n\n\n2/1 = 1\n\nbinary_string=\n1000\n\n\n\n\n\nNOTE:\n Practice on your own. \n\n\nLecture 5 - January 18th, 2017\n\n\nHelper: Question 2 - Assignment 1 \n\n\n\n\nInput for this program is a list of numbers. \n\n\nPseudo code for addition. \n\n\n\n\na(m-1), a(m-2), a(1), a(0)\n\n\n\n\n\n\n\n\n\n\n4\n\n\n3\n\n\n7\n\n\n\n\n\n\n\n\n\n\na(m-1)\n\n\na(m-2)\n\n\na(0)\n\n\n\n\n\n\n\n\nAnswer: m=3\n\n\n\n\n\n\n\n\n3\n\n\n2\n\n\n9\n\n\n\n\n\n\n\n\n\n\nb(2)\n\n\nb(1)\n\n\nb(0)\n\n\n\n\n\n\n\n\n437+329=766\n\n\n\n\nDraw a flow chart\n\n\n* Use draw.io\n* Export as an image\n* Hand in PDF\n\n\n\nBinary Numbers\n\n\n10110 = 22\n01001 = 9\n\n\nTip:\n If it ends with a 1 it is odd. If it ends in a 0 it is even.\n\n\n8 -\n 01000\n5 -\n 00101\n\n\nAlgorithm Decimal Number - Binary.\n\n\nEx. Binary Conversion\n\n\nbinary_string=\n\n\n23%2 = 1\n\nbinary_string=1\n\n23/2 = 11.5 -\n 11\n11%2 = 1\n\nbinary_string=11\n\n11/2 = 5.5 \n 5\n5%2=1\n\nbinary_string=111\n\n5/2=2.5 -\n 2\n2%2=0\n\nbinary_string=0111\n\n2/2 = 1\n\nbinary_string=10111\n\n\n\n\nNote:\n If a question ask for 5 bit number, you must include 5 places.\n\n\nAdding Binary Numbers\n\n\nEx. 00111+00001=01000\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n1\n\n\n\n\n\n\n=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n\n\nBonus: 00111+00111=01110\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n0\n\n\n\n\n\n\n\n\nEncoding Negative Numbers\n\n\n\n\nEncode the positive number\n\n\nFlip all the bits (1-\n0 and 0-\n1)\n\n\nAdd 1 to the new bit string\n\n\n\n\nEx. Convert -9 into binary\n\n\n01001\n10110\n10111\n\n\n\n\nEx. Convert 12 into binary\n\n\n01100\n10011\n10100\n\n\n\n\nTwo's complement number\n\n\nNOTE:\n Unsigned Binary Number or a Two's Complement Number. \n\n\nIgnore overflow that carries in Two's compliment\n\n\nConvert Two's complement into decimal\n\n\n\n\nIf negative: \n\n\nFlip a bit and add one\n\n\nPut the negative back at the end\n\n\n\n\n\n\nIf positive: \n\n\n\n\nLecture - January 20th, 2017\n\n\nLecture 6 - January 24th, 2017\n\n\nGuest Lecture\n\n\nDy George Tzanetakis (Associate Professor)\n\n\nMusic and Computer Science\n\n\nThe Northways\n\n\nNorthway Games\n\n\nHuman Computer Interaction\n\n\n\n\nLack of shared understanding\n\n\nCommunication Bottleneck:\n\n\nInput: Mouse/Keyboard (touch screen)\n\n\nOutput: Rectangle 2D screen, speakers\n\n\n\n\n\n\n\n\nWhy Music\n\n\nThe way music is \ncreated\n, \ndistrubuted\n, and \nperceived\n had been and will be transformed by advances in technology.\n\n\nArguably the most complex and expressive interaction with artifacts.\n\n\nDigital Music Data\n\n\n2000: ~1000 tracks\n\n\n2010: ~13 million tracks\n\n\nStatisticaly Supervised Learning\n\n\nPlaying/Improvising music with a computer\n\n\nMachine Orchestr Kapur - Jan. 2010\n\n\n\n\nEnd of material for Midterm 1", 
+            "text": "Binary / Hex / 2s Complement\n\n\nLecture 6 - January 17th, 2017\n\n\nWhy Binary?\n\n\n\n\nBinary is how computers talk\n\n\nto themselves \nAND\n\n\nto each other\n\n\n\n\n\n\n\n\nDecimal Numbers\n\n\nA binary abacus\n -\n \nExample\n\n\nQuestion:\n 101 is 5 in binary\n\n\n\n\n\n\n\n\n1\n\n\n0\n\n\n1\n\n\n\n\n\n\n\n\n\n\n2^2\n\n\n2^1\n\n\n2^0\n\n\n\n\n\n\n\n\n1x2^2 + 0x2^1 + 1x2^0\n\n1x4 + 0x2 + 1x1 = 5\n\n\n\n\n\n\nNOTE:\n Test Material\n\n\nQuestion:\n What is 11111 in decimal number?\n\n\nAnswer: 31\n\n\nQuestion:\n What is the highest number you can encode with n bits?\n\n\nAnswer: 2^n -1\n\n\nEncode Numbers\n\n\nNote:\n If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have \ntwo methods\n. \n\n\nMethod 1\n\n\n5 = 4 + 1\n\nSo 2^2 and 2^0\n\nSo 00101 = 5\n\n\n\n\nMethod 2\n\n\nStep1   input: number_in cur_number = number_in binary_string = \u201c\u201d\nStep2   while cur_number \n= 2\nStep3       my_encoding = input%2\nStep4       add my_encoding to leW side of binary string \nStep5       cur_number = round_down(cur_number/2)\nStep6   add cur_number to leW side of binary string\n\n\n\n\nQuestion:\n What is 11 in binary?\n\n\nnum_in = 11\n\nbinary_string=\n\n11%2 = 1\n\nbinary_string=\n1\n\n\n11/2 = 5.5 -\n 5\n5%2 = 1\n\nbinary_string=\n11\n\n\n5/2 = 2.5 -\n 2\n2%2 = 0\n\nbinary_string=\n011\n\n\n2/2 = 1\n\nbinary_string=\n1011\n\n\n\n\n\nQuestion:\n What is 8 in binary?  \n\n\nnum_in = 8 \n\nbinary_string=\n\n8%2 = 0\n\nbinary_string=\n0\n\n\n8/2 = 4\n4%2 = 0\n\nbinary_string=\n00\n\n\n4/2 = 2\n2%2 = 0\n\nbinary_string=\n000\n\n\n2/1 = 1\n\nbinary_string=\n1000\n\n\n\n\n\nNOTE:\n Practice on your own. \n\n\nLecture 7 - January 18th, 2017\n\n\nHelper: Question 2 - Assignment 1 \n\n\n\n\nInput for this program is a list of numbers. \n\n\nPseudo code for addition. \n\n\n\n\na(m-1), a(m-2), a(1), a(0)\n\n\n\n\n\n\n\n\n\n\n4\n\n\n3\n\n\n7\n\n\n\n\n\n\n\n\n\n\na(m-1)\n\n\na(m-2)\n\n\na(0)\n\n\n\n\n\n\n\n\nAnswer: m=3\n\n\n\n\n\n\n\n\n3\n\n\n2\n\n\n9\n\n\n\n\n\n\n\n\n\n\nb(2)\n\n\nb(1)\n\n\nb(0)\n\n\n\n\n\n\n\n\n437+329=766\n\n\n\n\nDraw a flow chart\n\n\n\n\nUse draw.io\n\n\nExport as an image\n\n\nHand in PDF\n\n\n\n\nBinary Numbers\n\n\n10110 = 22\n01001 = 9\n\n\n\n\nTip:\n If it ends with a 1 it is odd. If it ends in a 0 it is even.\n\n\n8 -\n 01000\n5 -\n 00101\n\n\nAlgorithm Decimal Number - Binary.\n\n\nEx. Binary Conversion\n\n\nbinary_string=\n\n\n23%2 = 1\n\nbinary_string=1\n\n23/2 = 11.5 -\n 11\n11%2 = 1\n\nbinary_string=11\n\n11/2 = 5.5 \n 5\n5%2=1\n\nbinary_string=111\n\n5/2=2.5 -\n 2\n2%2=0\n\nbinary_string=0111\n\n2/2 = 1\n\nbinary_string=10111\n\n\n\n\nNote:\n If a question ask for 5 bit number, you must include 5 places.\n\n\nAdding Binary Numbers\n\n\nEx. 00111+00001=01000\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n0\n\n\n1\n\n\n\n\n\n\n=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n1\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n\n\nBonus: 00111+00111=01110\n\n\n\n\n\n\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n+\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n=\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n1\n\n\n0\n\n\n\n\n\n\n\n\nEncoding Negative Numbers\n\n\n\n\nEncode the positive number\n\n\nFlip all the bits (1-\n0 and 0-\n1)\n\n\nAdd 1 to the new bit string\n\n\n\n\nQuestion:\n Convert -9 into binary\n\n\n01001\n10110\n10111\n\n\n\n\nQuestion:\n Convert 12 into binary\n\n\n01100\n10011\n10100\n\n\n\n\nTwo's complement number\n\n\nNOTE:\n Unsigned Binary Number or a Two's Complement Number. \n\n\nIgnore overflow that carries in Two's compliment\n\n\nConvert Two's complement into decimal\n\n\n\n\nIf negative: \n\n\nFlip a bit and add one\n\n\nPut the negative back at the end\n\n\n\n\n\n\nIf positive: \n\n\nNormal Conversion\n\n\n\n\n\n\n\n\nLecture 8 - January 20th, 2017\n\n\nNotes Missing\n\n\nContribute your notes \nhere\n!", 
             "title": "4 Number Systems"
         }, 
         {
@@ -156,9 +156,9 @@
             "title": "Binary / Hex / 2s Complement"
         }, 
         {
-            "location": "/A)-Lecture/4-Number-Systems/#lecture-4-january-17th-2017", 
+            "location": "/A)-Lecture/4-Number-Systems/#lecture-6-january-17th-2017", 
             "text": "", 
-            "title": "Lecture 4 - January 17th, 2017"
+            "title": "Lecture 6 - January 17th, 2017"
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#why-binary", 
@@ -167,32 +167,22 @@
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#decimal-numbers", 
-            "text": "A binary abacus  -   Example  Ex. 101 is 5 in binary     1  0  1      2^2  2^1  2^0     $$  1x2^2 + 0x2^1 + 1x2^0  1x4 + 0x2 + 1x1 = 5  $$   NOTE:  Test Material  Ex. What is 11111 in decimal number?  Answer: 31  Ex. What is the highest number you can encode with n bits?  Answer: 2^n -1", 
+            "text": "A binary abacus  -   Example  Question:  101 is 5 in binary     1  0  1      2^2  2^1  2^0     1x2^2 + 0x2^1 + 1x2^0\n\n1x4 + 0x2 + 1x1 = 5   NOTE:  Test Material  Question:  What is 11111 in decimal number?  Answer: 31  Question:  What is the highest number you can encode with n bits?  Answer: 2^n -1", 
             "title": "Decimal Numbers"
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#encode-numbers", 
-            "text": "Note:  If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have  two methods .", 
+            "text": "Note:  If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have  two methods .   Method 1  5 = 4 + 1\n\nSo 2^2 and 2^0\n\nSo 00101 = 5  Method 2  Step1   input: number_in cur_number = number_in binary_string = \u201c\u201d\nStep2   while cur_number  = 2\nStep3       my_encoding = input%2\nStep4       add my_encoding to leW side of binary string \nStep5       cur_number = round_down(cur_number/2)\nStep6   add cur_number to leW side of binary string  Question:  What is 11 in binary?  num_in = 11\n\nbinary_string= \n11%2 = 1\n\nbinary_string= 1 \n\n11/2 = 5.5 -  5\n5%2 = 1\n\nbinary_string= 11 \n\n5/2 = 2.5 -  2\n2%2 = 0\n\nbinary_string= 011 \n\n2/2 = 1\n\nbinary_string= 1011   Question:  What is 8 in binary?    num_in = 8 \n\nbinary_string= \n8%2 = 0\n\nbinary_string= 0 \n\n8/2 = 4\n4%2 = 0\n\nbinary_string= 00 \n\n4/2 = 2\n2%2 = 0\n\nbinary_string= 000 \n\n2/1 = 1\n\nbinary_string= 1000   NOTE:  Practice on your own.", 
             "title": "Encode Numbers"
         }, 
         {
-            "location": "/A)-Lecture/4-Number-Systems/#method-1", 
-            "text": "$$  5 = 4 + 1  So 2^2 and 2^0  So 00101 = 5  $$", 
-            "title": "Method 1"
-        }, 
-        {
-            "location": "/A)-Lecture/4-Number-Systems/#method-2", 
-            "text": "Step1   input: number_in cur_number = number_in binary_string = \u201c\u201d\nStep2   while cur_number  = 2\nStep3       my_encoding = input%2\nStep4       add my_encoding to leW side of binary string \nStep5       cur_number = round_down(cur_number/2)\nStep6   add cur_number to leW side of binary string  Ex. What is 11 in binary?  num_in = 11\n\nbinary_string= \n11%2 = 1\n\nbinary_string= 1 \n\n11/2 = 5.5 -  5\n5%2 = 1\n\nbinary_string= 11 \n\n5/2 = 2.5 -  2\n2%2 = 0\n\nbinary_string= 011 \n\n2/2 = 1\n\nbinary_string= 1011   Ex. What is 8 in binary?    num_in = 8 \n\nbinary_string= \n8%2 = 0\n\nbinary_string= 0 \n\n8/2 = 4\n4%2 = 0\n\nbinary_string= 00 \n\n4/2 = 2\n2%2 = 0\n\nbinary_string= 000 \n\n2/1 = 1\n\nbinary_string= 1000   NOTE:  Practice on your own.", 
-            "title": "Method 2"
-        }, 
-        {
-            "location": "/A)-Lecture/4-Number-Systems/#lecture-5-january-18th-2017", 
+            "location": "/A)-Lecture/4-Number-Systems/#lecture-7-january-18th-2017", 
             "text": "Helper: Question 2 - Assignment 1    Input for this program is a list of numbers.   Pseudo code for addition.    a(m-1), a(m-2), a(1), a(0)     4  3  7      a(m-1)  a(m-2)  a(0)     Answer: m=3     3  2  9      b(2)  b(1)  b(0)     437+329=766", 
-            "title": "Lecture 5 - January 18th, 2017"
+            "title": "Lecture 7 - January 18th, 2017"
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#draw-a-flow-chart", 
-            "text": "* Use draw.io\n* Export as an image\n* Hand in PDF", 
+            "text": "Use draw.io  Export as an image  Hand in PDF", 
             "title": "Draw a flow chart"
         }, 
         {
@@ -212,7 +202,7 @@
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#encoding-negative-numbers", 
-            "text": "Encode the positive number  Flip all the bits (1- 0 and 0- 1)  Add 1 to the new bit string   Ex. Convert -9 into binary  01001\n10110\n10111  Ex. Convert 12 into binary  01100\n10011\n10100", 
+            "text": "Encode the positive number  Flip all the bits (1- 0 and 0- 1)  Add 1 to the new bit string   Question:  Convert -9 into binary  01001\n10110\n10111  Question:  Convert 12 into binary  01100\n10011\n10100", 
             "title": "Encoding Negative Numbers"
         }, 
         {
@@ -222,61 +212,101 @@
         }, 
         {
             "location": "/A)-Lecture/4-Number-Systems/#convert-twos-complement-into-decimal", 
-            "text": "If negative:   Flip a bit and add one  Put the negative back at the end    If positive:", 
+            "text": "If negative:   Flip a bit and add one  Put the negative back at the end    If positive:   Normal Conversion", 
             "title": "Convert Two's complement into decimal"
         }, 
         {
-            "location": "/A)-Lecture/4-Number-Systems/#lecture-january-20th-2017", 
-            "text": "", 
-            "title": "Lecture - January 20th, 2017"
+            "location": "/A)-Lecture/4-Number-Systems/#lecture-8-january-20th-2017", 
+            "text": "Notes Missing  Contribute your notes  here !", 
+            "title": "Lecture 8 - January 20th, 2017"
         }, 
         {
-            "location": "/A)-Lecture/4-Number-Systems/#lecture-6-january-24th-2017", 
-            "text": "", 
-            "title": "Lecture 6 - January 24th, 2017"
+            "location": "/A)-Lecture/5-Guest-1/", 
+            "text": "Guest 1\n\n\nLecture 9 - January 24th, 2017\n\n\nGuest Lecture\n\n\nBy George Tzanetakis (Associate Professor) - Music and Computer Science\n\n\nThe Northways\n\n\nNorthway Games\n\n\nHuman Computer Interaction\n\n\n\n\nLack of shared understanding\n\n\nCommunication Bottleneck:\n\n\nInput: Mouse/Keyboard (touch screen)\n\n\nOutput: Rectangle 2D screen, speakers\n\n\n\n\n\n\n\n\nWhy Music**\n\n\n\n\nThe way music is \ncreated\n, \ndistrubuted\n, and \nperceived\n had been and will be transformed by advances in technology.\n\n\nArguably the most complex and expressive interaction with artifacts.\n\n\n\n\nDigital Music Data\n\n\n\n\n2000: ~1000 tracks\n\n\n2010: ~13 million tracks\n\n\n\n\nStatisticaly Supervised Learning\n\n\nPlaying/Improvising music with a computer\n\n\n\n\nMachine Orchestra Kapur - Jan. 2010\n\n\n\n\n\n\nEnd of Material for Midterm 1", 
+            "title": "5 Guest 1"
         }, 
         {
-            "location": "/A)-Lecture/4-Number-Systems/#guest-lecture", 
-            "text": "Dy George Tzanetakis (Associate Professor)  Music and Computer Science  The Northways  Northway Games  Human Computer Interaction   Lack of shared understanding  Communication Bottleneck:  Input: Mouse/Keyboard (touch screen)  Output: Rectangle 2D screen, speakers     Why Music  The way music is  created ,  distrubuted , and  perceived  had been and will be transformed by advances in technology.  Arguably the most complex and expressive interaction with artifacts.  Digital Music Data  2000: ~1000 tracks  2010: ~13 million tracks  Statisticaly Supervised Learning  Playing/Improvising music with a computer  Machine Orchestr Kapur - Jan. 2010   End of material for Midterm 1", 
+            "location": "/A)-Lecture/5-Guest-1/#guest-1", 
+            "text": "", 
+            "title": "Guest 1"
+        }, 
+        {
+            "location": "/A)-Lecture/5-Guest-1/#lecture-9-january-24th-2017", 
+            "text": "", 
+            "title": "Lecture 9 - January 24th, 2017"
+        }, 
+        {
+            "location": "/A)-Lecture/5-Guest-1/#guest-lecture", 
+            "text": "By George Tzanetakis (Associate Professor) - Music and Computer Science  The Northways  Northway Games", 
             "title": "Guest Lecture"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/", 
-            "text": "Lecture # - January 25th 2017\n\n\nLogic / Sorting\n\n\nLab section number for Midterm: B04\n\n\nMidterm:\n\n\n\n\n40 MC\n\n\n1 Written\n\n\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\n\n\nOR Truth Table (+)\n\n\nAND Truth Table (*)\n\n\nCombine : OR and AND\n\n\n\n\nNot(~)\n\n\n\n\nCircuit Diagrams\n\n\nCompare for Equality\n\n\nAdding with Logic - Full Adder Circuit\n\n\nTruth Table -\n Set of OR AND and NOT\n\n\nXOR Truth Table (Circle +)\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\nLeft side changes\n\n\nSelection Sort\n\n\nSort hand of cadrs ?\n\n\nNumerically\n\n\nEx. \n\n\n[2,8,6,3]\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
-            "title": "5 Logic"
+            "location": "/A)-Lecture/5-Guest-1/#human-computer-interaction", 
+            "text": "Lack of shared understanding  Communication Bottleneck:  Input: Mouse/Keyboard (touch screen)  Output: Rectangle 2D screen, speakers", 
+            "title": "Human Computer Interaction"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#lecture-january-25th-2017", 
+            "location": "/A)-Lecture/5-Guest-1/#why-music", 
+            "text": "The way music is  created ,  distrubuted , and  perceived  had been and will be transformed by advances in technology.  Arguably the most complex and expressive interaction with artifacts.", 
+            "title": "Why Music**"
+        }, 
+        {
+            "location": "/A)-Lecture/5-Guest-1/#digital-music-data", 
+            "text": "2000: ~1000 tracks  2010: ~13 million tracks", 
+            "title": "Digital Music Data"
+        }, 
+        {
+            "location": "/A)-Lecture/5-Guest-1/#statisticaly-supervised-learning", 
             "text": "", 
-            "title": "Lecture # - January 25th 2017"
+            "title": "Statisticaly Supervised Learning"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#logic-sorting", 
+            "location": "/A)-Lecture/5-Guest-1/#playingimprovising-music-with-a-computer", 
+            "text": "Machine Orchestra Kapur - Jan. 2010    End of Material for Midterm 1", 
+            "title": "Playing/Improvising music with a computer"
+        }, 
+        {
+            "location": "/A)-Lecture/6-Logic/", 
+            "text": "Logic\n\n\nLecture 10 - January 25th 2017\n\n\nLogic / Sorting\n\n\nLab section number for Midterm: B04\n\n\nMidterm:\n\n\n\n\n40 MC\n\n\n1 Written\n\n\n\n\nLogic\n\n\n\n\nLogic gates\n\n\nForm basis of computer hardware and computer operations\n\n\n\n\nOR Truth Table (+)\n\n\nAND Truth Table (*)\n\n\nCombine : OR and AND\n\n\n\n\nNot(~)\n\n\n\n\nCircuit Diagrams\n\n\nCompare for Equality\n\n\nAdding with Logic - Full Adder Circuit\n\n\nTruth Table -\n Set of OR AND and NOT\n\n\nXOR Truth Table (Circle +)\n\n\nTest your understanding\n\n\n(X and Y) or Z\n\n\n2nd slide -\n E)\n\n\nSorting\n\n\n\n\nOften useful to have data sorted \n\n\nfind values more quickly\n\n\ntest for existence more quickly\n\n\n\n\n\n\nMany algorithms for sorting\n\n\n\n\nArrays\n\n\nArrays are like a list\n\n\nStart numbering positions at 0\n\n\nSquare brackets []\n\n\nAssign a value to an array\n\n\nLeft side changes\n\n\nSelection Sort\n\n\nSort hand of cadrs ?\n\n\nNumerically\n\n\nEx. \n\n\n[2,8,6,3]\n\n\nUnsorted part of the list and sorted part of the list.\n\n\nInput integer array my_nums\n\n\nKeep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
+            "title": "6 Logic"
+        }, 
+        {
+            "location": "/A)-Lecture/6-Logic/#logic", 
+            "text": "", 
+            "title": "Logic"
+        }, 
+        {
+            "location": "/A)-Lecture/6-Logic/#lecture-10-january-25th-2017", 
+            "text": "", 
+            "title": "Lecture 10 - January 25th 2017"
+        }, 
+        {
+            "location": "/A)-Lecture/6-Logic/#logic-sorting", 
             "text": "Lab section number for Midterm: B04  Midterm:   40 MC  1 Written", 
             "title": "Logic / Sorting"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#logic", 
+            "location": "/A)-Lecture/6-Logic/#logic_1", 
             "text": "Logic gates  Form basis of computer hardware and computer operations   OR Truth Table (+)  AND Truth Table (*)  Combine : OR and AND   Not(~)", 
             "title": "Logic"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#circuit-diagrams", 
+            "location": "/A)-Lecture/6-Logic/#circuit-diagrams", 
             "text": "Compare for Equality", 
             "title": "Circuit Diagrams"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#adding-with-logic-full-adder-circuit", 
+            "location": "/A)-Lecture/6-Logic/#adding-with-logic-full-adder-circuit", 
             "text": "Truth Table -  Set of OR AND and NOT  XOR Truth Table (Circle +)  Test your understanding  (X and Y) or Z  2nd slide -  E)", 
             "title": "Adding with Logic - Full Adder Circuit"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#sorting", 
+            "location": "/A)-Lecture/6-Logic/#sorting", 
             "text": "Often useful to have data sorted   find values more quickly  test for existence more quickly    Many algorithms for sorting", 
             "title": "Sorting"
         }, 
         {
-            "location": "/A)-Lecture/5-Logic/#arrays", 
+            "location": "/A)-Lecture/6-Logic/#arrays", 
             "text": "Arrays are like a list  Start numbering positions at 0  Square brackets []  Assign a value to an array  Left side changes  Selection Sort  Sort hand of cadrs ?  Numerically  Ex.   [2,8,6,3]  Unsorted part of the list and sorted part of the list.  Input integer array my_nums  Keep track of sorted array section \nSearch through unsorted array for max val\nSwap max val with element at the rightmmost position of unsorted section\nMove sorted section one element to left\nstop when unsorted section has size 1", 
             "title": "Arrays"
         }, 
