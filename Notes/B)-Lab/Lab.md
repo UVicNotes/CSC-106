@@ -117,3 +117,50 @@ Ex.
 Answer: 
 
 Select name, title from characters where human=1 and year<1960
+
+
+### Lab 3 - January 24th 2017
+
+11111+010101=1010100
+
+Hex to binary ->
+
+4EF(Base16) 
+
+---
+
+| Dec | Hex | Binary |
+| ---:| ---:| ------:|
+|    0|    0|    0000|
+|    1|    1|    0001|
+|    2|    2|    0010|
+|    3|    3|    0011|
+|    4|    4|    0100|
+|   10|    A|    1010|
+|   11|    B|    1011|
+|   12|    C|    1100|
+|   13|    D|    1101|
+|   14|    E|    1110|
+|   15|    F|    1111|
+
+Binary to Hex
+
+00101101111
+2DF
+
+Hex to Dec
+
+2DF
+16(2) 16(1) 16(0)
+
+= Big Number
+
+
+2's compliment
+
+Number of bits even
+
+Positive number 2's complement
++28 
+
+is 28 in binary
