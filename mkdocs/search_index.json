@@ -127,7 +127,7 @@
         }, 
         {
             "location": "/A)-Lecture/3-Flowcharts/", 
-            "text": "Flowcharts\n\n\nLecture 5 - January 13th, 2017\n\n\nNotes provide by a kind classmate :D\n\n\nAlgorithms and Flowcharts\n\n\n\n\nRectangle -\n Process \n\n\nRhombus -\n Data (Input of Output)\n\n\nDiamond -\n Decision \n\n\nRounded Rectanlge -\n Start and Stop\n\n\n\n\nEx.\n Making a flowchart for collatz conjecture \n\n\n\n\nEx.\n A flowchart to calculate avg. of grades of student of Turing\n\n\n\n\nEx.\n To print a phone number corresponding to given name or else print \"no such name\"\n\n\n\n\nLecture 6 - January 17th, 2017\n\n\nModulo:\n The ramainder after dividing. \n\n\nQuestion:\n Determine if a year is a leap year\n\n\nStep1   Input integer year\nStep2   if year modulo 4 is 0 do Step3-9\nStep3       if year modulo 100 is 0 do Step4-7\nStep4           if year modulo 400 is 0 do Step5\nStep5               is_leap_year=True\nStep6           else do Step7\nStep7               is_leap_year=False\nStep8       else do Step9\nStep9           is_leap_year=True\nStep10   else do Step11\nStep11      is_year_leap=False\nStep12   return is_leap_year", 
+            "text": "Flowcharts\n\n\nLecture 5 - January 13th, 2017\n\n\nNotes provide by a kind classmate :D\n\n\nAlgorithms and Flowcharts\n\n\n\n\nRectangle -\n Process \n\n\nRhombus -\n Data (Input or Output)\n\n\nDiamond -\n Decision \n\n\nRounded Rectanlge -\n Start and Stop\n\n\n\n\nEx.\n Making a flowchart for collatz conjecture \n\n\n\n\nEx.\n A flowchart to calculate avg. of grades of student of Turing\n\n\n\n\nEx.\n To print a phone number corresponding to given name or else print \"no such name\"\n\n\n\n\nLecture 6 - January 17th, 2017\n\n\nModulo:\n The ramainder after dividing. \n\n\nQuestion:\n Determine if a year is a leap year\n\n\nStep1   Input integer year\nStep2   if year modulo 4 is 0 do Step3-9\nStep3       if year modulo 100 is 0 do Step4-7\nStep4           if year modulo 400 is 0 do Step5\nStep5               is_leap_year=True\nStep6           else do Step7\nStep7               is_leap_year=False\nStep8       else do Step9\nStep9           is_leap_year=True\nStep10   else do Step11\nStep11      is_year_leap=False\nStep12   return is_leap_year", 
             "title": "3 Flowcharts"
         }, 
         {
@@ -142,7 +142,7 @@
         }, 
         {
             "location": "/A)-Lecture/3-Flowcharts/#algorithms-and-flowcharts", 
-            "text": "Rectangle -  Process   Rhombus -  Data (Input of Output)  Diamond -  Decision   Rounded Rectanlge -  Start and Stop   Ex.  Making a flowchart for collatz conjecture    Ex.  A flowchart to calculate avg. of grades of student of Turing   Ex.  To print a phone number corresponding to given name or else print \"no such name\"", 
+            "text": "Rectangle -  Process   Rhombus -  Data (Input or Output)  Diamond -  Decision   Rounded Rectanlge -  Start and Stop   Ex.  Making a flowchart for collatz conjecture    Ex.  A flowchart to calculate avg. of grades of student of Turing   Ex.  To print a phone number corresponding to given name or else print \"no such name\"", 
             "title": "Algorithms and Flowcharts"
         }, 
         {
