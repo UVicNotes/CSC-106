@@ -7,7 +7,7 @@
 ### Algorithms and Flowcharts
 
 * Rectangle -> Process 
-* Rhombus -> Data (Input of Output)
+* Rhombus -> Data (Input or Output)
 * Diamond -> Decision 
 * Rounded Rectanlge -> Start and Stop
 
