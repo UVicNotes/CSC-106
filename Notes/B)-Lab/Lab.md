@@ -143,3 +143,43 @@ Answer:  `Select name, title from characters where human=1 and year<1960`
 **Ex:** Positive number in 2's complement
 
 +28 = 28 in binary
+
+## Lab 4 - January 31st, 2017
+
+* OR (+)
+    * ![Image]()
+* And (*)
+    * ![Image]()  
+* XOR (circleX)
+    * ![Image]()
+* Not (~)
+    * ![Image]()
+
+Truth Tables -> Circuit Diagram 
+
+A) Draw a diagram of an OR gate using only AND and NOT gates. 
+
+B) Draw a circuit diagram for an AND gate using only OR and NOT gates.
+
+#### The "OR and ANDS" Rule
+OR, AND, NOT gates
+
+|A   |B   |C   |
+| --:| --:| --:|
+|0   |0   |0   |
+|0   |1   |1   |
+|1   |0   |0   |
+|1   |1   |1   |
+
+1. Look at only to inputs with 1 output. 
+2. A is 0 -> Not gate
+3. B is 1 -> Nothing
+4. an AND those two
+5. A is 1 -> Nothing
+6. B is 1 -> Nothing
+7. and AND those two
+8. put both those paths to an OR gate
+
+---
+
+**Note:** Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. 
