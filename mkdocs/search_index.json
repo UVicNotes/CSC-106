@@ -337,18 +337,123 @@
         }, 
         {
             "location": "/A)-Lecture/7-Guest-2/", 
-            "text": "Lecture # - February 1st, 2017\n\n\nGuest lecture 2\n\n\nSendWithUs\n\n\n\n\nAutomated E-mail\n\n\nRealtime API \n\n\nSend Transactional Emails\n\n\nStarted in 2013, Matt and Brad\n\n\nYCombinator Startup Accelerator\n\n\n$2.5M -\n US Investors\n\n\nTeam of 17 People\n\n\nSales and Marketing in San Fran, California\n\n\nEngineering and Product Development in Victoria, BC\n\n\n\n\n\n\n\n\nAPI Example:\n\n\ncurl -X POST -u key_123 https://api.sendwithus.com/api/v1/send\n    -d '{\n    \nemail_id\n: \ntem_12345\n,\n    }'\n\n\n\n\nTemplate:\n\n\ntd\n\n    Welcome to Awesome Co, {{first_name}}!\n\n/td\n\n\n\n\n\nRendered Template:\n\n\n\n\nTechincal Overview:\n\n\n\n\nOver 10M emails per day \n\n\n= 600 instances (on Heroku)\n\n\nPython, Coffeescript, Golang, CSS, HTML\n\n\nPostgreSQL, MongoDB, Redis\n\n\n\n\nBackstory\n\n\n\n\nBrandon: VIU (Remax, Startup -\n websites/products -\n SendWithUs)\n\n\nJohn: UVIC (5Years -\n Math (Failed) -\n C's get degrees -\n Co-Ops -\n Startups vs Big Company -\n Real Job -\n Interview -\n SendWithUs (Backend Dev))\n\n\n\n\nWhat Makes Programming Awesome?\n\n\n\n\nFoundational Learning\n\n\nUniversity Co-Op\n\n\nComputer Science \n\n\nSelf-taught\n\n\nUvic\n\n\nBootcamps \n\n\n\n\n\n\n\n\n\n\nSide Projects\n\n\nGithub\n\n\nSimple - Complex\n\n\nAre the new Resume \n\n\n\n\n\n\nOpen Source\n\n\nOpen your code to the world\n\n\nCollaborate \n\n\n\n\n\n\nCommunity Involvement\n\n\nVictoria Tech Sector is Exploding\n\n\nStartUpSlam and Battlesnake\n\n\nVictoria Start Up Job Board\n\n\nLadies Learning Code", 
+            "text": "Lecture 12 - February 1st, 2017\n\n\nGuest lecture 2\n\n\nSendWithUs\n\n\n\n\nAutomated E-mail\n\n\nRealtime API \n\n\nSend Transactional Emails\n\n\nStarted in 2013, Matt and Brad\n\n\nYCombinator Startup Accelerator\n\n\n$2.5M -\n US Investors\n\n\nTeam of 17 People\n\n\nSales and Marketing in San Fran, California\n\n\nEngineering and Product Development in Victoria, BC\n\n\n\n\n\n\n\n\nAPI Example:\n\n\ncurl -X POST -u key_123 https://api.sendwithus.com/api/v1/send\n    -d '{\n    \nemail_id\n: \ntem_12345\n,\n    }'\n\n\n\n\nTemplate:\n\n\ntd\n\n    Welcome to Awesome Co, {{first_name}}!\n\n/td\n\n\n\n\n\nRendered Template:\n\n\n\n\nTechincal Overview:\n\n\n\n\nOver 10M emails per day \n\n\n= 600 instances (on Heroku)\n\n\nPython, Coffeescript, Golang, CSS, HTML\n\n\nPostgreSQL, MongoDB, Redis\n\n\n\n\nBackstory\n\n\n\n\nBrandon: VIU (Remax, Startup -\n websites/products -\n SendWithUs)\n\n\nJohn: UVIC (5Years -\n Math (Failed) -\n C's get degrees -\n Co-Ops -\n Startups vs Big Company -\n Real Job -\n Interview -\n SendWithUs (Backend Dev))\n\n\n\n\nWhat Makes Programming Awesome?\n\n\n\n\nFoundational Learning\n\n\nUniversity Co-Op\n\n\nComputer Science \n\n\nSelf-taught\n\n\nUvic\n\n\nBootcamps \n\n\n\n\n\n\n\n\n\n\nSide Projects\n\n\nGithub\n\n\nSimple - Complex\n\n\nAre the new Resume \n\n\n\n\n\n\nOpen Source\n\n\nOpen your code to the world\n\n\nCollaborate \n\n\n\n\n\n\nCommunity Involvement\n\n\nVictoria Tech Sector is Exploding\n\n\nStartUpSlam and Battlesnake\n\n\nVictoria Start Up Job Board\n\n\nLadies Learning Code", 
             "title": "7 Guest 2"
         }, 
         {
-            "location": "/A)-Lecture/7-Guest-2/#lecture-february-1st-2017", 
+            "location": "/A)-Lecture/7-Guest-2/#lecture-12-february-1st-2017", 
             "text": "Guest lecture 2", 
-            "title": "Lecture # - February 1st, 2017"
+            "title": "Lecture 12 - February 1st, 2017"
         }, 
         {
             "location": "/A)-Lecture/7-Guest-2/#sendwithus", 
-            "text": "Automated E-mail  Realtime API   Send Transactional Emails  Started in 2013, Matt and Brad  YCombinator Startup Accelerator  $2.5M -  US Investors  Team of 17 People  Sales and Marketing in San Fran, California  Engineering and Product Development in Victoria, BC     API Example:  curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send\n    -d '{\n     email_id :  tem_12345 ,\n    }'  Template:  td \n    Welcome to Awesome Co, {{first_name}}! /td   Rendered Template:   Techincal Overview:   Over 10M emails per day   = 600 instances (on Heroku)  Python, Coffeescript, Golang, CSS, HTML  PostgreSQL, MongoDB, Redis   Backstory   Brandon: VIU (Remax, Startup -  websites/products -  SendWithUs)  John: UVIC (5Years -  Math (Failed) -  C's get degrees -  Co-Ops -  Startups vs Big Company -  Real Job -  Interview -  SendWithUs (Backend Dev))   What Makes Programming Awesome?   Foundational Learning  University Co-Op  Computer Science   Self-taught  Uvic  Bootcamps       Side Projects  Github  Simple - Complex  Are the new Resume     Open Source  Open your code to the world  Collaborate     Community Involvement  Victoria Tech Sector is Exploding  StartUpSlam and Battlesnake  Victoria Start Up Job Board  Ladies Learning Code", 
+            "text": "Automated E-mail  Realtime API   Send Transactional Emails  Started in 2013, Matt and Brad  YCombinator Startup Accelerator  $2.5M -  US Investors  Team of 17 People  Sales and Marketing in San Fran, California  Engineering and Product Development in Victoria, BC     API Example:  curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send\n    -d '{\n     email_id :  tem_12345 ,\n    }'  Template:  td \n    Welcome to Awesome Co, {{first_name}}! /td   Rendered Template:", 
             "title": "SendWithUs"
+        }, 
+        {
+            "location": "/A)-Lecture/7-Guest-2/#techincal-overview", 
+            "text": "Over 10M emails per day   = 600 instances (on Heroku)  Python, Coffeescript, Golang, CSS, HTML  PostgreSQL, MongoDB, Redis", 
+            "title": "Techincal Overview:"
+        }, 
+        {
+            "location": "/A)-Lecture/7-Guest-2/#backstory", 
+            "text": "Brandon: VIU (Remax, Startup -  websites/products -  SendWithUs)  John: UVIC (5Years -  Math (Failed) -  C's get degrees -  Co-Ops -  Startups vs Big Company -  Real Job -  Interview -  SendWithUs (Backend Dev))", 
+            "title": "Backstory"
+        }, 
+        {
+            "location": "/A)-Lecture/7-Guest-2/#what-makes-programming-awesome", 
+            "text": "Foundational Learning  University Co-Op  Computer Science   Self-taught  Uvic  Bootcamps       Side Projects  Github  Simple - Complex  Are the new Resume     Open Source  Open your code to the world  Collaborate     Community Involvement  Victoria Tech Sector is Exploding  StartUpSlam and Battlesnake  Victoria Start Up Job Board  Ladies Learning Code", 
+            "title": "What Makes Programming Awesome?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/", 
+            "text": "Lecture 13 - February 3rd, 2017\n\n\nSoftware Development and Software Engineering\n\n\nWhy does it matter?\n\n\n\n\nSoftware is being integrated into everythnig we own\n\n\ncoffee makers\n\n\nrefrigerators\n\n\ncars\n\n\nairplanes \n\n\n\n\n\n\n\n\nThe high cost of software bugs\n\n\n\n\n\n\n\"The cost to fix an error found a#er product release was four to five Gmes as much as one uncovered during design, and up to 100 Gmes more than one idenGfied in the maintenance phase.\"\n\n\n\n\nIf a bug is found in the requirements-gathering phase, the cost could be $100.\n\n\nIf the product owner doesn't\n\n\n\n\n\n\n\n\nA 2003 study commisioned by the Department of Commerce's National Institure of Standards and Technology found that software bugs cost the US economy $59.5 billion annually. \n\n\n\n\nAND that was almost 15 years ago!\n\n\n\n\n\n\n\n\nSoftware Bugs\n\n\n\n\nNASA Mars Polar Lander\n\n\nSpacecrart Mars Climate Orbiter\n\n\nNASA Mariner 1\n\n\nFORTRAN Software\n\n\nTherac-25\n\n\nKnight Capital Group\n\n\nBank of Queensland\n\n\n\n\nWhat is software?\n\n\n\n\nSource Code, Executables and Documentation\n\n\nIt's invisible/intagible\n\n\nConceptual Complexity\n\n\n\"Softness\"\n\n\n\n\nDesired qualities of software?\n\n\n\n\nCorrectness\n\n\nReliability\n\n\nSafety\n\n\nUsability\n\n\nEfficiency\n\n\nInteroperability\n\n\nMaintainability\n\n\nPortability\n\n\nCustomizability\n\n\nExtensibility\n\n\nReusability\n\n\nOthers?\n\n\n\n\nWhat is software engineering?\n\n\n\n\nSoftware Engineering is...\n\n\nDiscipline that applies theories, methods, and tools to solve problems related to software production and maintance\n\n\nSoftware engineers strive to deliver high- quality software that satisfies users\u2019 needs, on time and within budget\n\n\n\n\n\n\n\n\nWhy is software engineering an important discipline?\n\n\nWhat are some of the main challenges in developing software?\n\n\nLaws of evolution...\n\n\n\n\nSoftware that remains useful over time, will\n\n\ncontinually \nchange\n...\n\n\nbecome more \ncomplex\n\n\nincrease in \nsize\n\n\ndecrease in \nquality\n\n\n\n\n\n\n\n\nFree Puppy = Free Software\n\n\nHistory of Software Engineering\n\n\n\n\nTerm coined in 1968 due to \nThe Software Crisis!\n\n\n\"The major cause of the software crisis is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.\u201d Edsger Dijkstra, 1972\n\n\n\n\n\n\nStill debated a bit what the term \"software engineering\" means!\n\n\n\n\nNo Silver Bullet\n\n\n\n\n\n\n\"there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity.\u201c Fred Brooks, 1986\n\n\n\n\n\n\nDifference between \nessential complexity\n\n\n\n\n\n\nFred Books\n\n\n\n\nBrook's Law: \"\nadding manpower to a late software project makes it later.\n\"\n\n\nWatch for the \"\nsecond system effect.\n\"\n\n\nThe tendency towards irreductible number of \nerrors\n\n\nQuestion: \n\n\nHow does a large sofware project get to be one year late?\n\n\nOne day at a time!\n\n\n\n\n\n\nAlways design a system to \nthrow away\n\n\n\"good\" programmer\n are generally five to ten times as productive as mediocre ones.\n\n\n\n\nSoftware process (1)\n\n\n\n\nA software process is a set of activities are:\n\n\nSpecifications:\n\n\nDefines what the software should do, and its operational constraints\n\n\n\n\n\n\nDesign and Implementation:\n\n\nDesigns the solutions, and produces the source code to meet the specification \n\n\n\n\n\n\nValidation:\n\n\nChecks that the software produced is what the customer wants\n\n\n\n\n\n\nEvolution: \n\n\nChanges made to the software that meet user's changing needs\n\n\n\n\n\n\n\n\n\n\n\n\nMore fin grained steps\n\n\nWhy follow a given process?\n\n\n\n\nRepeatability\n\n\nManageability\n\n\n\n\nMeasurability\n\n\n\n\n\n\nInterim work products \n\n\n\n\nActivities are less likely to be forgotten\n\n\n\n\nWhat kind of process...\n\n\n \n\n\n\n\n\n\nAgile development and extreme programming\n\n\n\n\nApproach to software development that is: humanistic and lightweight\n\n\nRelies heavily on feedback and communication\n\n\n\n\nCharacteristics:\n\n\n\n\nPair programming\n\n\nTest-first design\n\n\nRefactoring\n\n\nContinous integration\n\n\nCollective ownership\n\n\nCoding standards\n\n\n40 hour week\n\n\nCustomer on team\n\n\n\n\nContinuous Integration\n\n\n\n\nEvery progremmas has their own version of the code, which they work on on their own computer.\n\n\nChanges are synchronized with a version control program like git\n\n\n\n\nProgrammers integrate code changes often, even several times a day\n\n\n\n\n\n\nCommunication is facilitated through:\n\n\n\n\nsource code\n\n\ntest cases\n\n\nsystem structure\n\n\nuse case scenarios\n\n\ntask estimation\n\n\n\n\n\n\n\n\nPair Programming\n\n\n\n\nTwo programmers work together at one computer\n\n\nDriver\n\n\nObserver/Navigator\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes until slide 32\n\n\nEnded on slide 42", 
+            "title": "8 SoftwareDev&SoftwareEng"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#lecture-13-february-3rd-2017", 
+            "text": "", 
+            "title": "Lecture 13 - February 3rd, 2017"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-development-and-software-engineering", 
+            "text": "", 
+            "title": "Software Development and Software Engineering"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#why-does-it-matter", 
+            "text": "Software is being integrated into everythnig we own  coffee makers  refrigerators  cars  airplanes", 
+            "title": "Why does it matter?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#the-high-cost-of-software-bugs", 
+            "text": "\"The cost to fix an error found a#er product release was four to five Gmes as much as one uncovered during design, and up to 100 Gmes more than one idenGfied in the maintenance phase.\"   If a bug is found in the requirements-gathering phase, the cost could be $100.  If the product owner doesn't     A 2003 study commisioned by the Department of Commerce's National Institure of Standards and Technology found that software bugs cost the US economy $59.5 billion annually.    AND that was almost 15 years ago!", 
+            "title": "The high cost of software bugs"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-bugs", 
+            "text": "NASA Mars Polar Lander  Spacecrart Mars Climate Orbiter  NASA Mariner 1  FORTRAN Software  Therac-25  Knight Capital Group  Bank of Queensland", 
+            "title": "Software Bugs"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-is-software", 
+            "text": "Source Code, Executables and Documentation  It's invisible/intagible  Conceptual Complexity  \"Softness\"", 
+            "title": "What is software?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#desired-qualities-of-software", 
+            "text": "Correctness  Reliability  Safety  Usability  Efficiency  Interoperability  Maintainability  Portability  Customizability  Extensibility  Reusability  Others?", 
+            "title": "Desired qualities of software?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-is-software-engineering", 
+            "text": "Software Engineering is...  Discipline that applies theories, methods, and tools to solve problems related to software production and maintance  Software engineers strive to deliver high- quality software that satisfies users\u2019 needs, on time and within budget     Why is software engineering an important discipline?  What are some of the main challenges in developing software?", 
+            "title": "What is software engineering?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#laws-of-evolution", 
+            "text": "Software that remains useful over time, will  continually  change ...  become more  complex  increase in  size  decrease in  quality     Free Puppy = Free Software", 
+            "title": "Laws of evolution..."
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#history-of-software-engineering", 
+            "text": "Term coined in 1968 due to  The Software Crisis!  \"The major cause of the software crisis is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.\u201d Edsger Dijkstra, 1972    Still debated a bit what the term \"software engineering\" means!", 
+            "title": "History of Software Engineering"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#no-silver-bullet", 
+            "text": "\"there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity.\u201c Fred Brooks, 1986    Difference between  essential complexity", 
+            "title": "No Silver Bullet"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#fred-books", 
+            "text": "Brook's Law: \" adding manpower to a late software project makes it later. \"  Watch for the \" second system effect. \"  The tendency towards irreductible number of  errors  Question:   How does a large sofware project get to be one year late?  One day at a time!    Always design a system to  throw away  \"good\" programmer  are generally five to ten times as productive as mediocre ones.", 
+            "title": "Fred Books"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-process-1", 
+            "text": "A software process is a set of activities are:  Specifications:  Defines what the software should do, and its operational constraints    Design and Implementation:  Designs the solutions, and produces the source code to meet the specification     Validation:  Checks that the software produced is what the customer wants    Evolution:   Changes made to the software that meet user's changing needs       More fin grained steps", 
+            "title": "Software process (1)"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#why-follow-a-given-process", 
+            "text": "Repeatability  Manageability   Measurability    Interim work products    Activities are less likely to be forgotten", 
+            "title": "Why follow a given process?"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-kind-of-process", 
+            "text": "", 
+            "title": "What kind of process..."
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#agile-development-and-extreme-programming", 
+            "text": "Approach to software development that is: humanistic and lightweight  Relies heavily on feedback and communication   Characteristics:   Pair programming  Test-first design  Refactoring  Continous integration  Collective ownership  Coding standards  40 hour week  Customer on team", 
+            "title": "Agile development and extreme programming"
+        }, 
+        {
+            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#continuous-integration", 
+            "text": "Every progremmas has their own version of the code, which they work on on their own computer.  Changes are synchronized with a version control program like git   Programmers integrate code changes often, even several times a day    Communication is facilitated through:   source code  test cases  system structure  use case scenarios  task estimation     Pair Programming   Two programmers work together at one computer  Driver  Observer/Navigator        Notes until slide 32  Ended on slide 42", 
+            "title": "Continuous Integration"
         }, 
         {
             "location": "/B)-Lab/Lab/", 
