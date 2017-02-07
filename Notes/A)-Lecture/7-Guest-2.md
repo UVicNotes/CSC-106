@@ -1,4 +1,4 @@
-## Lecture # - February 1st, 2017
+## Lecture 12 - February 1st, 2017
 
 **Guest lecture 2**
 
@@ -14,7 +14,7 @@
     * Sales and Marketing in San Fran, California
     * Engineering and Product Development in Victoria, BC
 
-API Example:
+**API Example:**
 
 ```bash
 curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send
@@ -23,7 +23,7 @@ curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send
     }'
 ```
 
-Template:
+**Template:**
 
 ```html
 <td>
@@ -31,11 +31,11 @@ Template:
 </td>
 ```
 
-Rendered Template:
+**Rendered Template:**
 
-![]()
+![Rendered Email](../C\)-References/email_Rendered.png)
 
-Techincal Overview:
+#### Techincal Overview:
 
 * Over 10M emails per day 
 * <= 600 instances (on Heroku)
@@ -43,12 +43,12 @@ Techincal Overview:
 * PostgreSQL, MongoDB, Redis
 
 
-Backstory
+#### Backstory
 
 * Brandon: VIU (Remax, Startup -> websites/products -> SendWithUs)
 * John: UVIC (5Years -> Math (Failed) -> C's get degrees -> Co-Ops -> Startups vs Big Company -> Real Job -> Interview -> SendWithUs (Backend Dev))
 
-What Makes Programming Awesome?
+#### What Makes Programming Awesome?
 
 * Foundational Learning
     * University Co-Op
