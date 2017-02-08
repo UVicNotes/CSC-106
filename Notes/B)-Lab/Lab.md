@@ -183,3 +183,54 @@ OR, AND, NOT gates
 ---
 
 **Note:** Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. 
+
+## Lab 5 - February 7th, 2017
+
+#### Sorting
+
+Selection Sort vs. Bubble Sort
+
+**Selection Sort**
+
+List of numbers [64, 25, 12, 22, 11]
+
+```
+n=5
+min position = "position of min"
+min = "min for index i"
+i = "index for next sorted number"
+j = "index to compare as next min"
+
+1. Look at index 1
+2. Find the lowest number in the list and switch it with the first position.
+
+[11, 25, 12, 22, 64]
+
+1. Look at index 2
+2. Find the new min
+3. Is the number lower than that of index 2
+
+[11, 12, 25, 22, 64]
+
+ect. 
+
+[11, 12, 22, 25, 64]
+
+1. Look at the last two in the array
+```
+
+![Classroom Flowchart]()
+
+
+**Bubble Sort**
+
+List of numbers [5, 1, 4, 2, 8]
+
+```
+n=5
+i = N
+j = ""
+
+```
+
+Wikipedia page on bubble sort
