@@ -366,98 +366,148 @@
             "title": "What Makes Programming Awesome?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/", 
             "text": "Lecture 13 - February 3rd, 2017\n\n\nSoftware Development and Software Engineering\n\n\nWhy does it matter?\n\n\n\n\nSoftware is being integrated into everythnig we own\n\n\ncoffee makers\n\n\nrefrigerators\n\n\ncars\n\n\nairplanes \n\n\n\n\n\n\n\n\nThe high cost of software bugs\n\n\n\n\n\n\n\"The cost to fix an error found a#er product release was four to five Gmes as much as one uncovered during design, and up to 100 Gmes more than one idenGfied in the maintenance phase.\"\n\n\n\n\nIf a bug is found in the requirements-gathering phase, the cost could be $100.\n\n\nIf the product owner doesn't\n\n\n\n\n\n\n\n\nA 2003 study commisioned by the Department of Commerce's National Institure of Standards and Technology found that software bugs cost the US economy $59.5 billion annually. \n\n\n\n\nAND that was almost 15 years ago!\n\n\n\n\n\n\n\n\nSoftware Bugs\n\n\n\n\nNASA Mars Polar Lander\n\n\nSpacecrart Mars Climate Orbiter\n\n\nNASA Mariner 1\n\n\nFORTRAN Software\n\n\nTherac-25\n\n\nKnight Capital Group\n\n\nBank of Queensland\n\n\n\n\nWhat is software?\n\n\n\n\nSource Code, Executables and Documentation\n\n\nIt's invisible/intagible\n\n\nConceptual Complexity\n\n\n\"Softness\"\n\n\n\n\nDesired qualities of software?\n\n\n\n\nCorrectness\n\n\nReliability\n\n\nSafety\n\n\nUsability\n\n\nEfficiency\n\n\nInteroperability\n\n\nMaintainability\n\n\nPortability\n\n\nCustomizability\n\n\nExtensibility\n\n\nReusability\n\n\nOthers?\n\n\n\n\nWhat is software engineering?\n\n\n\n\nSoftware Engineering is...\n\n\nDiscipline that applies theories, methods, and tools to solve problems related to software production and maintance\n\n\nSoftware engineers strive to deliver high- quality software that satisfies users\u2019 needs, on time and within budget\n\n\n\n\n\n\n\n\nWhy is software engineering an important discipline?\n\n\nWhat are some of the main challenges in developing software?\n\n\nLaws of evolution...\n\n\n\n\nSoftware that remains useful over time, will\n\n\ncontinually \nchange\n...\n\n\nbecome more \ncomplex\n\n\nincrease in \nsize\n\n\ndecrease in \nquality\n\n\n\n\n\n\n\n\nFree Puppy = Free Software\n\n\nHistory of Software Engineering\n\n\n\n\nTerm coined in 1968 due to \nThe Software Crisis!\n\n\n\"The major cause of the software crisis is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.\u201d Edsger Dijkstra, 1972\n\n\n\n\n\n\nStill debated a bit what the term \"software engineering\" means!\n\n\n\n\nNo Silver Bullet\n\n\n\n\n\n\n\"there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity.\u201c Fred Brooks, 1986\n\n\n\n\n\n\nDifference between \nessential complexity\n\n\n\n\n\n\nFred Books\n\n\n\n\nBrook's Law: \"\nadding manpower to a late software project makes it later.\n\"\n\n\nWatch for the \"\nsecond system effect.\n\"\n\n\nThe tendency towards irreductible number of \nerrors\n\n\nQuestion: \n\n\nHow does a large sofware project get to be one year late?\n\n\nOne day at a time!\n\n\n\n\n\n\nAlways design a system to \nthrow away\n\n\n\"good\" programmer\n are generally five to ten times as productive as mediocre ones.\n\n\n\n\nSoftware process (1)\n\n\n\n\nA software process is a set of activities are:\n\n\nSpecifications:\n\n\nDefines what the software should do, and its operational constraints\n\n\n\n\n\n\nDesign and Implementation:\n\n\nDesigns the solutions, and produces the source code to meet the specification \n\n\n\n\n\n\nValidation:\n\n\nChecks that the software produced is what the customer wants\n\n\n\n\n\n\nEvolution: \n\n\nChanges made to the software that meet user's changing needs\n\n\n\n\n\n\n\n\n\n\n\n\nMore fin grained steps\n\n\nWhy follow a given process?\n\n\n\n\nRepeatability\n\n\nManageability\n\n\n\n\nMeasurability\n\n\n\n\n\n\nInterim work products \n\n\n\n\nActivities are less likely to be forgotten\n\n\n\n\nWhat kind of process...\n\n\n \n\n\n\n\n\n\nAgile development and extreme programming\n\n\n\n\nApproach to software development that is: humanistic and lightweight\n\n\nRelies heavily on feedback and communication\n\n\n\n\nCharacteristics:\n\n\n\n\nPair programming\n\n\nTest-first design\n\n\nRefactoring\n\n\nContinous integration\n\n\nCollective ownership\n\n\nCoding standards\n\n\n40 hour week\n\n\nCustomer on team\n\n\n\n\nContinuous Integration\n\n\n\n\nEvery progremmas has their own version of the code, which they work on on their own computer.\n\n\nChanges are synchronized with a version control program like git\n\n\n\n\nProgrammers integrate code changes often, even several times a day\n\n\n\n\n\n\nCommunication is facilitated through:\n\n\n\n\nsource code\n\n\ntest cases\n\n\nsystem structure\n\n\nuse case scenarios\n\n\ntask estimation\n\n\n\n\n\n\n\n\nPair Programming\n\n\n\n\nTwo programmers work together at one computer\n\n\nDriver\n\n\nObserver/Navigator\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNotes until slide 32\n\n\nEnded on slide 42", 
-            "title": "8 SoftwareDev&SoftwareEng"
+            "title": "8 Software Dev & Software Eng"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#lecture-13-february-3rd-2017", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#lecture-13-february-3rd-2017", 
             "text": "", 
             "title": "Lecture 13 - February 3rd, 2017"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-development-and-software-engineering", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#software-development-and-software-engineering", 
             "text": "", 
             "title": "Software Development and Software Engineering"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#why-does-it-matter", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#why-does-it-matter", 
             "text": "Software is being integrated into everythnig we own  coffee makers  refrigerators  cars  airplanes", 
             "title": "Why does it matter?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#the-high-cost-of-software-bugs", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#the-high-cost-of-software-bugs", 
             "text": "\"The cost to fix an error found a#er product release was four to five Gmes as much as one uncovered during design, and up to 100 Gmes more than one idenGfied in the maintenance phase.\"   If a bug is found in the requirements-gathering phase, the cost could be $100.  If the product owner doesn't     A 2003 study commisioned by the Department of Commerce's National Institure of Standards and Technology found that software bugs cost the US economy $59.5 billion annually.    AND that was almost 15 years ago!", 
             "title": "The high cost of software bugs"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-bugs", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#software-bugs", 
             "text": "NASA Mars Polar Lander  Spacecrart Mars Climate Orbiter  NASA Mariner 1  FORTRAN Software  Therac-25  Knight Capital Group  Bank of Queensland", 
             "title": "Software Bugs"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-is-software", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#what-is-software", 
             "text": "Source Code, Executables and Documentation  It's invisible/intagible  Conceptual Complexity  \"Softness\"", 
             "title": "What is software?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#desired-qualities-of-software", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#desired-qualities-of-software", 
             "text": "Correctness  Reliability  Safety  Usability  Efficiency  Interoperability  Maintainability  Portability  Customizability  Extensibility  Reusability  Others?", 
             "title": "Desired qualities of software?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-is-software-engineering", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#what-is-software-engineering", 
             "text": "Software Engineering is...  Discipline that applies theories, methods, and tools to solve problems related to software production and maintance  Software engineers strive to deliver high- quality software that satisfies users\u2019 needs, on time and within budget     Why is software engineering an important discipline?  What are some of the main challenges in developing software?", 
             "title": "What is software engineering?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#laws-of-evolution", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#laws-of-evolution", 
             "text": "Software that remains useful over time, will  continually  change ...  become more  complex  increase in  size  decrease in  quality     Free Puppy = Free Software", 
             "title": "Laws of evolution..."
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#history-of-software-engineering", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#history-of-software-engineering", 
             "text": "Term coined in 1968 due to  The Software Crisis!  \"The major cause of the software crisis is that the machines have become several orders of magnitude more powerful! To put it quite bluntly: as long as there were no machines, programming was no problem at all; when we had a few weak computers, programming became a mild problem, and now we have gigantic computers, programming has become an equally gigantic problem.\u201d Edsger Dijkstra, 1972    Still debated a bit what the term \"software engineering\" means!", 
             "title": "History of Software Engineering"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#no-silver-bullet", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#no-silver-bullet", 
             "text": "\"there is no single development, in either technology or management technique, which by itself promises even one order of magnitude [tenfold] improvement within a decade in productivity, in reliability, in simplicity.\u201c Fred Brooks, 1986    Difference between  essential complexity", 
             "title": "No Silver Bullet"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#fred-books", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#fred-books", 
             "text": "Brook's Law: \" adding manpower to a late software project makes it later. \"  Watch for the \" second system effect. \"  The tendency towards irreductible number of  errors  Question:   How does a large sofware project get to be one year late?  One day at a time!    Always design a system to  throw away  \"good\" programmer  are generally five to ten times as productive as mediocre ones.", 
             "title": "Fred Books"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#software-process-1", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#software-process-1", 
             "text": "A software process is a set of activities are:  Specifications:  Defines what the software should do, and its operational constraints    Design and Implementation:  Designs the solutions, and produces the source code to meet the specification     Validation:  Checks that the software produced is what the customer wants    Evolution:   Changes made to the software that meet user's changing needs       More fin grained steps", 
             "title": "Software process (1)"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#why-follow-a-given-process", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#why-follow-a-given-process", 
             "text": "Repeatability  Manageability   Measurability    Interim work products    Activities are less likely to be forgotten", 
             "title": "Why follow a given process?"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#what-kind-of-process", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#what-kind-of-process", 
             "text": "", 
             "title": "What kind of process..."
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#agile-development-and-extreme-programming", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#agile-development-and-extreme-programming", 
             "text": "Approach to software development that is: humanistic and lightweight  Relies heavily on feedback and communication   Characteristics:   Pair programming  Test-first design  Refactoring  Continous integration  Collective ownership  Coding standards  40 hour week  Customer on team", 
             "title": "Agile development and extreme programming"
         }, 
         {
-            "location": "/A)-Lecture/8-SoftwareDev&SoftwareEng/#continuous-integration", 
+            "location": "/A)-Lecture/8-Software-Dev-&-Software-Eng/#continuous-integration", 
             "text": "Every progremmas has their own version of the code, which they work on on their own computer.  Changes are synchronized with a version control program like git   Programmers integrate code changes often, even several times a day    Communication is facilitated through:   source code  test cases  system structure  use case scenarios  task estimation     Pair Programming   Two programmers work together at one computer  Driver  Observer/Navigator        Notes until slide 32  Ended on slide 42", 
             "title": "Continuous Integration"
         }, 
         {
+            "location": "/A)-Lecture/9-Guest-3/", 
+            "text": "Lecture 14 - February 7th, 2017\n\n\nGuest Lecture 3\n\n\nWhat is HCI\n\n\nAn introduction to human computer interaction (SENG 310) - David Johnson\n\n\nVitural Reality - Human interaction\n\n\n\n\nThe study of the interactions between people and computer interfaces\n\n\nThe process of designing and buildig software that is \nusable\n, \nuseful\n, and \nenjoyable\n\n\n\n\n\n\nWhy should we study HCI?\n\n\nWhat is an interface?\n\n\n\n\nA boundary where two systems / subjects / things meet to exchange information\n\n\n\n\nInterface Examples:\n\n\n\n\nGoogle Search\n\n\nApple Watch\n\n\nAmazon Echo\n\n\n\n\nBad Interfaces:\n\n\n\n\nLock -\n (Door Signage)\n\n\nKnobs and Burner\n\n\n\n\nPrinciples of Good Design\n\n\n\n\nRobin Williams Book\n\n\n\n\n2 Important Aspects of Good Design:\n\n\n\n\nDiscoverability\n\n\nUnderstanding\n\n\n\n\nNorman's Deisgn Principles\n\n\n\n\nVisibility\n\n\nAffordances \n Signifiers\n\n\nEx. Faucets, Doors \n\n\n\n\n\n\nConstraints\n\n\nReduce Errors \n\n\n\n\n\n\nMappings\n\n\nEx. Burner \n\n\n\n\n\n\nFeedback\n\n\nSatisfaction \n\n\n\n\n\n\nConsistency\n\n\n\n\nNorman Doors\n\n\n\n\nConsequences of Bad Design\n\n\n\n\nDecrease adoption\n\n\nDecrease productibity\n\n\nDecrease employee morale\n\n\nData loss\n\n\n\n\nGoals of Good Design\n\n\n\n\nUsability\n\n\nUser Experience\n\n\n\n\nUsability Goals:\n\n\n\n\nEffectiveness\n\n\nEfficient\n\n\nSafety\n\n\nUtility\n\n\nLearnability\n\n\nMemorability\n\n\nNote\n These do not measure how well the user actually enjoys the experience...\n\n\n\n\nUser Experience Goals:\n\n\n\n\nSatisfaction\n\n\nFun\n\n\nHelpful\n\n\nMotivating\n\n\nRewarding\n\n\nA e s t h e t i c s\n\n\n\n\nInteraction Deisgn\n\n\n\n\nRequirements Gathering\n\n\nDon't listen to users\n\n\nWhat they do, versus what they said\n\n\nGain empathy for the user\n\n\nQuestions (Users, Goals, ect.) \n\n\n\n\n\n\nConceptual Design\n\n\nModel\n\n\nPurpose statement, objects, operations, attribute, relationship  \n\n\n\n\n\n\nPersonas\n\n\nExample \n\n\n\n\n\n\nScenarios \n Use Cases\n\n\n\n\n\n\nConcrete Design\n\n\nPrototyping\n\n\nInteractive Deisgn\n\n\nFidelity of prototypes (Low - Paper, High - Sketch / InVision) \n\n\n\n\n\n\nEvaluation\n\n\nDoes it work?\n\n\nWhy, Who, When\n\n\nCognitive Walkthrough\n\n\n5 Steps of Usibility\n\n\n5 Users Min / Max - Interating  \n\n\n\n\n\n\n\n\n\n\nRepeat... \n\n\n\n\nThe user is drunk\n\n\nLink to Video", 
+            "title": "9 Guest 3"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#lecture-14-february-7th-2017", 
+            "text": "", 
+            "title": "Lecture 14 - February 7th, 2017"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#guest-lecture-3", 
+            "text": "", 
+            "title": "Guest Lecture 3"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#what-is-hci", 
+            "text": "An introduction to human computer interaction (SENG 310) - David Johnson  Vitural Reality - Human interaction   The study of the interactions between people and computer interfaces  The process of designing and buildig software that is  usable ,  useful , and  enjoyable", 
+            "title": "What is HCI"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#why-should-we-study-hci", 
+            "text": "", 
+            "title": "Why should we study HCI?"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#what-is-an-interface", 
+            "text": "A boundary where two systems / subjects / things meet to exchange information   Interface Examples:   Google Search  Apple Watch  Amazon Echo   Bad Interfaces:   Lock -  (Door Signage)  Knobs and Burner", 
+            "title": "What is an interface?"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#principles-of-good-design", 
+            "text": "Robin Williams Book   2 Important Aspects of Good Design:   Discoverability  Understanding   Norman's Deisgn Principles   Visibility  Affordances   Signifiers  Ex. Faucets, Doors     Constraints  Reduce Errors     Mappings  Ex. Burner     Feedback  Satisfaction     Consistency   Norman Doors", 
+            "title": "Principles of Good Design"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#consequences-of-bad-design", 
+            "text": "Decrease adoption  Decrease productibity  Decrease employee morale  Data loss", 
+            "title": "Consequences of Bad Design"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#goals-of-good-design", 
+            "text": "Usability  User Experience   Usability Goals:   Effectiveness  Efficient  Safety  Utility  Learnability  Memorability  Note  These do not measure how well the user actually enjoys the experience...   User Experience Goals:   Satisfaction  Fun  Helpful  Motivating  Rewarding  A e s t h e t i c s", 
+            "title": "Goals of Good Design"
+        }, 
+        {
+            "location": "/A)-Lecture/9-Guest-3/#interaction-deisgn", 
+            "text": "Requirements Gathering  Don't listen to users  What they do, versus what they said  Gain empathy for the user  Questions (Users, Goals, ect.)     Conceptual Design  Model  Purpose statement, objects, operations, attribute, relationship      Personas  Example     Scenarios   Use Cases    Concrete Design  Prototyping  Interactive Deisgn  Fidelity of prototypes (Low - Paper, High - Sketch / InVision)     Evaluation  Does it work?  Why, Who, When  Cognitive Walkthrough  5 Steps of Usibility  5 Users Min / Max - Interating        Repeat...    The user is drunk  Link to Video", 
+            "title": "Interaction Deisgn"
+        }, 
+        {
             "location": "/B)-Lab/Lab/", 
-            "text": "Databases\n\n\nLab 1 - January 10th, 2017\n\n\nSqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\n\n\n\n\n\nAnd (*)\n\n\n  \n\n\n\n\n\n\nXOR (circleX)\n\n\n\n\n\n\n\n\nNot (~)\n\n\n\n\n\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs.", 
+            "text": "Databases\n\n\nLab 1 - January 10th, 2017\n\n\nSqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\n\n\n\n\n\nAnd (*)\n\n\n  \n\n\n\n\n\n\nXOR (circleX)\n\n\n\n\n\n\n\n\nNot (~)\n\n\n\n\n\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. \n\n\nLab 5 - February 7th, 2017\n\n\nSorting\n\n\nSelection Sort vs. Bubble Sort\n\n\nSelection Sort\n\n\nList of numbers [64, 25, 12, 22, 11]\n\n\nn=5\nmin position = \nposition of min\n\nmin = \nmin for index i\n\ni = \nindex for next sorted number\n\nj = \nindex to compare as next min\n\n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array\n\n\n\n\n\n\nBubble Sort\n\n\nList of numbers [5, 1, 4, 2, 8]\n\n\nn=5\ni = N\nj = \n\n\n\n\n\n\nWikipedia page on bubble sort", 
             "title": "Lab"
         }, 
         {
@@ -539,6 +589,16 @@
             "location": "/B)-Lab/Lab/#the-or-and-ands-rule", 
             "text": "OR, AND, NOT gates     A  B  C      0  0  0    0  1  1    1  0  0    1  1  1      Look at only to inputs with 1 output.   A is 0 -  Not gate  B is 1 -  Nothing  an AND those two  A is 1 -  Nothing  B is 1 -  Nothing  and AND those two  put both those paths to an OR gate    Note:  Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs.", 
             "title": "The \"OR and ANDS\" Rule"
+        }, 
+        {
+            "location": "/B)-Lab/Lab/#lab-5-february-7th-2017", 
+            "text": "", 
+            "title": "Lab 5 - February 7th, 2017"
+        }, 
+        {
+            "location": "/B)-Lab/Lab/#sorting", 
+            "text": "Selection Sort vs. Bubble Sort  Selection Sort  List of numbers [64, 25, 12, 22, 11]  n=5\nmin position =  position of min \nmin =  min for index i \ni =  index for next sorted number \nj =  index to compare as next min \n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array   Bubble Sort  List of numbers [5, 1, 4, 2, 8]  n=5\ni = N\nj =    Wikipedia page on bubble sort", 
+            "title": "Sorting"
         }, 
         {
             "location": "/D)-Annex/Announcements/", 
