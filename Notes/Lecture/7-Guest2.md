@@ -33,7 +33,7 @@ curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send
 
 **Rendered Template:**
 
-![Rendered Email](../C\)-References/email_Rendered.png)
+![Rendered Email](..References/email_Rendered.png)
 
 #### Techincal Overview:
 

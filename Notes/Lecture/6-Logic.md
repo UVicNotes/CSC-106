@@ -10,11 +10,11 @@
 * `AND` Truth Table (*)
 * Combine : `OR` and `AND`
 
-![Images RefeANdrences](../C\)-References/AND&OR.png)
+![Images RefeANdrences](..References/AND&OR.png)
 
 * `Not` (~)
 
-![Images from slides](../C\)-References/NOT.png)
+![Images from slides](..References/NOT.png)
 
 ### Circuit Diagrams
 

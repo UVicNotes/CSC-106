@@ -81,7 +81,7 @@ Average the data when it's noisy data
         * Process Stops
 
         
-![Decision Tree](../C\)-References/DecisionTree.png)
+![Decision Tree](..References/DecisionTree.png)
 
 
 AI Experience (withGoogle)
@@ -90,7 +90,8 @@ AI Experience (withGoogle)
     * Normalprocedure:topdowninarecursivedivide-and- conquer fashion
         * First: an attribute is selected for the root node and a branch is created for each possible attribute value
         * Then: the instances are split into subsets (one for each branch extending from the node)
-        * Finally: the same procedure is repeated for each branch, using only instances that reach the branch    * Processstopsifallinstanceshavethesameclass   
+        * Finally: the same procedure is repeated for each branch, using only instances that reach the branch
+    * Processstopsifallinstanceshavethesameclass   
 
 Attribution Selection:
 
@@ -103,7 +104,7 @@ Measuring Purity with Entropy:
     * Higher -> messier the group
     * Lower -> purer the group
 
-![Entropy](../C\)-References/Entropy.png)
+![Entropy](..References/Entropy.png)
 
 Bonus:
 

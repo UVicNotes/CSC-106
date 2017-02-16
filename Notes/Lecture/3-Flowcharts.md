@@ -13,15 +13,15 @@
 
 **Ex.** Making a flowchart for collatz conjecture 
 
-![Flowchart1](../C\)-References/Flowcharts_Figure1.jpg)
+![Flowchart1](..References/Flowcharts_Figure1.jpg)
 
 **Ex.** A flowchart to calculate avg. of grades of student of Turing
 
-![Flowchart2](../C\)-References/Flowcharts_Figure2.png)
+![Flowchart2](..References/Flowcharts_Figure2.png)
 
 **Ex.** To print a phone number corresponding to given name or else print "no such name"
 
-![Flowchart3](../C\)-References/Flowcharts_Figure3.png)
+![Flowchart3](..References/Flowcharts_Figure3.png)
 
 ## Lecture 6 - January 17th, 2017
 

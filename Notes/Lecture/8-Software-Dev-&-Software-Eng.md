@@ -120,11 +120,11 @@
 
 #### What kind of process...
 
-![Flowchart from Slide](../C\)-References/Flowchart_Figure4.png) 
+![Flowchart from Slide](..References/Flowchart_Figure4.png) 
 
-![Waterfall Model](../C\)-References/waterfall_Flowchart.png)
+![Waterfall Model](..References/waterfall_Flowchart.png)
 
-![Water model in practice](../C\)-References/waterfallModel_Flowchart.png)
+![Water model in practice](..References/waterfallModel_Flowchart.png)
 
 #### Agile development and extreme programming
 
@@ -195,7 +195,8 @@ Things to think about:
 * How is software engineering different from computer science? 
 
 Summary
-* Software engineering is an exciting field!
+
+* Software engineering is an exciting field!
 * Combines elements of engineering, computer science, social sciences, business, management....
 * Can be interdisciplinary
 * Is an important profession! Software engineers are in high demand!   

@@ -11,7 +11,7 @@ Vitural Reality - Human interaction
 * The study of the interactions between people and computer interfaces
 * The process of designing and buildig software that is **usable**, **useful**, and **enjoyable**
 
-![The field of HCI](../C\)-References/HCI.png)
+![The field of HCI](../References/HCI.png)
 
 #### Why should we study HCI?
 
@@ -54,7 +54,7 @@ Vitural Reality - Human interaction
 
 **Norman Doors**
 
-![Norman Door](../C\)-References/NormanDoor.png)
+![Norman Door](../References/NormanDoor.png)
 
 #### Consequences of Bad Design
 

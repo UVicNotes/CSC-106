@@ -86,11 +86,11 @@ N.B. Team A draws a name -> Team A inputs name into computer -> Team B guesses (
 
 **My Solution:**
 
-![My Solution](../C\)-References/lab2_mySolution.png)
+![My Solution](..References/lab2_mySolution.png)
 
 **Group Solution:**
 
-![My Solution](../C\)-References/lab2_solution.png)
+![My Solution](..References/lab2_solution.png)
 
 **PseudoCode Exercise:** Get the name and title of books where there is a 1 and the year in lesser than 1960
 
@@ -147,12 +147,12 @@ Answer:  `Select name, title from characters where human=1 and year<1960`
 ## Lab 4 - January 31st, 2017
 
 * OR (+)
-![Or Statement](../C\)-References/OR.png)
+![Or Statement](..References/OR.png)
 * And (*)
-![And Statement](../C\)-References/AND.png)  
+![And Statement](..References/AND.png)  
 * XOR (circleX)
 * Not (~)
-![NOT](../C\)-References/NOT.png)
+![NOT](..References/NOT.png)
 
 Truth Tables -> Circuit Diagram 
 
@@ -218,7 +218,7 @@ ect.
 1. Look at the last two in the array
 ```
 
-![Classroom Flowchart](../C\)-References/Flowchart_SelectionSort.png)
+![Classroom Flowchart](..References/Flowchart_SelectionSort.png)
 
 
 **Bubble Sort**
@@ -232,6 +232,6 @@ j = ""
 
 ```
 
-![Classroom Flowchart](../C\)-References/Flowchart_BubbleSort.png)
+![Classroom Flowchart](..References/Flowchart_BubbleSort.png)
 
 Wikipedia page on bubble sort

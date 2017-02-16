@@ -6,7 +6,7 @@ My research question:
 
 Siri and the Long tail:
 
-![Image reference](../C\)-References/Siri.png) 
+![Image reference](..References/Siri.png) 
 
 #### Outline
 
@@ -36,8 +36,8 @@ Meaning in the brain:
     * Which brain areas acKvate for parKcular words
     * Predict the word a person is reading from their brain acKvaKon
     
-![Image reference 1](../C\)-References/Meaning.png)
-![Image reference 2](../C\)-References/Meaning2.png)
+![Image reference 1](..References/Meaning.png)
+![Image reference 2](..References/Meaning2.png)
 
 How to build a model?
 
@@ -52,7 +52,7 @@ How to build a model?
     You can't build model for every word
         Solution: Word Features (eg. edible, alive)
     
-![Word prediction via features](../C\)-References/WordFeatures.png)
+![Word prediction via features](..References/WordFeatures.png)
 
 
 **Ex. The Brain Data**
@@ -66,13 +66,13 @@ Word Features
 
 * Accuracy: 77%
 
-![Dog Example](../C\)-References/Dog.png)
+![Dog Example](..References/Dog.png)
 
 **20 Questions: (MEG)** 
 
 * Array of numbers = Identifier of the Word
 
-![Word Array](../C\)-References/WordArray.png)
+![Word Array](..References/WordArray.png)
 
 * Visual Features (Of the Word and the Image)
     * Posterior Regions 
