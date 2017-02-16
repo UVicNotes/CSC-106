@@ -5,6 +5,25 @@ site_url: http://uvicnotes.github.io/CSC-106/
 repo_url: https://github.com/UVicNotes/CSC-106
 site_description: Course Notes for CSC 106 - The Practice of Computer Science
 site_author: Dominique Charlebois
+pages:
+- Home: 'index.md'
+- Notes:
+    - Lecture:
+        - 'Introduction': '1-Introduction.md'
+        - 'Databases': '2-Databases.md'
+        - 'Flowcharts': '3-Flowcharts.md'
+        - 'Number Systems': '4-Number-Systems.md'
+        - 'Guest 1': '5-Guest1.md'
+        - 'Logic': '6-Logic.md'
+        - 'Guest 2': '7-Guest2.md'
+        - 'Software Development and Software Engineering': '8-Software-Dev-&-Software-Eng.md'
+        - 'Guest 3': '9-Guest3.md'
+        - 'Artificial Intelligence and Data Mining': '10-Artificial-Intelligence-&-Data-Mining.md'
+        - 'The Reading Brain': '11-The-Reading-Brain.md'
+    - Lab:
+        - 'Lab': 'Lab.md'
+    - Annex: 
+        - 'Announcements': 'Announcements.md'
 extra_javascript:
     - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js
