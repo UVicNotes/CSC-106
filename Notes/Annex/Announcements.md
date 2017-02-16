@@ -48,7 +48,8 @@ Midterm 1 Performance:
 Programing in Python:
 
 * After reading break
-* head start
-    * cscircles.cemc.uwaterloo.ca
-* install python
-    * developers.google.com/edu/python/set-up
+* Head start
+    * [Waterloo Intsall](cscircles.cemc.uwaterloo.ca)
+* Install python
+    * [Google Dev Docs](developers.google.com/edu/python/set-up)
+
