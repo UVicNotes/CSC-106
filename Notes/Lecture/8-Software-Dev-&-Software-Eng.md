@@ -120,11 +120,11 @@
 
 #### What kind of process...
 
-![Flowchart from Slide](..References/Flowchart_Figure4.png) 
+![Flowchart from Slide](../References/Flowchart_Figure4.png) 
 
-![Waterfall Model](..References/waterfall_Flowchart.png)
+![Waterfall Model](../References/waterfall_Flowchart.png)
 
-![Water model in practice](..References/waterfallModel_Flowchart.png)
+![Water model in practice](../References/waterfallModel_Flowchart.png)
 
 #### Agile development and extreme programming
 

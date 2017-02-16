@@ -502,4 +502,4 @@ cur_num = 1
 Exit while loop
 ```
 
-![Graph](..References/databases3_CollatzConjecture.png)
+![Graph](../References/databases3_CollatzConjecture.png)

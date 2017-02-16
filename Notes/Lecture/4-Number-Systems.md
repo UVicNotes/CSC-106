@@ -24,7 +24,7 @@
 1x4 + 0x2 + 1x1 = 5
 ```
 
-![Binary Number Example](..References/Reference_Binary.png)
+![Binary Number Example](../References/Reference_Binary.png)
 
 **NOTE:** Test Material
 

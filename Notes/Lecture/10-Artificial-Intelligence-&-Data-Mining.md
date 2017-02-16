@@ -81,7 +81,7 @@ Average the data when it's noisy data
         * Process Stops
 
         
-![Decision Tree](..References/DecisionTree.png)
+![Decision Tree](../References/DecisionTree.png)
 
 
 AI Experience (withGoogle)
@@ -104,7 +104,7 @@ Measuring Purity with Entropy:
     * Higher -> messier the group
     * Lower -> purer the group
 
-![Entropy](..References/Entropy.png)
+![Entropy](../References/Entropy.png)
 
 Bonus:
 
