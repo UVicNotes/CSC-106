@@ -16,3 +16,18 @@
 *   Midterm:
     *   40 Multiple Choice
     *   1 Long Answer
+
+### Announcement 4 - Januery 27th, 2017
+
+**Midterm:**
+
+* Evaluate logical expression
+    * X and Y and ~Z
+* sql
+* Slide material is fair game
+
+### Announcement 5 - February 8th, 2017
+
+* Homework 2 - Due on Friday
+    * Question 1 - Logical Expression (ex. (A and B) or !A) 
+* Homework 3 - Open the 20th of February

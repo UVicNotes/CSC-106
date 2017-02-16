@@ -25,7 +25,7 @@
 
 ## Lecture 6 - January 17th, 2017
 
-**Modulo:** The ramainder after dividing. 
+**Modulo:** The remainder after dividing. 
 
 **Question:** Determine if a year is a leap year
 

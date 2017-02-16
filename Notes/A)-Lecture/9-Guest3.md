@@ -1,6 +1,6 @@
 ## Lecture 14 - February 7th, 2017
 
-## Guest Lecture 3
+### Guest Lecture 3
 
 #### What is HCI
 
@@ -11,7 +11,7 @@ Vitural Reality - Human interaction
 * The study of the interactions between people and computer interfaces
 * The process of designing and buildig software that is **usable**, **useful**, and **enjoyable**
 
-![The field of HCI]()
+![The field of HCI](../C\)-References/HCI.png)
 
 #### Why should we study HCI?
 
@@ -54,7 +54,7 @@ Vitural Reality - Human interaction
 
 **Norman Doors**
 
-![Norman Door]()
+![Norman Door](../C\)-References/NormanDoor.png)
 
 #### Consequences of Bad Design
 
@@ -114,4 +114,4 @@ Vitural Reality - Human interaction
 
 **The user is drunk**
 
-[Link to Video]()
+[Link to Video](https://www.youtube.com/watch?v=r2CbbBLVaPk&feature=youtu.be)

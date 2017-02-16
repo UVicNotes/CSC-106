@@ -147,13 +147,12 @@ Answer:  `Select name, title from characters where human=1 and year<1960`
 ## Lab 4 - January 31st, 2017
 
 * OR (+)
-    * ![Image]()
+![Or Statement](../C\)-References/OR.png)
 * And (*)
-    * ![Image]()  
+![And Statement](../C\)-References/AND.png)  
 * XOR (circleX)
-    * ![Image]()
 * Not (~)
-    * ![Image]()
+![NOT](../C\)-References/NOT.png)
 
 Truth Tables -> Circuit Diagram 
 
@@ -219,7 +218,7 @@ ect.
 1. Look at the last two in the array
 ```
 
-![Classroom Flowchart]()
+![Classroom Flowchart](../C\)-References/Flowchart_SelectionSort.png)
 
 
 **Bubble Sort**
@@ -232,5 +231,7 @@ i = N
 j = ""
 
 ```
+
+![Classroom Flowchart](../C\)-References/Flowchart_BubbleSort.png)
 
 Wikipedia page on bubble sort

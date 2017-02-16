@@ -155,13 +155,49 @@
     * use case scenarios
     * task estimation
 
-* Pair Programming
+* Pair Programming:
     * Two programmers work together at one computer
         * Driver
+            * strategize over direction 
+            * think of improvements
+            * see likely future problems to address
+            * bigger picture
         * Observer/Navigator
+            * actually wrtires the code
+            * more details oriented
+        * Switch roles often to prevent fatigue, leep interest
+        * More man power BUT less code defects
+        * Great learning experience
+        * Better for complex task
 
----
+* Software Testing:
+    * Every line of code is tested (in practice, impossible)
+    * Test -> while coding, before coding
 
-Notes until slide 32
+* Ethics...
+    * ACM/IEEE Software Engineering Code of Ethics and Professional Practice
+    * Eight Priniciples
 
-Ended on slide 42            
+Ethical Dilemmas?
+
+* Your employers acts unethical
+* You participate in the development of military weapons or nuclear systems
+* Produce Malware
+* Others?
+
+Open Source:
+
+* Sort of like a bazaar (Production Code like a cathedral)
+
+Things to think about:
+
+* How is software engineering different from other kinds of engineering (e.g. civil, mechanical, electrical etc)?
+* How is software engineering different from computer science? 
+
+Summary
+* Software engineering is an exciting field!
+* Combines elements of engineering, computer science, social sciences, business, management....
+* Can be interdisciplinary
+* Is an important profession! Software engineers are in high demand!   
+
+            

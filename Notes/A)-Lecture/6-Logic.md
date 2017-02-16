@@ -10,11 +10,11 @@
 * `AND` Truth Table (*)
 * Combine : `OR` and `AND`
 
-![Images References]()
+![Images RefeANdrences](../C\)-References/AND&OR.png)
 
 * `Not` (~)
 
-![Images from slides]()
+![Images from slides](../C\)-References/NOT.png)
 
 ### Circuit Diagrams
 
@@ -156,10 +156,3 @@ while swapped is True
 #### Practice
 
 Converting Pseudocode to Flowcharts **Important**
-
-**Midterm:**
-
-* Evaluate logical expression
-    * X and Y and ~Z
-* sql
-* Slide material is fair game

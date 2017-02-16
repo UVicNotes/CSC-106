@@ -18,7 +18,7 @@ A general introduction to the field of computer science, its basic areas and its
 
 There is no textbook required for this course, but the recommended textbook is: 
 
-    * Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.
+    Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.
 
 
 ## Assessment
@@ -30,9 +30,8 @@ There is no textbook required for this course, but the recommended textbook is:
 | Midterm Exams (3)   |   55%  |
 
 ## Due Dates
-**Subject to Change**
 
-| Task                | Weight | Due                          |
+| Task                | Weight | Due (Subject to Change)      |
 |---------------------|:------:|:----------------------------:|
 | Assignment 1        |   10%  |              Jan. 24th, 2017 |   
 | Midterm Exam 1      |  ~19%  |              Jan. 31st, 2017 |

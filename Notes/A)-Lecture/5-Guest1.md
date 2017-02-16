@@ -17,7 +17,7 @@ By George Tzanetakis (Associate Professor) - Music and Computer Science
     * Input: Mouse/Keyboard (touch screen)
     * Output: Rectangle 2D screen, speakers
 
-### Why Music**
+### Why Music
 
 * The way music is **created**, **distrubuted**, and **perceived** had been and will be transformed by advances in technology.
 * Arguably the most complex and expressive interaction with artifacts.
