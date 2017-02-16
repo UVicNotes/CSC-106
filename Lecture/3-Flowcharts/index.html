@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>Flowcharts - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        Flowcharts
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -223,9 +208,30 @@
       
         
   <li>
-    <a class="" title="Flowcharts" href="../3-Flowcharts/">
+    <a class="current" title="Flowcharts" href="./">
       Flowcharts
     </a>
+    
+      
+        
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 5 - January 13th, 2017" href="#lecture-5-january-13th-2017">
+                Lecture 5 - January 13th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 6 - January 17th, 2017" href="#lecture-6-january-17th-2017">
+                Lecture 6 - January 17th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -363,34 +369,38 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+          <h1 id="flowcharts">Flowcharts</h1>
+<h2 id="lecture-5-january-13th-2017">Lecture 5 - January 13th, 2017</h2>
+<p><strong>Notes provide by a kind classmate :D</strong></p>
+<h3 id="algorithms-and-flowcharts">Algorithms and Flowcharts</h3>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>Rectangle -&gt; Process </li>
+<li>Rhombus -&gt; Data (Input or Output)</li>
+<li>Diamond -&gt; Decision </li>
+<li>Rounded Rectanlge -&gt; Start and Stop</li>
 </ul>
-</li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
-</ul>
-</li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
-</ul>
+<p><strong>Ex.</strong> Making a flowchart for collatz conjecture </p>
+<p><img alt="Flowchart1" src="../../C)-References/Flowcharts_Figure1.jpg" /></p>
+<p><strong>Ex.</strong> A flowchart to calculate avg. of grades of student of Turing</p>
+<p><img alt="Flowchart2" src="../../C)-References/Flowcharts_Figure2.png" /></p>
+<p><strong>Ex.</strong> To print a phone number corresponding to given name or else print "no such name"</p>
+<p><img alt="Flowchart3" src="../../C)-References/Flowcharts_Figure3.png" /></p>
+<h2 id="lecture-6-january-17th-2017">Lecture 6 - January 17th, 2017</h2>
+<p><strong>Modulo:</strong> The remainder after dividing. </p>
+<p><strong>Question:</strong> Determine if a year is a leap year</p>
+<pre><code class="pseudocode">Step1   Input integer year
+Step2   if year modulo 4 is 0 do Step3-9
+Step3       if year modulo 100 is 0 do Step4-7
+Step4           if year modulo 400 is 0 do Step5
+Step5               is_leap_year=True
+Step6           else do Step7
+Step7               is_leap_year=False
+Step8       else do Step9
+Step9           is_leap_year=True
+Step10   else do Step11
+Step11      is_year_leap=False
+Step12   return is_leap_year
+</code></pre>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -407,7 +417,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../2-Databases/" title="Databases">
           <span class="direction">
             Previous
           </span>
@@ -417,7 +427,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Databases
               </div>
             </div>
           </div>
@@ -426,14 +436,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../4-Number-Systems/" title="Number Systems">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Number Systems
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

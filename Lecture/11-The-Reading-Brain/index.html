@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>The Reading Brain - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/11-The-Reading-Brain/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/11-The-Reading-Brain/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/11-The-Reading-Brain//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        The Reading Brain
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -295,9 +280,22 @@
       
         
   <li>
-    <a class="" title="The Reading Brain" href="../11-The-Reading-Brain/">
+    <a class="current" title="The Reading Brain" href="./">
       The Reading Brain
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 16 - February 10th, 2017" href="#lecture-16-february-10th-2017">
+                Lecture 16 - February 10th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -363,33 +361,96 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+            <h1>The Reading Brain</h1>
+          
+          <h2 id="lecture-16-february-10th-2017">Lecture 16 - February 10th, 2017</h2>
+<p>My research question: </p>
+<p><strong>How doees the brain encode (represent) the meaning of words? How does it combine word meaning to represent more complex concepts?</strong></p>
+<p>Siri and the Long tail:</p>
+<p><img alt="Image reference" src="../../C)-References/Siri.png" /> </p>
+<h4 id="outline">Outline</h4>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>Brain imaging</li>
+<li>Word meaning in the brain </li>
+<li>Words in context</li>
+</ul>
+<p>Brain imaging technology:</p>
+<ul>
+<li>Functional Magnetic Resonance Imaging (fMRI)<ul>
+<li>Measuers changes in blood oxygenation (BOLD)<ul>
+<li>Good spatial resolution</li>
+<li>Poor time resolution</li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+<li>MEG  <ul>
+<li>Magnetoecephalography (magnet / brain / graph)</li>
+<li>Magneted sheeted room -&gt; because earth<ul>
+<li>102 sensor position</li>
+<li>3 sensors / position</li>
+<li>Poorer spatial resolution than fMRI</li>
+<li>Great time resolution</li>
+<li>Great for language studies</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Meaning in the brain:</p>
+<ul>
+<li>What would it mean to have a model of meaning representation in the brain?<ul>
+<li>Which brain areas acKvate for parKcular words</li>
+<li>Predict the word a person is reading from their brain acKvaKon</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Image reference 1" src="../../C)-References/Meaning.png" />
+<img alt="Image reference 2" src="../../C)-References/Meaning2.png" /></p>
+<p>How to build a model?</p>
+<pre><code>Show a computer algorithm many examples.
+Training
+Find Patterns
+Test
+
+Predict unseen words
+Find Patterns
+
+You can't build model for every word
+    Solution: Word Features (eg. edible, alive)
+</code></pre>
+<p><img alt="Word prediction via features" src="../../C)-References/WordFeatures.png" /></p>
+<p><strong>Ex. The Brain Data</strong></p>
+<ul>
+<li>9 subjects fMRI , 9 subjecy MEG</li>
+<li>60 concrete noun w/ pictures</li>
+</ul>
+<p>Word Features</p>
+<p><strong>Co-occurence with verbs: (MRI)</strong></p>
+<ul>
+<li>Accuracy: 77%</li>
+</ul>
+<p><img alt="Dog Example" src="../../C)-References/Dog.png" /></p>
+<p><strong>20 Questions: (MEG)</strong> </p>
+<ul>
+<li>Array of numbers = Identifier of the Word</li>
+</ul>
+<p><img alt="Word Array" src="../../C)-References/WordArray.png" /></p>
+<ul>
+<li>Visual Features (Of the Word and the Image)<ul>
+<li>Posterior Regions <ul>
+<li>Detected in 150ms-250ms</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Word Meaning<ul>
+<li>Distrubuted throughout the brain <ul>
+<li>Detected in 200-600ms</li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
           <aside class="copyright" role="note">
             
@@ -407,7 +468,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../10-Artificial-Intelligence-&-Data-Mining/" title="Artificial Intelligence and Data Mining">
           <span class="direction">
             Previous
           </span>
@@ -417,7 +478,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Artificial Intelligence and Data Mining
               </div>
             </div>
           </div>
@@ -426,14 +487,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../../Lab/Lab/" title="Lab">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Lab
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

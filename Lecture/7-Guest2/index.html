@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>Guest 2 - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/7-Guest2/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/7-Guest2/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/7-Guest2//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        Guest 2
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -259,9 +244,22 @@
       
         
   <li>
-    <a class="" title="Guest 2" href="../7-Guest2/">
+    <a class="current" title="Guest 2" href="./">
       Guest 2
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 12 - February 1st, 2017" href="#lecture-12-february-1st-2017">
+                Lecture 12 - February 1st, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -363,33 +361,81 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+            <h1>Guest 2</h1>
+          
+          <h2 id="lecture-12-february-1st-2017">Lecture 12 - February 1st, 2017</h2>
+<p><strong>Guest lecture 2</strong></p>
+<h4 id="sendwithus">SendWithUs</h4>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>Automated E-mail</li>
+<li>Realtime API </li>
+<li>Send Transactional Emails</li>
+<li>Started in 2013, Matt and Brad</li>
+<li>YCombinator Startup Accelerator</li>
+<li>$2.5M -&gt; US Investors</li>
+<li>Team of 17 People<ul>
+<li>Sales and Marketing in San Fran, California</li>
+<li>Engineering and Product Development in Victoria, BC</li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
+</ul>
+<p><strong>API Example:</strong></p>
+<pre><code class="bash">curl -X POST -u key_123 https://api.sendwithus.com/api/v1/send
+    -d '{
+    &quot;email_id&quot;: &quot;tem_12345&quot;,
+    }'
+</code></pre>
+
+<p><strong>Template:</strong></p>
+<pre><code class="html">&lt;td&gt;
+    Welcome to Awesome Co, {{first_name}}!
+&lt;/td&gt;
+</code></pre>
+
+<p><strong>Rendered Template:</strong></p>
+<p><img alt="Rendered Email" src="../../C)-References/email_Rendered.png" /></p>
+<h4 id="techincal-overview">Techincal Overview:</h4>
+<ul>
+<li>Over 10M emails per day </li>
+<li>&lt;= 600 instances (on Heroku)</li>
+<li>Python, Coffeescript, Golang, CSS, HTML</li>
+<li>PostgreSQL, MongoDB, Redis</li>
+</ul>
+<h4 id="backstory">Backstory</h4>
+<ul>
+<li>Brandon: VIU (Remax, Startup -&gt; websites/products -&gt; SendWithUs)</li>
+<li>John: UVIC (5Years -&gt; Math (Failed) -&gt; C's get degrees -&gt; Co-Ops -&gt; Startups vs Big Company -&gt; Real Job -&gt; Interview -&gt; SendWithUs (Backend Dev))</li>
+</ul>
+<h4 id="what-makes-programming-awesome">What Makes Programming Awesome?</h4>
+<ul>
+<li>Foundational Learning<ul>
+<li>University Co-Op</li>
+<li>Computer Science <ul>
+<li>Self-taught</li>
+<li>Uvic</li>
+<li>Bootcamps </li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+</ul>
+</li>
+<li>Side Projects<ul>
+<li>Github</li>
+<li>Simple - Complex</li>
+<li>Are the new Resume </li>
+</ul>
+</li>
+<li>Open Source<ul>
+<li>Open your code to the world</li>
+<li>Collaborate </li>
+</ul>
+</li>
+<li>Community Involvement<ul>
+<li>Victoria Tech Sector is Exploding</li>
+<li>StartUpSlam and Battlesnake</li>
+<li>Victoria Start Up Job Board</li>
+<li>Ladies Learning Code</li>
+</ul>
+</li>
 </ul>
           <aside class="copyright" role="note">
             
@@ -407,7 +453,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../6-Logic/" title="Logic">
           <span class="direction">
             Previous
           </span>
@@ -417,7 +463,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Logic
               </div>
             </div>
           </div>
@@ -426,14 +472,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../8-Software-Dev-&-Software-Eng/" title="Software Development and Software Engineering">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Software Development and Software Engineering
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
