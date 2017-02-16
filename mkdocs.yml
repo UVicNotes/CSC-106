@@ -22,7 +22,7 @@ pages:
         - 'The Reading Brain': 'Lecture/11-The-Reading-Brain.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
-    - Annex: 
+    - Annex:
         - 'Announcements': 'Annex/Announcements.md'
 extra_javascript:
     - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
