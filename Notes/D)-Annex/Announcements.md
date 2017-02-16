@@ -31,3 +31,24 @@
 * Homework 2 - Due on Friday
     * Question 1 - Logical Expression (ex. (A and B) or !A) 
 * Homework 3 - Open the 20th of February
+
+### Announcement 6 - February 10th, 2017
+
+* Assignment due today
+* Midterm marks are up
+* Flowchart Remark -> Pencil (Don't leave TA's presence)
+
+Midterm 1 Performance:
+
+* 97% - Lab mark
+* 79% - MC
+* 54% - Flowchart
+* 73% - Average
+
+Programing in Python:
+
+* After reading break
+* head start
+    * cscircles.cemc.uwaterloo.ca
+* install python
+    * developers.google.com/edu/python/set-up
