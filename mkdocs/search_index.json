@@ -662,7 +662,7 @@
         }, 
         {
             "location": "/Annex/Announcements/", 
-            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs", 
+            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnoucement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm", 
             "title": "Announcements"
         }, 
         {
@@ -699,6 +699,11 @@
             "location": "/Annex/Announcements/#announcement-6-february-10th-2017", 
             "text": "Assignment due today  Midterm marks are up  Flowchart Remark -  Pencil (Don't leave TA's presence)   Midterm 1 Performance:   97% - Lab mark  79% - MC  54% - Flowchart  73% - Average   Programing in Python:   After reading break  Head start  Waterloo Intsall    Install python  Google Dev Docs", 
             "title": "Announcement 6 - February 10th, 2017"
+        }, 
+        {
+            "location": "/Annex/Announcements/#annoucement-7-february-21st-2017", 
+            "text": "Office Hours Friday - This week only  Assignment 3 is out and due march 3rd  Go to the labs to pickup Midterm", 
+            "title": "Annoucement 7 - February 21st, 2017"
         }
     ]
 }
