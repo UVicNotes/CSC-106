@@ -20,6 +20,7 @@ pages:
         - 'Guest 3': 'Lecture/9-Guest3.md'
         - 'Artificial Intelligence and Data Mining': 'Lecture/10-Artificial-Intelligence-&-Data-Mining.md'
         - 'The Reading Brain': 'Lecture/11-The-Reading-Brain.md'
+        - 'Python': 'Lecture/12-Python-Programming.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
     - Annex:
