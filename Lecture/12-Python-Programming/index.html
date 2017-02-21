@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Flowcharts - CSC 106</title>
+        <title>Python - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/12-Python-Programming/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/12-Python-Programming/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/3-Flowcharts//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/12-Python-Programming//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Flowcharts
+        Python
       </div>
     </div>
     
@@ -208,30 +208,9 @@
       
         
   <li>
-    <a class="current" title="Flowcharts" href="./">
+    <a class="" title="Flowcharts" href="../3-Flowcharts/">
       Flowcharts
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 5 - January 13th, 2017" href="#lecture-5-january-13th-2017">
-                Lecture 5 - January 13th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Lecture 6 - January 17th, 2017" href="#lecture-6-january-17th-2017">
-                Lecture 6 - January 17th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -310,9 +289,22 @@
       
         
   <li>
-    <a class="" title="Python" href="../12-Python-Programming/">
+    <a class="current" title="Python" href="./">
       Python
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 17 - February 21st, 2017" href="#lecture-17-february-21st-2017">
+                Lecture 17 - February 21st, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -378,38 +370,140 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="flowcharts">Flowcharts</h1>
-<h2 id="lecture-5-january-13th-2017">Lecture 5 - January 13th, 2017</h2>
-<p><strong>Notes provide by a kind classmate :D</strong></p>
-<h3 id="algorithms-and-flowcharts">Algorithms and Flowcharts</h3>
+            <h1>Python</h1>
+          
+          <h2 id="lecture-17-february-21st-2017">Lecture 17 - February 21st, 2017</h2>
+<h3 id="python-programming">Python Programming</h3>
 <ul>
-<li>Rectangle -&gt; Process </li>
-<li>Rhombus -&gt; Data (Input or Output)</li>
-<li>Diamond -&gt; Decision </li>
-<li>Rounded Rectanlge -&gt; Start and Stop</li>
+<li>You can install python on your own computer.</li>
+<li>To execute a program: <ul>
+<li>python <file_name.py></li>
 </ul>
-<p><strong>Ex.</strong> Making a flowchart for collatz conjecture </p>
-<p><img alt="Flowchart1" src="../../References/Flowcharts_Figure1.jpg" /></p>
-<p><strong>Ex.</strong> A flowchart to calculate avg. of grades of student of Turing</p>
-<p><img alt="Flowchart2" src="../../References/Flowcharts_Figure2.png" /></p>
-<p><strong>Ex.</strong> To print a phone number corresponding to given name or else print "no such name"</p>
-<p><img alt="Flowchart3" src="../../References/Flowcharts_Figure3.png" /></p>
-<h2 id="lecture-6-january-17th-2017">Lecture 6 - January 17th, 2017</h2>
-<p><strong>Modulo:</strong> The remainder after dividing. </p>
-<p><strong>Question:</strong> Determine if a year is a leap year</p>
-<pre><code class="pseudocode">Step1   Input integer year
-Step2   if year modulo 4 is 0 do Step3-9
-Step3       if year modulo 100 is 0 do Step4-7
-Step4           if year modulo 400 is 0 do Step5
-Step5               is_leap_year=True
-Step6           else do Step7
-Step7               is_leap_year=False
-Step8       else do Step9
-Step9           is_leap_year=True
-Step10   else do Step11
-Step11      is_year_leap=False
-Step12   return is_leap_year
+</li>
+</ul>
+<p><strong>print:</strong> is a function and strings are surrounded by quotes ""</p>
+<p><strong>Function:</strong> is a block of code that is grouped together</p>
+<ul>
+<li>The name makes it easy to execute<ul>
+<li>Otherwise we'd have to copy and paste the same code multiple times</li>
+</ul>
+</li>
+<li>Functions help organize</li>
+<li>Name Flowchart</li>
+<li>Functions can input values and return values</li>
+<li>We can write our own</li>
+<li>"def" to signal we are about to define a function</li>
+<li>Input parameters are in parenthesis, followed by colon</li>
+<li>All code in the function is indented.</li>
+</ul>
+<p><strong>Variables:</strong> name for a value, can change, variable is like a box</p>
+<p>ex. </p>
+<pre><code class="python">x = 5
 </code></pre>
+
+<p><strong>Comments:</strong> Allows us to document our code</p>
+<ul>
+<li>Leave notes to you and others (not the computer)</li>
+</ul>
+<p>ex.</p>
+<pre><code class="python"># Here's a comment
+x = 5
+# Hey! Comment
+</code></pre>
+
+<p>Collatz: </p>
+<p><img alt="Collatz" src="../../References/collatzPython.png" /></p>
+<p><strong>Syntax:</strong></p>
+<ul>
+<li>After every decision you must ":" and indent (This tells python which code belongs to the yes/no part if the decision)</li>
+</ul>
+<p>ex. </p>
+<pre><code class="python">if x % 2 == 0:
+    x = x/2
+else:
+    x = x*3+1
+</code></pre>
+
+<p><strong>Check equality:</strong> "=="
+<strong>Assign value:</strong> "="</p>
+<p><img alt="Decision Loop" src="../../References/loopPython.png" /></p>
+<p>ex. </p>
+<pre><code class="python">while x &gt; 1
+    print(&quot;The number is %i&quot; % x)
+
+    if x % 2 == 0:
+        x = x/2
+    else:
+        x = x*3+1 
+</code></pre>
+
+<p>Nesting ^^</p>
+<p>ex. Collatz Example</p>
+<pre><code class="python"># This tells python to load a library called &quot;time&quot;
+# Which we will use for pauses in the loop
+import time
+
+x = 5
+
+# Keep track of the number of times through the list
+loop_count = 0
+# &quot;while&quot; is like &quot;repeat until&quot; in scratch, but the while loop continues until the condition is FALSE, repeat until ends once the condition is TRUE.
+while x &gt; 1:
+    print(&quot;The number is %i&quot; % x)
+    time.sleep(1) # this waits 1 second to slow down the prints
+    if x % 2 == 0:
+        x = x/2
+    else:
+        x = x*3+1
+    loop_count = loop_count + 1
+
+print(&quot;Done!  It took me %i loops&quot; % loop_count)
+</code></pre>
+
+<p>ex. Errors</p>
+<pre><code class="python">print(test)
+
+5 = x
+
+print(&quot;thry this)
+
+print(&quot;try test&quot;
+
+myVar = 5
+print(myvar)
+</code></pre>
+
+<p><strong>Google the error, and most code will return where the error is found.</strong> </p>
+<p>ex. </p>
+<pre><code class="python">def myFunction(my_number):
+    if my_number % 2 == 0:
+        print(&quot;Even!&quot;)
+    else:
+        print(&quot;Odd!&quot;)
+
+</code></pre>
+
+<p><strong>Call the function by calling it's name</strong></p>
+<p>ex. <code>myFunction(10)</code></p>
+<p>ex. Functions can call other functions</p>
+<pre><code class="python">def isEven(my_number):
+    result = False
+    if my_number % 2 == 0:
+        return = True
+    return result
+
+def callFunction(my_number2):
+    if isEven(my_number2):
+        print(&quot;Even!&quot;)
+    else:
+        print(&quot;Odd!&quot;)
+</code></pre>
+
+<h4 id="recommend">Recommend:</h4>
+<ul>
+<li>Tutorial </li>
+<li>http://cscircles.cemc.uwaterloo.ca/</li>
+</ul>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -426,7 +520,7 @@ Step12   return is_leap_year
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../11-The-Reading-Brain/" title="The Reading Brain">
           <span class="direction">
             Previous
           </span>
@@ -436,7 +530,7 @@ Step12   return is_leap_year
             </div>
             <div class="stretch">
               <div class="title">
-                Databases
+                The Reading Brain
               </div>
             </div>
           </div>
@@ -445,14 +539,14 @@ Step12   return is_leap_year
     </div>
     <div class="next">
       
-        <a href="../4-Number-Systems/" title="Number Systems">
+        <a href="../../Lab/Lab/" title="Lab">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Number Systems
+                Lab
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
