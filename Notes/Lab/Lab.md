@@ -235,3 +235,11 @@ j = ""
 ![Classroom Flowchart](../References/Flowchart_BubbleSort.png)
 
 Wikipedia page on bubble sort
+
+## Lab 6 - February 21st, 2017
+
+#### Human Computer Interaction
+
+* Sign into LINUX, open chrome
+* https://webdemo.balsamiq.com
+* Prototype

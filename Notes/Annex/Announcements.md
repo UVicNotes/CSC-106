@@ -53,8 +53,14 @@ Programing in Python:
 * Install python
     * [Google Dev Docs](developers.google.com/edu/python/set-up)
 
-### Annoucement 7 - February 21st, 2017
+### Announcement 7 - February 21st, 2017
 
 * Office Hours Friday - This week only
 * Assignment 3 is out and due march 3rd
 * Go to the labs to pickup Midterm
+
+### Announcement 8 - February 22nd, 2017
+
+* We are using python 2.7 
+* Updated slides for print statement
+* Going over Exam Friday March 3rd - No solution will be released

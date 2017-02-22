@@ -151,3 +151,110 @@ def callFunction(my_number2):
 #### Recommend: 
 * Tutorial 
 * http://cscircles.cemc.uwaterloo.ca/
+
+
+## Lecture 18 - February 22nd, 2017
+
+```
+print("number is " + str(x))
+```
+
+**str:** is a function that turns a number into a string
+
+**+:** concatenates the two strings
+ 
+**Arrays:** A[j] They are list of numbers, first index of an array is 0
+
+**Selection Sort Pseudocode:**
+
+Ex. In Python
+
+```python 
+def selection_sort(A):
+    m = len(A)
+    cur_ind = m-1
+    
+    while cur_ind > 0:
+        cur_max = -99999 
+        #or 
+        #cur_max = A[0]
+        i = 0
+        max_ind = 0
+        while i <= cur_ind:
+            if A[i] > cur_max:
+                cur_max = A[i]
+                max_ind = i
+            i = i + 1
+        tmp = A[cur_ind]
+        A[cur_ind] = A[max_ind]
+        A[max_ind] = tmp
+        cur_ind = cur_ind - 1
+```
+
+Demo:
+
+```python
+A = [11,22,3,12,34,9]
+print("A= "+str(A))
+selection_sort(A)
+print("A= "+str(A))
+```
+
+**For Loop:** 
+
+* Combine the decision and index incrementing.
+* Takes care of: 
+    * Creating a variable named i
+    * Incrementing it's value by one every time the loop is executed
+    * Compares i to N
+
+```python 
+for i in range(1,N):
+```
+
+Ex. 
+
+```python
+for i in range(1,5):
+print(i)
+
+1
+2
+3
+4
+
+---
+
+for i in range(1, 0.5):
+print(i)
+
+Error = Expected integer, got float
+```
+
+**Bubble Sort:**
+
+Ex. Python 
+
+```python
+def bubble_sort(A):
+    m = len(A)
+    swapped = True
+    
+    while swapped == True:
+        swapped = False
+        for i in range(1,m):
+            if A[i-1] > A[i]
+                tmp = A[i]
+                A[i] = A[i-1]
+                A[i-1] = tmp
+                swapped = True
+```
+
+Demo:
+
+```python
+A = [11,22,3,12,34,9]
+print("A= "+str(A))
+bubble_sort(A)
+print("A= "+str(A))
+```
