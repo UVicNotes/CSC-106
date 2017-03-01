@@ -243,3 +243,33 @@ Wikipedia page on bubble sort
 * Sign into LINUX, open chrome
 * https://webdemo.balsamiq.com
 * Prototype
+
+## Lab 7 - February 28th, 2017
+
+#### Python Basics
+
+In terminal: 
+
+* cd Desktop
+* python python_basics.py
+
+Basics 
+
+* "#" comment 
+* print "Hello World!"
+* Dynamically typed
+* def - Function
+
+```python 
+#Function
+def functionName (paramaters):
+    code
+    return
+``` 
+
+* code is linear 
+* For loop
+
+```python 
+for counter in range(start num, end num, stepsize):
+```
