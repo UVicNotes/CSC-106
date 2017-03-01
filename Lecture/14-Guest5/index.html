@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Logic - CSC 106</title>
+        <title>Guest 5 - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/6-Logic/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest5/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/6-Logic/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest5/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/6-Logic//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest5//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Logic
+        Guest 5
       </div>
     </div>
     
@@ -235,30 +235,9 @@
       
         
   <li>
-    <a class="current" title="Logic" href="./">
+    <a class="" title="Logic" href="../6-Logic/">
       Logic
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 10 - January 25th, 2017" href="#lecture-10-january-25th-2017">
-                Lecture 10 - January 25th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Lecture 11 - January 27th, 2017" href="#lecture-11-january-27th-2017">
-                Lecture 11 - January 27th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -328,9 +307,22 @@
       
         
   <li>
-    <a class="" title="Guest 5" href="../14-Guest5/">
+    <a class="current" title="Guest 5" href="./">
       Guest 5
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture # - February 28th, 2017" href="#lecture-february-28th-2017">
+                Lecture # - February 28th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -396,156 +388,121 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="logic">Logic</h1>
-<h2 id="lecture-10-january-25th-2017">Lecture 10 - January 25th, 2017</h2>
-<h3 id="logic_1">Logic</h3>
+            <h1>Guest 5</h1>
+          
+          <h2 id="lecture-february-28th-2017">Lecture # - February 28th, 2017</h2>
+<p>Guest Lecturer : Daniel German</p>
+<h3 id="programming-languages">Programming Languages</h3>
+<h4 id="what-is-programming">What is programming:</h4>
 <ul>
-<li>Logic gates</li>
-<li>Form basis of computer hardware and computer operations</li>
-<li><code>OR</code> Truth Table (+)</li>
-<li><code>AND</code> Truth Table (*)</li>
-<li>Combine : <code>OR</code> and <code>AND</code></li>
+<li>SQL:</li>
 </ul>
-<p><img alt="Images References" src="../../References/AND&amp;OR.png" /></p>
+<p><code>select * from books</code> </p>
 <ul>
-<li><code>Not</code> (~)</li>
+<li>HTML:</li>
 </ul>
-<p><img alt="Images from slides" src="../../References/NOT.png" /></p>
-<h3 id="circuit-diagrams">Circuit Diagrams</h3>
+<pre><code class="html">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Hello World&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
 <ul>
-<li>Compare for Equality</li>
+<li>Prolog:</li>
 </ul>
-<h3 id="adding-with-logic-full-adder-circuit">Adding with Logic - Full Adder Circuit</h3>
+<pre><code class="prolog">playsAirGuitar(jody). 
+
+?-  playsAirGuitar(jody).
+</code></pre>
+
+<h4 id="are-some-programming-languages-better-than-others">Are some programming languages better than others?</h4>
 <ul>
-<li>Truth Table -&gt; Set of <code>OR</code>, <code>AND</code>, and <code>NOT</code></li>
-<li><code>XOR</code> Truth Table (Circle +)</li>
-</ul>
-<h4 id="test-your-understanding">Test your understanding</h4>
-<p>(X and Y) or Z</p>
-<p>2nd slide -&gt; E)</p>
-<h3 id="sorting">Sorting</h3>
-<ul>
-<li>Often useful to have data sorted <ul>
-<li>find values more quickly</li>
-<li>test for existence more quickly</li>
+<li><a href="https://github.com/lhartikk/ArnoldC/wiki/ArnoldC">ArnoldC</a><ul>
+<li>Based on Arnold quotes</li>
 </ul>
 </li>
-<li>Many algorithms for sorting</li>
 </ul>
-<h3 id="arrays">Arrays</h3>
+<h4 id="two-criteria">Two Criteria:</h4>
+<ol>
+<li>Can our language allow us to program the computer to do anything our computer can do?</li>
+<li>Can ou computer do anything that our program can express?</li>
+</ol>
+<h4 id="turing-machine">Turing Machine</h4>
 <ul>
-<li>Arrays are like a list</li>
-<li>Start numbering positions at 0</li>
-<li>Square brackets []</li>
-<li>Assign a value to an array</li>
-</ul>
-<p><strong>Note:</strong> Left side changes</p>
-<ul>
-<li>Selection Sort</li>
-<li>Sort hand of cards ?</li>
-<li>Numerically</li>
-</ul>
-<p><strong>Ex.</strong>  [2,8,6,3]</p>
-<ul>
-<li>Unsorted part of the list and sorted part of the list.</li>
-<li>Input integer array my_nums</li>
-</ul>
-<pre><code>Keep track of sorted array section 
-Search through unsorted array for max val
-Swap max val with element at the rightmmost position of unsorted section
-Move sorted section one element to left
-Stop when unsorted section has size 1
-</code></pre>
-
-<h2 id="lecture-11-january-27th-2017">Lecture 11 - January 27th, 2017</h2>
-<h3 id="selection-sort">Selection Sort</h3>
-<ul>
-<li>Find the the largest card, and put it to the rightmost position</li>
-<li>Fin the next largest card, put it in the next-to-rightmost position</li>
-<li>Etc. </li>
-</ul>
-<pre><code class="pseudocode">input integers c(&lt;sub&gt;0&lt;/sub&gt;) ... c(&lt;sub&gt;m-1&lt;/sub&gt;). m (array)(length)
-
-cur_ind = m-1
-while cur_ind &gt; 0
-    cur_max = -\infty
-    i = 0
-    max_ind = 0
-    while i &lt;= cur_ind
-        if c(i) &gt; cur_max
-            cur_max = c(i)
-            max_ind = i
-        i = i + 1
-    swap c(cur_ind) &amp; c(max_ind)
-    cur_ind = cur_ind -1
-</code></pre>
-
-<p><strong>Ex.</strong> Tace through c = [2,1,5,3,4]</p>
-<pre><code>m=5
-cur_ind = 4
-cur_max = -\infty
-i=0
-max_ind = 0
-
-cur_max = 2
-i = 1 
-
-i = 2
-
-cur_max = 5
-max_ind = 2
-i = 3
-
-i = 4
-
-cur_ind = 4
-i = 5
-
-cur_ind = 3
-
-cur_max = -\infty
-i = 0
-max_ind = 0
-
-cur_max = 2
-cur_ind = 0
-i = 1
-
-i = 2
-
-ect.
-</code></pre>
-
-<h3 id="bubble-sort">Bubble Sort</h3>
-<ul>
-<li>Start at the begining of the array </li>
-<li>Consider the first two numbers (position 0&amp;1)<ul>
-<li>If they are out of order, swap them</li>
+<li>Entscheidungsproblem<ul>
+<li>Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?</li>
 </ul>
 </li>
-<li>Consider the next two numbers (position 1&amp;2)<ul>
-<li>If they are out of order, swap them</li>
+<li>Church-Turing Thesis<ul>
+<li>A function on the natural numbers is computable in an informal sense if and only if it is computable...</li>
 </ul>
 </li>
-<li>Continue comparing consecutive numbers and swapping until you reach the end of the array</li>
-<li>Start over at the begining of the array </li>
-<li>Continue until you make it through the whole array wthout doing any swaps</li>
+<li>Lambda-Calculus = Turing Machine = Pencil and Paper</li>
 </ul>
-<pre><code class="pseudocode">input integers c(&lt;sub&gt;0&lt;/sub&gt;) ... c(&lt;sub&gt;m-1&lt;/sub&gt;), m (array)(length)
-
-swapped = True
-while swapped is True
-    swapped = False
-    i = 1
-    while 1 &lt;= m-1
-        if c(i-1) &gt; c(i)
-            swap c(i-1) &amp; c(i)
-            swapped = true
-        i = i + 1
-</code></pre>
-
-<h4 id="practice">Practice</h4>
-<p>Converting Pseudocode to Flowcharts <strong>Important</strong></p>
+<h4 id="turing-complete">Turing Complete</h4>
+<ul>
+<li>A programming language that can used to simulate a turing machine</li>
+<li>Any turing machine can be simulated with a program in such language</li>
+<li>Any program in such language can be converted to a turing machine</li>
+</ul>
+<h4 id="brainfuck">BrainFuck</h4>
+<ul>
+<li>http://www.muppetlabs.com/~breadbox/bf/</li>
+<li>Language is Turing Complete</li>
+</ul>
+<p>Therefore not all TC languages are very useful.</p>
+<h4 id="what-is-a-good-programming-language">What is a good programming language?</h4>
+<p><strong>Answer:</strong> The one that gets you a job?</p>
+<h4 id="how-to-learn-how-to-program">How to learn how to program</h4>
+<p><strong>Answer:</strong> Not in your CS courses!</p>
+<p>"Quote" - Alan Perlis</p>
+<h4 id="the-five-features-you-must-learn">The five features you must learn</h4>
+<ul>
+<li>The Syntax</li>
+<li>The Semantics</li>
+<li>The Libraries</li>
+<li>The Idioms</li>
+<li>The Tools</li>
+</ul>
+<p><strong>Additional Reading:</strong> What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu</p>
+<h4 id="skills-of-a-good-programmer">Skills of a good programmer</h4>
+<ul>
+<li>Curious </li>
+<li>Hardworking</li>
+</ul>
+<h4 id="my-recommendations">My recommendations?</h4>
+<ul>
+<li>Be great at<ul>
+<li>one programming language</li>
+</ul>
+</li>
+<li>Be good at<ul>
+<li>one statically typed language</li>
+<li>one dynamincally type language</li>
+<li>one functional language</li>
+</ul>
+</li>
+<li>
+<p>Master:</p>
+<ul>
+<li>Typing</li>
+<li>Debugging</li>
+<li>One Programming Environment</li>
+<li>Version Control</li>
+<li>A Configuration Management Tool <a href="https://cmake.org/">(cmake)</a></li>
+<li>Testing</li>
+</ul>
+</li>
+<li>
+<p><strong>Select your jobs carefully</strong></p>
+</li>
+<li><strong>Do side-projects</strong></li>
+<li><strong>And keep learning</strong></li>
+</ul>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -562,7 +519,7 @@ while swapped is True
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../5-Guest1/" title="Guest 1">
+        <a href="../13-Guest4/" title="Guest 4">
           <span class="direction">
             Previous
           </span>
@@ -572,7 +529,7 @@ while swapped is True
             </div>
             <div class="stretch">
               <div class="title">
-                Guest 1
+                Guest 4
               </div>
             </div>
           </div>
@@ -581,14 +538,14 @@ while swapped is True
     </div>
     <div class="next">
       
-        <a href="../7-Guest2/" title="Guest 2">
+        <a href="../../Lab/Lab/" title="Lab">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Guest 2
+                Lab
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

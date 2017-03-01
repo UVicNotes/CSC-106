@@ -591,8 +591,113 @@
             "title": "Lecture 18 - February 22nd, 2017"
         }, 
         {
+            "location": "/Lecture/13-Guest4/", 
+            "text": "Lecture 19 - February 24th, 2017\n\n\nGuest Lecturer\n\n\nDavid E. Atkinson (Department of Geography - Uvic)\n\n\nComputer Applications in Geography Conducted by the Atkiinson Research Lab\n\n\nAlaska in Nome --\n High Country and Northern Weather Impacts Laboratory\n\n\n\n\nRAM\n Random Access Memory\n\n\nPunch Cards\n Old Coding Method\n\n\n9 Track\n Serial Access Memory\n\n\nVirtual Machine\n\n\nGEMPAK\n\n\nModeling Prometheus\n\n\nR\n\n\n\n\nResearch Main Focus Area\n\n\n\n\nAtmospheric Activity\n\n\nImpacts of Atmospheric Activity\n\n\nPhysical Marine State\n\n\nEnd User Consideration\n\n\n\n\n\n\nFocus Geographical Region\n\n\nWestern AK\n\n\nWestern Cdn Artic, North Pac.\n\n\n...\n\n\n...  \n\n\n\n\n\n\n\n\nData Handling Challanges\n\n\n\n\nToo much data\n\n\nReading the Data\n\n\nParsing the Data\n\n\nwget -\n Fetch the http address\n\n\nselect -\n The data you want\n\n\nClean up script -\n Remove Empty Events\n\n\n\n\n\n\nCSV Data -\n Exel Format (Standard Format)\n\n\nTxt File\n\n\nPacked grided Format\n\n\nBinary Level Extractor\n\n\n\n\n\n\n\n\nAandera RDCP 600:\n\n\nWave / SST buoy: (AOOS Partnership)\n\n\n\n\nWebsites: Low Bandwidth, Low Tech\n\n\n\n\nMet towers on icefields: \n\n\nComputational and Analytic\n\n\n\n\nAnalysis of severe Bering sea storm\n\n\nExtremes analysis\n\n\nWave state analysis \n\n\ncostal wave energy through marginal ice\n\n\ntrack climatologies\n\n\nassessing lagrangian\n\n\nnovel storminess metrics", 
+            "title": "Guest 4"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#lecture-19-february-24th-2017", 
+            "text": "", 
+            "title": "Lecture 19 - February 24th, 2017"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#guest-lecturer", 
+            "text": "David E. Atkinson (Department of Geography - Uvic)", 
+            "title": "Guest Lecturer"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#computer-applications-in-geography-conducted-by-the-atkiinson-research-lab", 
+            "text": "Alaska in Nome --  High Country and Northern Weather Impacts Laboratory   RAM  Random Access Memory  Punch Cards  Old Coding Method  9 Track  Serial Access Memory  Virtual Machine  GEMPAK  Modeling Prometheus  R", 
+            "title": "Computer Applications in Geography Conducted by the Atkiinson Research Lab"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#research-main-focus-area", 
+            "text": "Atmospheric Activity  Impacts of Atmospheric Activity  Physical Marine State  End User Consideration    Focus Geographical Region  Western AK  Western Cdn Artic, North Pac.  ...  ...", 
+            "title": "Research Main Focus Area"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#data-handling-challanges", 
+            "text": "Too much data  Reading the Data  Parsing the Data  wget -  Fetch the http address  select -  The data you want  Clean up script -  Remove Empty Events    CSV Data -  Exel Format (Standard Format)  Txt File  Packed grided Format  Binary Level Extractor     Aandera RDCP 600:  Wave / SST buoy: (AOOS Partnership)   Websites: Low Bandwidth, Low Tech   Met towers on icefields:", 
+            "title": "Data Handling Challanges"
+        }, 
+        {
+            "location": "/Lecture/13-Guest4/#computational-and-analytic", 
+            "text": "Analysis of severe Bering sea storm  Extremes analysis  Wave state analysis   costal wave energy through marginal ice  track climatologies  assessing lagrangian  novel storminess metrics", 
+            "title": "Computational and Analytic"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/", 
+            "text": "Lecture # - February 28th, 2017\n\n\nGuest Lecturer : Daniel German\n\n\nProgramming Languages\n\n\nWhat is programming:\n\n\n\n\nSQL:\n\n\n\n\nselect * from books\n \n\n\n\n\nHTML:\n\n\n\n\nhtml\n\n    \nhead\n\n        \ntitle\nHello World\n/title\n\n    \n/head\n\n    \nbody\n\n        \nh1\nHello!\n/h1\n\n    \n/body\n\n\n/html\n\n\n\n\n\n\n\nProlog:\n\n\n\n\nplaysAirGuitar(jody). \n\n?-  playsAirGuitar(jody).\n\n\n\n\nAre some programming languages better than others?\n\n\n\n\nArnoldC\n\n\nBased on Arnold quotes\n\n\n\n\n\n\n\n\nTwo Criteria:\n\n\n\n\nCan our language allow us to program the computer to do anything our computer can do?\n\n\nCan ou computer do anything that our program can express?\n\n\n\n\nTuring Machine\n\n\n\n\nEntscheidungsproblem\n\n\nDoes there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?\n\n\n\n\n\n\nChurch-Turing Thesis\n\n\nA function on the natural numbers is computable in an informal sense if and only if it is computable...\n\n\n\n\n\n\nLambda-Calculus = Turing Machine = Pencil and Paper\n\n\n\n\nTuring Complete\n\n\n\n\nA programming language that can used to simulate a turing machine\n\n\nAny turing machine can be simulated with a program in such language\n\n\nAny program in such language can be converted to a turing machine\n\n\n\n\nBrainFuck\n\n\n\n\nhttp://www.muppetlabs.com/~breadbox/bf/\n\n\nLanguage is Turing Complete\n\n\n\n\nTherefore not all TC languages are very useful.\n\n\nWhat is a good programming language?\n\n\nAnswer:\n The one that gets you a job?\n\n\nHow to learn how to program\n\n\nAnswer:\n Not in your CS courses!\n\n\n\"Quote\" - Alan Perlis\n\n\nThe five features you must learn\n\n\n\n\nThe Syntax\n\n\nThe Semantics\n\n\nThe Libraries\n\n\nThe Idioms\n\n\nThe Tools\n\n\n\n\nAdditional Reading:\n What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu\n\n\nSkills of a good programmer\n\n\n\n\nCurious \n\n\nHardworking\n\n\n\n\nMy recommendations?\n\n\n\n\nBe great at\n\n\none programming language\n\n\n\n\n\n\nBe good at\n\n\none statically typed language\n\n\none dynamincally type language\n\n\none functional language\n\n\n\n\n\n\n\n\nMaster:\n\n\n\n\nTyping\n\n\nDebugging\n\n\nOne Programming Environment\n\n\nVersion Control\n\n\nA Configuration Management Tool \n(cmake)\n\n\nTesting\n\n\n\n\n\n\n\n\nSelect your jobs carefully\n\n\n\n\nDo side-projects\n\n\nAnd keep learning", 
+            "title": "Guest 5"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#lecture-february-28th-2017", 
+            "text": "Guest Lecturer : Daniel German", 
+            "title": "Lecture # - February 28th, 2017"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#programming-languages", 
+            "text": "", 
+            "title": "Programming Languages"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#what-is-programming", 
+            "text": "SQL:   select * from books     HTML:   html \n     head \n         title Hello World /title \n     /head \n     body \n         h1 Hello! /h1 \n     /body  /html    Prolog:   playsAirGuitar(jody). \n\n?-  playsAirGuitar(jody).", 
+            "title": "What is programming:"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#are-some-programming-languages-better-than-others", 
+            "text": "ArnoldC  Based on Arnold quotes", 
+            "title": "Are some programming languages better than others?"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#two-criteria", 
+            "text": "Can our language allow us to program the computer to do anything our computer can do?  Can ou computer do anything that our program can express?", 
+            "title": "Two Criteria:"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#turing-machine", 
+            "text": "Entscheidungsproblem  Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?    Church-Turing Thesis  A function on the natural numbers is computable in an informal sense if and only if it is computable...    Lambda-Calculus = Turing Machine = Pencil and Paper", 
+            "title": "Turing Machine"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#turing-complete", 
+            "text": "A programming language that can used to simulate a turing machine  Any turing machine can be simulated with a program in such language  Any program in such language can be converted to a turing machine", 
+            "title": "Turing Complete"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#brainfuck", 
+            "text": "http://www.muppetlabs.com/~breadbox/bf/  Language is Turing Complete   Therefore not all TC languages are very useful.", 
+            "title": "BrainFuck"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#what-is-a-good-programming-language", 
+            "text": "Answer:  The one that gets you a job?", 
+            "title": "What is a good programming language?"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#how-to-learn-how-to-program", 
+            "text": "Answer:  Not in your CS courses!  \"Quote\" - Alan Perlis", 
+            "title": "How to learn how to program"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#the-five-features-you-must-learn", 
+            "text": "The Syntax  The Semantics  The Libraries  The Idioms  The Tools   Additional Reading:  What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu", 
+            "title": "The five features you must learn"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#skills-of-a-good-programmer", 
+            "text": "Curious   Hardworking", 
+            "title": "Skills of a good programmer"
+        }, 
+        {
+            "location": "/Lecture/14-Guest5/#my-recommendations", 
+            "text": "Be great at  one programming language    Be good at  one statically typed language  one dynamincally type language  one functional language     Master:   Typing  Debugging  One Programming Environment  Version Control  A Configuration Management Tool  (cmake)  Testing     Select your jobs carefully   Do side-projects  And keep learning", 
+            "title": "My recommendations?"
+        }, 
+        {
             "location": "/Lab/Lab/", 
-            "text": "Databases\n\n\nLab 1 - January 10th, 2017\n\n\nSqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\nAnd (*)\n\n  \n\n\nXOR (circleX)\n\n\nNot (~)\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. \n\n\nLab 5 - February 7th, 2017\n\n\nSorting\n\n\nSelection Sort vs. Bubble Sort\n\n\nSelection Sort\n\n\nList of numbers [64, 25, 12, 22, 11]\n\n\nn=5\nmin position = \nposition of min\n\nmin = \nmin for index i\n\ni = \nindex for next sorted number\n\nj = \nindex to compare as next min\n\n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array\n\n\n\n\n\n\nBubble Sort\n\n\nList of numbers [5, 1, 4, 2, 8]\n\n\nn=5\ni = N\nj = \n\n\n\n\n\n\n\n\nWikipedia page on bubble sort\n\n\nLab 6 - February 21st, 2017\n\n\nHuman Computer Interaction\n\n\n\n\nSign into LINUX, open chrome\n\n\nhttps://webdemo.balsamiq.com\n\n\nPrototype", 
+            "text": "Databases\n\n\nLab 1 - January 10th, 2017\n\n\nSqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\nAnd (*)\n\n  \n\n\nXOR (circleX)\n\n\nNot (~)\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. \n\n\nLab 5 - February 7th, 2017\n\n\nSorting\n\n\nSelection Sort vs. Bubble Sort\n\n\nSelection Sort\n\n\nList of numbers [64, 25, 12, 22, 11]\n\n\nn=5\nmin position = \nposition of min\n\nmin = \nmin for index i\n\ni = \nindex for next sorted number\n\nj = \nindex to compare as next min\n\n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array\n\n\n\n\n\n\nBubble Sort\n\n\nList of numbers [5, 1, 4, 2, 8]\n\n\nn=5\ni = N\nj = \n\n\n\n\n\n\n\n\nWikipedia page on bubble sort\n\n\nLab 6 - February 21st, 2017\n\n\nHuman Computer Interaction\n\n\n\n\nSign into LINUX, open chrome\n\n\nhttps://webdemo.balsamiq.com\n\n\nPrototype\n\n\n\n\nLab 7 - February 28th, 2017\n\n\nPython Basics\n\n\nIn terminal: \n\n\n\n\ncd Desktop\n\n\npython python_basics.py\n\n\n\n\nBasics \n\n\n\n\n\"#\" comment \n\n\nprint \"Hello World!\"\n\n\nDynamically typed\n\n\ndef - Function\n\n\n\n\n#Function\ndef functionName (paramaters):\n    code\n    return\n\n\n\n\n\n\ncode is linear \n\n\nFor loop\n\n\n\n\nfor counter in range(start num, end num, stepsize):", 
             "title": "Lab"
         }, 
         {
@@ -694,6 +799,16 @@
             "location": "/Lab/Lab/#human-computer-interaction", 
             "text": "Sign into LINUX, open chrome  https://webdemo.balsamiq.com  Prototype", 
             "title": "Human Computer Interaction"
+        }, 
+        {
+            "location": "/Lab/Lab/#lab-7-february-28th-2017", 
+            "text": "", 
+            "title": "Lab 7 - February 28th, 2017"
+        }, 
+        {
+            "location": "/Lab/Lab/#python-basics", 
+            "text": "In terminal:    cd Desktop  python python_basics.py   Basics    \"#\" comment   print \"Hello World!\"  Dynamically typed  def - Function   #Function\ndef functionName (paramaters):\n    code\n    return   code is linear   For loop   for counter in range(start num, end num, stepsize):", 
+            "title": "Python Basics"
         }, 
         {
             "location": "/Annex/Announcements/", 
