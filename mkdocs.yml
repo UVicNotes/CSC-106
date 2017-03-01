@@ -27,8 +27,6 @@ pages:
         - 'Lab': 'Lab/Lab.md'
     - Annex:
         - 'Announcements': 'Annex/Announcements.md'
-        - 'Selection Sort' 'Annex/Selection_sort_Test.py'
-        - 'Lab Python Basics': 'Annex/python_basics.py'
 extra_javascript:
     - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
     - https://cdn.rawgit.com/UVicNotes/UVicNotes/81099952ba789829fab1840e5d26cb5a2bf62011/helpers/mathjax.js
