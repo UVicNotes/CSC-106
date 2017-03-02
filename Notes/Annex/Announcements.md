@@ -64,3 +64,12 @@ Programing in Python:
 * We are using python 2.7 
 * Updated slides for print statement
 * Going over Exam Friday March 3rd - No solution will be released
+
+
+### Announcement 9 - March 1st, 2017
+
+Midterm 2: 
+
+* Similar Format to Midterm 1 
+* Material: 
+    * Sorting - Guest Lecturer 6

@@ -23,6 +23,7 @@ pages:
         - 'Python': 'Lecture/12-Python-Programming.md'
         - 'Guest 4': 'Lecture/13-Guest4.md'
         - 'Guest 5': 'Lecture/14-Guest5.md'
+        - 'Guest 6': 'Lecture/15-Guest6.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
     - Annex:

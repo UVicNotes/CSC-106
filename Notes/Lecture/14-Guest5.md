@@ -1,4 +1,4 @@
-## Lecture # - February 28th, 2017
+## Lecture 20 - February 28th, 2017
 
 Guest Lecturer : Daniel German
 
