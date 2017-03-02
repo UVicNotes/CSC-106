@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>Guest 6 - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/15-Guest6/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/15-Guest6/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/15-Guest6//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        Guest 6
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -331,9 +316,22 @@
       
         
   <li>
-    <a class="" title="Guest 6" href="../15-Guest6/">
+    <a class="current" title="Guest 6" href="./">
       Guest 6
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 21 - March 1st, 2017" href="#lecture-21-march-1st-2017">
+                Lecture 21 - March 1st, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -399,34 +397,103 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+            <h1>Guest 6</h1>
+          
+          <h2 id="lecture-21-march-1st-2017">Lecture 21 - March 1st, 2017</h2>
+<h3 id="guest-lecturer-bruce-kapron">Guest Lecturer - Bruce Kapron</h3>
+<h4 id="what-is-cryptography">What is Cryptography?</h4>
+<p>Cryptography refers to a set of mathematical and algorithmic tools designed to provide security properties</p>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>Secrecy</li>
+<li>Integrity</li>
+<li>Authenticity</li>
+<li>Non-repudiation</li>
+</ul>
+<p><strong>Cryptology:</strong></p>
+<ul>
+<li>-&gt; Cryptography</li>
+<li>-&gt; Cryptanalysis</li>
+</ul>
+<h4 id="why-is-this-relevant-in-cs">Why is this relevant in CS?</h4>
+<ul>
+<li>An important aspect of security for computing and communication systems</li>
+<li>Enabling new tech / apps (cryptocurrencies, e-voting)</li>
+<li>Many CS-related tools, techniques and algorithms relevant to building cryptographic systems, and breaking them (cryptanalysis)</li>
+</ul>
+<h4 id="what-will-we-do-today">What will we do today?</h4>
+<ul>
+<li>Focus on encrytion (secrecy)</li>
+<li>Some history</li>
+<li>Modern approaches to private-key encryption </li>
+<li>The public-key revolution</li>
+</ul>
+<h4 id="crytography-vs-security">Crytography vs Security</h4>
+<p>Bruce Schneir's Article:</p>
+<ul>
+<li><a href="http://www.counterpane.com/pitfalls.html">"Security pitfalls in crypto"</a></li>
+</ul>
+<h4 id="private-key-cryptography">Private-key Cryptography</h4>
+<p>Until 1970's all cryptography was private-key (based on a single key shared by communication parties.)</p>
+<p><strong>Symmetric Crypto:</strong> Same for encrypt and decrypt</p>
+<p><img alt="Example" src="../../References/Guest6-1.jpg" /></p>
+<p>Here, m is the message or plaintect, c is ciphertext, and k is key</p>
+<p><strong>Classical Crypto:</strong></p>
+<ul>
+<li><strong>Substitution ciphers</strong><ul>
+<li>Plaintext letters are replaced by ciphertext letters</li>
+<li>Monoalphabetic subsitituion is mapped to a unique corresponding</li>
+<li>Polyalphebetic </li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
+<li><strong>Transposition ciphers</strong></li>
+<li><strong>Shift cipher</strong></li>
+<li><strong>Ceasar cipher</strong></li>
+<li><strong>Affine cipher</strong></li>
+<li><strong>General substitution cipher</strong></li>
+<li><strong>Vigenère cipher</strong><ul>
+<li>Developed by Giovan Battista Bellaso and popularised by Blaise de Vigenère </li>
+<li>Formal Definition:</li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+<li><strong>Kasiski's Method</strong></li>
+<li><strong>Frequency analysis:</strong> A Tool<ul>
+<li>Determines the letter frequencies <ul>
+<li>Ex. Santa Cruz Public Library Chart</li>
 </ul>
+</li>
+</ul>
+</li>
+<li><strong>Attack Models</strong><ul>
+<li>Known plaintext -&gt; General Starter Message<ul>
+<li>EX. Hello, Dear Miss...</li>
+</ul>
+</li>
+<li>Chosen plaintext -&gt; know some plaintext <ul>
+<li>EX. Battle of Midway - May 1942<ul>
+<li>Japanese Navy (2 Level Code)</li>
+<li>US Naval Intelligence (Bolean level 1)<ul>
+<li>Japan figured out the code, but didn't know what AF was<ul>
+<li>Water shortage on midway</li>
+<li>Water shortage on AF</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Example" src="../../References/Guest6-2.jpg" />
+<img alt="Example" src="../../References/Guest6-3.jpg" />
+<img alt="Example" src="../../References/Guest6-4.jpg" />
+<img alt="Example" src="../../References/Guest6-5.jpg" />
+<img alt="Example" src="../../References/Guest6-6.jpg" />
+<img alt="Example" src="../../References/Guest6-7.jpg" />
+<img alt="Example" src="../../References/Guest6-8.jpg" />
+<img alt="Example" src="../../References/Guest6-9.jpg" /></p>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -443,7 +510,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../14-Guest5/" title="Guest 5">
           <span class="direction">
             Previous
           </span>
@@ -453,7 +520,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Guest 5
               </div>
             </div>
           </div>
@@ -462,14 +529,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../../Lab/Lab/" title="Lab">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Lab
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

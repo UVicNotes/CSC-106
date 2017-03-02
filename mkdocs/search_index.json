@@ -627,13 +627,13 @@
         }, 
         {
             "location": "/Lecture/14-Guest5/", 
-            "text": "Lecture # - February 28th, 2017\n\n\nGuest Lecturer : Daniel German\n\n\nProgramming Languages\n\n\nWhat is programming:\n\n\n\n\nSQL:\n\n\n\n\nselect * from books\n \n\n\n\n\nHTML:\n\n\n\n\nhtml\n\n    \nhead\n\n        \ntitle\nHello World\n/title\n\n    \n/head\n\n    \nbody\n\n        \nh1\nHello!\n/h1\n\n    \n/body\n\n\n/html\n\n\n\n\n\n\n\nProlog:\n\n\n\n\nplaysAirGuitar(jody). \n\n?-  playsAirGuitar(jody).\n\n\n\n\nAre some programming languages better than others?\n\n\n\n\nArnoldC\n\n\nBased on Arnold quotes\n\n\n\n\n\n\n\n\nTwo Criteria:\n\n\n\n\nCan our language allow us to program the computer to do anything our computer can do?\n\n\nCan ou computer do anything that our program can express?\n\n\n\n\nTuring Machine\n\n\n\n\nEntscheidungsproblem\n\n\nDoes there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?\n\n\n\n\n\n\nChurch-Turing Thesis\n\n\nA function on the natural numbers is computable in an informal sense if and only if it is computable...\n\n\n\n\n\n\nLambda-Calculus = Turing Machine = Pencil and Paper\n\n\n\n\nTuring Complete\n\n\n\n\nA programming language that can used to simulate a turing machine\n\n\nAny turing machine can be simulated with a program in such language\n\n\nAny program in such language can be converted to a turing machine\n\n\n\n\nBrainFuck\n\n\n\n\nhttp://www.muppetlabs.com/~breadbox/bf/\n\n\nLanguage is Turing Complete\n\n\n\n\nTherefore not all TC languages are very useful.\n\n\nWhat is a good programming language?\n\n\nAnswer:\n The one that gets you a job?\n\n\nHow to learn how to program\n\n\nAnswer:\n Not in your CS courses!\n\n\n\"Quote\" - Alan Perlis\n\n\nThe five features you must learn\n\n\n\n\nThe Syntax\n\n\nThe Semantics\n\n\nThe Libraries\n\n\nThe Idioms\n\n\nThe Tools\n\n\n\n\nAdditional Reading:\n What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu\n\n\nSkills of a good programmer\n\n\n\n\nCurious \n\n\nHardworking\n\n\n\n\nMy recommendations?\n\n\n\n\nBe great at\n\n\none programming language\n\n\n\n\n\n\nBe good at\n\n\none statically typed language\n\n\none dynamincally type language\n\n\none functional language\n\n\n\n\n\n\n\n\nMaster:\n\n\n\n\nTyping\n\n\nDebugging\n\n\nOne Programming Environment\n\n\nVersion Control\n\n\nA Configuration Management Tool \n(cmake)\n\n\nTesting\n\n\n\n\n\n\n\n\nSelect your jobs carefully\n\n\n\n\nDo side-projects\n\n\nAnd keep learning", 
+            "text": "Lecture 20 - February 28th, 2017\n\n\nGuest Lecturer : Daniel German\n\n\nProgramming Languages\n\n\nWhat is programming:\n\n\n\n\nSQL:\n\n\n\n\nselect * from books\n \n\n\n\n\nHTML:\n\n\n\n\nhtml\n\n    \nhead\n\n        \ntitle\nHello World\n/title\n\n    \n/head\n\n    \nbody\n\n        \nh1\nHello!\n/h1\n\n    \n/body\n\n\n/html\n\n\n\n\n\n\n\nProlog:\n\n\n\n\nplaysAirGuitar(jody). \n\n?-  playsAirGuitar(jody).\n\n\n\n\nAre some programming languages better than others?\n\n\n\n\nArnoldC\n\n\nBased on Arnold quotes\n\n\n\n\n\n\n\n\nTwo Criteria:\n\n\n\n\nCan our language allow us to program the computer to do anything our computer can do?\n\n\nCan ou computer do anything that our program can express?\n\n\n\n\nTuring Machine\n\n\n\n\nEntscheidungsproblem\n\n\nDoes there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?\n\n\n\n\n\n\nChurch-Turing Thesis\n\n\nA function on the natural numbers is computable in an informal sense if and only if it is computable...\n\n\n\n\n\n\nLambda-Calculus = Turing Machine = Pencil and Paper\n\n\n\n\nTuring Complete\n\n\n\n\nA programming language that can used to simulate a turing machine\n\n\nAny turing machine can be simulated with a program in such language\n\n\nAny program in such language can be converted to a turing machine\n\n\n\n\nBrainFuck\n\n\n\n\nhttp://www.muppetlabs.com/~breadbox/bf/\n\n\nLanguage is Turing Complete\n\n\n\n\nTherefore not all TC languages are very useful.\n\n\nWhat is a good programming language?\n\n\nAnswer:\n The one that gets you a job?\n\n\nHow to learn how to program\n\n\nAnswer:\n Not in your CS courses!\n\n\n\"Quote\" - Alan Perlis\n\n\nThe five features you must learn\n\n\n\n\nThe Syntax\n\n\nThe Semantics\n\n\nThe Libraries\n\n\nThe Idioms\n\n\nThe Tools\n\n\n\n\nAdditional Reading:\n What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu\n\n\nSkills of a good programmer\n\n\n\n\nCurious \n\n\nHardworking\n\n\n\n\nMy recommendations?\n\n\n\n\nBe great at\n\n\none programming language\n\n\n\n\n\n\nBe good at\n\n\none statically typed language\n\n\none dynamincally type language\n\n\none functional language\n\n\n\n\n\n\n\n\nMaster:\n\n\n\n\nTyping\n\n\nDebugging\n\n\nOne Programming Environment\n\n\nVersion Control\n\n\nA Configuration Management Tool \n(cmake)\n\n\nTesting\n\n\n\n\n\n\n\n\nSelect your jobs carefully\n\n\n\n\nDo side-projects\n\n\nAnd keep learning", 
             "title": "Guest 5"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#lecture-february-28th-2017", 
+            "location": "/Lecture/14-Guest5/#lecture-20-february-28th-2017", 
             "text": "Guest Lecturer : Daniel German", 
-            "title": "Lecture # - February 28th, 2017"
+            "title": "Lecture 20 - February 28th, 2017"
         }, 
         {
             "location": "/Lecture/14-Guest5/#programming-languages", 
@@ -694,6 +694,46 @@
             "location": "/Lecture/14-Guest5/#my-recommendations", 
             "text": "Be great at  one programming language    Be good at  one statically typed language  one dynamincally type language  one functional language     Master:   Typing  Debugging  One Programming Environment  Version Control  A Configuration Management Tool  (cmake)  Testing     Select your jobs carefully   Do side-projects  And keep learning", 
             "title": "My recommendations?"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/", 
+            "text": "Lecture 21 - March 1st, 2017\n\n\nGuest Lecturer - Bruce Kapron\n\n\nWhat is Cryptography?\n\n\nCryptography refers to a set of mathematical and algorithmic tools designed to provide security properties\n\n\n\n\nSecrecy\n\n\nIntegrity\n\n\nAuthenticity\n\n\nNon-repudiation\n\n\n\n\nCryptology:\n\n\n\n\n-\n Cryptography\n\n\n-\n Cryptanalysis\n\n\n\n\nWhy is this relevant in CS?\n\n\n\n\nAn important aspect of security for computing and communication systems\n\n\nEnabling new tech / apps (cryptocurrencies, e-voting)\n\n\nMany CS-related tools, techniques and algorithms relevant to building cryptographic systems, and breaking them (cryptanalysis)\n\n\n\n\nWhat will we do today?\n\n\n\n\nFocus on encrytion (secrecy)\n\n\nSome history\n\n\nModern approaches to private-key encryption \n\n\nThe public-key revolution\n\n\n\n\nCrytography vs Security\n\n\nBruce Schneir's Article:\n\n\n\n\n\"Security pitfalls in crypto\"\n\n\n\n\nPrivate-key Cryptography\n\n\nUntil 1970's all cryptography was private-key (based on a single key shared by communication parties.)\n\n\nSymmetric Crypto:\n Same for encrypt and decrypt\n\n\n\n\nHere, m is the message or plaintect, c is ciphertext, and k is key\n\n\nClassical Crypto:\n\n\n\n\nSubstitution ciphers\n\n\nPlaintext letters are replaced by ciphertext letters\n\n\nMonoalphabetic subsitituion is mapped to a unique corresponding\n\n\nPolyalphebetic \n\n\n\n\n\n\nTransposition ciphers\n\n\nShift cipher\n\n\nCeasar cipher\n\n\nAffine cipher\n\n\nGeneral substitution cipher\n\n\nVigen\u00e8re cipher\n\n\nDeveloped by Giovan Battista Bellaso and popularised by Blaise de Vigen\u00e8re \n\n\nFormal Definition:\n\n\n\n\n\n\nKasiski's Method\n\n\nFrequency analysis:\n A Tool\n\n\nDetermines the letter frequencies \n\n\nEx. Santa Cruz Public Library Chart\n\n\n\n\n\n\n\n\n\n\nAttack Models\n\n\nKnown plaintext -\n General Starter Message\n\n\nEX. Hello, Dear Miss...\n\n\n\n\n\n\nChosen plaintext -\n know some plaintext \n\n\nEX. Battle of Midway - May 1942\n\n\nJapanese Navy (2 Level Code)\n\n\nUS Naval Intelligence (Bolean level 1)\n\n\nJapan figured out the code, but didn't know what AF was\n\n\nWater shortage on midway\n\n\nWater shortage on AF", 
+            "title": "Guest 6"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#lecture-21-march-1st-2017", 
+            "text": "", 
+            "title": "Lecture 21 - March 1st, 2017"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#guest-lecturer-bruce-kapron", 
+            "text": "", 
+            "title": "Guest Lecturer - Bruce Kapron"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#what-is-cryptography", 
+            "text": "Cryptography refers to a set of mathematical and algorithmic tools designed to provide security properties   Secrecy  Integrity  Authenticity  Non-repudiation   Cryptology:   -  Cryptography  -  Cryptanalysis", 
+            "title": "What is Cryptography?"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#why-is-this-relevant-in-cs", 
+            "text": "An important aspect of security for computing and communication systems  Enabling new tech / apps (cryptocurrencies, e-voting)  Many CS-related tools, techniques and algorithms relevant to building cryptographic systems, and breaking them (cryptanalysis)", 
+            "title": "Why is this relevant in CS?"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#what-will-we-do-today", 
+            "text": "Focus on encrytion (secrecy)  Some history  Modern approaches to private-key encryption   The public-key revolution", 
+            "title": "What will we do today?"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#crytography-vs-security", 
+            "text": "Bruce Schneir's Article:   \"Security pitfalls in crypto\"", 
+            "title": "Crytography vs Security"
+        }, 
+        {
+            "location": "/Lecture/15-Guest6/#private-key-cryptography", 
+            "text": "Until 1970's all cryptography was private-key (based on a single key shared by communication parties.)  Symmetric Crypto:  Same for encrypt and decrypt   Here, m is the message or plaintect, c is ciphertext, and k is key  Classical Crypto:   Substitution ciphers  Plaintext letters are replaced by ciphertext letters  Monoalphabetic subsitituion is mapped to a unique corresponding  Polyalphebetic     Transposition ciphers  Shift cipher  Ceasar cipher  Affine cipher  General substitution cipher  Vigen\u00e8re cipher  Developed by Giovan Battista Bellaso and popularised by Blaise de Vigen\u00e8re   Formal Definition:    Kasiski's Method  Frequency analysis:  A Tool  Determines the letter frequencies   Ex. Santa Cruz Public Library Chart      Attack Models  Known plaintext -  General Starter Message  EX. Hello, Dear Miss...    Chosen plaintext -  know some plaintext   EX. Battle of Midway - May 1942  Japanese Navy (2 Level Code)  US Naval Intelligence (Bolean level 1)  Japan figured out the code, but didn't know what AF was  Water shortage on midway  Water shortage on AF", 
+            "title": "Private-key Cryptography"
         }, 
         {
             "location": "/Lab/Lab/", 
@@ -812,7 +852,7 @@
         }, 
         {
             "location": "/Annex/Announcements/", 
-            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released", 
+            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released\n\n\n\n\nAnnouncement 9 - March 1st, 2017\n\n\nMidterm 2: \n\n\n\n\nSimilar Format to Midterm 1 \n\n\nMaterial: \n\n\nSorting - Guest Lecturer 6", 
             "title": "Announcements"
         }, 
         {
@@ -859,6 +899,11 @@
             "location": "/Annex/Announcements/#announcement-8-february-22nd-2017", 
             "text": "We are using python 2.7   Updated slides for print statement  Going over Exam Friday March 3rd - No solution will be released", 
             "title": "Announcement 8 - February 22nd, 2017"
+        }, 
+        {
+            "location": "/Annex/Announcements/#announcement-9-march-1st-2017", 
+            "text": "Midterm 2:    Similar Format to Midterm 1   Material:   Sorting - Guest Lecturer 6", 
+            "title": "Announcement 9 - March 1st, 2017"
         }
     ]
 }
