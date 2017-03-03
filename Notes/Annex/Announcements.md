@@ -73,3 +73,18 @@ Midterm 2:
 * Similar Format to Midterm 1 
 * Material: 
     * Sorting - Guest Lecturer 6
+
+### Announcement 10 - March 3rd, 2017
+
+Midterm 2:
+
+* Bring your vnumber
+* You should be able to trace through python code
+    * Look at all the python examples we did in class, trace through them by hand and check tht your trace is correct using a computer.
+* No logic gates
+* Bubble Sort Code
+    * Understand, and know what variables/values will be at all steps on the code.
+
+Format: 
+
+* Multiple choice 
