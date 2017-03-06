@@ -33,8 +33,3 @@ By George Tzanetakis (Associate Professor) - Music and Computer Science
 
 * Machine Orchestra Kapur - Jan. 2010
 
----
-
-End of Material for Midterm 1
-
----

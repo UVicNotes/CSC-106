@@ -1,8 +1,10 @@
+# Guest 2
+
 ## Lecture 12 - February 1st, 2017
 
-**Guest lecture 2**
+### Guest Lecture
 
-#### SendWithUs
+By SendWithUs
 
 * Automated E-mail
 * Realtime API 

@@ -1,6 +1,10 @@
+# Guest 6
+
 ## Lecture 20 - February 28th, 2017
 
-Guest Lecturer : Daniel German
+### Guest Lecture
+
+By Daniel German
 
 ### Programming Languages
 

@@ -1,6 +1,10 @@
+# Guest 3
+
 ## Lecture 14 - February 7th, 2017
 
-### Guest Lecture 3
+### Guest Lecture
+
+By David Johnson
 
 #### What is HCI
 

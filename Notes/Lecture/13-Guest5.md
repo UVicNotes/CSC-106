@@ -1,7 +1,10 @@
+# Guest 5
+
 ## Lecture 19 - February 24th, 2017
 
-### Guest Lecturer
-David E. Atkinson (Department of Geography - Uvic)
+### Guest Lecture
+
+By David E. Atkinson (Department of Geography - Uvic)
 
 ### Computer Applications in Geography Conducted by the Atkiinson Research Lab
 

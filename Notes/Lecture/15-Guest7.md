@@ -1,6 +1,10 @@
+# Guest 7
+
 ## Lecture 21 - March 1st, 2017
 
-### Guest Lecturer - Bruce Kapron
+### Guest Lecture 
+
+By Bruce Kapron
 
 #### What is Cryptography?
 
@@ -41,7 +45,7 @@ Until 1970's all cryptography was private-key (based on a single key shared by c
 
 **Symmetric Crypto:** Same for encrypt and decrypt
 
-![Example](../References/Guest6-1.jpg)
+![Example](../References/Guest7-1.jpg)
 
 Here, m is the message or plaintect, c is ciphertext, and k is key
 
@@ -74,11 +78,13 @@ Here, m is the message or plaintect, c is ciphertext, and k is key
                     * Water shortage on midway
                     * Water shortage on AF
                     
-![Example](../References/Guest6-2.jpg)
-![Example](../References/Guest6-3.jpg)
-![Example](../References/Guest6-4.jpg)
-![Example](../References/Guest6-5.jpg)
-![Example](../References/Guest6-6.jpg)
-![Example](../References/Guest6-7.jpg)
-![Example](../References/Guest6-8.jpg)
-![Example](../References/Guest6-9.jpg)
+
+---
+
+End of Material for Midterm 2
+
+---
+
+Beginning of Material for Midterm 3
+
+---

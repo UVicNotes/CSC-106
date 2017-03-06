@@ -31,6 +31,16 @@
 
 2nd slide -> E)
 
+---
+
+End of Material for Midterm 1
+
+---
+
+Beginning of Material for Midterm 2
+
+---
+
 
 ### Sorting
 
