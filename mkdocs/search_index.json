@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/", 
-            "text": "CSC 106\n\n\nConnex\n\n\n\n\nInstructor\n: Alona Fyshe\n\n\nOffice\n: ECS 618\n\n\nEmail\n: \nafyshe@uvic.ca\n\n\nOffice Hours\n:\n\n\nWednesday, 09:30am to 11:20am \n\n\nOr by appointment\n\n\n\n\n\n\nClassroom\n: David Turpin Building - A120\n\n\n\n\nOverview\n\n\nA general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.\n\n\nTextbook\n\n\nThere is no textbook required for this course, but the recommended textbook is: \n\n\nInvitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.\n\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n40%\n\n\n\n\n\n\nLab Attendance\n\n\n5%\n\n\n\n\n\n\nMidterm Exams (3)\n\n\n55%\n\n\n\n\n\n\n\n\nDue Dates\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\nDue (Subject to Change)\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n10%\n\n\nJan. 24th, 2017\n\n\n\n\n\n\nMidterm Exam 1\n\n\n~19%\n\n\nJan. 31st, 2017\n\n\n\n\n\n\nAssignment 2\n\n\n10%\n\n\nFeb. 10th, 2017\n\n\n\n\n\n\nAssignment 3\n\n\n10%\n\n\nMar. 3rd, 2017\n\n\n\n\n\n\nMidterm Exam 2\n\n\n~19%\n\n\nMar. 7th, 2017\n\n\n\n\n\n\nAssignment 4\n\n\n10%\n\n\nMar. 21st, 2017\n\n\n\n\n\n\nMidterm Exam 3\n\n\n~19%\n\n\nApril 4th, 2017", 
+            "text": "CSC 106\n\n\nConnex\n\n\n\n\nInstructor\n: Alona Fyshe\n\n\nOffice\n: ECS 618\n\n\nEmail\n: \nafyshe@uvic.ca\n\n\nOffice Hours\n:\n\n\nWednesday, 09:30am to 11:20am \n\n\nOr by appointment\n\n\n\n\n\n\nClassroom\n: David Turpin Building - A120\n\n\n\n\nOverview\n\n\nA general introduction to the field of computer science, its basic areas and its connections to interdisciplinary topics.\n\n\nTextbook\n\n\nThere is no textbook required for this course, but the recommended textbook is: \n\n\n\n\nInvitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.\n\n\n\n\nAssessment\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\n\n\n\n\n\n\n\n\nAssignments\n\n\n40%\n\n\n\n\n\n\nLab Attendance\n\n\n5%\n\n\n\n\n\n\nMidterm Exams (3)\n\n\n55%\n\n\n\n\n\n\n\n\nDue Dates\n\n\n\n\n\n\n\n\nTask\n\n\nWeight\n\n\nDue (Subject to Change)\n\n\n\n\n\n\n\n\n\n\nAssignment 1\n\n\n10%\n\n\nJan. 24th, 2017\n\n\n\n\n\n\nMidterm Exam 1\n\n\n~19%\n\n\nJan. 31st, 2017\n\n\n\n\n\n\nAssignment 2\n\n\n10%\n\n\nFeb. 10th, 2017\n\n\n\n\n\n\nAssignment 3\n\n\n10%\n\n\nMar. 3rd, 2017\n\n\n\n\n\n\nMidterm Exam 2\n\n\n~19%\n\n\nMar. 7th, 2017\n\n\n\n\n\n\nAssignment 4\n\n\n10%\n\n\nMar. 21st, 2017\n\n\n\n\n\n\nMidterm Exam 3\n\n\n~19%\n\n\nApril 4th, 2017", 
             "title": "Home"
         }, 
         {
@@ -22,7 +22,7 @@
         }, 
         {
             "location": "/#textbook", 
-            "text": "There is no textbook required for this course, but the recommended textbook is:   Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.", 
+            "text": "There is no textbook required for this course, but the recommended textbook is:    Invitation to Computer Science (7th edition) by G. Michael Schneider and Judith L. Gersting, Cengage Learning.", 
             "title": "Textbook"
         }, 
         {
@@ -338,7 +338,7 @@
         {
             "location": "/Lecture/7-Guest2/", 
             "text": "Lecture 12 - February 1st, 2017\n\n\nGuest lecture 2\n\n\nSendWithUs\n\n\n\n\nAutomated E-mail\n\n\nRealtime API \n\n\nSend Transactional Emails\n\n\nStarted in 2013, Matt and Brad\n\n\nYCombinator Startup Accelerator\n\n\n$2.5M -\n US Investors\n\n\nTeam of 17 People\n\n\nSales and Marketing in San Fran, California\n\n\nEngineering and Product Development in Victoria, BC\n\n\n\n\n\n\n\n\nAPI Example:\n\n\ncurl -X POST -u key_123 https://api.sendwithus.com/api/v1/send\n    -d '{\n    \nemail_id\n: \ntem_12345\n,\n    }'\n\n\n\n\nTemplate:\n\n\ntd\n\n    Welcome to Awesome Co, {{first_name}}!\n\n/td\n\n\n\n\n\nRendered Template:\n\n\n\n\nTechincal Overview:\n\n\n\n\nOver 10M emails per day \n\n\n= 600 instances (on Heroku)\n\n\nPython, Coffeescript, Golang, CSS, HTML\n\n\nPostgreSQL, MongoDB, Redis\n\n\n\n\nBackstory\n\n\n\n\nBrandon: VIU (Remax, Startup -\n websites/products -\n SendWithUs)\n\n\nJohn: UVIC (5Years -\n Math (Failed) -\n C's get degrees -\n Co-Ops -\n Startups vs Big Company -\n Real Job -\n Interview -\n SendWithUs (Backend Dev))\n\n\n\n\nWhat Makes Programming Awesome?\n\n\n\n\nFoundational Learning\n\n\nUniversity Co-Op\n\n\nComputer Science \n\n\nSelf-taught\n\n\nUvic\n\n\nBootcamps \n\n\n\n\n\n\n\n\n\n\nSide Projects\n\n\nGithub\n\n\nSimple - Complex\n\n\nAre the new Resume \n\n\n\n\n\n\nOpen Source\n\n\nOpen your code to the world\n\n\nCollaborate \n\n\n\n\n\n\nCommunity Involvement\n\n\nVictoria Tech Sector is Exploding\n\n\nStartUpSlam and Battlesnake\n\n\nVictoria Start Up Job Board\n\n\nLadies Learning Code", 
-            "title": "Guest 2"
+            "title": "Guest 2 - SWU"
         }, 
         {
             "location": "/Lecture/7-Guest2/#lecture-12-february-1st-2017", 
@@ -458,7 +458,7 @@
         {
             "location": "/Lecture/9-Guest3/", 
             "text": "Lecture 14 - February 7th, 2017\n\n\nGuest Lecture 3\n\n\nWhat is HCI\n\n\nAn introduction to human computer interaction (SENG 310) - David Johnson\n\n\nVitural Reality - Human interaction\n\n\n\n\nThe study of the interactions between people and computer interfaces\n\n\nThe process of designing and buildig software that is \nusable\n, \nuseful\n, and \nenjoyable\n\n\n\n\n\n\nWhy should we study HCI?\n\n\nWhat is an interface?\n\n\n\n\nA boundary where two systems / subjects / things meet to exchange information\n\n\n\n\nInterface Examples:\n\n\n\n\nGoogle Search\n\n\nApple Watch\n\n\nAmazon Echo\n\n\n\n\nBad Interfaces:\n\n\n\n\nLock -\n (Door Signage)\n\n\nKnobs and Burner\n\n\n\n\nPrinciples of Good Design\n\n\n\n\nRobin Williams Book\n\n\n\n\n2 Important Aspects of Good Design:\n\n\n\n\nDiscoverability\n\n\nUnderstanding\n\n\n\n\nNorman's Deisgn Principles\n\n\n\n\nVisibility\n\n\nAffordances \n Signifiers\n\n\nEx. Faucets, Doors \n\n\n\n\n\n\nConstraints\n\n\nReduce Errors \n\n\n\n\n\n\nMappings\n\n\nEx. Burner \n\n\n\n\n\n\nFeedback\n\n\nSatisfaction \n\n\n\n\n\n\nConsistency\n\n\n\n\nNorman Doors\n\n\n\n\nConsequences of Bad Design\n\n\n\n\nDecrease adoption\n\n\nDecrease productibity\n\n\nDecrease employee morale\n\n\nData loss\n\n\n\n\nGoals of Good Design\n\n\n\n\nUsability\n\n\nUser Experience\n\n\n\n\nUsability Goals:\n\n\n\n\nEffectiveness\n\n\nEfficient\n\n\nSafety\n\n\nUtility\n\n\nLearnability\n\n\nMemorability\n\n\nNote\n These do not measure how well the user actually enjoys the experience...\n\n\n\n\nUser Experience Goals:\n\n\n\n\nSatisfaction\n\n\nFun\n\n\nHelpful\n\n\nMotivating\n\n\nRewarding\n\n\nA e s t h e t i c s\n\n\n\n\nInteraction Deisgn\n\n\n\n\nRequirements Gathering\n\n\nDon't listen to users\n\n\nWhat they do, versus what they said\n\n\nGain empathy for the user\n\n\nQuestions (Users, Goals, ect.) \n\n\n\n\n\n\nConceptual Design\n\n\nModel\n\n\nPurpose statement, objects, operations, attribute, relationship  \n\n\n\n\n\n\nPersonas\n\n\nExample \n\n\n\n\n\n\nScenarios \n Use Cases\n\n\n\n\n\n\nConcrete Design\n\n\nPrototyping\n\n\nInteractive Deisgn\n\n\nFidelity of prototypes (Low - Paper, High - Sketch / InVision) \n\n\n\n\n\n\nEvaluation\n\n\nDoes it work?\n\n\nWhy, Who, When\n\n\nCognitive Walkthrough\n\n\n5 Steps of Usibility\n\n\n5 Users Min / Max - Interating  \n\n\n\n\n\n\n\n\n\n\nRepeat... \n\n\n\n\nThe user is drunk\n\n\nLink to Video", 
-            "title": "Guest 3"
+            "title": "Guest 3 - HCI"
         }, 
         {
             "location": "/Lecture/9-Guest3/#lecture-14-february-7th-2017", 
@@ -553,7 +553,7 @@
         {
             "location": "/Lecture/11-The-Reading-Brain/", 
             "text": "Lecture 16 - February 10th, 2017\n\n\nMy research question: \n\n\nHow doees the brain encode (represent) the meaning of words? How does it combine word meaning to represent more complex concepts?\n\n\nSiri and the Long tail:\n\n\n \n\n\nOutline\n\n\n\n\nBrain imaging\n\n\nWord meaning in the brain \n\n\nWords in context\n\n\n\n\nBrain imaging technology:\n\n\n\n\nFunctional Magnetic Resonance Imaging (fMRI)\n\n\nMeasuers changes in blood oxygenation (BOLD)\n\n\nGood spatial resolution\n\n\nPoor time resolution\n\n\n\n\n\n\n\n\n\n\nMEG  \n\n\nMagnetoecephalography (magnet / brain / graph)\n\n\nMagneted sheeted room -\n because earth\n\n\n102 sensor position\n\n\n3 sensors / position\n\n\nPoorer spatial resolution than fMRI\n\n\nGreat time resolution\n\n\nGreat for language studies\n\n\n\n\n\n\n\n\n\n\n\n\nMeaning in the brain:\n\n\n\n\nWhat would it mean to have a model of meaning representation in the brain?\n\n\nWhich brain areas acKvate for parKcular words\n\n\nPredict the word a person is reading from their brain acKvaKon\n\n\n\n\n\n\n\n\n\n\n\n\nHow to build a model?\n\n\nShow a computer algorithm many examples.\nTraining\nFind Patterns\nTest\n\nPredict unseen words\nFind Patterns\n\nYou can't build model for every word\n    Solution: Word Features (eg. edible, alive)\n\n\n\n\n\nEx. The Brain Data\n\n\n\n\n9 subjects fMRI , 9 subjecy MEG\n\n\n60 concrete noun w/ pictures\n\n\n\n\nWord Features\n\n\nCo-occurence with verbs: (MRI)\n\n\n\n\nAccuracy: 77%\n\n\n\n\n\n\n20 Questions: (MEG)\n \n\n\n\n\nArray of numbers = Identifier of the Word\n\n\n\n\n\n\n\n\nVisual Features (Of the Word and the Image)\n\n\nPosterior Regions \n\n\nDetected in 150ms-250ms\n\n\n\n\n\n\n\n\n\n\nWord Meaning\n\n\nDistrubuted throughout the brain \n\n\nDetected in 200-600ms", 
-            "title": "The Reading Brain"
+            "title": "Guest 4 - The Reading Brain"
         }, 
         {
             "location": "/Lecture/11-The-Reading-Brain/#lecture-16-february-10th-2017", 
@@ -591,159 +591,154 @@
             "title": "Lecture 18 - February 22nd, 2017"
         }, 
         {
-            "location": "/Lecture/13-Guest4/", 
+            "location": "/Lecture/13-Guest5/", 
             "text": "Lecture 19 - February 24th, 2017\n\n\nGuest Lecturer\n\n\nDavid E. Atkinson (Department of Geography - Uvic)\n\n\nComputer Applications in Geography Conducted by the Atkiinson Research Lab\n\n\nAlaska in Nome --\n High Country and Northern Weather Impacts Laboratory\n\n\n\n\nRAM\n Random Access Memory\n\n\nPunch Cards\n Old Coding Method\n\n\n9 Track\n Serial Access Memory\n\n\nVirtual Machine\n\n\nGEMPAK\n\n\nModeling Prometheus\n\n\nR\n\n\n\n\nResearch Main Focus Area\n\n\n\n\nAtmospheric Activity\n\n\nImpacts of Atmospheric Activity\n\n\nPhysical Marine State\n\n\nEnd User Consideration\n\n\n\n\n\n\nFocus Geographical Region\n\n\nWestern AK\n\n\nWestern Cdn Artic, North Pac.\n\n\n...\n\n\n...  \n\n\n\n\n\n\n\n\nData Handling Challanges\n\n\n\n\nToo much data\n\n\nReading the Data\n\n\nParsing the Data\n\n\nwget -\n Fetch the http address\n\n\nselect -\n The data you want\n\n\nClean up script -\n Remove Empty Events\n\n\n\n\n\n\nCSV Data -\n Exel Format (Standard Format)\n\n\nTxt File\n\n\nPacked grided Format\n\n\nBinary Level Extractor\n\n\n\n\n\n\n\n\nAandera RDCP 600:\n\n\nWave / SST buoy: (AOOS Partnership)\n\n\n\n\nWebsites: Low Bandwidth, Low Tech\n\n\n\n\nMet towers on icefields: \n\n\nComputational and Analytic\n\n\n\n\nAnalysis of severe Bering sea storm\n\n\nExtremes analysis\n\n\nWave state analysis \n\n\ncostal wave energy through marginal ice\n\n\ntrack climatologies\n\n\nassessing lagrangian\n\n\nnovel storminess metrics", 
-            "title": "Guest 4"
+            "title": "Guest 5 - Computer Applications"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#lecture-19-february-24th-2017", 
+            "location": "/Lecture/13-Guest5/#lecture-19-february-24th-2017", 
             "text": "", 
             "title": "Lecture 19 - February 24th, 2017"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#guest-lecturer", 
+            "location": "/Lecture/13-Guest5/#guest-lecturer", 
             "text": "David E. Atkinson (Department of Geography - Uvic)", 
             "title": "Guest Lecturer"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#computer-applications-in-geography-conducted-by-the-atkiinson-research-lab", 
+            "location": "/Lecture/13-Guest5/#computer-applications-in-geography-conducted-by-the-atkiinson-research-lab", 
             "text": "Alaska in Nome --  High Country and Northern Weather Impacts Laboratory   RAM  Random Access Memory  Punch Cards  Old Coding Method  9 Track  Serial Access Memory  Virtual Machine  GEMPAK  Modeling Prometheus  R", 
             "title": "Computer Applications in Geography Conducted by the Atkiinson Research Lab"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#research-main-focus-area", 
+            "location": "/Lecture/13-Guest5/#research-main-focus-area", 
             "text": "Atmospheric Activity  Impacts of Atmospheric Activity  Physical Marine State  End User Consideration    Focus Geographical Region  Western AK  Western Cdn Artic, North Pac.  ...  ...", 
             "title": "Research Main Focus Area"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#data-handling-challanges", 
+            "location": "/Lecture/13-Guest5/#data-handling-challanges", 
             "text": "Too much data  Reading the Data  Parsing the Data  wget -  Fetch the http address  select -  The data you want  Clean up script -  Remove Empty Events    CSV Data -  Exel Format (Standard Format)  Txt File  Packed grided Format  Binary Level Extractor     Aandera RDCP 600:  Wave / SST buoy: (AOOS Partnership)   Websites: Low Bandwidth, Low Tech   Met towers on icefields:", 
             "title": "Data Handling Challanges"
         }, 
         {
-            "location": "/Lecture/13-Guest4/#computational-and-analytic", 
+            "location": "/Lecture/13-Guest5/#computational-and-analytic", 
             "text": "Analysis of severe Bering sea storm  Extremes analysis  Wave state analysis   costal wave energy through marginal ice  track climatologies  assessing lagrangian  novel storminess metrics", 
             "title": "Computational and Analytic"
         }, 
         {
-            "location": "/Lecture/14-Guest5/", 
+            "location": "/Lecture/14-Guest6/", 
             "text": "Lecture 20 - February 28th, 2017\n\n\nGuest Lecturer : Daniel German\n\n\nProgramming Languages\n\n\nWhat is programming:\n\n\n\n\nSQL:\n\n\n\n\nselect * from books\n \n\n\n\n\nHTML:\n\n\n\n\nhtml\n\n    \nhead\n\n        \ntitle\nHello World\n/title\n\n    \n/head\n\n    \nbody\n\n        \nh1\nHello!\n/h1\n\n    \n/body\n\n\n/html\n\n\n\n\n\n\n\nProlog:\n\n\n\n\nplaysAirGuitar(jody). \n\n?-  playsAirGuitar(jody).\n\n\n\n\nAre some programming languages better than others?\n\n\n\n\nArnoldC\n\n\nBased on Arnold quotes\n\n\n\n\n\n\n\n\nTwo Criteria:\n\n\n\n\nCan our language allow us to program the computer to do anything our computer can do?\n\n\nCan ou computer do anything that our program can express?\n\n\n\n\nTuring Machine\n\n\n\n\nEntscheidungsproblem\n\n\nDoes there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?\n\n\n\n\n\n\nChurch-Turing Thesis\n\n\nA function on the natural numbers is computable in an informal sense if and only if it is computable...\n\n\n\n\n\n\nLambda-Calculus = Turing Machine = Pencil and Paper\n\n\n\n\nTuring Complete\n\n\n\n\nA programming language that can used to simulate a turing machine\n\n\nAny turing machine can be simulated with a program in such language\n\n\nAny program in such language can be converted to a turing machine\n\n\n\n\nBrainFuck\n\n\n\n\nhttp://www.muppetlabs.com/~breadbox/bf/\n\n\nLanguage is Turing Complete\n\n\n\n\nTherefore not all TC languages are very useful.\n\n\nWhat is a good programming language?\n\n\nAnswer:\n The one that gets you a job?\n\n\nHow to learn how to program\n\n\nAnswer:\n Not in your CS courses!\n\n\n\"Quote\" - Alan Perlis\n\n\nThe five features you must learn\n\n\n\n\nThe Syntax\n\n\nThe Semantics\n\n\nThe Libraries\n\n\nThe Idioms\n\n\nThe Tools\n\n\n\n\nAdditional Reading:\n What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu\n\n\nSkills of a good programmer\n\n\n\n\nCurious \n\n\nHardworking\n\n\n\n\nMy recommendations?\n\n\n\n\nBe great at\n\n\none programming language\n\n\n\n\n\n\nBe good at\n\n\none statically typed language\n\n\none dynamincally type language\n\n\none functional language\n\n\n\n\n\n\n\n\nMaster:\n\n\n\n\nTyping\n\n\nDebugging\n\n\nOne Programming Environment\n\n\nVersion Control\n\n\nA Configuration Management Tool \n(cmake)\n\n\nTesting\n\n\n\n\n\n\n\n\nSelect your jobs carefully\n\n\n\n\nDo side-projects\n\n\nAnd keep learning", 
-            "title": "Guest 5"
+            "title": "Guest 6 - Programming Languages"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#lecture-20-february-28th-2017", 
+            "location": "/Lecture/14-Guest6/#lecture-20-february-28th-2017", 
             "text": "Guest Lecturer : Daniel German", 
             "title": "Lecture 20 - February 28th, 2017"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#programming-languages", 
+            "location": "/Lecture/14-Guest6/#programming-languages", 
             "text": "", 
             "title": "Programming Languages"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#what-is-programming", 
+            "location": "/Lecture/14-Guest6/#what-is-programming", 
             "text": "SQL:   select * from books     HTML:   html \n     head \n         title Hello World /title \n     /head \n     body \n         h1 Hello! /h1 \n     /body  /html    Prolog:   playsAirGuitar(jody). \n\n?-  playsAirGuitar(jody).", 
             "title": "What is programming:"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#are-some-programming-languages-better-than-others", 
+            "location": "/Lecture/14-Guest6/#are-some-programming-languages-better-than-others", 
             "text": "ArnoldC  Based on Arnold quotes", 
             "title": "Are some programming languages better than others?"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#two-criteria", 
+            "location": "/Lecture/14-Guest6/#two-criteria", 
             "text": "Can our language allow us to program the computer to do anything our computer can do?  Can ou computer do anything that our program can express?", 
             "title": "Two Criteria:"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#turing-machine", 
+            "location": "/Lecture/14-Guest6/#turing-machine", 
             "text": "Entscheidungsproblem  Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?    Church-Turing Thesis  A function on the natural numbers is computable in an informal sense if and only if it is computable...    Lambda-Calculus = Turing Machine = Pencil and Paper", 
             "title": "Turing Machine"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#turing-complete", 
+            "location": "/Lecture/14-Guest6/#turing-complete", 
             "text": "A programming language that can used to simulate a turing machine  Any turing machine can be simulated with a program in such language  Any program in such language can be converted to a turing machine", 
             "title": "Turing Complete"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#brainfuck", 
+            "location": "/Lecture/14-Guest6/#brainfuck", 
             "text": "http://www.muppetlabs.com/~breadbox/bf/  Language is Turing Complete   Therefore not all TC languages are very useful.", 
             "title": "BrainFuck"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#what-is-a-good-programming-language", 
+            "location": "/Lecture/14-Guest6/#what-is-a-good-programming-language", 
             "text": "Answer:  The one that gets you a job?", 
             "title": "What is a good programming language?"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#how-to-learn-how-to-program", 
+            "location": "/Lecture/14-Guest6/#how-to-learn-how-to-program", 
             "text": "Answer:  Not in your CS courses!  \"Quote\" - Alan Perlis", 
             "title": "How to learn how to program"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#the-five-features-you-must-learn", 
+            "location": "/Lecture/14-Guest6/#the-five-features-you-must-learn", 
             "text": "The Syntax  The Semantics  The Libraries  The Idioms  The Tools   Additional Reading:  What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu", 
             "title": "The five features you must learn"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#skills-of-a-good-programmer", 
+            "location": "/Lecture/14-Guest6/#skills-of-a-good-programmer", 
             "text": "Curious   Hardworking", 
             "title": "Skills of a good programmer"
         }, 
         {
-            "location": "/Lecture/14-Guest5/#my-recommendations", 
+            "location": "/Lecture/14-Guest6/#my-recommendations", 
             "text": "Be great at  one programming language    Be good at  one statically typed language  one dynamincally type language  one functional language     Master:   Typing  Debugging  One Programming Environment  Version Control  A Configuration Management Tool  (cmake)  Testing     Select your jobs carefully   Do side-projects  And keep learning", 
             "title": "My recommendations?"
         }, 
         {
-            "location": "/Lecture/15-Guest6/", 
+            "location": "/Lecture/15-Guest7/", 
             "text": "Lecture 21 - March 1st, 2017\n\n\nGuest Lecturer - Bruce Kapron\n\n\nWhat is Cryptography?\n\n\nCryptography refers to a set of mathematical and algorithmic tools designed to provide security properties\n\n\n\n\nSecrecy\n\n\nIntegrity\n\n\nAuthenticity\n\n\nNon-repudiation\n\n\n\n\nCryptology:\n\n\n\n\n-\n Cryptography\n\n\n-\n Cryptanalysis\n\n\n\n\nWhy is this relevant in CS?\n\n\n\n\nAn important aspect of security for computing and communication systems\n\n\nEnabling new tech / apps (cryptocurrencies, e-voting)\n\n\nMany CS-related tools, techniques and algorithms relevant to building cryptographic systems, and breaking them (cryptanalysis)\n\n\n\n\nWhat will we do today?\n\n\n\n\nFocus on encrytion (secrecy)\n\n\nSome history\n\n\nModern approaches to private-key encryption \n\n\nThe public-key revolution\n\n\n\n\nCrytography vs Security\n\n\nBruce Schneir's Article:\n\n\n\n\n\"Security pitfalls in crypto\"\n\n\n\n\nPrivate-key Cryptography\n\n\nUntil 1970's all cryptography was private-key (based on a single key shared by communication parties.)\n\n\nSymmetric Crypto:\n Same for encrypt and decrypt\n\n\n\n\nHere, m is the message or plaintect, c is ciphertext, and k is key\n\n\nClassical Crypto:\n\n\n\n\nSubstitution ciphers\n\n\nPlaintext letters are replaced by ciphertext letters\n\n\nMonoalphabetic subsitituion is mapped to a unique corresponding\n\n\nPolyalphebetic \n\n\n\n\n\n\nTransposition ciphers\n\n\nShift cipher\n\n\nCeasar cipher\n\n\nAffine cipher\n\n\nGeneral substitution cipher\n\n\nVigen\u00e8re cipher\n\n\nDeveloped by Giovan Battista Bellaso and popularised by Blaise de Vigen\u00e8re \n\n\nFormal Definition:\n\n\n\n\n\n\nKasiski's Method\n\n\nFrequency analysis:\n A Tool\n\n\nDetermines the letter frequencies \n\n\nEx. Santa Cruz Public Library Chart\n\n\n\n\n\n\n\n\n\n\nAttack Models\n\n\nKnown plaintext -\n General Starter Message\n\n\nEX. Hello, Dear Miss...\n\n\n\n\n\n\nChosen plaintext -\n know some plaintext \n\n\nEX. Battle of Midway - May 1942\n\n\nJapanese Navy (2 Level Code)\n\n\nUS Naval Intelligence (Bolean level 1)\n\n\nJapan figured out the code, but didn't know what AF was\n\n\nWater shortage on midway\n\n\nWater shortage on AF", 
-            "title": "Guest 6"
+            "title": "Guest 7 - Cryptography"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#lecture-21-march-1st-2017", 
+            "location": "/Lecture/15-Guest7/#lecture-21-march-1st-2017", 
             "text": "", 
             "title": "Lecture 21 - March 1st, 2017"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#guest-lecturer-bruce-kapron", 
+            "location": "/Lecture/15-Guest7/#guest-lecturer-bruce-kapron", 
             "text": "", 
             "title": "Guest Lecturer - Bruce Kapron"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#what-is-cryptography", 
+            "location": "/Lecture/15-Guest7/#what-is-cryptography", 
             "text": "Cryptography refers to a set of mathematical and algorithmic tools designed to provide security properties   Secrecy  Integrity  Authenticity  Non-repudiation   Cryptology:   -  Cryptography  -  Cryptanalysis", 
             "title": "What is Cryptography?"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#why-is-this-relevant-in-cs", 
+            "location": "/Lecture/15-Guest7/#why-is-this-relevant-in-cs", 
             "text": "An important aspect of security for computing and communication systems  Enabling new tech / apps (cryptocurrencies, e-voting)  Many CS-related tools, techniques and algorithms relevant to building cryptographic systems, and breaking them (cryptanalysis)", 
             "title": "Why is this relevant in CS?"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#what-will-we-do-today", 
+            "location": "/Lecture/15-Guest7/#what-will-we-do-today", 
             "text": "Focus on encrytion (secrecy)  Some history  Modern approaches to private-key encryption   The public-key revolution", 
             "title": "What will we do today?"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#crytography-vs-security", 
+            "location": "/Lecture/15-Guest7/#crytography-vs-security", 
             "text": "Bruce Schneir's Article:   \"Security pitfalls in crypto\"", 
             "title": "Crytography vs Security"
         }, 
         {
-            "location": "/Lecture/15-Guest6/#private-key-cryptography", 
+            "location": "/Lecture/15-Guest7/#private-key-cryptography", 
             "text": "Until 1970's all cryptography was private-key (based on a single key shared by communication parties.)  Symmetric Crypto:  Same for encrypt and decrypt   Here, m is the message or plaintect, c is ciphertext, and k is key  Classical Crypto:   Substitution ciphers  Plaintext letters are replaced by ciphertext letters  Monoalphabetic subsitituion is mapped to a unique corresponding  Polyalphebetic     Transposition ciphers  Shift cipher  Ceasar cipher  Affine cipher  General substitution cipher  Vigen\u00e8re cipher  Developed by Giovan Battista Bellaso and popularised by Blaise de Vigen\u00e8re   Formal Definition:    Kasiski's Method  Frequency analysis:  A Tool  Determines the letter frequencies   Ex. Santa Cruz Public Library Chart      Attack Models  Known plaintext -  General Starter Message  EX. Hello, Dear Miss...    Chosen plaintext -  know some plaintext   EX. Battle of Midway - May 1942  Japanese Navy (2 Level Code)  US Naval Intelligence (Bolean level 1)  Japan figured out the code, but didn't know what AF was  Water shortage on midway  Water shortage on AF", 
             "title": "Private-key Cryptography"
         }, 
         {
             "location": "/Lab/Lab/", 
-            "text": "Databases\n\n\nLab 1 - January 10th, 2017\n\n\nSqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\nAnd (*)\n\n  \n\n\nXOR (circleX)\n\n\nNot (~)\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. \n\n\nLab 5 - February 7th, 2017\n\n\nSorting\n\n\nSelection Sort vs. Bubble Sort\n\n\nSelection Sort\n\n\nList of numbers [64, 25, 12, 22, 11]\n\n\nn=5\nmin position = \nposition of min\n\nmin = \nmin for index i\n\ni = \nindex for next sorted number\n\nj = \nindex to compare as next min\n\n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array\n\n\n\n\n\n\nBubble Sort\n\n\nList of numbers [5, 1, 4, 2, 8]\n\n\nn=5\ni = N\nj = \n\n\n\n\n\n\n\n\nWikipedia page on bubble sort\n\n\nLab 6 - February 21st, 2017\n\n\nHuman Computer Interaction\n\n\n\n\nSign into LINUX, open chrome\n\n\nhttps://webdemo.balsamiq.com\n\n\nPrototype\n\n\n\n\nLab 7 - February 28th, 2017\n\n\nPython Basics\n\n\nIn terminal: \n\n\n\n\ncd Desktop\n\n\npython python_basics.py\n\n\n\n\nBasics \n\n\n\n\n\"#\" comment \n\n\nprint \"Hello World!\"\n\n\nDynamically typed\n\n\ndef - Function\n\n\n\n\n#Function\ndef functionName (paramaters):\n    code\n    return\n\n\n\n\n\n\ncode is linear \n\n\nFor loop\n\n\n\n\nfor counter in range(start num, end num, stepsize):", 
+            "text": "Lab 1 - January 10th, 2017\n\n\nDatabases and SqLite\n\n\nHow we access data is we use these things called queries. \n\n\nIn the terminal type in:\n\n\nsqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;\n\n\n\n\nOrder matters when running \nselect\n in the terminal from the database. It is not case sensitive.\n\n\nEx.\n You can use FROM, ChaRacters, Select, ect. \n\n\nselect dinstinct\n Applies only to what follows, and makes it so only unique data gets return. \n\n\nsql\n select distinct title from characters;\n \n\n\nNotes:\n You can have an or in your where.\n\n\n select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';\n\n\n\n\nEx.\n You can order your return. \n\n\nsql\n select name, year from characters order by year, title;\n\n\nAggregate function\n\n\n\n\ncount\n\n\nmax\n\n\nmin\n\n\navg\n\n\n\n\nLab 2 - January 17th, 2017\n\n\nFlowcharts\n\n\n\n\nRounded Rectangle -\n Start and Stop\n\n\nRectangle -\n Process\n\n\nDiamond -\n Decision\n\n\nYes or No\n\n\n\n\n\n\nItalic Rectangle -\n Data Input or Output\n\n\n\n\nCommunicate an algorithm\n\n\n\n\nEasy \n\n\nVisual\n\n\nSimple for hard problems\n\n\n\n\nCriteria for lab assignment\n\n\n\n\nFlowchart: \n\n\nDraw by hand \nor\n \n\n\nDraw with https://draw.io\n\n\n\n\n\n\n\n\nYou should know how to:\n\n\n\n\nConvert Pseudocode to Flowchart and Flowchart to Pseudocode\n\n\n\n\nLab Exercise:\n Draw a flowchart for playing 1 turn of \"computer pictionary\"\n\n\n\n\n2 teams (Team A and B)\n\n\nOnly using names of movies\n\n\nComputer draws movie name (if it can)\n\n\n5 guesses\n\n\n\n\nN.B. Team A draws a name -\n Team A inputs name into computer -\n Team B guesses (Max. 5 times)\n\n\nMy Solution:\n\n\n\n\nGroup Solution:\n\n\n\n\nPseudoCode Exercise:\n Get the name and title of books where there is a 1 and the year in lesser than 1960\n\n\nTable 1: Characters\n\n\n\n\n\n\n\n\nname\n\n\ntitle\n\n\nyear\n\n\nhuman\n\n\n\n\n\n\n\n\n\n\nexample\n\n\nexample\n\n\n1983\n\n\n1\n\n\n\n\n\n\nexample2\n\n\nexample2\n\n\n1924\n\n\n0\n\n\n\n\n\n\nexample3\n\n\nexample3\n\n\n1999\n\n\n1\n\n\n\n\n\n\n\n\nAnswer:  \nSelect name, title from characters where human=1 and year\n1960\n\n\nLab 3 - January 24th, 2017\n\n\nHex to Binary To Decimal\n\n\n\n\n\n\n\n\nDec\n\n\nHex\n\n\nBinary\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0000\n\n\n\n\n\n\n1\n\n\n1\n\n\n0001\n\n\n\n\n\n\n2\n\n\n2\n\n\n0010\n\n\n\n\n\n\n3\n\n\n3\n\n\n0011\n\n\n\n\n\n\n4\n\n\n4\n\n\n0100\n\n\n\n\n\n\n10\n\n\nA\n\n\n1010\n\n\n\n\n\n\n11\n\n\nB\n\n\n1011\n\n\n\n\n\n\n12\n\n\nC\n\n\n1100\n\n\n\n\n\n\n13\n\n\nD\n\n\n1101\n\n\n\n\n\n\n14\n\n\nE\n\n\n1110\n\n\n\n\n\n\n15\n\n\nF\n\n\n1111\n\n\n\n\n\n\n\n\nBinary to Hex\n\n\n\n\n\n\n\n\n0010\n\n\n1101\n\n\n1111\n\n\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\nHex to Dec\n\n\n\n\n\n\n\n\n2\n\n\nD\n\n\nF\n\n\n\n\n\n\n\n\n\n\n16(2)\n\n\n16(1)\n\n\n16(0)\n\n\n\n\n\n\n\n\n= Big Number\n\n\n2's compliment\n\n\nNote:\n Number of bits need to be even\n\n\nEx:\n Positive number in 2's complement\n\n\n+28 = 28 in binary\n\n\nLab 4 - January 31st, 2017\n\n\n\n\nOR (+)\n\n\n\nAnd (*)\n\n  \n\n\nXOR (circleX)\n\n\nNot (~)\n\n\n\n\n\nTruth Tables -\n Circuit Diagram \n\n\nA) Draw a diagram of an OR gate using only AND and NOT gates. \n\n\nB) Draw a circuit diagram for an AND gate using only OR and NOT gates.\n\n\nThe \"OR and ANDS\" Rule\n\n\nOR, AND, NOT gates\n\n\n\n\n\n\n\n\nA\n\n\nB\n\n\nC\n\n\n\n\n\n\n\n\n\n\n0\n\n\n0\n\n\n0\n\n\n\n\n\n\n0\n\n\n1\n\n\n1\n\n\n\n\n\n\n1\n\n\n0\n\n\n0\n\n\n\n\n\n\n1\n\n\n1\n\n\n1\n\n\n\n\n\n\n\n\n\n\nLook at only to inputs with 1 output. \n\n\nA is 0 -\n Not gate\n\n\nB is 1 -\n Nothing\n\n\nan AND those two\n\n\nA is 1 -\n Nothing\n\n\nB is 1 -\n Nothing\n\n\nand AND those two\n\n\nput both those paths to an OR gate\n\n\n\n\n\n\nNote:\n Doing AND for two inputs and then AND that input with a third input is the same as AND for three inputs. \n\n\nLab 5 - February 7th, 2017\n\n\nSorting\n\n\nSelection Sort vs. Bubble Sort\n\n\nSelection Sort\n\n\nList of numbers [64, 25, 12, 22, 11]\n\n\nn=5\nmin position = \nposition of min\n\nmin = \nmin for index i\n\ni = \nindex for next sorted number\n\nj = \nindex to compare as next min\n\n\n1. Look at index 1\n2. Find the lowest number in the list and switch it with the first position.\n\n[11, 25, 12, 22, 64]\n\n1. Look at index 2\n2. Find the new min\n3. Is the number lower than that of index 2\n\n[11, 12, 25, 22, 64]\n\nect. \n\n[11, 12, 22, 25, 64]\n\n1. Look at the last two in the array\n\n\n\n\n\n\nBubble Sort\n\n\nList of numbers [5, 1, 4, 2, 8]\n\n\nn=5\ni = N\nj = \n\n\n\n\n\n\n\n\nWikipedia page on bubble sort\n\n\nLab 6 - February 21st, 2017\n\n\nHuman Computer Interaction\n\n\n\n\nSign into LINUX, open chrome\n\n\nhttps://webdemo.balsamiq.com\n\n\nPrototype\n\n\n\n\nLab 7 - February 28th, 2017\n\n\nPython Basics\n\n\nIn terminal: \n\n\n\n\ncd Desktop\n\n\npython python_basics.py\n\n\n\n\nBasics \n\n\n\n\n# comment\n \n\n\nprint \"Hello World!\"\n\n\nDynamically typed\n\n\ndef - Function\n\n\n\n\n#Function\ndef functionName (paramaters):\n    code\n    return\n\n\n\n\n\n\nCode is linear \n\n\nFor Loops\n\n\n\n\nfor counter in range(start num, end num, stepsize):", 
             "title": "Lab"
-        }, 
-        {
-            "location": "/Lab/Lab/#databases", 
-            "text": "", 
-            "title": "Databases"
         }, 
         {
             "location": "/Lab/Lab/#lab-1-january-10th-2017", 
@@ -751,9 +746,9 @@
             "title": "Lab 1 - January 10th, 2017"
         }, 
         {
-            "location": "/Lab/Lab/#sqlite", 
+            "location": "/Lab/Lab/#databases-and-sqlite", 
             "text": "How we access data is we use these things called queries.   In the terminal type in:  sqlite3\n\nand then\n\n.read FILENAME.sql\n\nand then\n\nselect * from characters;  Order matters when running  select  in the terminal from the database. It is not case sensitive.  Ex.  You can use FROM, ChaRacters, Select, ect.   select dinstinct  Applies only to what follows, and makes it so only unique data gets return.   sql\n select distinct title from characters;    Notes:  You can have an or in your where.   select * from characters where title = 'Horton Hears a Who' or title = 'Horton Hatches the Egg';  Ex.  You can order your return.   sql\n select name, year from characters order by year, title;", 
-            "title": "SqLite"
+            "title": "Databases and SqLite"
         }, 
         {
             "location": "/Lab/Lab/#aggregate-function", 
@@ -847,12 +842,12 @@
         }, 
         {
             "location": "/Lab/Lab/#python-basics", 
-            "text": "In terminal:    cd Desktop  python python_basics.py   Basics    \"#\" comment   print \"Hello World!\"  Dynamically typed  def - Function   #Function\ndef functionName (paramaters):\n    code\n    return   code is linear   For loop   for counter in range(start num, end num, stepsize):", 
+            "text": "In terminal:    cd Desktop  python python_basics.py   Basics    # comment    print \"Hello World!\"  Dynamically typed  def - Function   #Function\ndef functionName (paramaters):\n    code\n    return   Code is linear   For Loops   for counter in range(start num, end num, stepsize):", 
             "title": "Python Basics"
         }, 
         {
             "location": "/Annex/Announcements/", 
-            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released\n\n\n\n\nAnnouncement 9 - March 1st, 2017\n\n\nMidterm 2: \n\n\n\n\nSimilar Format to Midterm 1 \n\n\nMaterial: \n\n\nSorting - Guest Lecturer 6\n\n\n\n\n\n\n\n\nAnnouncement 10 - March 3rd, 2017\n\n\nMidterm 2:\n\n\n\n\nBring your vnumber\n\n\nYou should be able to trace through python code\n\n\nLook at all the python examples we did in class, trace through them by hand and check tht your trace is correct using a computer.\n\n\n\n\n\n\nNo logic gates\n\n\nBubble Sort Code\n\n\nUnderstand, and know what variables/values will be at all steps on the code.\n\n\n\n\n\n\n\n\nFormat: \n\n\n\n\nMultiple choice", 
+            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\nLab attendance is worth 5% of your grade.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm 1:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released\n\n\n\n\nAnnouncement 9 - March 1st, 2017\n\n\nMidterm 2: \n\n\n\n\nSimilar Format to Midterm 1 \n\n\nMaterial: \n\n\nSorting - Guest Lecturer 6\n\n\n\n\n\n\n\n\nAnnouncement 10 - March 3rd, 2017\n\n\nMidterm 2:\n\n\n\n\nBring your vnumber\n\n\nYou should be able to trace through python code\n\n\nLook at all the python examples we did in class, trace through them by hand and check tht your trace is correct using a computer.\n\n\n\n\n\n\nNo logic gates\n\n\nBubble Sort Code\n\n\nUnderstand, and know what variables/values will be at all steps on the code.\n\n\n\n\n\n\n\n\nFormat: \n\n\n\n\nMultiple choice", 
             "title": "Announcements"
         }, 
         {
@@ -867,7 +862,7 @@
         }, 
         {
             "location": "/Annex/Announcements/#announcement-2-january-24th-2017", 
-            "text": "Lab attendance is now online in Connex.", 
+            "text": "Lab attendance is now online in Connex.  Lab attendance is worth 5% of your grade.", 
             "title": "Announcement 2 - January 24th, 2017"
         }, 
         {
@@ -877,7 +872,7 @@
         }, 
         {
             "location": "/Annex/Announcements/#announcement-4-januery-27th-2017", 
-            "text": "Midterm:   Evaluate logical expression  X and Y and ~Z    sql  Slide material is fair game", 
+            "text": "Midterm 1:   Evaluate logical expression  X and Y and ~Z    sql  Slide material is fair game", 
             "title": "Announcement 4 - Januery 27th, 2017"
         }, 
         {

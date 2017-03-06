@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Number Systems - CSC 106</title>
+        <title>Guest 6 - Programming Languages - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/4-Number-Systems/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/4-Number-Systems/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/4-Number-Systems//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Number Systems
+        Guest 6 - Programming Languages
       </div>
     </div>
     
@@ -217,36 +217,9 @@
       
         
   <li>
-    <a class="current" title="Number Systems" href="./">
+    <a class="" title="Number Systems" href="../4-Number-Systems/">
       Number Systems
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 6 - January 17th, 2017" href="#lecture-6-january-17th-2017">
-                Lecture 6 - January 17th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Lecture 7 - January 18th, 2017" href="#lecture-7-january-18th-2017">
-                Lecture 7 - January 18th, 2017
-              </a>
-            </li>
-          
-            <li class="anchor">
-              <a title="Lecture 8 - January 20th, 2017" href="#lecture-8-january-20th-2017">
-                Lecture 8 - January 20th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -334,9 +307,22 @@
       
         
   <li>
-    <a class="" title="Guest 6 - Programming Languages" href="../14-Guest6/">
+    <a class="current" title="Guest 6 - Programming Languages" href="./">
       Guest 6 - Programming Languages
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 20 - February 28th, 2017" href="#lecture-20-february-28th-2017">
+                Lecture 20 - February 28th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -411,347 +397,121 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="binary-hex-2s-complement">Binary / Hex / 2s Complement</h1>
-<h2 id="lecture-6-january-17th-2017">Lecture 6 - January 17th, 2017</h2>
-<h3 id="why-binary">Why Binary?</h3>
+            <h1>Guest 6 - Programming Languages</h1>
+          
+          <h2 id="lecture-20-february-28th-2017">Lecture 20 - February 28th, 2017</h2>
+<p>Guest Lecturer : Daniel German</p>
+<h3 id="programming-languages">Programming Languages</h3>
+<h4 id="what-is-programming">What is programming:</h4>
 <ul>
-<li>Binary is how computers talk<ul>
-<li>to themselves <strong>AND</strong></li>
-<li>to each other</li>
+<li>SQL:</li>
+</ul>
+<p><code>select * from books</code> </p>
+<ul>
+<li>HTML:</li>
+</ul>
+<pre><code class="html">&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Hello World&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello!&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+<ul>
+<li>Prolog:</li>
+</ul>
+<pre><code class="prolog">playsAirGuitar(jody). 
+
+?-  playsAirGuitar(jody).
+</code></pre>
+
+<h4 id="are-some-programming-languages-better-than-others">Are some programming languages better than others?</h4>
+<ul>
+<li><a href="https://github.com/lhartikk/ArnoldC/wiki/ArnoldC">ArnoldC</a><ul>
+<li>Based on Arnold quotes</li>
 </ul>
 </li>
 </ul>
-<h3 id="decimal-numbers">Decimal Numbers</h3>
-<p><strong>A binary abacus</strong> -&gt; <a href="hdp://www.advanced-ict.info/mathemaAcs/abacus.html">Example</a></p>
-<p><strong>Question:</strong> 101 is 5 in binary</p>
-<table>
-<thead>
-<tr>
-<th align="right">1</th>
-<th align="right">0</th>
-<th align="right">1</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right">2^2</td>
-<td align="right">2^1</td>
-<td align="right">2^0</td>
-</tr>
-</tbody>
-</table>
-<pre><code class="Math">1x2^2 + 0x2^1 + 1x2^0
-
-1x4 + 0x2 + 1x1 = 5
-</code></pre>
-
-<p><img alt="Binary Number Example" src="../../References/Reference_Binary.png" /></p>
-<p><strong>NOTE:</strong> Test Material</p>
-<p><strong>Question:</strong> What is 11111 in decimal number?</p>
-<p>Answer: 31</p>
-<p><strong>Question:</strong> What is the highest number you can encode with n bits?</p>
-<p>Answer: 2^n -1</p>
-<h3 id="encode-numbers">Encode Numbers</h3>
-<p><strong>Note:</strong> If the decimal number is a perfect power of two, it will be easy to find, but if it's not you have <strong>two methods</strong>. </p>
-<p><strong>Method 1</strong></p>
-<pre><code class="Math">5 = 4 + 1
-
-So 2^2 and 2^0
-
-So 00101 = 5
-</code></pre>
-
-<p><strong>Method 2</strong></p>
-<pre><code class="Pseudocode">Step1   input: number_in cur_number = number_in binary_string = “”
-Step2   while cur_number &gt;= 2
-Step3       my_encoding = input%2
-Step4       add my_encoding to leW side of binary string 
-Step5       cur_number = round_down(cur_number/2)
-Step6   add cur_number to leW side of binary string
-</code></pre>
-
-<p><strong>Question:</strong> What is 11 in binary?</p>
-<pre><code>num_in = 11
-
-binary_string=&quot;&quot;
-11%2 = 1
-
-binary_string=&quot;1&quot;
-
-11/2 = 5.5 -&gt; 5
-5%2 = 1
-
-binary_string=&quot;11&quot;
-
-5/2 = 2.5 -&gt; 2
-2%2 = 0
-
-binary_string=&quot;011&quot;
-
-2/2 = 1
-
-binary_string=&quot;1011&quot;
-</code></pre>
-
-<p><strong>Question:</strong> What is 8 in binary?  </p>
-<pre><code>num_in = 8 
-
-binary_string=&quot;&quot;
-8%2 = 0
-
-binary_string=&quot;0&quot;
-
-8/2 = 4
-4%2 = 0
-
-binary_string=&quot;00&quot;
-
-4/2 = 2
-2%2 = 0
-
-binary_string=&quot;000&quot;
-
-2/1 = 1
-
-binary_string=&quot;1000&quot;
-</code></pre>
-
-<p><strong>NOTE:</strong> Practice on your own. </p>
-<h2 id="lecture-7-january-18th-2017">Lecture 7 - January 18th, 2017</h2>
-<p>Helper: Question 2 - Assignment 1 </p>
-<ul>
-<li>Input for this program is a list of numbers. </li>
-<li>Pseudo code for addition. </li>
-</ul>
-<pre><code class="Math">a(m-1), a(m-2), a(1), a(0)
-</code></pre>
-
-<table>
-<thead>
-<tr>
-<th align="right">4</th>
-<th align="right">3</th>
-<th align="right">7</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right">a(m-1)</td>
-<td align="right">a(m-2)</td>
-<td align="right">a(0)</td>
-</tr>
-</tbody>
-</table>
-<p>Answer: m=3</p>
-<table>
-<thead>
-<tr>
-<th align="right">3</th>
-<th align="right">2</th>
-<th align="right">9</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right">b(2)</td>
-<td align="right">b(1)</td>
-<td align="right">b(0)</td>
-</tr>
-</tbody>
-</table>
-<pre><code class="Math">437+329=766
-</code></pre>
-
-<h3 id="draw-a-flow-chart">Draw a flow chart</h3>
-<ul>
-<li>Use draw.io</li>
-<li>Export as an image</li>
-<li>Hand in PDF</li>
-</ul>
-<h3 id="binary-numbers">Binary Numbers</h3>
-<pre><code>10110 = 22
-01001 = 9
-</code></pre>
-
-<p><strong>Tip:</strong> If it ends with a 1 it is odd. If it ends in a 0 it is even.</p>
-<p>8 -&gt; 01000
-5 -&gt; 00101</p>
-<h3 id="algorithm-decimal-number-binary">Algorithm Decimal Number - Binary.</h3>
-<p>Ex. Binary Conversion</p>
-<pre><code>binary_string=&quot;&quot;
-
-23%2 = 1
-
-binary_string=1
-
-23/2 = 11.5 -&gt; 11
-11%2 = 1
-
-binary_string=11
-
-11/2 = 5.5 &gt; 5
-5%2=1
-
-binary_string=111
-
-5/2=2.5 -&gt; 2
-2%2=0
-
-binary_string=0111
-
-2/2 = 1
-
-binary_string=10111
-</code></pre>
-
-<p><strong>Note:</strong> If a question ask for 5 bit number, you must include 5 places.</p>
-<h3 id="adding-binary-numbers">Adding Binary Numbers</h3>
-<p>Ex. 00111+00001=01000</p>
-<table>
-<thead>
-<tr>
-<th align="right"></th>
-<th align="right"></th>
-<th align="right">1</th>
-<th align="right">1</th>
-<th align="right">1</th>
-<th align="right"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">+</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">=</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-<p>Bonus: 00111+00111=01110</p>
-<table>
-<thead>
-<tr>
-<th align="right"></th>
-<th align="right"></th>
-<th align="right">1</th>
-<th align="right">1</th>
-<th align="right">1</th>
-<th align="right"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">+</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">1</td>
-</tr>
-<tr>
-<td align="right">=</td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-<td align="right"></td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="right">0</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-<h3 id="encoding-negative-numbers">Encoding Negative Numbers</h3>
+<h4 id="two-criteria">Two Criteria:</h4>
 <ol>
-<li>Encode the positive number</li>
-<li>Flip all the bits (1-&gt;0 and 0-&gt;1)</li>
-<li>Add 1 to the new bit string</li>
+<li>Can our language allow us to program the computer to do anything our computer can do?</li>
+<li>Can ou computer do anything that our program can express?</li>
 </ol>
-<p><strong>Question:</strong> Convert -9 into binary</p>
-<pre><code>01001
-10110
-10111
-</code></pre>
-
-<p><strong>Question:</strong> Convert 12 into binary</p>
-<pre><code>01100
-10011
-10100
-</code></pre>
-
-<h3 id="twos-complement-number">Two's complement number</h3>
-<p><strong>NOTE:</strong> Unsigned Binary Number or a Two's Complement Number. </p>
-<p><strong>Ignore overflow that carries in Two's compliment</strong></p>
-<h3 id="convert-twos-complement-into-decimal">Convert Two's complement into decimal</h3>
-<ol>
-<li>If negative: <ul>
-<li>Flip a bit and add one</li>
-<li>Put the negative back at the end</li>
+<h4 id="turing-machine">Turing Machine</h4>
+<ul>
+<li>Entscheidungsproblem<ul>
+<li>Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?</li>
 </ul>
 </li>
-<li>If positive: <ul>
-<li>Normal Conversion</li>
+<li>Church-Turing Thesis<ul>
+<li>A function on the natural numbers is computable in an informal sense if and only if it is computable...</li>
 </ul>
 </li>
-</ol>
-<h2 id="lecture-8-january-20th-2017">Lecture 8 - January 20th, 2017</h2>
-<p><strong>Notes Missing</strong></p>
-<p>Contribute your notes <a href="https://github.com/UVicNotes/CSC-106">here</a>!</p>
+<li>Lambda-Calculus = Turing Machine = Pencil and Paper</li>
+</ul>
+<h4 id="turing-complete">Turing Complete</h4>
+<ul>
+<li>A programming language that can used to simulate a turing machine</li>
+<li>Any turing machine can be simulated with a program in such language</li>
+<li>Any program in such language can be converted to a turing machine</li>
+</ul>
+<h4 id="brainfuck">BrainFuck</h4>
+<ul>
+<li>http://www.muppetlabs.com/~breadbox/bf/</li>
+<li>Language is Turing Complete</li>
+</ul>
+<p>Therefore not all TC languages are very useful.</p>
+<h4 id="what-is-a-good-programming-language">What is a good programming language?</h4>
+<p><strong>Answer:</strong> The one that gets you a job?</p>
+<h4 id="how-to-learn-how-to-program">How to learn how to program</h4>
+<p><strong>Answer:</strong> Not in your CS courses!</p>
+<p>"Quote" - Alan Perlis</p>
+<h4 id="the-five-features-you-must-learn">The five features you must learn</h4>
+<ul>
+<li>The Syntax</li>
+<li>The Semantics</li>
+<li>The Libraries</li>
+<li>The Idioms</li>
+<li>The Tools</li>
+</ul>
+<p><strong>Additional Reading:</strong> What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu</p>
+<h4 id="skills-of-a-good-programmer">Skills of a good programmer</h4>
+<ul>
+<li>Curious </li>
+<li>Hardworking</li>
+</ul>
+<h4 id="my-recommendations">My recommendations?</h4>
+<ul>
+<li>Be great at<ul>
+<li>one programming language</li>
+</ul>
+</li>
+<li>Be good at<ul>
+<li>one statically typed language</li>
+<li>one dynamincally type language</li>
+<li>one functional language</li>
+</ul>
+</li>
+<li>
+<p>Master:</p>
+<ul>
+<li>Typing</li>
+<li>Debugging</li>
+<li>One Programming Environment</li>
+<li>Version Control</li>
+<li>A Configuration Management Tool <a href="https://cmake.org/">(cmake)</a></li>
+<li>Testing</li>
+</ul>
+</li>
+<li>
+<p><strong>Select your jobs carefully</strong></p>
+</li>
+<li><strong>Do side-projects</strong></li>
+<li><strong>And keep learning</strong></li>
+</ul>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -768,7 +528,7 @@ binary_string=10111
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../3-Flowcharts/" title="Flowcharts">
+        <a href="../13-Guest5/" title="Guest 5 - Computer Applications">
           <span class="direction">
             Previous
           </span>
@@ -778,7 +538,7 @@ binary_string=10111
             </div>
             <div class="stretch">
               <div class="title">
-                Flowcharts
+                Guest 5 - Computer Applications
               </div>
             </div>
           </div>
@@ -787,14 +547,14 @@ binary_string=10111
     </div>
     <div class="next">
       
-        <a href="../5-Guest1/" title="Guest 1">
+        <a href="../15-Guest7/" title="Guest 7 - Cryptography">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Guest 1
+                Guest 7 - Cryptography
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
