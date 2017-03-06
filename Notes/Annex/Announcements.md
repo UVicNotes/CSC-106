@@ -9,6 +9,7 @@
 ### Announcement 2 - January 24th, 2017
 
 *   Lab attendance is now online in Connex.
+*   Lab attendance is worth 5% of your grade.
 
 ### Announcement 3 - January 24th, 2017 
 
@@ -19,7 +20,7 @@
 
 ### Announcement 4 - Januery 27th, 2017
 
-**Midterm:**
+**Midterm 1:**
 
 * Evaluate logical expression
     * X and Y and ~Z

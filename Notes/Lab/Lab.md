@@ -1,8 +1,6 @@
-# Databases
-
 ## Lab 1 - January 10th, 2017
 
-### SqLite
+### Databases and SqLite
 
 How we access data is we use these things called queries. 
 
@@ -255,10 +253,10 @@ In terminal:
 
 Basics 
 
-* "#" comment 
-* print "Hello World!"
+* `# comment` 
+* `print "Hello World!"`
 * Dynamically typed
-* def - Function
+* `def - Function`
 
 ```python 
 #Function
@@ -267,8 +265,8 @@ def functionName (paramaters):
     return
 ``` 
 
-* code is linear 
-* For loop
+* Code is linear 
+* For Loops
 
 ```python 
 for counter in range(start num, end num, stepsize):
