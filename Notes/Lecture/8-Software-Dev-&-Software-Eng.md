@@ -12,7 +12,7 @@
 
 #### The high cost of software bugs
 
-* "The cost to fix an error found a#er product release was four to five Gmes as much as one uncovered during design, and up to 100 Gmes more than one idenGfied in the maintenance phase."
+* "The cost to fix an error found after product release was four to five times as much as one uncovered during design, and up to 100 times more than one identified in the maintenance phase."
     * If a bug is found in the requirements-gathering phase, the cost could be $100.
     * If the product owner doesn't
 
@@ -144,7 +144,7 @@
 
 #### Continuous Integration
 
-* Every progremmas has their own version of the code, which they work on on their own computer.
+* Every programmers has their own version of the code, which they work on on their own computer.
 * Changes are synchronized with a version control program like git
 * Programmers integrate code changes often, even several times a day
 
@@ -157,13 +157,13 @@
 
 * Pair Programming:
     * Two programmers work together at one computer
-        * Driver
+        * Observer/Navigator
             * strategize over direction 
             * think of improvements
             * see likely future problems to address
             * bigger picture
-        * Observer/Navigator
-            * actually wrtires the code
+        * Driver
+            * actually writes the code
             * more details oriented
         * Switch roles often to prevent fatigue, leep interest
         * More man power BUT less code defects
