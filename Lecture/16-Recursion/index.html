@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>Recursion - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/16-Recursion/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/16-Recursion/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/16-Recursion//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        Recursion
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -340,9 +325,28 @@
       
         
   <li>
-    <a class="" title="Recursion" href="../16-Recursion/">
+    <a class="current" title="Recursion" href="./">
       Recursion
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 22 - March 8th, 2017" href="#lecture-22-march-8th-2017">
+                Lecture 22 - March 8th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Leture 24 - March 14th, 2017" href="#leture-24-march-14th-2017">
+                Leture 24 - March 14th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -426,34 +430,220 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+            <h1>Recursion</h1>
+          
+          <h2 id="lecture-22-march-8th-2017">Lecture 22 - March 8th, 2017</h2>
+<h3 id="recursion">Recursion</h3>
+<p>How many ducks in your row?</p>
+<p><img alt="Duck Example" src="../../References/ducks.png" /></p>
+<p>The big problem is counting all of the ducks in the line.
+The smaller problem is counting the ducks ahead of me in line. </p>
+<p><strong>Solution:</strong> I can just add one (the count for myself) to that number. The easiest case (base case) is the case when there are no ducks ahead of me in line. </p>
+<p><img alt="Duck Example Solution" src="../../References/ducksSolution.png" /></p>
+<p><strong>Recursion Requires</strong></p>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>A base case<ul>
+<li>The simplest case, usually very easy to compute</li>
+<li>“If there’s no one in front of me, then there is only one person (me) in front of the person behind me”</li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
+<li>A method of compu1ng a full solu1on from solu1ons to sub-problems<ul>
+<li>“If I know the number of people in front of me in line, I can tell the person behind me how many people are in front of him”</li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
 </ul>
+<p><strong>Code</strong></p>
+<pre><code class="python">def callMyself(num):
+    if num &gt; 0:
+        print &quot;Hi &quot;+str(num)
+        callMyself(num-1)
+    else: 
+        #Base case
+        print &quot;Bye&quot;
+
+callMyself(5) 
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>Hi 5
+Hi 4
+Hi 3
+Hi 2
+Hi 1
+Bye
+</code></pre>
+
+<p><strong>Code</strong></p>
+<pre><code class="python">def callMyself(num):
+    if num &gt; 0:
+        print &quot;Hi &quot;+str(num)
+        callMyself(num-1)
+    else: 
+        #Base case
+        print &quot;Bye&quot;
+    print &quot;Test&quot;
+
+callMyself(5) 
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>Hi 5
+Hi 4
+Hi 3
+Hi 2
+Hi 1
+Bye
+Test
+Test
+Test
+Test
+Test
+Test
+</code></pre>
+
+<p>Ex. Factorial</p>
+<p>$ 5! = 5<em>4</em>3<em>2</em>1 $</p>
+<p>What's the base case?</p>
+<p>$ 1! $</p>
+<p>What's the recursive case?</p>
+<p>$ n-1! $</p>
+<p><strong>Note:</strong> Always start with your base case.</p>
+<p><strong>Code</strong></p>
+<pre><code class="python">def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        r = factorial(n-1)
+        return r * n
+
+print factorial(5)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>120
+</code></pre>
+
+<h2 id="leture-24-march-14th-2017">Leture 24 - March 14th, 2017</h2>
+<p>Factorial problem:</p>
+<p><strong>Code</strong></p>
+<pre><code class="python">def factorial(n):
+    if n == 1:
+        return 1
+    else:
+        r = factorial(n-1)
+        return r * n
+
+print factorial(5)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>factorial(5)
+    n = 5
+    r = factorial(n-1) 
+    r = factorial(4)
+
+factorial(4)
+    n = 4
+    r = factorial(n-1) 
+    r = factorial(3)
+
+factorial(3)
+    n = 3
+    r = factorial(n-1) 
+    r = factorial(2)
+
+factorial(2)
+    n = 2
+    r = factorial(n-1) 
+    r = factorial(1)
+
+factorial(1)
+    n = 1
+    return 1
+
+factorial(2)
+    n = 2
+    r = factorial(n-1) 
+    r = factorial(1)
+    r = 1
+    return r * n
+    return 2
+
+factorial(3)
+    n = 3
+    r = factorial(n-1) 
+    r = factorial(1)
+    r = 2
+    return r * n
+    return 6
+
+factorial(4)
+    n = 4
+    r = factorial(n-1) 
+    r = factorial(1)
+    r = 6
+    return r * n
+    return 24
+
+factorial(5)
+    n = 5
+    r = factorial(n-1) 
+    r = factorial(1)
+    r = 24
+    return r * n
+    return 120
+
+print -&gt; 120
+</code></pre>
+
+<p><strong>Code</strong></p>
+<pre><code class="python">def factorial(n):
+    print n
+    if n == 1:
+        return 1
+    else:
+        r = factorial(n-1)
+        print r * n
+        return r * n
+
+print factorial(3)
+</code></pre>
+
+<p><strong>Output</strong></p>
+<pre><code>factorial(3)
+  print -&gt; 3
+  n = 3
+  r = factorial(n-1)
+  r = factorial(2)
+
+factorial(2)
+  print -&gt; 2
+  n = 2
+  r = factorial(n-1)
+  r = factorial(1) 
+
+factorial(1)
+  print -&gt; 1
+  n = 1
+  return 1
+
+factorial(2)
+  n = 2
+  r = factorial(n-1)
+  r = factorial(1) 
+  print -&gt; 2
+  return r * n
+  return 2
+
+factorial(3)
+  n = 3
+  r = factorial(n-1)
+  r = factorial(2) 
+  print -&gt; 6
+  return r * n
+  return 6
+  print -&gt; 6
+</code></pre>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -470,7 +660,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../15-Guest7/" title="Guest 7 - Cryptography">
           <span class="direction">
             Previous
           </span>
@@ -480,7 +670,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Guest 7 - Cryptography
               </div>
             </div>
           </div>
@@ -489,14 +679,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../17-Guest8/" title="Guest 8 - Game Dev">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Guest 8 - Game Dev
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

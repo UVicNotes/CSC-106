@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Introduction - CSC 106</title>
+        <title>Graph - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/18-Graph/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/18-Graph/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/1-Introduction//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/18-Graph//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Introduction
+        Graph
       </div>
     </div>
     
@@ -190,24 +190,9 @@
       
         
   <li>
-    <a class="current" title="Introduction" href="./">
+    <a class="" title="Introduction" href="../1-Introduction/">
       Introduction
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 1 - January 4th, 2017" href="#lecture-1-january-4th-2017">
-                Lecture 1 - January 4th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -358,9 +343,28 @@
       
         
   <li>
-    <a class="" title="Graph" href="../18-Graph/">
+    <a class="current" title="Graph" href="./">
       Graph
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 24 - March 14th, 2017" href="#lecture-24-march-14th-2017">
+                Lecture 24 - March 14th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 25 - March 15th, 2017" href="#lecture-25-march-15th-2017">
+                Lecture 25 - March 15th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -426,33 +430,225 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="csc-106-introduction">CSC 106 - Introduction</h1>
-<h2 id="lecture-1-january-4th-2017">Lecture 1 - January 4th, 2017</h2>
-<p><strong>These notes list the main ideas for this lecture. Please check out Alona Fyshe's slides for more information.</strong></p>
-<hr />
+            <h1>Graph</h1>
+          
+          <h2 id="lecture-24-march-14th-2017">Lecture 24 - March 14th, 2017</h2>
+<h3 id="graph-algorithms">Graph Algorithms</h3>
+<h4 id="what-is-a-graph">What is a graph?</h4>
 <ul>
-<li>Abacus (Japanese)</li>
-<li>Why should we care about polynomials?</li>
-<li>Analytical Engine<ul>
-<li>Punch Cards (Held Instructions)</li>
-<li>RAM </li>
-<li>CPU</li>
+<li>A graph is a mathematical tool used to represent a structured system</li>
+<li>It is made up of<ul>
+<li>Node or Vertices (circles)</li>
+<li>Edges (lines)</li>
 </ul>
 </li>
-<li>Tabulate the Census<ul>
-<li>Data Punch Cards</li>
-<li>IBM</li>
+</ul>
+<p><img alt="Graph" src="../../References/graph1.png" /></p>
+<ul>
+<li>Graphs can have<ul>
+<li>Paths<ul>
+<li>There is a path from A to F </li>
 </ul>
 </li>
-<li>Computers (Who invented the first computer? A lot of people.)</li>
-<li>Binary </li>
-<li>Conrad Zuse (Standard - Binary)</li>
-<li>Alan Turing (Crack German Codes - WW2)</li>
-<li>Colossus (Crack German Codes - WW2)</li>
-<li>ENIAC</li>
-<li>Solid State Transistor (Computers no longer for Gov, also for Business) </li>
-<li>Apple (Bring Computers to Home)</li>
-<li>Macintosh (Desktop and Folders - Computers no longer just a terminal)</li>
+<li>Cycles<ul>
+<li>A path that loops back on itself</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Nodes can have</p>
+<ul>
+<li>Neighbours<ul>
+<li>Connected via edge</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Graphs are useful for representing multiple real world problems</p>
+<ul>
+<li>Social networks </li>
+<li>Internet</li>
+<li>Power grids</li>
+</ul>
+</li>
+<li>
+<p>Google's Page rank algorithm uses a graph that represents the entire internet, and the links between pages. </p>
+</li>
+<li>
+<p>Some graphs are trees</p>
+<ul>
+<li>A graph is a tree if it contains no cycles</li>
+</ul>
+</li>
+</ul>
+<p><img alt="Graph" src="../../References/graph2.png" /></p>
+<h4 id="graph-algorithms_1">Graph Algorithms</h4>
+<ul>
+<li>Searching: visit all node of a graph<ul>
+<li>Breadth first search (BFS)<ul>
+<li>Use a queue</li>
+</ul>
+</li>
+<li>Depth first search (DFS)<ul>
+<li>Use a stack    </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="queue-vs-stack">Queue vs stack</h4>
+<ul>
+<li>Queue <ul>
+<li>Like a line at the grocery store<ul>
+<li>First in first out (FIFO) </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Stack<ul>
+<li>Like a stack of waffles<ul>
+<li>First in last out (FILO) </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="depth-first-search">Depth first search</h4>
+<ul>
+<li>Put start a node in stack, add to result, mark it as visited</li>
+<li>While stack is not empty<ul>
+<li>Look at node at top of stack, call it V</li>
+<li>If V has unvisited neighbours:<ul>
+<li>Select alphabeticallyy next unvisited neighbour, call it U<ul>
+<li>Add U to reseult</li>
+<li>Mark U as visited</li>
+<li>add U to stack</li>
+</ul>
+</li>
+<li>Else remove V from stack</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong> </p>
+<p><img alt="Graph" src="../../References/graph3.png" /></p>
+<p>Stack -D- -&gt; -E- -&gt; -C- -&gt; -F- -&gt; -B- -&gt; -A-</p>
+<p>Result: A B F C E D</p>
+<p>Visited: -A- -B- -C- -D- -E- -F-</p>
+<h4 id="breadth-first-search">Breadth First Search</h4>
+<ul>
+<li>Put start node in queue, add to result, mark as visited</li>
+<li>While queue is not empty:<ul>
+<li>Remove first node from queue, call it V, the current working node</li>
+<li>For all neighbors U of V, in alphabe2cal order:<ul>
+<li>If U is unvisited:<ul>
+<li>Add U to result</li>
+<li>Mark U as visited</li>
+<li>Add U to queue</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong> </p>
+<p><img alt="Graph" src="../../References/graph4.png" /></p>
+<p>Queue -A- -B- -C- -D- -F- -E-</p>
+<p>Result A B C D F E</p>
+<p>Visited -A- -B- -C- -D- -E- -F-</p>
+<h2 id="lecture-25-march-15th-2017">Lecture 25 - March 15th, 2017</h2>
+<h4 id="dijkstras-shortest-path-alg">Dijkstra's Shortest Path Alg</h4>
+<ul>
+<li>Given a graph with weighted edges<ul>
+<li>i.e. each edge has an associated number (weight)</li>
+</ul>
+</li>
+<li>
+<p>Find the shortest path from tart node "S" to every other node in the graph. </p>
+</li>
+<li>
+<p>To start: distance from start S to self is 0, and previous node is N/A, all other distances ∞</p>
+</li>
+<li>While there are no unprocessed nodes<ul>
+<li>Choose the unprocessed node U with smallest distance D to start node, break 2es with alphabe2cal order</li>
+<li>For all neighbors V of U<ul>
+<li>If (best dist S -&gt; V) &gt; ( D + distance U-&gt;V)<ul>
+<li>Set best dist S -&gt; V = (D + distance U-&gt;V)</li>
+<li>Set prev node for V to U</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mark U as processed</li>
+</ul>
+</li>
+</ul>
+<p><strong>Example:</strong> </p>
+<p><img alt="Graph" src="../../References/graph5.png" /></p>
+<p>Current Vertex: </p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>prev. vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>A</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>B</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>D</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>E</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="hdps://www.youtube.com/watch? v=8Ls1RqHCOPw">Video for Review</a></p>
+<ul>
+<li>Each row in video corresponds to one of our tables</li>
+<li>Highligh2ng is the same as checking a row in col 2</li>
+<li>Col 3 and 4 are what get wriden in each col of a row in the video.</li>
 </ul>
           <aside class="copyright" role="note">
             
@@ -470,7 +666,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../.." title="Home">
+        <a href="../17-Guest8/" title="Guest 8 - Game Dev">
           <span class="direction">
             Previous
           </span>
@@ -480,7 +676,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Home
+                Guest 8 - Game Dev
               </div>
             </div>
           </div>
@@ -489,14 +685,14 @@
     </div>
     <div class="next">
       
-        <a href="../2-Databases/" title="Databases">
+        <a href="../../Lab/Lab/" title="Lab">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Databases
+                Lab
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

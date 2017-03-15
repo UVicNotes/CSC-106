@@ -143,7 +143,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/CSC-106/commits/master" target="_blank" title="Last Updated">
-          Updated Mar 6, 2017
+          Updated Mar 15, 2017
         </a>
       </div>
     </div>
@@ -323,6 +323,33 @@
   </li>
 
       
+        
+  <li>
+    <a class="" title="Recursion" href="../../Lecture/16-Recursion/">
+      Recursion
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Guest 8 - Game Dev" href="../../Lecture/17-Guest8/">
+      Guest 8 - Game Dev
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Graph" href="../../Lecture/18-Graph/">
+      Graph
+    </a>
+    
+  </li>
+
+      
     </ul>
   </li>
 
@@ -381,6 +408,12 @@
             <li class="anchor">
               <a title="Lab 7 - February 28th, 2017" href="#lab-7-february-28th-2017">
                 Lab 7 - February 28th, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lab 8 - February 7th, 2017" href="#lab-8-february-7th-2017">
+                Lab 8 - February 7th, 2017
               </a>
             </li>
           
@@ -781,6 +814,137 @@ def functionName (paramaters):
 </ul>
 <pre><code class="python">for counter in range(start num, end num, stepsize):
 </code></pre>
+
+<h2 id="lab-8-february-7th-2017">Lab 8 - February 7th, 2017</h2>
+<p>https://www.tutorialspoint.com/codingground.htm</p>
+<p>fortran (https://www.tutorialspoint.com/compile_fortran_online.php)</p>
+<p>compile -&gt; execute
+Is statically typed
+REAL is a decimal number
+running the main program -&gt; main in the terminal
+. is making sure there is something on either side. </p>
+<pre><code class="fortran">! Dominique Charlebois
+! Fortran Basics
+
+! Declaring variables
+REAL X, Y, SUM
+
+! Printing
+PRINT *, 'Enter X:'
+
+! Read Command
+READ *, X
+
+PRINT *, 'Enter Y:'
+
+READ *, Y
+
+IF ( X .GT. Y) GO TO 100
+IF ( Y .GT. X) GO TO 200
+IF ( Y .EQ. X) GO TO 300
+
+! Needed
+100 PRINT *, 'X &gt; Y'
+PRINT *, 'MAX = ', X
+STOP
+200 PRINT *, 'Y &gt; X'
+PRINT *, 'MAX = ', Y
+STOP
+300 PRINT *, 'Y = X'
+STOP
+
+END
+</code></pre>
+
+<p>C++
+https://www.tutorialspoint.com/compile_cpp_online.php
+compile -&gt; execute
+statically typed
+return 0 -&gt; this function returns an integer
+cout -&gt; print something arrows to the left is send out 
+cin -&gt; arrows to the right is send in</p>
+<pre><code class="c++">// Dominique Charlebois
+// C++ Basics
+#include &lt;iostream&gt;
+
+using namespace std;
+
+int main()
+{
+   cout &lt;&lt; &quot;Hello World&quot; &lt;&lt; endl; 
+
+   int X = 5;
+   int A = 3;
+   X = X + 1;
+
+   cout &lt;&lt; &quot;X = &quot; &lt;&lt; X &lt;&lt; endl; 
+   cout &lt;&lt; &quot;A = &quot; &lt;&lt; A &lt;&lt; endl; 
+
+   cout &lt;&lt; &quot;Enter a number: &quot;; 
+   int num1;
+   cin &gt;&gt; num1;
+
+   if (num1 &gt; 5) {
+       cout &lt;&lt; num1 &lt;&lt; &quot; is greater than 5&quot; &lt;&lt; endl;
+   } else {
+      cout &lt;&lt; num1 &lt;&lt; &quot; is less than 5&quot; &lt;&lt; endl; 
+   }
+
+   for (int i = num1; i &gt;= 0; i--) {
+       cout &lt;&lt; i &lt;&lt; endl;
+   }
+
+   cout &lt;&lt; &quot; Blast Off!&quot; &lt;&lt; endl;
+
+   return 0;
+}
+</code></pre>
+
+<p>go 
+created by google
+python and java
+statically typed (Kindof)
+execute</p>
+<pre><code class="go">// Domininque Charlebois
+// Google Go Basics
+
+package main
+
+import &quot;fmt&quot;
+
+func main() {
+   fmt.Printf(&quot;hello, world\n&quot;)
+
+   var hello string = &quot;Hello World!&quot;
+   var a int = 3
+
+   // More of dynamically typed
+    x := 5
+    fmt.Println(hello, a, x)
+
+    var num int
+    fmt.Print(&quot;Enter a number: &quot;)
+    // REading input from the command line, storing integer as num variable
+    fmt.Scanf(&quot;%d&quot;, &amp;num)
+
+    if num &gt; x {
+        fmt.Println(num, &quot; is larger than 5&quot;)
+    } else if num &lt; x {
+        fmt.Println(num, &quot; is lesser than 5&quot;)
+    } else {
+        // Enter this code block only when num entered is = 5
+        fmt.Println(num, &quot; is equal to 5&quot;)
+    }
+
+    for i := 5; i &gt; 0; i-- {
+        // Execute Code
+        fmt.Println(i)
+
+    }
+
+    fmt.Println(&quot;Blast Off!&quot;)
+}
+</code></pre>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -797,7 +961,7 @@ def functionName (paramaters):
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../../Lecture/15-Guest7/" title="Guest 7 - Cryptography">
+        <a href="../../Lecture/18-Graph/" title="Graph">
           <span class="direction">
             Previous
           </span>
@@ -807,7 +971,7 @@ def functionName (paramaters):
             </div>
             <div class="stretch">
               <div class="title">
-                Guest 7 - Cryptography
+                Graph
               </div>
             </div>
           </div>
