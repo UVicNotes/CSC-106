@@ -24,6 +24,9 @@ pages:
         - 'Guest 5 - Computer Applications': 'Lecture/13-Guest5.md'
         - 'Guest 6 - Programming Languages': 'Lecture/14-Guest6.md'
         - 'Guest 7 - Cryptography': 'Lecture/15-Guest7.md'
+        - 'Recursion': 'Lecture/16-Recursion.md'
+        - 'Guest 8 - Game Dev': 'Lecture/17-Guest8.md'
+        - 'Graph': 'Lecture/18-Graph.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
     - Annex:

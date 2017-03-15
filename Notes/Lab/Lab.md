@@ -271,3 +271,145 @@ def functionName (paramaters):
 ```python 
 for counter in range(start num, end num, stepsize):
 ```
+
+## Lab 8 - February 7th, 2017
+
+https://www.tutorialspoint.com/codingground.htm
+
+fortran (https://www.tutorialspoint.com/compile_fortran_online.php)
+
+compile -> execute
+Is statically typed
+REAL is a decimal number
+running the main program -> main in the terminal
+. is making sure there is something on either side. 
+
+
+```fortran
+! Dominique Charlebois
+! Fortran Basics
+
+! Declaring variables
+REAL X, Y, SUM
+
+! Printing
+PRINT *, 'Enter X:'
+
+! Read Command
+READ *, X
+
+PRINT *, 'Enter Y:'
+
+READ *, Y
+
+IF ( X .GT. Y) GO TO 100
+IF ( Y .GT. X) GO TO 200
+IF ( Y .EQ. X) GO TO 300
+
+! Needed
+100 PRINT *, 'X > Y'
+PRINT *, 'MAX = ', X
+STOP
+200 PRINT *, 'Y > X'
+PRINT *, 'MAX = ', Y
+STOP
+300 PRINT *, 'Y = X'
+STOP
+
+END
+```
+
+C++
+https://www.tutorialspoint.com/compile_cpp_online.php
+compile -> execute
+statically typed
+return 0 -> this function returns an integer
+cout -> print something arrows to the left is send out 
+cin -> arrows to the right is send in
+
+```c++
+// Dominique Charlebois
+// C++ Basics
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   cout << "Hello World" << endl; 
+   
+   int X = 5;
+   int A = 3;
+   X = X + 1;
+   
+   cout << "X = " << X << endl; 
+   cout << "A = " << A << endl; 
+   
+   cout << "Enter a number: "; 
+   int num1;
+   cin >> num1;
+   
+   if (num1 > 5) {
+       cout << num1 << " is greater than 5" << endl;
+   } else {
+      cout << num1 << " is less than 5" << endl; 
+   }
+   
+   for (int i = num1; i >= 0; i--) {
+       cout << i << endl;
+   }
+   
+   cout << " Blast Off!" << endl;
+   
+   return 0;
+}
+```
+
+
+go 
+created by google
+python and java
+statically typed (Kindof)
+execute
+
+```go
+// Domininque Charlebois
+// Google Go Basics
+
+package main
+
+import "fmt"
+
+func main() {
+   fmt.Printf("hello, world\n")
+   
+   var hello string = "Hello World!"
+   var a int = 3
+   
+   // More of dynamically typed
+    x := 5
+    fmt.Println(hello, a, x)
+    
+    var num int
+    fmt.Print("Enter a number: ")
+    // REading input from the command line, storing integer as num variable
+    fmt.Scanf("%d", &num)
+    
+    if num > x {
+        fmt.Println(num, " is larger than 5")
+    } else if num < x {
+        fmt.Println(num, " is lesser than 5")
+    } else {
+        // Enter this code block only when num entered is = 5
+        fmt.Println(num, " is equal to 5")
+    }
+    
+    for i := 5; i > 0; i-- {
+        // Execute Code
+        fmt.Println(i)
+        
+    }
+    
+    fmt.Println("Blast Off!")
+}
+```

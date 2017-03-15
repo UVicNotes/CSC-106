@@ -89,3 +89,23 @@ Midterm 2:
 Format: 
 
 * Multiple choice 
+
+### Announcement 11 - March 8th, 2017
+
+#### Happy International Women's Day
+
+* Uvic Women in CS
+* Ladies Learning Code
+* Django Girls
+
+#### Assignment 4 is out and ready to start
+
+* Due 21st march
+* Programming Assignment
+* Hand in three .py files
+* Use python 2.7
+
+
+**Note:** If you have questions about the marking for assignment 1-4 please contact:
+
+Chris: cjcook@uvic.ca
