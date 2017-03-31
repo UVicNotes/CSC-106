@@ -28,10 +28,10 @@ pages:
         - 'Guest 8 - Game Dev': 'Lecture/17-Guest8.md'
         - 'Graph': 'Lecture/18-Graph.md'
         - 'Guest 9': 'Lecture/19-Guest9.md'
-        - 'Run Time of Algorithms': '20-Run-Time-of-Algorithms.md'
-        - 'Guest 10 - Bioinformatics': '21-Guest10.md'
-        - 'Guest 11 - Decidable or Undecidable?': '22-Guest11.md'
-        - 'Guest 12 - Communication': '23-Guest12.md'
+        - 'Run Time of Algorithms': 'Lecture/20-Run-Time-of-Algorithms.md'
+        - 'Guest 10 - Bioinformatics': 'Lecture/21-Guest10.md'
+        - 'Guest 11 - Decidable or Undecidable?': 'Lecture/22-Guest11.md'
+        - 'Guest 12 - Communication': 'Lecture/23-Guest12.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
     - Annex:
