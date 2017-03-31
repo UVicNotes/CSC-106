@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Guest 6 - Programming Languages - CSC 106</title>
+        <title>Guest 11 - Decidable or Undecidable? - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/22-Guest11/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/22-Guest11/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/22-Guest11//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Guest 6 - Programming Languages
+        Guest 11 - Decidable or Undecidable?
       </div>
     </div>
     
@@ -307,24 +307,9 @@
       
         
   <li>
-    <a class="current" title="Guest 6 - Programming Languages" href="./">
+    <a class="" title="Guest 6 - Programming Languages" href="../14-Guest6/">
       Guest 6 - Programming Languages
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 20 - February 28th, 2017" href="#lecture-20-february-28th-2017">
-                Lecture 20 - February 28th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -394,9 +379,22 @@
       
         
   <li>
-    <a class="" title="Guest 11 - Decidable or Undecidable?" href="../22-Guest11/">
+    <a class="current" title="Guest 11 - Decidable or Undecidable?" href="./">
       Guest 11 - Decidable or Undecidable?
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 29 - March 28th, 2017" href="#lecture-29-march-28th-2017">
+                Lecture 29 - March 28th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -471,121 +469,95 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="guest-6">Guest 6</h1>
-<h2 id="lecture-20-february-28th-2017">Lecture 20 - February 28th, 2017</h2>
+            <h1>Guest 11 - Decidable or Undecidable?</h1>
+          
+          <h2 id="lecture-29-march-28th-2017">Lecture 29 - March 28th, 2017</h2>
 <h3 id="guest-lecture">Guest Lecture</h3>
-<p>By Daniel German</p>
-<h3 id="programming-languages">Programming Languages</h3>
-<h4 id="what-is-programming">What is programming:</h4>
+<p>by Dr. Frank Ruskey</p>
+<h4 id="problems-you-cant-compute">Problems you can't compute</h4>
+<p><strong>Theoritical Computer Science</strong></p>
+<h4 id="decidable-or-undecidable">Decidable or undecidable?</h4>
+<p>There is indeed some undecidable problems/questions</p>
+<p><strong>Example:</strong> The 50$ is not in the envelop</p>
 <ul>
-<li>SQL:</li>
+<li>--&gt; True</li>
+<li>--&gt; False (After putting the money in the envelop)</li>
 </ul>
-<p><code>select * from books</code> </p>
+<h5 id="true-or-false">TRUE or FALSE</h5>
 <ul>
-<li>HTML:</li>
+<li>Exactly one of (A), (B) is TRUE</li>
+<li>Someone in CSC 106 will not get an A+ </li>
 </ul>
-<pre><code class="html">&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;Hello World&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Hello!&lt;/h1&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
+<h5 id="true-or-false-or-neither">TRUE or FALSE or neither</h5>
+<p>--</p>
+<h4 id="classification-of-words">Classification of words</h4>
+<p><strong>Auto Logical (Apply to themselves)</strong> </p>
+<ul>
+<li>Short</li>
+<li>Undersandable </li>
+<li>Polycyllble </li>
+<li>English </li>
+</ul>
+<p>or </p>
+<p><strong>Heterological (Do not apply to themselves)</strong></p>
+<ul>
+<li>Long</li>
+<li>Abstract</li>
+<li>Monosyllabic</li>
+<li>French</li>
+</ul>
+<p>Q: Is heterological heterological?</p>
+<ul>
+<li>A: If yes then no</li>
+<li>A: If no then yes</li>
+<li>A: Set still sets ...</li>
+</ul>
+<p>AGA?</p>
+<p>In lisp &lt;- no distinction betwween programs &amp; data</p>
+<pre><code class="LISP">heterological(p) := ¬p(p)
+hetero(hetero) = ¬hetero(hetero)
+               = ¬ ¬hetero(hetero)
+               = ¬hetero(hetero)
+
+---
+
+terminates(f, x)
+f-program, x-data
+    returns True or False (true only if f terminates on data x)
+
+---
+
+hetero(f) := if terminates(f, f)
+                then ¬ f(f)
+---
+
+hetero(hetero) = ¬hetero(hetero) (contradiction)
+
+---
+
+==&gt; (implies) Terminates does not exist
 </code></pre>
 
+<p>"halting probem" - alan turring</p>
+<h4 id="undecidable-problems">Undecidable problems</h4>
 <ul>
-<li>Prolog:</li>
+<li>The halting (terminates)</li>
+<li>Does a program contain a virus?</li>
+<li>Diophantine equation solving (hilberts 10th problem)</li>
+<li>Tiling the plane with square tiles </li>
+<li>Snake problem</li>
+<li>Life</li>
+<li>Virus detection is an undecidable problem</li>
 </ul>
-<pre><code class="prolog">playsAirGuitar(jody). 
-
-?-  playsAirGuitar(jody).
-</code></pre>
-
-<h4 id="are-some-programming-languages-better-than-others">Are some programming languages better than others?</h4>
+<p>--</p>
+<h4 id="golly-life-game-source-forge">Golly -&gt; Life Game (Source Forge)</h4>
 <ul>
-<li><a href="https://github.com/lhartikk/ArnoldC/wiki/ArnoldC">ArnoldC</a><ul>
-<li>Based on Arnold quotes</li>
+<li>Glider -&gt; they fly away</li>
+<li>Allow us to make a computer</li>
+<li>Glider Gun</li>
+<li>Does a life configuration terminate? (cycling state)</li>
 </ul>
-</li>
-</ul>
-<h4 id="two-criteria">Two Criteria:</h4>
-<ol>
-<li>Can our language allow us to program the computer to do anything our computer can do?</li>
-<li>Can ou computer do anything that our program can express?</li>
-</ol>
-<h4 id="turing-machine">Turing Machine</h4>
-<ul>
-<li>Entscheidungsproblem<ul>
-<li>Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?</li>
-</ul>
-</li>
-<li>Church-Turing Thesis<ul>
-<li>A function on the natural numbers is computable in an informal sense if and only if it is computable...</li>
-</ul>
-</li>
-<li>Lambda-Calculus = Turing Machine = Pencil and Paper</li>
-</ul>
-<h4 id="turing-complete">Turing Complete</h4>
-<ul>
-<li>A programming language that can used to simulate a turing machine</li>
-<li>Any turing machine can be simulated with a program in such language</li>
-<li>Any program in such language can be converted to a turing machine</li>
-</ul>
-<h4 id="brainfuck">BrainFuck</h4>
-<ul>
-<li>http://www.muppetlabs.com/~breadbox/bf/</li>
-<li>Language is Turing Complete</li>
-</ul>
-<p>Therefore not all TC languages are very useful.</p>
-<h4 id="what-is-a-good-programming-language">What is a good programming language?</h4>
-<p><strong>Answer:</strong> The one that gets you a job?</p>
-<h4 id="how-to-learn-how-to-program">How to learn how to program</h4>
-<p><strong>Answer:</strong> Not in your CS courses!</p>
-<p>"Quote" - Alan Perlis</p>
-<h4 id="the-five-features-you-must-learn">The five features you must learn</h4>
-<ul>
-<li>The Syntax</li>
-<li>The Semantics</li>
-<li>The Libraries</li>
-<li>The Idioms</li>
-<li>The Tools</li>
-</ul>
-<p><strong>Additional Reading:</strong> What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu</p>
-<h4 id="skills-of-a-good-programmer">Skills of a good programmer</h4>
-<ul>
-<li>Curious </li>
-<li>Hardworking</li>
-</ul>
-<h4 id="my-recommendations">My recommendations?</h4>
-<ul>
-<li>Be great at<ul>
-<li>one programming language</li>
-</ul>
-</li>
-<li>Be good at<ul>
-<li>one statically typed language</li>
-<li>one dynamincally type language</li>
-<li>one functional language</li>
-</ul>
-</li>
-<li>
-<p>Master:</p>
-<ul>
-<li>Typing</li>
-<li>Debugging</li>
-<li>One Programming Environment</li>
-<li>Version Control</li>
-<li>A Configuration Management Tool <a href="https://cmake.org/">(cmake)</a></li>
-<li>Testing</li>
-</ul>
-</li>
-<li>
-<p><strong>Select your jobs carefully</strong></p>
-</li>
-<li><strong>Do side-projects</strong></li>
-<li><strong>And keep learning</strong></li>
-</ul>
+<p><a href="https://www.youtube.com/watch?v=xP5-iIeKXE8">Life in Life Youtube Video (1:29)</a></p>
           <aside class="copyright" role="note">
             
             Documentation built with
@@ -602,7 +574,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../13-Guest5/" title="Guest 5 - Computer Applications">
+        <a href="../21-Guest10/" title="Guest 10 - Bioinformatics">
           <span class="direction">
             Previous
           </span>
@@ -612,7 +584,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Guest 5 - Computer Applications
+                Guest 10 - Bioinformatics
               </div>
             </div>
           </div>
@@ -621,14 +593,14 @@
     </div>
     <div class="next">
       
-        <a href="../15-Guest7/" title="Guest 7 - Cryptography">
+        <a href="../23-Guest12/" title="Guest 12 - Communication">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Guest 7 - Cryptography
+                Guest 12 - Communication
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

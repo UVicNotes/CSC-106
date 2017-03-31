@@ -9,21 +9,21 @@
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     
       
-        <title>Guest 6 - Programming Languages - CSC 106</title>
+        <title>Run Time of Algorithms - CSC 106</title>
       
       
         <meta name="description" content="Course Notes for CSC 106 - The Practice of Computer Science">
       
       
-        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
+        <link rel="canonical" href="http://uvicnotes.github.io/CSC-106/Lecture/20-Run-Time-of-Algorithms/">
       
       
         <meta name="author" content="Dominique Charlebois">
       
     
-    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6/">
+    <meta property="og:url" content="http://uvicnotes.github.io/CSC-106/Lecture/20-Run-Time-of-Algorithms/">
     <meta property="og:title" content="CSC 106">
-    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/14-Guest6//../../">
+    <meta property="og:image" content="http://uvicnotes.github.io/CSC-106/Lecture/20-Run-Time-of-Algorithms//../../">
     <meta name="apple-mobile-web-app-title" content="CSC 106">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -89,7 +89,7 @@
             
           </span>
         
-        Guest 6 - Programming Languages
+        Run Time of Algorithms
       </div>
     </div>
     
@@ -307,24 +307,9 @@
       
         
   <li>
-    <a class="current" title="Guest 6 - Programming Languages" href="./">
+    <a class="" title="Guest 6 - Programming Languages" href="../14-Guest6/">
       Guest 6 - Programming Languages
     </a>
-    
-      
-        
-      
-      
-        <ul>
-          
-            <li class="anchor">
-              <a title="Lecture 20 - February 28th, 2017" href="#lecture-20-february-28th-2017">
-                Lecture 20 - February 28th, 2017
-              </a>
-            </li>
-          
-        </ul>
-      
     
   </li>
 
@@ -376,9 +361,28 @@
       
         
   <li>
-    <a class="" title="Run Time of Algorithms" href="../20-Run-Time-of-Algorithms/">
+    <a class="current" title="Run Time of Algorithms" href="./">
       Run Time of Algorithms
     </a>
+    
+      
+      
+        <ul>
+          
+            <li class="anchor">
+              <a title="Lecture 26 - March 21st, 2017" href="#lecture-26-march-21st-2017">
+                Lecture 26 - March 21st, 2017
+              </a>
+            </li>
+          
+            <li class="anchor">
+              <a title="Lecture 28 - March 24th, 2017" href="#lecture-28-march-24th-2017">
+                Lecture 28 - March 24th, 2017
+              </a>
+            </li>
+          
+        </ul>
+      
     
   </li>
 
@@ -471,120 +475,133 @@
       <article class="article">
         <div class="wrapper">
           
-          <h1 id="guest-6">Guest 6</h1>
-<h2 id="lecture-20-february-28th-2017">Lecture 20 - February 28th, 2017</h2>
-<h3 id="guest-lecture">Guest Lecture</h3>
-<p>By Daniel German</p>
-<h3 id="programming-languages">Programming Languages</h3>
-<h4 id="what-is-programming">What is programming:</h4>
+            <h1>Run Time of Algorithms</h1>
+          
+          <h2 id="lecture-26-march-21st-2017">Lecture 26 - March 21st, 2017</h2>
+<h3 id="run-time-of-algorithms">Run time of algorithms</h3>
+<h4 id="searching-a-tree">Searching a Tree</h4>
 <ul>
-<li>SQL:</li>
+<li>
+<p>Compare these algorithms </p>
+<ul>
+<li>DFS</li>
+<li>BFS</li>
+<li>Pre-order traversal</li>
+<li>Post-order traversal</li>
 </ul>
-<p><code>select * from books</code> </p>
-<ul>
-<li>HTML:</li>
+</li>
+<li>
+<p>In pre/post order traversal, "visit" means add the node to the result.</p>
+</li>
 </ul>
-<pre><code class="html">&lt;html&gt;
-    &lt;head&gt;
-        &lt;title&gt;Hello World&lt;/title&gt;
-    &lt;/head&gt;
-    &lt;body&gt;
-        &lt;h1&gt;Hello!&lt;/h1&gt;
-    &lt;/body&gt;
-&lt;/html&gt;
-</code></pre>
-
+<h4 id="analyzing-algorithms">Analyzing Algorithms</h4>
 <ul>
-<li>Prolog:</li>
+<li>Problems have many solutions<ul>
+<li>Which solution is the best?</li>
 </ul>
-<pre><code class="prolog">playsAirGuitar(jody). 
-
-?-  playsAirGuitar(jody).
-</code></pre>
-
-<h4 id="are-some-programming-languages-better-than-others">Are some programming languages better than others?</h4>
-<ul>
-<li><a href="https://github.com/lhartikk/ArnoldC/wiki/ArnoldC">ArnoldC</a><ul>
-<li>Based on Arnold quotes</li>
+</li>
+<li>The best car:<ul>
+<li>Ease of hadling</li>
+<li>Style</li>
+<li>Fuel Efficiency </li>
+</ul>
+</li>
+<li>Which sorting is best?<ul>
+<li><a href="../www.toptal.com/developers/sorting/algorithms">Toptal</a></li>
 </ul>
 </li>
 </ul>
-<h4 id="two-criteria">Two Criteria:</h4>
+<h4 id="attributes-of-algorithms">Attributes of Algorithms</h4>
+<p>The best algorithm:</p>
 <ol>
-<li>Can our language allow us to program the computer to do anything our computer can do?</li>
-<li>Can ou computer do anything that our program can express?</li>
+<li>Ease of Understanding by Humans</li>
+<li>Time/Space Efficient</li>
+<li>Elegance</li>
+<li>Correctness<ol>
+<li>Is the problem specified correctly</li>
+<li>Does the algorithm produce the correct result?</li>
 </ol>
-<h4 id="turing-machine">Turing Machine</h4>
+</li>
+</ol>
+<h5 id="efficiency-an-algorithms-use-of-time-and-space-resources">Efficiency: An algorithm's use of time and space resources</h5>
 <ul>
-<li>Entscheidungsproblem<ul>
-<li>Does there exist an algorithm for deciding wether or not a specific mathematical assertion does or does not have a proof?</li>
+<li>Timing an algorithm is not always useful</li>
+<li>Confounding factors: machine speed, soze of input</li>
+<li>We analyze instead based on the number of operations. </li>
+</ul>
+<h5 id="benchmarking-timing-an-algorithm-on-standard-data-sets">Benchmarking: timing an algorithm on standard data sets</h5>
+<ul>
+<li>Testing hardware and operating system, etc.</li>
+<li>Testing real-world performance limits. </li>
+</ul>
+<h5 id="example-searching-find-a-value-in-an-array-or-return-that-its-not-there">Example: Searching find a value in an array, or return that its not there</h5>
+<h5 id="sequential-search-algorithm">Sequential Search Algorithm</h5>
+<p><strong>Order of magnitude - order n</strong></p>
+<table>
+<thead>
+<tr>
+<th align="right">f(x)</th>
+<th>=</th>
+<th align="right">cx</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right">n</td>
+<td></td>
+<td align="right">n</td>
+</tr>
+</tbody>
+</table>
+<h2 id="lecture-28-march-24th-2017">Lecture 28 - March 24th, 2017</h2>
+<ul>
+<li>"order" n^2 </li>
+</ul>
+<h4 id="when-things-get-out-of-hand">When Things Get Out of Hand</h4>
+<p><strong>Polynomially bounded:</strong> an algorithm that does work on the order of </p>
+<h5 id="hamiltonian-circuit-lenghtn">Hamiltonian circuit -&gt; lenghtN</h5>
+<ul>
+<li>Brute Force</li>
+<li>Graph -&gt; Build a Tree</li>
+</ul>
+<h5 id="intractable">intractable:</h5>
+<ul>
+<li>Hamiltonian circuit</li>
+<li>Traveling salesperson</li>
+<li>Bin packing</li>
+<li>Chess</li>
+</ul>
+<p>We find an approximation algorithm to deal with this problem ^^</p>
+<h4 id="space-memory-efficiency">Space (Memory) Efficiency</h4>
+<ul>
+<li>Time and space are often traded off<ul>
+<li>With enough space, we can do search in constant time!!</li>
 </ul>
 </li>
-<li>Church-Turing Thesis<ul>
-<li>A function on the natural numbers is computable in an informal sense if and only if it is computable...</li>
+</ul>
+<h4 id="summary">Summary:</h4>
+<ul>
+<li>How can we compare algoritms?<ul>
+<li>Multiple dimensionss<ul>
+<li>Some easier to measure than others</li>
 </ul>
 </li>
-<li>Lambda-Calculus = Turing Machine = Pencil and Paper</li>
-</ul>
-<h4 id="turing-complete">Turing Complete</h4>
-<ul>
-<li>A programming language that can used to simulate a turing machine</li>
-<li>Any turing machine can be simulated with a program in such language</li>
-<li>Any program in such language can be converted to a turing machine</li>
-</ul>
-<h4 id="brainfuck">BrainFuck</h4>
-<ul>
-<li>http://www.muppetlabs.com/~breadbox/bf/</li>
-<li>Language is Turing Complete</li>
-</ul>
-<p>Therefore not all TC languages are very useful.</p>
-<h4 id="what-is-a-good-programming-language">What is a good programming language?</h4>
-<p><strong>Answer:</strong> The one that gets you a job?</p>
-<h4 id="how-to-learn-how-to-program">How to learn how to program</h4>
-<p><strong>Answer:</strong> Not in your CS courses!</p>
-<p>"Quote" - Alan Perlis</p>
-<h4 id="the-five-features-you-must-learn">The five features you must learn</h4>
-<ul>
-<li>The Syntax</li>
-<li>The Semantics</li>
-<li>The Libraries</li>
-<li>The Idioms</li>
-<li>The Tools</li>
-</ul>
-<p><strong>Additional Reading:</strong> What makes a great software engineer? By Oaul Luo Li, Andrew J. Ko, and Jiamin Zhu</p>
-<h4 id="skills-of-a-good-programmer">Skills of a good programmer</h4>
-<ul>
-<li>Curious </li>
-<li>Hardworking</li>
-</ul>
-<h4 id="my-recommendations">My recommendations?</h4>
-<ul>
-<li>Be great at<ul>
-<li>one programming language</li>
 </ul>
 </li>
-<li>Be good at<ul>
-<li>one statically typed language</li>
-<li>one dynamincally type language</li>
-<li>one functional language</li>
+<li>Efficiency<ul>
+<li>Time and space</li>
 </ul>
 </li>
-<li>
-<p>Master:</p>
+<li>Time effiency</li>
+</ul>
+<h4 id="page-rank">Page Rank</h4>
 <ul>
-<li>Typing</li>
-<li>Debugging</li>
-<li>One Programming Environment</li>
-<li>Version Control</li>
-<li>A Configuration Management Tool <a href="https://cmake.org/">(cmake)</a></li>
-<li>Testing</li>
+<li>PageRank -&gt; 2 People (Founders of Google)</li>
 </ul>
-</li>
-<li>
-<p><strong>Select your jobs carefully</strong></p>
-</li>
-<li><strong>Do side-projects</strong></li>
-<li><strong>And keep learning</strong></li>
+<p>--</p>
+<ul>
+<li>Webpage -&gt; node</li>
+<li>Edge -&gt; link</li>
 </ul>
           <aside class="copyright" role="note">
             
@@ -602,7 +619,7 @@
   <nav class="pagination" aria-label="Footer">
     <div class="previous">
       
-        <a href="../13-Guest5/" title="Guest 5 - Computer Applications">
+        <a href="../19-Guest9/" title="Guest 9">
           <span class="direction">
             Previous
           </span>
@@ -612,7 +629,7 @@
             </div>
             <div class="stretch">
               <div class="title">
-                Guest 5 - Computer Applications
+                Guest 9
               </div>
             </div>
           </div>
@@ -621,14 +638,14 @@
     </div>
     <div class="next">
       
-        <a href="../15-Guest7/" title="Guest 7 - Cryptography">
+        <a href="../21-Guest10/" title="Guest 10 - Bioinformatics">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Guest 7 - Cryptography
+                Guest 10 - Bioinformatics
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">

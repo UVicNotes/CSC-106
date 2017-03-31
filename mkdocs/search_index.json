@@ -797,7 +797,7 @@
         }, 
         {
             "location": "/Lecture/17-Guest8/", 
-            "text": "Lecture 23 - March 10th, 2017\n\n\nGuest Lecture\n\n\nby UVic Prof.\n\n\nGame Dev\n\n\nProdominant Modelling Paradigm: \n\n\n\n\nTriangle Mesh\n\n\nGPU\n\n\nScanning = Model Acquisition \n\n\n\n\nSolid Modelling: \n\n\n\n\nContructive solid geometry\n\n\nImplicit modelling\n\n\n\n\nVideo: \nCubic Tradgedy \n\n\nSolid modelling / Implicit modelling\n\n\n\n\nModelling for computer graphics\n\n\nCurisosity driven research\n\n\n\n\nImportant Dates:\n\n\n\n\nRicci 1973\n\n\nBlinn 1981\n\n\nNishimura 1985\n\n\nWyvills 1985\n\n\n\n\nModeling: \n\n\n\n\nImplicit surfaces\n\n\nContours (several)\n\n\nFunctions\n\n\n\n\nProximity Blending:\n add contributions from generating skeletal elements in the neighboouhood.\n\n\nThe blobtree:\n skeletal primitives.\nresulting shapes.\n\n\nThe great train rubbery 1986/88\n\n\nWraping:\n example vector warp\n\n\nBarr operators:\n\n\n\n\nTwist\n\n\nTaper\n\n\nBend\n\n\n\n\nDeformations\n\n\nCSG intersection value\n\n\nCsoftG wheels 1997\n\n\nCanmore Coffee Grinder\n\n\nRay traced by kees van overveld and brian wyvill\n\n\nOriginal Teapot Render.\n\n\nl-system plant (generating branch structures)\n\n\nThe blobtree 1996\n\n\nPrecise contact modelling controlled blending and PCM\n\n\nCollars and scars -\n visualize tree growth\n\n\nInverse modelling\n\n\nSketch based modelling with the blobtree\n\n\nShape Shop - Ryan \n\n\n\n\nSketch based interactive modelling\n\n\n\n\nImprovement\n\n\nA single oriented implicit decal\n\n\nMatisse\n\n\nDecals spans all surfaces\n\n\nIs uni modelling research dead?\n\n\n\n\nGeologist\n\n\n\n\nSIGGRAPH\n\n\n\n\n\n\nWilliam rowan hamilton plaque \n\n\n\n\n\n\nGimbal lock apollo 11 --\n quaternion methods\n\n\nBeware of knowing the price of everything an the value of nothing!", 
+            "text": "Lecture 23 - March 10th, 2017\n\n\nGuest Lecture\n\n\nby UVic Prof. Wyvill\n\n\nGame Dev\n\n\nProdominant Modelling Paradigm: \n\n\n\n\nTriangle Mesh\n\n\nGPU\n\n\nScanning = Model Acquisition \n\n\n\n\nSolid Modelling: \n\n\n\n\nContructive solid geometry\n\n\nImplicit modelling\n\n\n\n\nVideo: \nCubic Tradgedy \n\n\nSolid modelling / Implicit modelling\n\n\n\n\nModelling for computer graphics\n\n\nCurisosity driven research\n\n\n\n\nImportant Dates:\n\n\n\n\nRicci 1973\n\n\nBlinn 1981\n\n\nNishimura 1985\n\n\nWyvills 1985\n\n\n\n\nModeling: \n\n\n\n\nImplicit surfaces\n\n\nContours (several)\n\n\nFunctions\n\n\n\n\nProximity Blending:\n add contributions from generating skeletal elements in the neighboouhood.\n\n\nThe blobtree:\n skeletal primitives.\nresulting shapes.\n\n\nThe great train rubbery 1986/88\n\n\nWraping:\n example vector warp\n\n\nBarr operators:\n\n\n\n\nTwist\n\n\nTaper\n\n\nBend\n\n\n\n\nDeformations\n\n\nCSG intersection value\n\n\nCsoftG wheels 1997\n\n\nCanmore Coffee Grinder\n\n\nRay traced by kees van overveld and brian wyvill\n\n\nOriginal Teapot Render.\n\n\nl-system plant (generating branch structures)\n\n\nThe blobtree 1996\n\n\nPrecise contact modelling controlled blending and PCM\n\n\nCollars and scars -\n visualize tree growth\n\n\nInverse modelling\n\n\nSketch based modelling with the blobtree\n\n\nShape Shop - Ryan \n\n\n\n\nSketch based interactive modelling\n\n\n\n\nImprovement\n\n\nA single oriented implicit decal\n\n\nMatisse\n\n\nDecals spans all surfaces\n\n\nIs uni modelling research dead?\n\n\n\n\nGeologist\n\n\n\n\nSIGGRAPH\n\n\n\n\n\n\nWilliam rowan hamilton plaque \n\n\n\n\n\n\nGimbal lock apollo 11 --\n quaternion methods\n\n\nBeware of knowing the price of everything an the value of nothing!", 
             "title": "Guest 8 - Game Dev"
         }, 
         {
@@ -807,7 +807,7 @@
         }, 
         {
             "location": "/Lecture/17-Guest8/#guest-lecture", 
-            "text": "by UVic Prof.", 
+            "text": "by UVic Prof. Wyvill", 
             "title": "Guest Lecture"
         }, 
         {
@@ -842,7 +842,7 @@
         }, 
         {
             "location": "/Lecture/18-Graph/", 
-            "text": "Lecture 24 - March 14th, 2017\n\n\nGraph Algorithms\n\n\nWhat is a graph?\n\n\n\n\nA graph is a mathematical tool used to represent a structured system\n\n\nIt is made up of\n\n\nNode or Vertices (circles)\n\n\nEdges (lines)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs can have\n\n\nPaths\n\n\nThere is a path from A to F \n\n\n\n\n\n\nCycles\n\n\nA path that loops back on itself\n\n\n\n\n\n\n\n\n\n\n\n\nNodes can have\n\n\n\n\nNeighbours\n\n\nConnected via edge\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs are useful for representing multiple real world problems\n\n\n\n\nSocial networks \n\n\nInternet\n\n\nPower grids\n\n\n\n\n\n\n\n\nGoogle's Page rank algorithm uses a graph that represents the entire internet, and the links between pages. \n\n\n\n\n\n\nSome graphs are trees\n\n\n\n\nA graph is a tree if it contains no cycles\n\n\n\n\n\n\n\n\n\n\nGraph Algorithms\n\n\n\n\nSearching: visit all node of a graph\n\n\nBreadth first search (BFS)\n\n\nUse a queue\n\n\n\n\n\n\nDepth first search (DFS)\n\n\nUse a stack    \n\n\n\n\n\n\n\n\n\n\n\n\nQueue vs stack\n\n\n\n\nQueue \n\n\nLike a line at the grocery store\n\n\nFirst in first out (FIFO) \n\n\n\n\n\n\n\n\n\n\nStack\n\n\nLike a stack of waffles\n\n\nFirst in last out (FILO) \n\n\n\n\n\n\n\n\n\n\n\n\nDepth first search\n\n\n\n\nPut start a node in stack, add to result, mark it as visited\n\n\nWhile stack is not empty\n\n\nLook at node at top of stack, call it V\n\n\nIf V has unvisited neighbours:\n\n\nSelect alphabeticallyy next unvisited neighbour, call it U\n\n\nAdd U to reseult\n\n\nMark U as visited\n\n\nadd U to stack\n\n\n\n\n\n\nElse remove V from stack\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nStack -D- -\n -E- -\n -C- -\n -F- -\n -B- -\n -A-\n\n\nResult: A B F C E D\n\n\nVisited: -A- -B- -C- -D- -E- -F-\n\n\nBreadth First Search\n\n\n\n\nPut start node in queue, add to result, mark as visited\n\n\nWhile queue is not empty:\n\n\nRemove first node from queue, call it V, the current working node\n\n\nFor all neighbors U of V, in alphabe2cal order:\n\n\nIf U is unvisited:\n\n\nAdd U to result\n\n\nMark U as visited\n\n\nAdd U to queue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nQueue -A- -B- -C- -D- -F- -E-\n\n\nResult A B C D F E\n\n\nVisited -A- -B- -C- -D- -E- -F-\n\n\nLecture 25 - March 15th, 2017\n\n\nDijkstra's Shortest Path Alg\n\n\n\n\nGiven a graph with weighted edges\n\n\ni.e. each edge has an associated number (weight)\n\n\n\n\n\n\n\n\nFind the shortest path from tart node \"S\" to every other node in the graph. \n\n\n\n\n\n\nTo start: distance from start S to self is 0, and previous node is N/A, all other distances \u221e\n\n\n\n\nWhile there are no unprocessed nodes\n\n\nChoose the unprocessed node U with smallest distance D to start node, break 2es with alphabe2cal order\n\n\nFor all neighbors V of U\n\n\nIf (best dist S -\n V) \n ( D + distance U-\nV)\n\n\nSet best dist S -\n V = (D + distance U-\nV)\n\n\nSet prev node for V to U\n\n\n\n\n\n\n\n\n\n\nMark U as processed\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nCurrent Vertex: \n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nprev. vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\n\n\n\n\n\n\n\n\n\nA\n\n\n\n\n\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\n\n\n\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nD\n\n\n\n\n\n\n\n\n\n\n\n\nE\n\n\n\n\n\n\n\n\n\n\n\n\nF\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVideo for Review\n\n\n\n\nEach row in video corresponds to one of our tables\n\n\nHighligh2ng is the same as checking a row in col 2\n\n\nCol 3 and 4 are what get wriden in each col of a row in the video.", 
+            "text": "Lecture 24 - March 14th, 2017\n\n\nGraph Algorithms\n\n\nWhat is a graph?\n\n\n\n\nA graph is a mathematical tool used to represent a structured system\n\n\nIt is made up of\n\n\nNode or Vertices (circles)\n\n\nEdges (lines)\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs can have\n\n\nPaths\n\n\nThere is a path from A to F \n\n\n\n\n\n\nCycles\n\n\nA path that loops back on itself\n\n\n\n\n\n\n\n\n\n\n\n\nNodes can have\n\n\n\n\nNeighbours\n\n\nConnected via edge\n\n\n\n\n\n\n\n\n\n\n\n\nGraphs are useful for representing multiple real world problems\n\n\n\n\nSocial networks \n\n\nInternet\n\n\nPower grids\n\n\n\n\n\n\n\n\nGoogle's Page rank algorithm uses a graph that represents the entire internet, and the links between pages. \n\n\n\n\n\n\nSome graphs are trees\n\n\n\n\nA graph is a tree if it contains no cycles\n\n\n\n\n\n\n\n\n\n\nGraph Algorithms\n\n\n\n\nSearching: visit all node of a graph\n\n\nBreadth first search (BFS)\n\n\nUse a queue\n\n\n\n\n\n\nDepth first search (DFS)\n\n\nUse a stack    \n\n\n\n\n\n\n\n\n\n\n\n\nQueue vs stack\n\n\n\n\nQueue \n\n\nLike a line at the grocery store\n\n\nFirst in first out (FIFO) \n\n\n\n\n\n\n\n\n\n\nStack\n\n\nLike a stack of waffles\n\n\nFirst in last out (FILO) \n\n\n\n\n\n\n\n\n\n\n\n\nDepth first search\n\n\n\n\nPut start a node in stack, add to result, mark it as visited\n\n\nWhile stack is not empty\n\n\nLook at node at top of stack, call it V\n\n\nIf V has unvisited neighbours:\n\n\nSelect alphabeticallyy next unvisited neighbour, call it U\n\n\nAdd U to reseult\n\n\nMark U as visited\n\n\nadd U to stack\n\n\n\n\n\n\nElse remove V from stack\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nStack -D- -\n -E- -\n -C- -\n -F- -\n -B- -\n -A-\n\n\nResult: A B F C E D\n\n\nVisited: -A- -B- -C- -D- -E- -F-\n\n\nBreadth First Search\n\n\n\n\nPut start node in queue, add to result, mark as visited\n\n\nWhile queue is not empty:\n\n\nRemove first node from queue, call it V, the current working node\n\n\nFor all neighbors U of V, in alphabe2cal order:\n\n\nIf U is unvisited:\n\n\nAdd U to result\n\n\nMark U as visited\n\n\nAdd U to queue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nQueue -A- -B- -C- -D- -F- -E-\n\n\nResult A B C D F E\n\n\nVisited -A- -B- -C- -D- -E- -F-\n\n\nLecture 25 - March 15th, 2017\n\n\nDijkstra's Shortest Path Alg\n\n\n\n\nGiven a graph with weighted edges\n\n\ni.e. each edge has an associated number (weight)\n\n\n\n\n\n\n\n\nFind the shortest path from tart node \"S\" to every other node in the graph. \n\n\n\n\n\n\nTo start: distance from start S to self is 0, and previous node is N/A, all other distances \u221e\n\n\n\n\nWhile there are no unprocessed nodes\n\n\nChoose the unprocessed node U with smallest distance D to start node, break 2es with alphabe2cal order\n\n\nFor all neighbors V of U\n\n\nIf (best dist S -\n V) \n ( D + distance U-\nV)\n\n\nSet best dist S -\n V = (D + distance U-\nV)\n\n\nSet prev node for V to U\n\n\n\n\n\n\n\n\n\n\nMark U as processed\n\n\n\n\n\n\n\n\nExample:\n \n\n\n\n\nCurrent Vertex: \n\n\nDistance to start:\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\n\n\n\n\n\n\n\n\n\nA\n\n\n\n\n\n\n\n\n\n\n\n\nB\n\n\n\n\n\n\n\n\n\n\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\nD\n\n\n\n\n\n\n\n\n\n\n\n\nE\n\n\n\n\n\n\n\n\n\n\n\n\nF\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: Init\n\n\nDistance to start:\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\nx\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nB\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nC\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nD\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nE\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nF\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: S\n\n\nDistance to start: 0\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\nx\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\nx\n\n\n10\n\n\nS\n\n\n\n\n\n\nC\n\n\nx\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nE\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nF\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nA\n\n\n8\n\n\nInfinity\n\n\n\n\n\n\nB\n\n\n10\n\n\nInfinity\n\n\n\n\n\n\nC\n\n\n7\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: C\n\n\nDistance to start: 7\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\nx\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\nx\n\n\n10\n\n\nS\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nE\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nF\n\n\nx\n\n\n8\n\n\nc\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nS\n\n\n7\n\n\n0\n\n\n\n\n\n\nF\n\n\n1\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: A\n\n\nDistance to start: 8\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\n\u2713\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\nx\n\n\n9\n\n\nA\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\n28\n\n\nA\n\n\n\n\n\n\nE\n\n\nx\n\n\nInfinity\n\n\n\n\n\n\n\n\nF\n\n\nx\n\n\n8\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nS\n\n\n8\n\n\n0\n\n\n\n\n\n\nB\n\n\n1\n\n\n10\n\n\n\n\n\n\nD\n\n\n20\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: F\n\n\nDistance to start: 8\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\n\u2713\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\nx\n\n\n9\n\n\nA\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\n28\n\n\nA\n\n\n\n\n\n\nE\n\n\nx\n\n\n13\n\n\nF\n\n\n\n\n\n\nF\n\n\n\u2713\n\n\n8\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nB\n\n\n7\n\n\n9\n\n\n\n\n\n\nC\n\n\n1\n\n\n7\n\n\n\n\n\n\nE\n\n\n5\n\n\nInfinity\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: B\n\n\nDistance to start: 9\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\n\u2713\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\n\u2713\n\n\n9\n\n\nA\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\n28\n\n\nA\n\n\n\n\n\n\nE\n\n\nx\n\n\n13\n\n\nF\n\n\n\n\n\n\nF\n\n\n\u2713\n\n\n8\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nS\n\n\n10\n\n\n0\n\n\n\n\n\n\nA\n\n\n1\n\n\n8\n\n\n\n\n\n\nF\n\n\n7\n\n\n8\n\n\n\n\n\n\nE\n\n\n9\n\n\n13\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: E\n\n\nDistance to start: 13\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\n\u2713\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\n\u2713\n\n\n9\n\n\nA\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\nx\n\n\n20\n\n\nE\n\n\n\n\n\n\nE\n\n\n\u2713\n\n\n13\n\n\nF\n\n\n\n\n\n\nF\n\n\n\u2713\n\n\n8\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nB\n\n\n9\n\n\n9\n\n\n\n\n\n\nF\n\n\n5\n\n\n8\n\n\n\n\n\n\nD\n\n\n7\n\n\n28\n\n\n\n\n\n\n\n\n\n\nCurrent Vertex: D\n\n\nDistance to start: 20\n\n\n\n\n\n\n\n\nVertex\n\n\nProcessed?\n\n\nBest know distance\n\n\nPrevious vertex\n\n\n\n\n\n\n\n\n\n\nS\n\n\n\u2713\n\n\n0\n\n\nN/A\n\n\n\n\n\n\nA\n\n\n\u2713\n\n\n8\n\n\nS\n\n\n\n\n\n\nB\n\n\n\u2713\n\n\n9\n\n\nA\n\n\n\n\n\n\nC\n\n\n\u2713\n\n\n7\n\n\nS\n\n\n\n\n\n\nD\n\n\n\u2713\n\n\n20\n\n\nE\n\n\n\n\n\n\nE\n\n\n\u2713\n\n\n13\n\n\nF\n\n\n\n\n\n\nF\n\n\n\u2713\n\n\n8\n\n\nC\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDistance U -\n V\n\n\nBest Distance\n\n\n\n\n\n\n\n\n\n\nA\n\n\n20\n\n\n8\n\n\n\n\n\n\nE\n\n\n7\n\n\n13\n\n\n\n\n\n\n\n\n\n\nSolution: \n\n\nE \n- F \n- C \n- S\n\n\nD \n- E \n- F \n- C \n- S\n\n\n\n\nVideo for Review\n\n\n\n\nEach row in video corresponds to one of our tables\n\n\nHighligh2ng is the same as checking a row in col 2\n\n\nCol 3 and 4 are what get wriden in each col of a row in the video.\ns", 
             "title": "Graph"
         }, 
         {
@@ -887,8 +887,273 @@
         }, 
         {
             "location": "/Lecture/18-Graph/#dijkstras-shortest-path-alg", 
-            "text": "Given a graph with weighted edges  i.e. each edge has an associated number (weight)     Find the shortest path from tart node \"S\" to every other node in the graph.     To start: distance from start S to self is 0, and previous node is N/A, all other distances \u221e   While there are no unprocessed nodes  Choose the unprocessed node U with smallest distance D to start node, break 2es with alphabe2cal order  For all neighbors V of U  If (best dist S -  V)   ( D + distance U- V)  Set best dist S -  V = (D + distance U- V)  Set prev node for V to U      Mark U as processed     Example:     Current Vertex:      Vertex  Processed?  Best know distance  prev. vertex      S       A       B       C       D       E       F        Video for Review   Each row in video corresponds to one of our tables  Highligh2ng is the same as checking a row in col 2  Col 3 and 4 are what get wriden in each col of a row in the video.", 
+            "text": "Given a graph with weighted edges  i.e. each edge has an associated number (weight)     Find the shortest path from tart node \"S\" to every other node in the graph.     To start: distance from start S to self is 0, and previous node is N/A, all other distances \u221e   While there are no unprocessed nodes  Choose the unprocessed node U with smallest distance D to start node, break 2es with alphabe2cal order  For all neighbors V of U  If (best dist S -  V)   ( D + distance U- V)  Set best dist S -  V = (D + distance U- V)  Set prev node for V to U      Mark U as processed     Example:     Current Vertex:   Distance to start:     Vertex  Processed?  Best know distance  Previous vertex      S       A       B       C       D       E       F         Current Vertex: Init  Distance to start:     Vertex  Processed?  Best know distance  Previous vertex      S  x  0  N/A    A  x  Infinity     B  x  Infinity     C  x  Infinity     D  x  Infinity     E  x  Infinity     F  x  Infinity       Current Vertex: S  Distance to start: 0     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  x  8  S    B  x  10  S    C  x  7  S    D  x  Infinity     E  x  Infinity     F  x  Infinity          Distance U -  V  Best Distance      A  8  Infinity    B  10  Infinity    C  7  Infinity      Current Vertex: C  Distance to start: 7     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  x  8  S    B  x  10  S    C  \u2713  7  S    D  x  Infinity     E  x  Infinity     F  x  8  c         Distance U -  V  Best Distance      S  7  0    F  1  Infinity      Current Vertex: A  Distance to start: 8     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  \u2713  8  S    B  x  9  A    C  \u2713  7  S    D  x  28  A    E  x  Infinity     F  x  8  C         Distance U -  V  Best Distance      S  8  0    B  1  10    D  20  Infinity      Current Vertex: F  Distance to start: 8     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  \u2713  8  S    B  x  9  A    C  \u2713  7  S    D  x  28  A    E  x  13  F    F  \u2713  8  C         Distance U -  V  Best Distance      B  7  9    C  1  7    E  5  Infinity      Current Vertex: B  Distance to start: 9     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  \u2713  8  S    B  \u2713  9  A    C  \u2713  7  S    D  x  28  A    E  x  13  F    F  \u2713  8  C         Distance U -  V  Best Distance      S  10  0    A  1  8    F  7  8    E  9  13      Current Vertex: E  Distance to start: 13     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  \u2713  8  S    B  \u2713  9  A    C  \u2713  7  S    D  x  20  E    E  \u2713  13  F    F  \u2713  8  C         Distance U -  V  Best Distance      B  9  9    F  5  8    D  7  28      Current Vertex: D  Distance to start: 20     Vertex  Processed?  Best know distance  Previous vertex      S  \u2713  0  N/A    A  \u2713  8  S    B  \u2713  9  A    C  \u2713  7  S    D  \u2713  20  E    E  \u2713  13  F    F  \u2713  8  C         Distance U -  V  Best Distance      A  20  8    E  7  13      Solution:   E  - F  - C  - S  D  - E  - F  - C  - S   Video for Review   Each row in video corresponds to one of our tables  Highligh2ng is the same as checking a row in col 2  Col 3 and 4 are what get wriden in each col of a row in the video.\ns", 
             "title": "Dijkstra's Shortest Path Alg"
+        }, 
+        {
+            "location": "/Lecture/19-Guest9/", 
+            "text": "Lecture 25 - March 17th, 2017\n\n\nGuest Lecture\n\n\nMissed lecture - No notes\n\n\nContribute your notes \nhere\n.", 
+            "title": "Guest 9"
+        }, 
+        {
+            "location": "/Lecture/19-Guest9/#lecture-25-march-17th-2017", 
+            "text": "", 
+            "title": "Lecture 25 - March 17th, 2017"
+        }, 
+        {
+            "location": "/Lecture/19-Guest9/#guest-lecture", 
+            "text": "", 
+            "title": "Guest Lecture"
+        }, 
+        {
+            "location": "/Lecture/19-Guest9/#missed-lecture-no-notes", 
+            "text": "Contribute your notes  here .", 
+            "title": "Missed lecture - No notes"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/", 
+            "text": "Lecture 26 - March 21st, 2017\n\n\nRun time of algorithms\n\n\nSearching a Tree\n\n\n\n\n\n\nCompare these algorithms \n\n\n\n\nDFS\n\n\nBFS\n\n\nPre-order traversal\n\n\nPost-order traversal\n\n\n\n\n\n\n\n\nIn pre/post order traversal, \"visit\" means add the node to the result.\n\n\n\n\n\n\nAnalyzing Algorithms\n\n\n\n\nProblems have many solutions\n\n\nWhich solution is the best?\n\n\n\n\n\n\nThe best car:\n\n\nEase of hadling\n\n\nStyle\n\n\nFuel Efficiency \n\n\n\n\n\n\nWhich sorting is best?\n\n\nToptal\n\n\n\n\n\n\n\n\nAttributes of Algorithms\n\n\nThe best algorithm:\n\n\n\n\nEase of Understanding by Humans\n\n\nTime/Space Efficient\n\n\nElegance\n\n\nCorrectness\n\n\nIs the problem specified correctly\n\n\nDoes the algorithm produce the correct result?\n\n\n\n\n\n\n\n\nEfficiency: An algorithm's use of time and space resources\n\n\n\n\nTiming an algorithm is not always useful\n\n\nConfounding factors: machine speed, soze of input\n\n\nWe analyze instead based on the number of operations. \n\n\n\n\nBenchmarking: timing an algorithm on standard data sets\n\n\n\n\nTesting hardware and operating system, etc.\n\n\nTesting real-world performance limits. \n\n\n\n\nExample: Searching find a value in an array, or return that its not there\n\n\nSequential Search Algorithm\n\n\nOrder of magnitude - order n\n\n\n\n\n\n\n\n\nf(x)\n\n\n=\n\n\ncx\n\n\n\n\n\n\n\n\n\n\nn\n\n\n\n\nn\n\n\n\n\n\n\n\n\nLecture 28 - March 24th, 2017\n\n\n\n\n\"order\" n^2 \n\n\n\n\nWhen Things Get Out of Hand\n\n\nPolynomially bounded:\n an algorithm that does work on the order of \n\n\nHamiltonian circuit -\n lenghtN\n\n\n\n\nBrute Force\n\n\nGraph -\n Build a Tree\n\n\n\n\nintractable:\n\n\n\n\nHamiltonian circuit\n\n\nTraveling salesperson\n\n\nBin packing\n\n\nChess\n\n\n\n\nWe find an approximation algorithm to deal with this problem ^^\n\n\nSpace (Memory) Efficiency\n\n\n\n\nTime and space are often traded off\n\n\nWith enough space, we can do search in constant time!!\n\n\n\n\n\n\n\n\nSummary:\n\n\n\n\nHow can we compare algoritms?\n\n\nMultiple dimensionss\n\n\nSome easier to measure than others\n\n\n\n\n\n\n\n\n\n\nEfficiency\n\n\nTime and space\n\n\n\n\n\n\nTime effiency\n\n\n\n\nPage Rank\n\n\n\n\nPageRank -\n 2 People (Founders of Google)\n\n\n\n\n--\n\n\n\n\nWebpage -\n node\n\n\nEdge -\n link", 
+            "title": "Run Time of Algorithms"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#lecture-26-march-21st-2017", 
+            "text": "", 
+            "title": "Lecture 26 - March 21st, 2017"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#run-time-of-algorithms", 
+            "text": "", 
+            "title": "Run time of algorithms"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#searching-a-tree", 
+            "text": "Compare these algorithms    DFS  BFS  Pre-order traversal  Post-order traversal     In pre/post order traversal, \"visit\" means add the node to the result.", 
+            "title": "Searching a Tree"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#analyzing-algorithms", 
+            "text": "Problems have many solutions  Which solution is the best?    The best car:  Ease of hadling  Style  Fuel Efficiency     Which sorting is best?  Toptal", 
+            "title": "Analyzing Algorithms"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#attributes-of-algorithms", 
+            "text": "The best algorithm:   Ease of Understanding by Humans  Time/Space Efficient  Elegance  Correctness  Is the problem specified correctly  Does the algorithm produce the correct result?", 
+            "title": "Attributes of Algorithms"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#efficiency-an-algorithms-use-of-time-and-space-resources", 
+            "text": "Timing an algorithm is not always useful  Confounding factors: machine speed, soze of input  We analyze instead based on the number of operations.", 
+            "title": "Efficiency: An algorithm's use of time and space resources"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#benchmarking-timing-an-algorithm-on-standard-data-sets", 
+            "text": "Testing hardware and operating system, etc.  Testing real-world performance limits.", 
+            "title": "Benchmarking: timing an algorithm on standard data sets"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#example-searching-find-a-value-in-an-array-or-return-that-its-not-there", 
+            "text": "", 
+            "title": "Example: Searching find a value in an array, or return that its not there"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#sequential-search-algorithm", 
+            "text": "Order of magnitude - order n     f(x)  =  cx      n   n", 
+            "title": "Sequential Search Algorithm"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#lecture-28-march-24th-2017", 
+            "text": "\"order\" n^2", 
+            "title": "Lecture 28 - March 24th, 2017"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#when-things-get-out-of-hand", 
+            "text": "Polynomially bounded:  an algorithm that does work on the order of", 
+            "title": "When Things Get Out of Hand"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#hamiltonian-circuit-lenghtn", 
+            "text": "Brute Force  Graph -  Build a Tree", 
+            "title": "Hamiltonian circuit -&gt; lenghtN"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#intractable", 
+            "text": "Hamiltonian circuit  Traveling salesperson  Bin packing  Chess   We find an approximation algorithm to deal with this problem ^^", 
+            "title": "intractable:"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#space-memory-efficiency", 
+            "text": "Time and space are often traded off  With enough space, we can do search in constant time!!", 
+            "title": "Space (Memory) Efficiency"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#summary", 
+            "text": "How can we compare algoritms?  Multiple dimensionss  Some easier to measure than others      Efficiency  Time and space    Time effiency", 
+            "title": "Summary:"
+        }, 
+        {
+            "location": "/Lecture/20-Run-Time-of-Algorithms/#page-rank", 
+            "text": "PageRank -  2 People (Founders of Google)   --   Webpage -  node  Edge -  link", 
+            "title": "Page Rank"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/", 
+            "text": "Lecture 27 - March 22nd, 2017\n\n\nGuest Lecture\n\n\nby Prof. Ulrike Stege\n\n\nSome bioinformatics / Computational Biology: An algorithm to Build Evolutionary Trees\n\n\n\n\nWhat is bioinformatics / computational biology?\n\n\nAn Interdiscipline field addressig bio\n\n\n\n\n\n\nOrigin of species\n\n\nWhat does the tree of life look like?\n\n\nSequencing of species/organismsn/viruses\n\n\nWhat evolutionary events do exist? When and how often did or do ther occur?\n\n\n\n\nEvolutionary Trees (An Other Application of Graphs)\n\n\nHow did life evolve?\n\n\n\n\n\n\n\n\nDetermining Evolutionary Trees Today\n\n\n\n\nOf course, today we do not use looks only, rather consider more informative data such as the organisms's DNA sequences\n\n\nIn addition, we might want to use other properties or characteristics known\n\n\nToday, we look at an algotritm that uses any type....\n\n\n\n\nREMARK: trees are a special type of graphs (graphs without cycles)\n\n\n\n\nAcyclic graphs\n\n\nConsists of two types of vertices/nodes: \n\n\nExternal vertices (leaves)\n\n\nInternal vertices\n\n\n\n\n\n\n\n\nBug mutation: How did these bugs evolve???\n\n\n\n\nWhat did the ancestors of these bugs look like???\n\n\nGoal:\n given an evolutionary \"tree skeleton\" for several orgnisms, determine the evolutionary change necesary to explain the evolution of the organisms. \n\n\nWe call this problem the small parsimony problem\n\n\nParsimonious:\n adj. unwilling to spend money or use resources: stingy of frugal.\n\n\n \n\n\nOccam's Razors\n\n\nIn science, we often follow the principle of Occam's Razor:\n\n\nWhen competing hypotheses are equal in other respects, the Occam's razor principle recommends the selection of a hypothesis that introduces fewest assumptions while still sufficiently answering the question. \n\n\nFind most parsimonious ancetors for this tree topology!!\n\n\n\n\nFitch's Algorithm (Walter fitch)\n\n\n\n\nStep 1: Do a postorder traversal of the tree and at the same time label every node in the tree with a set of possible best features. \n\n\n\n\nStep 2: Do a preorder taversal of the tree and at the same time label every node in the tree with a set of possible best feautres. \n\n\n\n\n\n\nTraverse tree in postorder\n\n\n\n\nLeaves:\n\n\nLabel with the organism's features\n\n\n\n\n\n\nAncestors:\n\n\nIf the features of children intersect, label with intersection { this is the set of best features}\n\n\nElse label with union of children's features {any feature in union could be ok}\n\n\n\n\n\n\n\n\n\n\nTraverse tree in preorder\n\n\nRoot:\n\n\nPick any labelled feature arbitrarily\n\n\n\n\n\n\nOthers:\n\n\nPick label that matches parent feature\n\n\nIf none, pick any arbitrarily else label with union of children's features     \n\n\n\n\n\n\n\n\n\n\n\n\nParsimony Problems\n\n\n\n\nSmall Parsimony problem (as above)\n\n\nTree topology is known\n\n\nGoal: How many evolutionary changes did occur?\n\n\nSolvable in polynomial time (e.g., Fitch\u2019s algorithm) \n\n\n\n\n\n\nLarge Parsimony problem\n\n\nTree topology is unknown\n\n\nGoal: Find Most Parsimonious Tree\n\n\nFor this problem no efficient algorithm is known (the problem is shown to b NP-complete)\n\n\n\n\n\n\n\n\n--\n\n\nP = NP?\n\n\nECS 504 (ustege@uvic.ca)", 
+            "title": "Guest 10 - Bioinformatics"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#lecture-27-march-22nd-2017", 
+            "text": "", 
+            "title": "Lecture 27 - March 22nd, 2017"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#guest-lecture", 
+            "text": "by Prof. Ulrike Stege", 
+            "title": "Guest Lecture"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#some-bioinformatics-computational-biology-an-algorithm-to-build-evolutionary-trees", 
+            "text": "What is bioinformatics / computational biology?  An Interdiscipline field addressig bio    Origin of species  What does the tree of life look like?  Sequencing of species/organismsn/viruses  What evolutionary events do exist? When and how often did or do ther occur?", 
+            "title": "Some bioinformatics / Computational Biology: An algorithm to Build Evolutionary Trees"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#evolutionary-trees-an-other-application-of-graphs", 
+            "text": "How did life evolve?", 
+            "title": "Evolutionary Trees (An Other Application of Graphs)"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#determining-evolutionary-trees-today", 
+            "text": "Of course, today we do not use looks only, rather consider more informative data such as the organisms's DNA sequences  In addition, we might want to use other properties or characteristics known  Today, we look at an algotritm that uses any type....", 
+            "title": "Determining Evolutionary Trees Today"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#remark-trees-are-a-special-type-of-graphs-graphs-without-cycles", 
+            "text": "Acyclic graphs  Consists of two types of vertices/nodes:   External vertices (leaves)  Internal vertices", 
+            "title": "REMARK: trees are a special type of graphs (graphs without cycles)"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#bug-mutation-how-did-these-bugs-evolve", 
+            "text": "What did the ancestors of these bugs look like???  Goal:  given an evolutionary \"tree skeleton\" for several orgnisms, determine the evolutionary change necesary to explain the evolution of the organisms.   We call this problem the small parsimony problem  Parsimonious:  adj. unwilling to spend money or use resources: stingy of frugal.", 
+            "title": "Bug mutation: How did these bugs evolve???"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#occams-razors", 
+            "text": "In science, we often follow the principle of Occam's Razor:  When competing hypotheses are equal in other respects, the Occam's razor principle recommends the selection of a hypothesis that introduces fewest assumptions while still sufficiently answering the question.", 
+            "title": "Occam's Razors"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#find-most-parsimonious-ancetors-for-this-tree-topology", 
+            "text": "", 
+            "title": "Find most parsimonious ancetors for this tree topology!!"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#fitchs-algorithm-walter-fitch", 
+            "text": "Step 1: Do a postorder traversal of the tree and at the same time label every node in the tree with a set of possible best features.    Step 2: Do a preorder taversal of the tree and at the same time label every node in the tree with a set of possible best feautres.     Traverse tree in postorder   Leaves:  Label with the organism's features    Ancestors:  If the features of children intersect, label with intersection { this is the set of best features}  Else label with union of children's features {any feature in union could be ok}      Traverse tree in preorder  Root:  Pick any labelled feature arbitrarily    Others:  Pick label that matches parent feature  If none, pick any arbitrarily else label with union of children's features", 
+            "title": "Fitch's Algorithm (Walter fitch)"
+        }, 
+        {
+            "location": "/Lecture/21-Guest10/#parsimony-problems", 
+            "text": "Small Parsimony problem (as above)  Tree topology is known  Goal: How many evolutionary changes did occur?  Solvable in polynomial time (e.g., Fitch\u2019s algorithm)     Large Parsimony problem  Tree topology is unknown  Goal: Find Most Parsimonious Tree  For this problem no efficient algorithm is known (the problem is shown to b NP-complete)     --  P = NP?  ECS 504 (ustege@uvic.ca)", 
+            "title": "Parsimony Problems"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/", 
+            "text": "Lecture 29 - March 28th, 2017\n\n\nGuest Lecture\n\n\nby Dr. Frank Ruskey\n\n\nProblems you can't compute\n\n\nTheoritical Computer Science\n\n\nDecidable or undecidable?\n\n\nThere is indeed some undecidable problems/questions\n\n\nExample:\n The 50$ is not in the envelop\n\n\n\n\n--\n True\n\n\n--\n False (After putting the money in the envelop)\n\n\n\n\nTRUE or FALSE\n\n\n\n\nExactly one of (A), (B) is TRUE\n\n\nSomeone in CSC 106 will not get an A+ \n\n\n\n\nTRUE or FALSE or neither\n\n\n--\n\n\nClassification of words\n\n\nAuto Logical (Apply to themselves)\n \n\n\n\n\nShort\n\n\nUndersandable \n\n\nPolycyllble \n\n\nEnglish \n\n\n\n\nor \n\n\nHeterological (Do not apply to themselves)\n\n\n\n\nLong\n\n\nAbstract\n\n\nMonosyllabic\n\n\nFrench\n\n\n\n\nQ: Is heterological heterological?\n\n\n\n\nA: If yes then no\n\n\nA: If no then yes\n\n\nA: Set still sets ...\n\n\n\n\nAGA?\n\n\nIn lisp \n- no distinction betwween programs \n data\n\n\nheterological(p) := \u00acp(p)\nhetero(hetero) = \u00achetero(hetero)\n               = \u00ac \u00achetero(hetero)\n               = \u00achetero(hetero)\n\n---\n\nterminates(f, x)\nf-program, x-data\n    returns True or False (true only if f terminates on data x)\n\n---\n\nhetero(f) := if terminates(f, f)\n                then \u00ac f(f)\n---\n\nhetero(hetero) = \u00achetero(hetero) (contradiction)\n\n---\n\n==\n (implies) Terminates does not exist\n\n\n\n\n\"halting probem\" - alan turring\n\n\nUndecidable problems\n\n\n\n\nThe halting (terminates)\n\n\nDoes a program contain a virus?\n\n\nDiophantine equation solving (hilberts 10th problem)\n\n\nTiling the plane with square tiles \n\n\nSnake problem\n\n\nLife\n\n\nVirus detection is an undecidable problem\n\n\n\n\n--\n\n\nGolly -\n Life Game (Source Forge)\n\n\n\n\nGlider -\n they fly away\n\n\nAllow us to make a computer\n\n\nGlider Gun\n\n\nDoes a life configuration terminate? (cycling state)\n\n\n\n\nLife in Life Youtube Video (1:29)", 
+            "title": "Guest 11 - Decidable or Undecidable?"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#lecture-29-march-28th-2017", 
+            "text": "", 
+            "title": "Lecture 29 - March 28th, 2017"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#guest-lecture", 
+            "text": "by Dr. Frank Ruskey", 
+            "title": "Guest Lecture"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#problems-you-cant-compute", 
+            "text": "Theoritical Computer Science", 
+            "title": "Problems you can't compute"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#decidable-or-undecidable", 
+            "text": "There is indeed some undecidable problems/questions  Example:  The 50$ is not in the envelop   --  True  --  False (After putting the money in the envelop)", 
+            "title": "Decidable or undecidable?"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#true-or-false", 
+            "text": "Exactly one of (A), (B) is TRUE  Someone in CSC 106 will not get an A+", 
+            "title": "TRUE or FALSE"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#true-or-false-or-neither", 
+            "text": "--", 
+            "title": "TRUE or FALSE or neither"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#classification-of-words", 
+            "text": "Auto Logical (Apply to themselves)     Short  Undersandable   Polycyllble   English    or   Heterological (Do not apply to themselves)   Long  Abstract  Monosyllabic  French   Q: Is heterological heterological?   A: If yes then no  A: If no then yes  A: Set still sets ...   AGA?  In lisp  - no distinction betwween programs   data  heterological(p) := \u00acp(p)\nhetero(hetero) = \u00achetero(hetero)\n               = \u00ac \u00achetero(hetero)\n               = \u00achetero(hetero)\n\n---\n\nterminates(f, x)\nf-program, x-data\n    returns True or False (true only if f terminates on data x)\n\n---\n\nhetero(f) := if terminates(f, f)\n                then \u00ac f(f)\n---\n\nhetero(hetero) = \u00achetero(hetero) (contradiction)\n\n---\n\n==  (implies) Terminates does not exist  \"halting probem\" - alan turring", 
+            "title": "Classification of words"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#undecidable-problems", 
+            "text": "The halting (terminates)  Does a program contain a virus?  Diophantine equation solving (hilberts 10th problem)  Tiling the plane with square tiles   Snake problem  Life  Virus detection is an undecidable problem   --", 
+            "title": "Undecidable problems"
+        }, 
+        {
+            "location": "/Lecture/22-Guest11/#golly-life-game-source-forge", 
+            "text": "Glider -  they fly away  Allow us to make a computer  Glider Gun  Does a life configuration terminate? (cycling state)   Life in Life Youtube Video (1:29)", 
+            "title": "Golly -&gt; Life Game (Source Forge)"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/", 
+            "text": "Lecture 30 - March 29th, 2017\n\n\nGuest Lecture\n\n\nby Prof. Daniela Damian\n\n\nThe human Factor: The Influence of Process, Tools and oOrganizational Structures on Developer Collaboration\n\n\nLink to Website\n\n\nThe software Engineering Global interAction Lab\n\n\n\n\nProjects\n\n\nCoordination in large global software teams\n\n\nRequirements Engineering: Collaboration, Process Improvement and Runtime Self-adaptivity\n\n\nAwareness tools for distributed coordination\n\n\n\n\n\n\nExpertise\n\n\nEmpirical studies of developers\n\n\nData mining of large software repositories\n\n\nSocial network analysis\n\n\n\n\n\n\nIndustrial partnerships\n\n\nIBM, Dell, Siemens, GM\n\n\n\n\n\n\n\n\nDistrubuted communication and Delay\n\n\nDoes distance imply delay?\n\n\n\n\nDelay in communication and issue resolution\n\n\nCommunication: Response time on issue communication\n\n\n\n\nRepo -\n Communication / Issue\n\n\nDelay in Communication -\n Response Time\n\n\n\n\n\n\nFocusing on performance:\n\n\nDoes communication matter?\n\n\n\n\n\n\nWhich graph is best?\n\n\n\n\nFocusing on Performance:\n\n\n\n\nDiscovering Requirements at Runtime in Unpredictable Environments\n\n\nWorked with a team of 4 rowers Crossing the Atlantic Ocean\nDeveloped data mining techniques to discover patterns in usage and context\n\n\nRowers --\n 4hours interval \n\n\nThey required a scheduler to tell them what to do.", 
+            "title": "Guest 12 - Communication"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#lecture-30-march-29th-2017", 
+            "text": "", 
+            "title": "Lecture 30 - March 29th, 2017"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#guest-lecture", 
+            "text": "by Prof. Daniela Damian", 
+            "title": "Guest Lecture"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#the-human-factor-the-influence-of-process-tools-and-oorganizational-structures-on-developer-collaboration", 
+            "text": "Link to Website", 
+            "title": "The human Factor: The Influence of Process, Tools and oOrganizational Structures on Developer Collaboration"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#the-software-engineering-global-interaction-lab", 
+            "text": "Projects  Coordination in large global software teams  Requirements Engineering: Collaboration, Process Improvement and Runtime Self-adaptivity  Awareness tools for distributed coordination    Expertise  Empirical studies of developers  Data mining of large software repositories  Social network analysis    Industrial partnerships  IBM, Dell, Siemens, GM", 
+            "title": "The software Engineering Global interAction Lab"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#distrubuted-communication-and-delay", 
+            "text": "Does distance imply delay?   Delay in communication and issue resolution  Communication: Response time on issue communication   Repo -  Communication / Issue  Delay in Communication -  Response Time", 
+            "title": "Distrubuted communication and Delay"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#focusing-on-performance", 
+            "text": "Does communication matter?", 
+            "title": "Focusing on performance:"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#which-graph-is-best", 
+            "text": "", 
+            "title": "Which graph is best?"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#focusing-on-performance_1", 
+            "text": "", 
+            "title": "Focusing on Performance:"
+        }, 
+        {
+            "location": "/Lecture/23-Guest12/#discovering-requirements-at-runtime-in-unpredictable-environments", 
+            "text": "Worked with a team of 4 rowers Crossing the Atlantic Ocean\nDeveloped data mining techniques to discover patterns in usage and context  Rowers --  4hours interval   They required a scheduler to tell them what to do.", 
+            "title": "Discovering Requirements at Runtime in Unpredictable Environments"
         }, 
         {
             "location": "/Lab/Lab/", 
@@ -1007,7 +1272,7 @@
         }, 
         {
             "location": "/Annex/Announcements/", 
-            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\nLab attendance is worth 5% of your grade.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm 1:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released\n\n\n\n\nAnnouncement 9 - March 1st, 2017\n\n\nMidterm 2: \n\n\n\n\nSimilar Format to Midterm 1 \n\n\nMaterial: \n\n\nSorting - Guest Lecturer 6\n\n\n\n\n\n\n\n\nAnnouncement 10 - March 3rd, 2017\n\n\nMidterm 2:\n\n\n\n\nBring your vnumber\n\n\nYou should be able to trace through python code\n\n\nLook at all the python examples we did in class, trace through them by hand and check tht your trace is correct using a computer.\n\n\n\n\n\n\nNo logic gates\n\n\nBubble Sort Code\n\n\nUnderstand, and know what variables/values will be at all steps on the code.\n\n\n\n\n\n\n\n\nFormat: \n\n\n\n\nMultiple choice \n\n\n\n\nAnnouncement 11 - March 8th, 2017\n\n\nHappy International Women's Day\n\n\n\n\nUvic Women in CS\n\n\nLadies Learning Code\n\n\nDjango Girls\n\n\n\n\nAssignment 4 is out and ready to start\n\n\n\n\nDue 21st march\n\n\nProgramming Assignment\n\n\nHand in three .py files\n\n\nUse python 2.7\n\n\n\n\nNote:\n If you have questions about the marking for assignment 1-4 please contact:\n\n\nChris: cjcook@uvic.ca", 
+            "text": "Announcements\n\n\nAnnouncement 1 - January 6th, 2017\n\n\n\n\nAlice Gibbons (aligibbo@uvic.ca) - Main lab instructor\n\n\n10$ Access Cards (Get one from the library to have access outside of lab hours.)\n\n\n\n\nAnnouncement 2 - January 24th, 2017\n\n\n\n\nLab attendance is now online in Connex.\n\n\nLab attendance is worth 5% of your grade.\n\n\n\n\nAnnouncement 3 - January 24th, 2017\n\n\n\n\nKnow your lab section for the midterms.\n\n\nMidterm:\n\n\n40 Multiple Choice\n\n\n1 Long Answer\n\n\n\n\n\n\n\n\nAnnouncement 4 - Januery 27th, 2017\n\n\nMidterm 1:\n\n\n\n\nEvaluate logical expression\n\n\nX and Y and ~Z\n\n\n\n\n\n\nsql\n\n\nSlide material is fair game\n\n\n\n\nAnnouncement 5 - February 8th, 2017\n\n\n\n\nHomework 2 - Due on Friday\n\n\nQuestion 1 - Logical Expression (ex. (A and B) or !A) \n\n\n\n\n\n\nHomework 3 - Open the 20th of February\n\n\n\n\nAnnouncement 6 - February 10th, 2017\n\n\n\n\nAssignment due today\n\n\nMidterm marks are up\n\n\nFlowchart Remark -\n Pencil (Don't leave TA's presence)\n\n\n\n\nMidterm 1 Performance:\n\n\n\n\n97% - Lab mark\n\n\n79% - MC\n\n\n54% - Flowchart\n\n\n73% - Average\n\n\n\n\nPrograming in Python:\n\n\n\n\nAfter reading break\n\n\nHead start\n\n\nWaterloo Intsall\n\n\n\n\n\n\nInstall python\n\n\nGoogle Dev Docs\n\n\n\n\n\n\n\n\nAnnouncement 7 - February 21st, 2017\n\n\n\n\nOffice Hours Friday - This week only\n\n\nAssignment 3 is out and due march 3rd\n\n\nGo to the labs to pickup Midterm\n\n\n\n\nAnnouncement 8 - February 22nd, 2017\n\n\n\n\nWe are using python 2.7 \n\n\nUpdated slides for print statement\n\n\nGoing over Exam Friday March 3rd - No solution will be released\n\n\n\n\nAnnouncement 9 - March 1st, 2017\n\n\nMidterm 2: \n\n\n\n\nSimilar Format to Midterm 1 \n\n\nMaterial: \n\n\nSorting - Guest Lecturer 6\n\n\n\n\n\n\n\n\nAnnouncement 10 - March 3rd, 2017\n\n\nMidterm 2:\n\n\n\n\nBring your vnumber\n\n\nYou should be able to trace through python code\n\n\nLook at all the python examples we did in class, trace through them by hand and check tht your trace is correct using a computer.\n\n\n\n\n\n\nNo logic gates\n\n\nBubble Sort Code\n\n\nUnderstand, and know what variables/values will be at all steps on the code.\n\n\n\n\n\n\n\n\nFormat: \n\n\n\n\nMultiple choice \n\n\n\n\nAnnouncement 11 - March 8th, 2017\n\n\nHappy International Women's Day\n\n\n\n\nUvic Women in CS\n\n\nLadies Learning Code\n\n\nDjango Girls\n\n\n\n\nAssignment 4 is out and ready to start\n\n\n\n\nDue 21st march\n\n\nProgramming Assignment\n\n\nHand in three .py files\n\n\nUse python 2.7\n\n\n\n\nNote:\n If you have questions about the marking for assignment 1-4 please contact:\n\n\nChris: cjcook@uvic.ca\n\n\nAnnouncement 12 - March 21st, 2017\n\n\n\n\nNo labs next week (Week of the 27th of March)\n\n\nAssignment 4 was due Tuesday\n\n\nMidterm 3 is the final evaluation in this course\n\n\nSome extra pratice problems for DFS, BFS and dijkstras are online\n\n\nSee Resources -\n Extra Examples\n\n\n\n\n\n\nI will release the solutions next week\n\n\n\n\nAnnouncement 13 - March 26th, 2017\n\n\n\n\nNext week 2 guest lecture\n\n\n\n\nTA eval and teacher eval next friday (10minute)\n\n\n\n\n\n\nExam: was out of 37, 3 silly questions were removed\n\n\n\n\n\n\nloop i questions -\n dropped\n\n\n\n\nmax_ind -\n dropped\n\n\nprint statement -\n you got credit (two right answers)\n\n\n\n\nAnnouncement 14 - March 29th, 2017\n\n\n\n\nGuest lecturers on Midterm (2nd set)\n\n\nGraph Problems\n\n\nI will post Graph Problems Solution\n\n\nFriday: Course Evaluation and More Material", 
             "title": "Announcements"
         }, 
         {
@@ -1079,6 +1344,21 @@
             "location": "/Annex/Announcements/#assignment-4-is-out-and-ready-to-start", 
             "text": "Due 21st march  Programming Assignment  Hand in three .py files  Use python 2.7   Note:  If you have questions about the marking for assignment 1-4 please contact:  Chris: cjcook@uvic.ca", 
             "title": "Assignment 4 is out and ready to start"
+        }, 
+        {
+            "location": "/Annex/Announcements/#announcement-12-march-21st-2017", 
+            "text": "No labs next week (Week of the 27th of March)  Assignment 4 was due Tuesday  Midterm 3 is the final evaluation in this course  Some extra pratice problems for DFS, BFS and dijkstras are online  See Resources -  Extra Examples    I will release the solutions next week", 
+            "title": "Announcement 12 - March 21st, 2017"
+        }, 
+        {
+            "location": "/Annex/Announcements/#announcement-13-march-26th-2017", 
+            "text": "Next week 2 guest lecture   TA eval and teacher eval next friday (10minute)    Exam: was out of 37, 3 silly questions were removed    loop i questions -  dropped   max_ind -  dropped  print statement -  you got credit (two right answers)", 
+            "title": "Announcement 13 - March 26th, 2017"
+        }, 
+        {
+            "location": "/Annex/Announcements/#announcement-14-march-29th-2017", 
+            "text": "Guest lecturers on Midterm (2nd set)  Graph Problems  I will post Graph Problems Solution  Friday: Course Evaluation and More Material", 
+            "title": "Announcement 14 - March 29th, 2017"
         }
     ]
 }

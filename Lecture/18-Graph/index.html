@@ -143,7 +143,7 @@
         
         <br>
         <a href="https://github.com/UVicNotes/CSC-106/commits/master" target="_blank" title="Last Updated">
-          Updated Mar 15, 2017
+          Updated Mar 31, 2017
         </a>
       </div>
     </div>
@@ -369,6 +369,51 @@
   </li>
 
       
+        
+  <li>
+    <a class="" title="Guest 9" href="../19-Guest9/">
+      Guest 9
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Run Time of Algorithms" href="../20-Run-Time-of-Algorithms/">
+      Run Time of Algorithms
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Guest 10 - Bioinformatics" href="../21-Guest10/">
+      Guest 10 - Bioinformatics
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Guest 11 - Decidable or Undecidable?" href="../22-Guest11/">
+      Guest 11 - Decidable or Undecidable?
+    </a>
+    
+  </li>
+
+      
+        
+  <li>
+    <a class="" title="Guest 12 - Communication" href="../23-Guest12/">
+      Guest 12 - Communication
+    </a>
+    
+  </li>
+
+      
     </ul>
   </li>
 
@@ -590,13 +635,14 @@
 <p><strong>Example:</strong> </p>
 <p><img alt="Graph" src="../../References/graph5.png" /></p>
 <p>Current Vertex: </p>
+<p>Distance to start:</p>
 <table>
 <thead>
 <tr>
 <th>Vertex</th>
 <th>Processed?</th>
 <th>Best know distance</th>
-<th>prev. vertex</th>
+<th>Previous vertex</th>
 </tr>
 </thead>
 <tbody>
@@ -644,11 +690,650 @@
 </tr>
 </tbody>
 </table>
+<hr />
+<p>Current Vertex: Init</p>
+<p>Distance to start:</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>x</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>B</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>C</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: S</p>
+<p>Distance to start: 0</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>x</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>x</td>
+<td>10</td>
+<td>S</td>
+</tr>
+<tr>
+<td>C</td>
+<td>x</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>8</td>
+<td>Infinity</td>
+</tr>
+<tr>
+<td>B</td>
+<td>10</td>
+<td>Infinity</td>
+</tr>
+<tr>
+<td>C</td>
+<td>7</td>
+<td>Infinity</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: C</p>
+<p>Distance to start: 7</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>x</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>x</td>
+<td>10</td>
+<td>S</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td>x</td>
+<td>8</td>
+<td>c</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>7</td>
+<td>0</td>
+</tr>
+<tr>
+<td>F</td>
+<td>1</td>
+<td>Infinity</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: A</p>
+<p>Distance to start: 8</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>✓</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>x</td>
+<td>9</td>
+<td>A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>28</td>
+<td>A</td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>Infinity</td>
+<td></td>
+</tr>
+<tr>
+<td>F</td>
+<td>x</td>
+<td>8</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>8</td>
+<td>0</td>
+</tr>
+<tr>
+<td>B</td>
+<td>1</td>
+<td>10</td>
+</tr>
+<tr>
+<td>D</td>
+<td>20</td>
+<td>Infinity</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: F</p>
+<p>Distance to start: 8</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>✓</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>x</td>
+<td>9</td>
+<td>A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>28</td>
+<td>A</td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>13</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>✓</td>
+<td>8</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B</td>
+<td>7</td>
+<td>9</td>
+</tr>
+<tr>
+<td>C</td>
+<td>1</td>
+<td>7</td>
+</tr>
+<tr>
+<td>E</td>
+<td>5</td>
+<td>Infinity</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: B</p>
+<p>Distance to start: 9</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>✓</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>✓</td>
+<td>9</td>
+<td>A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>28</td>
+<td>A</td>
+</tr>
+<tr>
+<td>E</td>
+<td>x</td>
+<td>13</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>✓</td>
+<td>8</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>10</td>
+<td>0</td>
+</tr>
+<tr>
+<td>A</td>
+<td>1</td>
+<td>8</td>
+</tr>
+<tr>
+<td>F</td>
+<td>7</td>
+<td>8</td>
+</tr>
+<tr>
+<td>E</td>
+<td>9</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: E</p>
+<p>Distance to start: 13</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>✓</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>✓</td>
+<td>9</td>
+<td>A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>x</td>
+<td>20</td>
+<td>E</td>
+</tr>
+<tr>
+<td>E</td>
+<td>✓</td>
+<td>13</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>✓</td>
+<td>8</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B</td>
+<td>9</td>
+<td>9</td>
+</tr>
+<tr>
+<td>F</td>
+<td>5</td>
+<td>8</td>
+</tr>
+<tr>
+<td>D</td>
+<td>7</td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Current Vertex: D</p>
+<p>Distance to start: 20</p>
+<table>
+<thead>
+<tr>
+<th>Vertex</th>
+<th>Processed?</th>
+<th>Best know distance</th>
+<th>Previous vertex</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S</td>
+<td>✓</td>
+<td>0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>A</td>
+<td>✓</td>
+<td>8</td>
+<td>S</td>
+</tr>
+<tr>
+<td>B</td>
+<td>✓</td>
+<td>9</td>
+<td>A</td>
+</tr>
+<tr>
+<td>C</td>
+<td>✓</td>
+<td>7</td>
+<td>S</td>
+</tr>
+<tr>
+<td>D</td>
+<td>✓</td>
+<td>20</td>
+<td>E</td>
+</tr>
+<tr>
+<td>E</td>
+<td>✓</td>
+<td>13</td>
+<td>F</td>
+</tr>
+<tr>
+<td>F</td>
+<td>✓</td>
+<td>8</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Distance U -&gt; V</th>
+<th>Best Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>20</td>
+<td>8</td>
+</tr>
+<tr>
+<td>E</td>
+<td>7</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Solution: </p>
+<p>E &lt;- F &lt;- C &lt;- S</p>
+<p>D &lt;- E &lt;- F &lt;- C &lt;- S</p>
+<hr />
 <p><a href="hdps://www.youtube.com/watch? v=8Ls1RqHCOPw">Video for Review</a></p>
 <ul>
 <li>Each row in video corresponds to one of our tables</li>
 <li>Highligh2ng is the same as checking a row in col 2</li>
-<li>Col 3 and 4 are what get wriden in each col of a row in the video.</li>
+<li>Col 3 and 4 are what get wriden in each col of a row in the video.
+s</li>
 </ul>
           <aside class="copyright" role="note">
             
@@ -685,14 +1370,14 @@
     </div>
     <div class="next">
       
-        <a href="../../Lab/Lab/" title="Lab">
+        <a href="../19-Guest9/" title="Guest 9">
           <span class="direction">
             Next
           </span>
           <div class="page">
             <div class="stretch">
               <div class="title">
-                Lab
+                Guest 9
               </div>
             </div>
             <div class="button button-next" role="button" aria-label="Next">
