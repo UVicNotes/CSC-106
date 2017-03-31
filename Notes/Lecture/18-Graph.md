@@ -115,18 +115,201 @@ Visited -A- -B- -C- -D- -E- -F-
 
 Current Vertex: 
 
-| Vertex | Processed? | Best know distance | prev. vertex |
-|--------|------------|--------------------|--------------|
-| S      |            |                    |              |
-| A      |            |                    |              |
-| B      |            |                    |              |
-| C      |            |                    |              |
-| D      |            |                    |              |
-| E      |            |                    |              |
-| F      |            |                    |              |
+Distance to start:
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |            |                    |                 |
+| A      |            |                    |                 |
+| B      |            |                    |                 |
+| C      |            |                    |                 |
+| D      |            |                    |                 |
+| E      |            |                    |                 |
+| F      |            |                    |                 |
+
+---
+
+Current Vertex: Init
+
+Distance to start:
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      x     |          0         |       N/A       |
+| A      |      x     |      Infinity      |                 |
+| B      |      x     |      Infinity      |                 |
+| C      |      x     |      Infinity      |                 |
+| D      |      x     |      Infinity      |                 |
+| E      |      x     |      Infinity      |                 |
+| F      |      x     |      Infinity      |                 |
+
+---
+
+Current Vertex: S
+
+Distance to start: 0
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      x     |          8         |        S        |
+| B      |      x     |         10         |        S        |
+| C      |      x     |          7         |        S        |
+| D      |      x     |      Infinity      |                 |
+| E      |      x     |      Infinity      |                 |
+| F      |      x     |      Infinity      |                 |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| A | 8               | Infinity      |
+| B | 10              | Infinity      |
+| C | 7               | Infinity      |
+
+---
+
+Current Vertex: C
+
+Distance to start: 7
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      x     |          8         |        S        |
+| B      |      x     |         10         |        S        |
+| C      |      ✓     |          7         |        S        |
+| D      |      x     |      Infinity      |                 |
+| E      |      x     |      Infinity      |                 |
+| F      |      x     |          8         |        c        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| S | 7               | 0             |
+| F | 1               | Infinity      |
+
+---
+
+Current Vertex: A
+
+Distance to start: 8
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      ✓     |          8         |        S        |
+| B      |      x     |          9         |        A        |
+| C      |      ✓     |          7         |        S        |
+| D      |      x     |         28         |        A        |
+| E      |      x     |      Infinity      |                 |
+| F      |      x     |          8         |        C        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| S | 8               | 0             |
+| B | 1               | 10            |
+| D | 20              | Infinity      |
+
+--- 
+
+Current Vertex: F
+
+Distance to start: 8
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      ✓     |          8         |        S        |
+| B      |      x     |          9         |        A        |
+| C      |      ✓     |          7         |        S        |
+| D      |      x     |         28         |        A        |
+| E      |      x     |         13         |        F        |
+| F      |      ✓     |          8         |        C        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| B | 7               | 9             |
+| C | 1               | 7             |
+| E | 5               | Infinity      |
+
+---
+
+Current Vertex: B
+
+Distance to start: 9
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      ✓     |          8         |        S        |
+| B      |      ✓     |          9         |        A        |
+| C      |      ✓     |          7         |        S        |
+| D      |      x     |         28         |        A        |
+| E      |      x     |         13         |        F        |
+| F      |      ✓     |          8         |        C        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| S | 10              | 0             |
+| A | 1               | 8             |
+| F | 7               | 8             |
+| E | 9               | 13            |
+
+---
+
+Current Vertex: E
+
+Distance to start: 13
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      ✓     |          8         |        S        |
+| B      |      ✓     |          9         |        A        |
+| C      |      ✓     |          7         |        S        |
+| D      |      x     |         20         |        E        |
+| E      |      ✓     |         13         |        F        |
+| F      |      ✓     |          8         |        C        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| B | 9               | 9             |
+| F | 5               | 8             |
+| D | 7               | 28            |
+
+---
+
+Current Vertex: D
+
+Distance to start: 20
+
+| Vertex | Processed? | Best know distance | Previous vertex |
+|--------|------------|--------------------|-----------------|
+| S      |      ✓     |          0         |       N/A       |
+| A      |      ✓     |          8         |        S        |
+| B      |      ✓     |          9         |        A        |
+| C      |      ✓     |          7         |        S        |
+| D      |      ✓     |         20         |        E        |
+| E      |      ✓     |         13         |        F        |
+| F      |      ✓     |          8         |        C        |
+
+|   | Distance U -> V | Best Distance |
+|---|-----------------|---------------|
+| A | 20              | 8             |
+| E | 7               | 13            |
+
+---
+
+Solution: 
+
+E <- F <- C <- S
+
+D <- E <- F <- C <- S
+
+---
+
 
 [Video for Review](hdps://www.youtube.com/watch? v=8Ls1RqHCOPw)
 
 * Each row in video corresponds to one of our tables
 * Highligh2ng is the same as checking a row in col 2
 * Col 3 and 4 are what get wriden in each col of a row in the video.
+s

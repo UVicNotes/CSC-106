@@ -1,7 +1,7 @@
 ## Lecture 23 - March 10th, 2017
 
 ### Guest Lecture
-by UVic Prof.
+by UVic Prof. Wyvill
 
 ### Game Dev
 

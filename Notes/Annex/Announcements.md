@@ -109,3 +109,30 @@ Format:
 **Note:** If you have questions about the marking for assignment 1-4 please contact:
 
 Chris: cjcook@uvic.ca
+
+### Announcement 12 - March 21st, 2017
+
+* No labs next week (Week of the 27th of March)
+* Assignment 4 was due Tuesday
+* Midterm 3 is the final evaluation in this course
+* Some extra pratice problems for DFS, BFS and dijkstras are online
+    * See Resources -> Extra Examples
+* I will release the solutions next week
+
+### Announcement 13 - March 26th, 2017
+
+* Next week 2 guest lecture
+* TA eval and teacher eval next friday (10minute)
+
+* Exam: was out of 37, 3 silly questions were removed
+
+1. loop i questions -> dropped
+2. max_ind -> dropped
+3. print statement -> you got credit (two right answers)
+
+### Announcement 14 - March 29th, 2017
+
+* Guest lecturers on Midterm (2nd set)
+* Graph Problems
+* I will post Graph Problems Solution
+* Friday: Course Evaluation and More Material
