@@ -32,6 +32,7 @@ pages:
         - 'Guest 10 - Bioinformatics': 'Lecture/21-Guest10.md'
         - 'Guest 11 - Decidable or Undecidable?': 'Lecture/22-Guest11.md'
         - 'Guest 12 - Communication': 'Lecture/23-Guest12.md'
+        - 'Social Issue in Computing': 'Lecture/24-Social-Issue-in-Computing.md'
     - Lab:
         - 'Lab': 'Lab/Lab.md'
     - Annex:
